@@ -1,0 +1,23 @@
+<!doctype html><html><body><button id="run">Run list reachability checks</button><pre id="result">Not run</pre><div id="root"></div><script type="module">
+import React from 'react';import{createRoot}from'react-dom/client';import{FileGroup}from'/src/FileGroup.tsx';import '/src/original-theme.css';import '/src/styles.css';import '/src/light-theme.css';
+const files=Array.from({length:30},(_,i)=>({id:String(i),path:`folder/file-${i}.txt`,staged:true,unstaged:true,status:'modified'}));
+const props={files,filterKey:'file',totalCount:30,tree:false,writable:true,onSelect:()=>{},onAction:()=>{},onAll:()=>{},onFiltered:()=>{},onFiles:()=>{}};
+createRoot(document.getElementById('root')).render(React.createElement('div',{className:'changes-body',style:{height:180,width:420,flex:'none'}},React.createElement(FileGroup,{...props,label:'Unstaged Files',staged:false}),React.createElement(FileGroup,{...props,label:'Staged Files',staged:true})));
+const tick=()=>new Promise(r=>setTimeout(r,50));
+document.getElementById('run').onclick=async()=>{let checks=[];const assert=(v,n)=>{if(!v)throw Error(n);checks.push(n)};try{
+await tick();document.querySelector('[aria-label="Select staged file folder/file-29.txt"]').click();await tick();
+const body=document.querySelector('.changes-body'),group=document.querySelector('.file-group.staged'),list=group.querySelector('.file-group-list');
+const last=list.querySelector('[aria-label="Select staged file folder/file-29.txt"]');
+const metrics={body:body.clientHeight,group:group.clientHeight,list:list.clientHeight,listScroll:list.scrollHeight};
+assert(list.clientHeight>=28,'staged list keeps at least one reachable row after selection');
+last.focus();last.scrollIntoView({block:'nearest'});await tick();const r=last.getBoundingClientRect(),b=body.getBoundingClientRect(),l=list.getBoundingClientRect();assert(r.top>=Math.max(b.top,l.top)&&r.bottom<=Math.min(b.bottom,l.bottom),'last checkbox can scroll fully into view');
+assert(body.scrollHeight>body.clientHeight||list.scrollHeight>list.clientHeight,'overflow has scrollable owner');
+for(const height of [100,180,600])for(const width of [280,420]){
+body.style.height=height+'px';body.style.width=width+'px';await tick();last.focus();last.scrollIntoView({block:'nearest'});await tick();
+const row=last.getBoundingClientRect(),outer=body.getBoundingClientRect(),inner=list.getBoundingClientRect();
+assert(list.clientHeight>=28&&row.top>=Math.max(outer.top,inner.top)-1&&row.bottom<=Math.min(outer.bottom,inner.bottom)+1,`last row reachable at ${width}x${height}`);
+assert(list.clientHeight<list.scrollHeight,`large list remains internally scrollable at ${width}x${height}`);
+}
+document.getElementById('result').textContent=JSON.stringify({passed:checks.length,checks,metrics},null,2);
+}catch(e){document.getElementById('result').textContent=JSON.stringify({failed:String(e),checks,lists:[...document.querySelectorAll('.file-group-list')].map(x=>({height:x.clientHeight,scroll:x.scrollHeight}))},null,2)}};
+</script></body></html>

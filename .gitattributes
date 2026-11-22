@@ -1,0 +1,4 @@
+# Preserve reference bytes so provenance hashes survive checkout on either OS.
+design/reference/screenshots/** -text
+design/reference/reports/** -text
+design/brand/** -text

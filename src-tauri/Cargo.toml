@@ -1,0 +1,34 @@
+[package]
+name = "floe"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.89"
+
+[features]
+default = []
+developer-test = ["tauri/devtools"]
+
+[build-dependencies]
+cc = "1"
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+git2 = { version = "0.21", default-features = false, features = ["vendored-libgit2"] }
+sha2 = "0.10"
+zeroize = { version = "1", features = ["serde"] }
+base64 = "0.23"
+imagesize = "=0.15.0"
+sha1 = "0.11"
+uuid = { version = "1", features = ["v4"] }
+
+tempfile = "3"
+
+
+reqwest = { version = "0.13.5", default-features = false, features = ["blocking", "native-tls-no-alpn"] }
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61.2", features = ["Win32_Storage_FileSystem", "Win32_Foundation", "Win32_System_Threading", "Win32_System_SystemInformation", "Win32_Security", "Win32_UI_Shell", "Win32_UI_Shell_Common", "Win32_System_Com"] }

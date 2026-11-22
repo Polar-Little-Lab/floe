@@ -1,0 +1,14 @@
+<!doctype html><html><body><div id="root"></div><script type="module">
+import React from 'react';import {createRoot} from 'react-dom/client';import {UpstreamDialog} from '/src/UpstreamDialog.tsx';
+const root=createRoot(document.getElementById('root'));window.events=[];let epoch=0;
+const branch={name:'topic',oid:'a'.repeat(40),current:true,upstream:{remotes:['origin'],merges:['refs/heads/main']}};
+window.show=(busy=false,upstream=branch.upstream)=>root.render(React.createElement(UpstreamDialog,{key:++epoch,branch:{...branch,upstream},remotes:[{name:'origin',fetchUrls:[],pushUrls:[],fetchRefspecs:[],branches:[{name:'main',oid:'a'.repeat(40),symbolicTarget:null},{name:'HEAD',oid:null,symbolicTarget:'refs/remotes/origin/main'}]}],busy,error:'',onClose:()=>window.events.push(['cancel']),onSave:target=>window.events.push(['save',target])}));window.show();
+window.runChecks=async()=>{const checks=[];const tick=()=>new Promise(r=>setTimeout(r,40));const assert=(ok,name)=>{if(!ok)throw new Error(name);checks.push(name)};const input=()=>document.querySelector('input');const button=t=>[...document.querySelectorAll('button')].find(b=>b.textContent===t);const change=v=>{Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(input(),v);input().dispatchEvent(new Event('input',{bubbles:true}));};await tick();
+assert(input().value==='main'&&document.querySelector('select').value==='origin','initial upstream exact');
+change('release/v2');await tick();button('Save upstream').click();assert(JSON.stringify(window.events.pop())===JSON.stringify(['save',{remote:'origin',branch:'release/v2'}]),'unfetched destination callback');
+change('invalid..name');await tick();assert(button('Save upstream').disabled,'invalid destination blocked');document.querySelector('form').dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));assert(window.events.length===0,'invalid submit callback refused');
+change(' main ');await tick();assert(button('Save upstream').disabled,'whitespace not silently trimmed');
+button('Clear upstream').click();assert(JSON.stringify(window.events.pop())===JSON.stringify(['save',null]),'explicit clear callback');
+window.show(true);await tick();assert([...document.querySelectorAll('button,input,select')].every(e=>e.disabled),'busy disables all controls');document.querySelector('form').dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));assert(window.events.length===0,'busy submit refused');
+window.show(false,{remotes:['origin'],merges:['refs/heads/one','refs/heads/two']});await tick();assert(button('Save upstream').disabled&&document.body.textContent.includes('refs/heads/one, refs/heads/two'),'ambiguous config explicit selection');button('Cancel').click();assert(JSON.stringify(window.events.pop())===JSON.stringify(['cancel']),'cancel callback only');return {checks,passed:checks.length,scope:'Chrome component, not native WKWebView'};};
+</script></body></html>

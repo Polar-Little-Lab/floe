@@ -1,0 +1,5 @@
+import {CopyTextButton} from './CopyTextButton';
+import type {LfsPointer} from './lfsPointer';
+export function LfsPointerNotice({pointer,object}:{pointer:LfsPointer;object?:{state:string;message:string}}){
+ return <section className="lfs-pointer-notice" aria-label="Git LFS pointer"><strong>Git LFS pointer{pointer.legacy?' · legacy version':''}</strong><p>This version contains a pointer to a separate file. The text below is the pointer, not the file contents.</p><dl><dt>Object SHA-256</dt><dd><code>{pointer.oid}</code><CopyTextButton text={pointer.oid} label="Copy LFS object SHA"/></dd><dt>Declared object size</dt><dd>{pointer.size} bytes</dd></dl>{pointer.extraKeys.length>0&&<p>Additional pointer fields: {pointer.extraKeys.join(', ')}. Their meaning has not been interpreted.</p>}{object?<p role={object.state==='hashMismatch'||object.state==='sizeMismatch'?'alert':'status'}>Latest cache inspection: {object.message}</p>:<p>Object availability and integrity have not been checked.</p>}<p>LFS checkout and locking are not implemented. Downloading to the cache does not replace this pointer in the working tree.</p></section>;
+}

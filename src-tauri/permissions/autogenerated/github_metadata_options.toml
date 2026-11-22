@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-github-metadata-options"
+description = "Enables the github_metadata_options command without any pre-configured scope."
+commands.allow = ["github_metadata_options"]
+
+[[permission]]
+identifier = "deny-github-metadata-options"
+description = "Denies the github_metadata_options command without any pre-configured scope."
+commands.deny = ["github_metadata_options"]

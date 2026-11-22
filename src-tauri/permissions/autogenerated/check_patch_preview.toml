@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-check-patch-preview"
+description = "Enables the check_patch_preview command without any pre-configured scope."
+commands.allow = ["check_patch_preview"]
+
+[[permission]]
+identifier = "deny-check-patch-preview"
+description = "Denies the check_patch_preview command without any pre-configured scope."
+commands.deny = ["check_patch_preview"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-read-named-workspaces"
+description = "Enables the read_named_workspaces command without any pre-configured scope."
+commands.allow = ["read_named_workspaces"]
+
+[[permission]]
+identifier = "deny-read-named-workspaces"
+description = "Denies the read_named_workspaces command without any pre-configured scope."
+commands.deny = ["read_named_workspaces"]

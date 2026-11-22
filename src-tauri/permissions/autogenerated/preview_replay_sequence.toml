@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-preview-replay-sequence"
+description = "Enables the preview_replay_sequence command without any pre-configured scope."
+commands.allow = ["preview_replay_sequence"]
+
+[[permission]]
+identifier = "deny-preview-replay-sequence"
+description = "Denies the preview_replay_sequence command without any pre-configured scope."
+commands.deny = ["preview_replay_sequence"]

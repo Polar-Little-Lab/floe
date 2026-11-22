@@ -1,0 +1,59 @@
+/* Adapter for the existing light palette. Keep extracted original-theme.css unchanged. */
+:root[data-theme=light]{
+ --app__bg0:#fcfcfc;--toolbar__bg0:#fafafa;--toolbar__bg1:#ebebeb;--toolbar__bg2:#e2e4e9;
+ --panel__bg0:#f3f3f3;--panel__bg1:#e9ebef;--panel__bg2:#dfe2e8;--input__bg:rgba(0,0,0,.04);
+ --panel-border:#d7d7d7;--section-border:#d7d7d7;--subtle-border:rgba(0,0,0,.06);
+ --text-normal:rgba(0,0,0,.75);--text-secondary:rgba(0,0,0,.6);--text-disabled:rgba(0,0,0,.45);
+ --text-dimmed:rgba(0,0,0,.35);--text-bright:#222;--text-selected:#222;--text-selected-row:#222;--text-dimmed-selected:rgba(0,0,0,.6);--text-inverse:#fff;
+ --text-accent:#496bab;--btn-text:rgba(0,0,0,.75);--btn-text-hover:#111;--default-border:rgba(0,0,0,.4);--default-border-hover:#222;
+ --link-color:#176a91;--link-color-bright:#0b5374;--code-bg:#fcfcfc;--code-foreground:rgba(0,0,0,.8);
+ --input--disabled:rgba(0,0,0,.06);--scroll-thumb-border:#fcfcfc;--scroll-thumb-bg:#b7bbc4;--scroll-thumb-bg-light:#8c929f;
+ --card__bg:#e9ebef;--card-shadow:rgba(0,0,0,.12);
+}
+[data-theme=light] .commit-row.selected{background:var(--selected)}
+[data-theme=light] .code-line.add,[data-theme=light] .split-cell.add{color:#216b33}
+[data-theme=light] .code-line.remove,[data-theme=light] .split-cell.remove{color:#993238}
+[data-theme=light] .code-line.hunk{color:#355b8b}
+[data-theme=light] .summary-line input::placeholder,[data-theme=light] .message-box textarea::placeholder{color:var(--muted)}
+:root[data-theme=light]{
+ --graph-color-0-bg15:rgba(21,160,191,0.15);
+ --graph-color-0-bg25:rgba(21,160,191,0.25);
+ --graph-color-0-bg45:rgba(21,160,191,0.45);
+ --graph-color-0-bg50:rgba(21,160,191,0.5);
+ --graph-color-1-bg15:rgba(6,105,247,0.15);
+ --graph-color-1-bg25:rgba(6,105,247,0.25);
+ --graph-color-1-bg45:rgba(6,105,247,0.45);
+ --graph-color-1-bg50:rgba(6,105,247,0.5);
+ --graph-color-2-bg15:rgba(142,0,194,0.15);
+ --graph-color-2-bg25:rgba(142,0,194,0.25);
+ --graph-color-2-bg45:rgba(142,0,194,0.45);
+ --graph-color-2-bg50:rgba(142,0,194,0.5);
+ --graph-color-3-bg15:rgba(197,23,182,0.15);
+ --graph-color-3-bg25:rgba(197,23,182,0.25);
+ --graph-color-3-bg45:rgba(197,23,182,0.45);
+ --graph-color-3-bg50:rgba(197,23,182,0.5);
+ --graph-color-4-bg15:rgba(217,1,113,0.15);
+ --graph-color-4-bg25:rgba(217,1,113,0.25);
+ --graph-color-4-bg45:rgba(217,1,113,0.45);
+ --graph-color-4-bg50:rgba(217,1,113,0.5);
+ --graph-color-5-bg15:rgba(205,1,1,0.15);
+ --graph-color-5-bg25:rgba(205,1,1,0.25);
+ --graph-color-5-bg45:rgba(205,1,1,0.45);
+ --graph-color-5-bg50:rgba(205,1,1,0.5);
+ --graph-color-6-bg15:rgba(242,93,46,0.15);
+ --graph-color-6-bg25:rgba(242,93,46,0.25);
+ --graph-color-6-bg45:rgba(242,93,46,0.45);
+ --graph-color-6-bg50:rgba(242,93,46,0.5);
+ --graph-color-7-bg15:rgba(242,202,51,0.15);
+ --graph-color-7-bg25:rgba(242,202,51,0.25);
+ --graph-color-7-bg45:rgba(242,202,51,0.45);
+ --graph-color-7-bg50:rgba(242,202,51,0.5);
+ --graph-color-8-bg15:rgba(123,217,56,0.15);
+ --graph-color-8-bg25:rgba(123,217,56,0.25);
+ --graph-color-8-bg45:rgba(123,217,56,0.45);
+ --graph-color-8-bg50:rgba(123,217,56,0.5);
+ --graph-color-9-bg15:rgba(46,206,157,0.15);
+ --graph-color-9-bg25:rgba(46,206,157,0.25);
+ --graph-color-9-bg45:rgba(46,206,157,0.45);
+ --graph-color-9-bg50:rgba(46,206,157,0.5);
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "name": "reverse-engineer-anything",
+    "repository": "https://github.com/morluto/rea",
+    "commit": "93fb79e3b881c2997e0a625bab1c416de0e2e170",
+    "path": ".agents/skills/reverse-engineer-anything",
+    "local_changes": [],
+    "files_sha256": {
+      "SKILL.md": "f4a725ddb3b5d3afe757a20e204760463f9305677f3204ce11bbe17aa7c5b754",
+      "references/environments.md": "1be68bc9b15e5ace9b731a64125b64eb457ab0276c7961a41b6fa1240d179007",
+      "references/javascript-applications.md": "4d1671a90634320724eb61b53e828c7faaadca77721798cef40e420357f5ff18",
+      "references/runtime-observation.md": "ff7ecd3d76c264e641804e025f6ec35d1cfe8b8aba006b226061ed71842a3c12",
+      "references/desktop-build.md": "7e0b1ab7ff7372d39681bc88e924b4afbabd95091d13aba72928f55668a82b17",
+      "references/native-and-artifacts.md": "7a6170cc079ac116ac8566d06c4e376f8334427f1aff4145bf7e29d1d66b5f4d",
+      "references/evidence-workflows.md": "ea6eaf1d11bb6d663503017aabc18e4c82b9f1f0277c35fc41ca63dda26ae602",
+      "references/connection-and-recovery.md": "b5654bf13171b6fbe0dadaeccb48764de504ea560b3c8d55cf6831838c0fa776",
+      "references/android-applications.md": "4fe894d463daaf9175192633186160fc50fb6718b5cc8186bf853377a9f72e7f"
+    }
+  },
+  {
+    "name": "reverse-engineering",
+    "repository": "https://github.com/EncidXVII/claude-reverse-engineering-skill",
+    "commit": "f836df012ab831d0e0140a27a2e729b548f28b9c",
+    "path": "skills/reverse-engineering",
+    "local_changes": [
+      "Moved compatibility into metadata for bundled Codex validator compatibility; instruction body unchanged."
+    ],
+    "files_sha256": {
+      "SKILL.md": "c2d76f3d60462ca6be615a844f42be4b29fea6b0b07d4651f174dfb4eafd66c5",
+      "references/native-binaries.md": "56decac116ea4c136264c7b235575a243959ce9353c0ae453ea9a9a6e8b00e2e",
+      "references/android.md": "b2ae79b84fd842c5609d9252b0e6c41a3a902f70bf84439e566ce6771cd7c37c",
+      "references/firmware-embedded.md": "ff587f33dc652649f3beff0e4acac76443f14694b6c1afd434dc4fe317afacff",
+      "references/diffing.md": "6a433b9d5f02a11a472e2b2567c2aed87e043997b6db5169b0c2d89b4b36dc54",
+      "references/workflow.md": "61a73d8854668e80170e44752edc5d06dd090576eaef8af731c036897469a153",
+      "references/web-apis-protocols.md": "11d3e379e22f1042d7663c2898d692f6885dae096e8e0173795af26e9a9671bb",
+      "references/managed-bytecode.md": "6f40e5d07dd060d156bc9aadae623e98ca33b09c8f03608a5f3fdfc21a11b4b3",
+      "references/frameworks-packagers.md": "d4b48e716153997ee44f88802e62d42a15e95046d86d23a38cf182cd60143b39",
+      "references/js-electron-wasm.md": "0f20ea59e4ba5ecfc83d8a01f75427b58f439097695f8d1dbf0d08673cc4593c",
+      "references/dynamic-analysis.md": "a426b8e83b52b6e181cfc91fd9b7dcf30b9740e1b6e32ec170f184d90e7eea74",
+      "references/ios.md": "4c2eb89ee545a3baddc74ff8b4b78c01a430be8b8f4369b20701a5ce1de0333d",
+      "references/mcp-servers.md": "25285ce12bee715292995bffa13b0c5fbbd7dc80f0ac93df341d2e29597d590d",
+      "references/malware-analysis.md": "ae04db0899317ec87a88d2d0ef8ef8b0aec78529385b17cbe9679f01577ae3b7",
+      "references/tools.md": "8dd81d564deea19a66ea4bda096363c88cca381e79da4881752c6a9f1ee062d6",
+      "scripts/extract_endpoints.py": "6d32bd6f66dc68a92c47c44eee69a12dbc09137616103029ad690ff9944589b0",
+      "scripts/check_tools.py": "8ecf521fae55fb7aa3778e754361892c395d98b8ab4f0da4604d08c2585be886",
+      "scripts/triage.py": "a72135a30b325e005eb2ac613082b0331aeb26aea3fb0ca545142528e26b2bad",
+      "scripts/app_inspect.py": "71c83a34824bf3869df4730b06d3421fcd53363270975caab0358df9266a15b2",
+      "scripts/ghidra/decompile_export.py": "8167fd7f118d5236f67bd114b7fe8091c350129a878358bd458a6412a9a986ba",
+      "scripts/ghidra/DecompileExport.java": "35831d49fb04437c59dca912403e2bc175a105ce4a99ef3511f0cd48f0b20768",
+      "assets/findings-template.md": "e82b0711ae74a41e31ab7846fc255f051e218ec004aa9dd523dfc1ad243c9bd4"
+    }
+  },
+  {
+    "name": "ghidra-headless",
+    "repository": "https://github.com/trailofbits/skills-curated",
+    "commit": "6d05be4889017b06fb15069f371afd220daffb62",
+    "path": "plugins/ghidra-headless/skills/ghidra-headless",
+    "local_changes": [],
+    "files_sha256": {
+      "SKILL.md": "5ed000bc4a8885038ed9e323cb8ebe903f7e2ffd9db3d68df94bee59d723b962",
+      "scripts/ghidra-analyze.sh": "8343bd90d04376b5c207b2ee6ef906d97fa10db10ca85e095d6bb2ff8854890c",
+      "scripts/find-ghidra.sh": "d79c9a26ad5daee4a9aaf324ae3e6b51d914abd0029ba8c6813279eb6e060977",
+      "scripts/ghidra_scripts/ExportFunctions.java": "72a552acbce69ec02b1c13794a683d3a62edaefe02a04af763ed1d25fbbaeb34",
+      "scripts/ghidra_scripts/ExportAll.java": "37c97de3f378a53b1b4153675ed96f1c0a9fdb46efc069aaf0f6bf4141afd3db",
+      "scripts/ghidra_scripts/ExportStrings.java": "72ed2f87e231db98ab09619184183261f363b9782a5e457b4e5c594a381e5d07",
+      "scripts/ghidra_scripts/ExportSymbols.java": "9e300a57ac60281aed8eada19fa7d69226da89d2841c82cd3529b75fbaa68d9c",
+      "scripts/ghidra_scripts/ExportCalls.java": "f9c7cfed11c019a7da7ba574e134b0ffb9dfed1e31eaac0c55f3efc9e7c65bac",
+      "scripts/ghidra_scripts/ExportDecompiled.java": "ce6b0703b8f619b917b4eef5db57bbf838d874a7729164946e88959a5b5a15af"
+    }
+  }
+]

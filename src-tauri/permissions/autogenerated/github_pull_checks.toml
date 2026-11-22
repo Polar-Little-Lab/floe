@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-github-pull-checks"
+description = "Enables the github_pull_checks command without any pre-configured scope."
+commands.allow = ["github_pull_checks"]
+
+[[permission]]
+identifier = "deny-github-pull-checks"
+description = "Denies the github_pull_checks command without any pre-configured scope."
+commands.deny = ["github_pull_checks"]

@@ -1,0 +1,3480 @@
+[
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/activity-logs/",
+    "title": "View Activity Logs in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/activity.gif",
+        "alt": "User clicking the Activity Logs icon in the GitKraken Desktop footer to view repository events and actions",
+        "section": "What Activity Logs are"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/data-line@2x.png",
+        "alt": "Activity log entry showing a commit message being amended with timestamp and duration in milliseconds",
+        "section": "What Activity Logs are"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/app-level@2x.png",
+        "alt": "Application activity log in GitKraken Desktop showing timestamps, actions, and durations for tasks like opening repositories and refreshing gitconfig",
+        "section": "How the Application log works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/repository-level@2x.png",
+        "alt": "Repository tab showing Git operations like fetch, push, reset, squash, and commit along with timestamps and durations",
+        "section": "How the Repository log works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/extended@2x.png",
+        "alt": "Repository Activity Logs displaying Git operations like fetch, pull request retrieval, commit creation, and auto-fetch with timestamps and durations",
+        "section": "How the Repository log works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/githook-log.gif",
+        "alt": "Git hook log displaying a mismatch between the global commit email and the expected committing email, with hook process termination",
+        "section": "How the Git hook log works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/snackbox-error@2x.png",
+        "alt": "GitKraken Desktop error snackbox with message 'pre-commit: Git Hook exited with 1' and options to view the log or dismiss the message",
+        "section": "How the Git hook log works"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/adding-and-removing/",
+    "title": "Add, Delete, and Filter Files in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-file-command-palette-2025.png",
+        "alt": "Using GitKraken Desktop's Command Palette to create a new file directly from the keyboard, demonstrating how the palette streamlines file creation workflows without navigating away from the commit graph.",
+        "section": "How to add a file using the Command Palette"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-file-2025-gif.gif",
+        "alt": "Using GitKraken Desktop's Command Palette to create and name a new file, demonstrating how developers can generate project files without leaving the keyboard or switching UI contexts.",
+        "section": "How to add a file using the Command Palette"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-folder@2x.png",
+        "alt": "Creating a new folder by including a slash in the file name, demonstrating how GitKraken Desktop auto-generates nested directory structures during file creation.",
+        "section": "How to add a file using the Command Palette"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/delete-file@2x.png",
+        "alt": "Context menu in GitKraken Desktop showing file actions, including the option to delete a file from the Commit Panel.",
+        "section": "How to delete a file from the Commit Panel"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/delete-any-file@2x.png",
+        "alt": "Right-click context menu with file deletion option after enabling 'View all files' in GitKraken Desktop.",
+        "section": "How to delete any file in the repository"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/filter-files.gif",
+        "alt": "Filtering visible files in GitKraken Desktop by typing a file extension in the Tree View filter bar.",
+        "section": "How to filter files"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/agent-merge-conflicts/",
+    "title": "Resolve Merge Conflicts Between AI Agent Branches in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/merge-right@2x.png",
+        "alt": "GitKraken Desktop context menu showing the option to merge one branch into another.",
+        "section": "How to merge the agent branches"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/merge-conflict@2x.png",
+        "alt": "GitKraken Desktop Commit Panel listing a conflicted file during a merge.",
+        "section": "How to merge the agent branches"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/Auto-resolve-with-AI-2025@2x.png",
+        "alt": "GitKraken Desktop merge conflict view showing an AI-generated resolution with an explanation and a confidence level for each hunk.",
+        "section": "Use Auto-resolve with AI"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/agents/",
+    "title": "Coding Agents in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GitKraken_Keif_agents.png",
+        "alt": "",
+        "section": ""
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-agents-panel-overview-20260414.png",
+        "alt": "GitKraken Desktop with the Agents view open in the Left Panel, showing six worktree cards, two with a Waiting for input status, next to the Commit Graph and a terminal panel running Claude Code.",
+        "section": ""
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/toggle-agents-view-preferences.png",
+        "alt": "GitKraken Desktop Preferences showing the UI Customization section with the Show Agents view in left panel setting that controls whether the List and Agents toggle appears in the Left Panel.",
+        "section": "How to toggle Agents view"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/focus-agent-icon.png",
+        "alt": "Worktree card in the Agents view with a Waiting for input status and the eye icon showing the Focus agent application tooltip.",
+        "section": "How to switch to an agent running outside GitKraken Desktop"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-agents-setup-commands-preferences-20260413-v2@2x.png",
+        "alt": "GitKraken Desktop repo-specific Preferences with Agents selected, showing the Show worktree WIP nodes in the graph checkbox and the Setup commands box containing npm install and pnpm build.",
+        "section": "How to configure setup commands for coding agent sessions"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-12-6-agents-new-session-button.png",
+        "alt": "Agents view in GitKraken Desktop showing the Start Claude Code Session button with the adjacent lightning-bolt button, the plug icon in the Worktrees header, and two worktree cards, one waiting for input.",
+        "section": "How to create a new coding agent session"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-12-6-agents-start-session-modal.png",
+        "alt": "The Start an Agent Session modal in GitKraken Desktop showing a generated branch name, the Base branch selector set to main, and the Coding agent dropdown open with None, Claude Code, Codex CLI, Copilot CLI, Cursor CLI, Gemini CLI, and OpenCode.",
+        "section": "How to create a new coding agent session"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-Launching-Agent-Launchpad1.png",
+        "alt": "Launchpad My Issues tab in GitKraken Desktop with a Start an Agent Session button in the Action column for each issue.",
+        "section": "Starting from Launchpad view"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-Launching-Agent-Launchpad2.png",
+        "alt": "Start an Agent Session modal opened from Launchpad, showing the issue's repository, a branch name generated from the issue, and Send issue context to start immediately selected.",
+        "section": "Starting from Launchpad view"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-Launching-Agent-Sidebar-view1.png",
+        "alt": "GitHub Issues section of the Left Panel with an issue's menu open on Start an Agent Session.",
+        "section": "Starting from the Left Panel"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-Launching-Agent-Sidebar-view2.png",
+        "alt": "Start an Agent Session modal opened from the Left Panel, with the open repository selected in Select repository and a branch name generated from the issue.",
+        "section": "Starting from the Left Panel"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/agent-status.png",
+        "alt": "GitKraken Desktop Left Panel in List view, with the pointer over the Agents toggle and a tooltip reading 1 agent session waiting for input.",
+        "section": "How to monitor coding agent progress and session status"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-Remove-Session-and-Worktree.png",
+        "alt": "Card menu for a worktree in the Agents view showing the Remove this worktree and Remove worktree and delete branch options.",
+        "section": "How to monitor coding agent progress and session status"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-agents-monitoring-status-20260414.png",
+        "alt": "Agents view showing worktree cards with highlighted change counts (+97, a pencil with 91, and -91) and a PR #65 pill, and two cards with a Waiting for input status.",
+        "section": "How to monitor coding agent progress and session status"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/allow-deny.png",
+        "alt": "Worktree card in the Agents view with a Bash permission request awaiting approval and the Always allow tooltip over the double check mark.",
+        "section": "How to approve Claude Code, Codex CLI, and Copilot CLI permission requests"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-12-6-agents-status-plugin-tooltip.png",
+        "alt": "Agents view in GitKraken Desktop with the plug icon in the Worktrees header highlighted and its tooltip reading Agent plugins: 1 of 2 agents have status available.",
+        "section": "How to manage agent status plugins and hooks"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-12-6-preferences-agent-status-integrations.png",
+        "alt": "The External Tools tab in GitKraken Desktop Preferences showing the Coding Agent setting and the Agent Status Integrations section, with Reinstall Plugin and Uninstall Plugin buttons for the Claude Code, Codex, Copilot CLI, and OpenCode plugins.",
+        "section": "How to manage agent status plugins and hooks"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/authentication/",
+    "title": "Authentication with Other Git Hosts in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/clone-repository-menu-2025@2x.png",
+        "alt": "GitKraken Clone Repo Menu",
+        "section": "How to clone with HTTPS"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/ssh-preferences-2025@2x.png",
+        "alt": "SSH Preferences Menu",
+        "section": "How to set up SSH keys"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/ssh-clone-2025@2x.png",
+        "alt": "Clone over SSH UI",
+        "section": "How to clone over SSH"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/forget-all-2025@2x.png",
+        "alt": "Forget All Credentials UI",
+        "section": "How to forget all credentials"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/azure-devops/",
+    "title": "Azure DevOps Integration with GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/preferences@2x.png",
+        "alt": "Accessing integrations via Preferences",
+        "section": "How to authenticate with Azure DevOps"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-azure-devops-2025-v3@2x.png",
+        "alt": "Preferences > Integrations > Azure DevOps in GitKraken Desktop: the Azure DevOps card reads Not Connected with a Connect to Azure DevOps button, a Manage Integrations button sits at the top right, and below \"or\" are Host Domain and Personal Access Token fields with a Connect button.",
+        "section": "How to authenticate with Azure DevOps"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/select-azure-organization-2025@2x.png",
+        "alt": "Select your Azure DevOps organization",
+        "section": "How to authenticate with Azure DevOps"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/generate-token-azure-devops-2025@2x.png",
+        "alt": "Generate a Personal Access Token (PAT)",
+        "section": "How to choose an organization after you sign in"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/azure-PAT-scopes-2025@2x.png",
+        "alt": "Define scopes for your PAT",
+        "section": "How to choose an organization after you sign in"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/PAT-azure-added-2025@2x.png",
+        "alt": "PAT added and connected in GitKraken",
+        "section": "How to choose an organization after you sign in"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc-ssh-azure-devops@2x.png",
+        "alt": "Generate and copy your SSH key for Azure DevOps",
+        "section": "How to generate an SSH key for Azure DevOps"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc-azure-integration-clone@2x.png",
+        "alt": "Browse Azure DevOps repos during cloning",
+        "section": "What Azure DevOps OAuth enables in GitKraken Desktop"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc-azure-add-remote@2x.png",
+        "alt": "Fork options displayed when adding remotes",
+        "section": "What Azure DevOps OAuth enables in GitKraken Desktop"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-ado-oauth-error.png",
+        "alt": "OAuth access error message in GitKraken",
+        "section": "How to enable Azure DevOps OAuth for GitKraken Desktop"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/bitbucket-data-center/",
+    "title": "Bitbucket Data Center Integration with GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/preferences@2x.png",
+        "alt": "Open Preferences to access Integrations",
+        "section": "How to connect Bitbucket Data Center"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connecting-bb-data-center-2025@2x.png",
+        "alt": "Start connection to Bitbucket Data Center",
+        "section": "How to connect Bitbucket Data Center"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/BitbucketServerPAT.png",
+        "alt": "Create a Personal Access Token in Bitbucket Data Center",
+        "section": "How to connect Bitbucket Data Center"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/ssh-bb-data-center-2025@2x.png",
+        "alt": "Generate and copy your SSH key",
+        "section": "How to generate SSH keys for Bitbucket Data Center"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/bitbucket-server-add-key.png",
+        "alt": "Add the SSH key to Bitbucket Data Center",
+        "section": "How to generate SSH keys for Bitbucket Data Center"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/bitbucket-server-SSHkey-add@2x.png",
+        "alt": "SSH key successfully added",
+        "section": "How to generate SSH keys for Bitbucket Data Center"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/bb-data-center-clone@2x.png",
+        "alt": "Clone repositories from Bitbucket Data Center",
+        "section": "What Bitbucket Data Center authentication enables in GitKraken Desktop"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/add-remote-bb-dc-2025@2x.png",
+        "alt": "Remotes list includes repository forks",
+        "section": "What Bitbucket Data Center authentication enables in GitKraken Desktop"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/bitbucket/",
+    "title": "Bitbucket Integration with GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/preferences@2x.png",
+        "alt": "Open Preferences to configure integrations",
+        "section": "How to connect Bitbucket"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-bitbucket-2025-v3@2x.png",
+        "alt": "Preferences > Integrations > Bitbucket in GitKraken Desktop: the Bitbucket card reads Not Connected with a Connect to Bitbucket button, and a Manage Integrations button sits at the top right of the pane.",
+        "section": "How to connect Bitbucket"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/bitbucket-success-1@2x.png",
+        "alt": "Login success prompt from Bitbucket",
+        "section": "How to connect Bitbucket"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/ssh-bitbucket-2025@2x.png",
+        "alt": "Copy and add your new SSH key to Bitbucket",
+        "section": "How to generate SSH keys for Bitbucket"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-bitbucket-ssh-host-01-v2@2x.png",
+        "alt": "GitKraken Desktop notification titled \"Bitbucket SSH host has changed\": \"Fetch failed for 'origin'. Bitbucket no longer accepts SSH connections to bitbucket.org, and SSH remotes now need to use ssh.bitbucket.org.\" with the Update remote button.",
+        "section": "How to move SSH remotes to ssh.bitbucket.org"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/clone@2x.png",
+        "alt": "Cloning from your Bitbucket repositories",
+        "section": "What Bitbucket OAuth enables in GitKraken Desktop"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/remote@2x.png",
+        "alt": "Forks available for remote setup",
+        "section": "What Bitbucket OAuth enables in GitKraken Desktop"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/branching-and-merging/",
+    "title": "Branch, Merge, and Rebase in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/add-branch@2x.png",
+        "alt": "Right-click menu in GitKraken Desktop showing option to create a new branch from a selected commit",
+        "section": "How to create and manage branches"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/add-branch-2025.gif",
+        "alt": "Animated view of creating and checking out a new branch in GitKraken Desktop from the right-click context menu on a commit",
+        "section": "How to check out a branch"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/rename-branch@2x.png",
+        "alt": "Context menu in GitKraken Desktop with the Rename branch option selected for the branch 'branch-rename'",
+        "section": "How to rename a branch"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/rename-branch-command-palette@2x.png",
+        "alt": "Command Palette in GitKraken Desktop showing filtered results for 'Rename Branch'",
+        "section": "How to rename a branch"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/multi-delete-branches.gif",
+        "alt": "Confirmation prompt for deleting multiple local branches in GitKraken Desktop",
+        "section": "How to delete a branch"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/pin-to-left.png",
+        "alt": "Right-click context menu on a branch in the GitKraken Desktop Commit Graph with the 'Pin to Left' option visible at the bottom of the menu",
+        "section": "How to pin a branch to the left"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-graph-jump-to-pinned-branch-01-v3@2x.png",
+        "alt": "The top of the Commit Graph with a branch pinned to the left: its highlighted label, feature/api…, carries a pin icon and its line is the leftmost in the graph. The highlighted thumbtack button in the GRAPH column header shows the tooltip \"Jump to pinned branch\".",
+        "section": "How to pin a branch to the left"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/smart-visibility.png",
+        "alt": "GitKraken Desktop Commit Graph with Smart Branch Visibility enabled, showing a filtered branch list in the Left Panel and the column settings dropdown with the Smart Branch Visibility option checked",
+        "section": "When to use Smart Branch Visibility"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/merge-right@2x.png",
+        "alt": "Context menu showing option to merge dev branch into production branch in GitKraken Desktop",
+        "section": "How to merge branches"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/squash-merge.png",
+        "alt": "GitKraken Desktop Preferences panel open to the Commit section, with the Merge Behavior area highlighted showing the Squash checkbox and its description: 'When enabled, merging branches locally will stage all changes without creating a merge commit automatically. You will need to commit manually.'",
+        "section": "When to use squash merges"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/merge-conflict@2x.png",
+        "alt": "GitKraken Desktop Commit Panel showing the conflicting file test.txt when merging origin/test-merge-pr into multi-conflict-left.",
+        "section": "How to resolve conflicts in the Merge Conflict Editor"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/merge-tool2@2x.png",
+        "alt": "GitKraken Desktop merge conflict tool showing side-by-side comparison of conflicting lines in glo/calendar.md",
+        "section": "How to resolve conflicts in the Merge Conflict Editor"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/merge-tool-toggle.gif",
+        "alt": "GitKraken Desktop Merge Tool selecting specific changes from each side to resolve merge conflicts.",
+        "section": "How to resolve conflicts in the Merge Conflict Editor"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/merge-tool-gif.gif",
+        "alt": "Resolving a merge conflict in the GitKraken Desktop Merge Tool by selecting side B, saving, and clicking Commit and Merge.",
+        "section": "How to resolve conflicts in the Merge Conflict Editor"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/configureExternalTool@2x.png",
+        "alt": "Preferences panel showing merge tool selection dropdown with Kaleidoscope selected.",
+        "section": "How to use an external merge tool"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/beyond-compare@2x.png",
+        "alt": "Beyond Compare application menu showing the Install Command Line Tools option.",
+        "section": "How to use an external merge tool"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/current-incoming.png",
+        "alt": "Merge conflict resolution menu with options to take the current branch (branch-2) or the incoming branch (branch-1).",
+        "section": "How to resolve conflicts with Take Current or Take Incoming"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/select-rebase@2x.png",
+        "alt": "Rebase menu with the option to rebase the testfill2 branch onto origin/develop.",
+        "section": "How to rebase commits"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/select-rebase-sidebar@2x.png",
+        "alt": "Sidebar context menu showing options to fast-forward, merge, or rebase the testfill2 branch onto master.",
+        "section": "How to rebase commits"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/rebase-N-commits.png",
+        "alt": "GitKraken Desktop Commit Graph showing a right-click context menu on a branch with the 'Rebase 4 commits onto gitkraken/main' option highlighted, after a range of commits has been selected",
+        "section": "How to rebase a range of commits onto another branch"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/cherrypick/",
+    "title": "Cherry Pick Commits in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/cherrypick@2x.png",
+        "alt": "Right-click context menu in GitKraken showing option to cherry pick a commit.",
+        "section": "How to cherry pick a single commit"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/cherrypick-left-panel@2x.png",
+        "alt": "Context menu in GitKraken showing option to cherry pick the HEAD commit of a selected branch from the Left Panel.",
+        "section": "How to cherry pick a single commit"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/multi-cherry-pick-menu.png",
+        "alt": "GitKraken Desktop context menu showing 'Cherry pick 5 commits' after selecting multiple commits from the commit graph.",
+        "section": "How to cherry pick multiple commits"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/interactive-cherry-pick.png",
+        "alt": "GitKraken Interactive Cherry Pick panel showing selected commits with a Reword option and an editable commit message field.",
+        "section": "How to cherry pick multiple commits"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/clean-up-agent-commits/",
+    "title": "Clean Up AI Coding Agent Commits Before Review in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/compose-WIP@2x.png",
+        "alt": "Selected WIP node in GitKraken Desktop with an arrow pointing to the Compose commits with AI button in the Commit Panel.",
+        "section": "How to split an agent’s uncommitted changes into commits"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/compose-existing-commits@2x.png",
+        "alt": "Commit Graph context menu in GitKraken Desktop with the option to recompose a range of commits with AI.",
+        "section": "How to recompose commits the agent already made"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/commit-composer-UI@2x.png",
+        "alt": "Commit Composer window in GitKraken Desktop with options to pick, squash, or reword each proposed commit.",
+        "section": "How to recompose commits the agent already made"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-commit-composer-undo.png",
+        "alt": "GitKraken Desktop toolbar with the Undo button hovered after composing commits with AI. The tooltip reads Undo Rebase followed by a commit SHA.",
+        "section": "How to check the new commits"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/squash.png",
+        "alt": "Interactive rebase in GitKraken Desktop showing Squash selected for two commits, which will combine into a single commit",
+        "section": "Can I clean up commits without AI?"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/clean-up-agent-worktrees/",
+    "title": "Clean Up AI Coding Agent Worktrees and Branches in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-agents-panel-overview-20260414.png",
+        "alt": "GitKraken Desktop with the Agents view open in the Left Panel, showing a card for each of the repository's six worktrees next to the Commit Graph.",
+        "section": "How to see all your worktrees in one place"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-Remove-Session-and-Worktree.png",
+        "alt": "Card menu for a worktree in the Agents view showing the Remove this worktree and Remove worktree and delete branch options.",
+        "section": "How to remove agent worktrees"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/command-palette/",
+    "title": "GitKraken Desktop Command Palette | Fast Actions & Navigation",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/command-palette-example.gif",
+        "alt": "Using the GitKraken Command Palette to filter and select commands, files, and branches, demonstrating how it accelerates navigation and common Git workflows without leaving the keyboard.",
+        "section": "How to open the Command Palette"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/commit-signing-with-gpg/",
+    "title": "Sign Commits with GPG or SSH in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gpg-version-2025@2x.png",
+        "alt": "GPG version output",
+        "section": "GPG requirements"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/generate-new-gpg-key-2025@2x.png",
+        "alt": "Generate new GPG key in Preferences",
+        "section": "How to generate a GPG key in GitKraken Desktop"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gpg-browse-button.png",
+        "alt": "Browse to GPG executable",
+        "section": "How to configure GPG in GitKraken Desktop"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gpg-icon-2025@2x.png",
+        "alt": "Signed commit badge",
+        "section": "How to verify signed commits"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gpg-sig-details-2025@2x.png",
+        "alt": "GPG signature details tooltip",
+        "section": "How to verify signed commits"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/list-secret-keys@2x.png",
+        "alt": "List GPG secret keys",
+        "section": "How to edit a GPG key"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/delete-key.png",
+        "alt": "Delete GPG key confirmation",
+        "section": "How to delete a GPG key"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/delete-key-for-sure.png",
+        "alt": "Final delete confirmation",
+        "section": "How to delete a GPG key"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc-ssh-keygen@2x.png",
+        "alt": "Generating SSH key",
+        "section": "How to enable SSH signing"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/commits/",
+    "title": "Committing Changes",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/select-WIP-2025.png",
+        "alt": "WIP node displayed at the top of the GitKraken Commit Graph with a file listed as modified but unstaged.",
+        "section": "How to create a commit"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/push-after-commit-2025.png",
+        "alt": "Commit panel in GitKraken showing a commit message, the 'Push after committing' checkbox enabled, and a green button labeled 'Commit Changes to 2 Files and Push'.",
+        "section": "How to commit and push in one step"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/co-author@2x.png",
+        "alt": "GitKraken commit panel showing a commit message with a co-author attribution line using the format 'Co-authored-by: Name <email>'.",
+        "section": "How to add co-authors to a commit"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/co-author-history@2x.png",
+        "alt": "Commit details in GitKraken showing a co-authored commit with the primary author and a listed co-author under the commit message.",
+        "section": "How to add co-authors to a commit"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/skip-commits-2025.png",
+        "alt": "GitKraken commit panel with 'Skip Git hooks' option enabled, showing a commit message and the commit button labeled to reflect skipping hooks.",
+        "section": "How to bypass Git hooks for one commit"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/commit-template-setting-2025.png",
+        "alt": "GitKraken Commit Preferences showing Commit Template settings with summary and description fields for prefilled commit messages.",
+        "section": "How to create or update a commit template"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/amend-commit-2025.png",
+        "alt": "GitKraken Commit panel with 'Amend previous commit' checkbox selected, showing an updated commit message and the 'Amend Previous Commit' button.",
+        "section": "How to amend the most recent commit"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/amend-message-2025.png",
+        "alt": "GitKraken Desktop Commit Panel with the commit message shown and a tooltip indicating the option to amend the commit message.",
+        "section": "How to amend the most recent commit"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/amend-box-2025.png",
+        "alt": "Commit amend view in GitKraken with message editing field and buttons to update or cancel the commit message.",
+        "section": "How to amend the most recent commit"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/reset-commit-2025.png",
+        "alt": "GitKraken context menu showing 'Reset main to this commit' with soft, mixed, and hard reset options.",
+        "section": "How to reset commits"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/undo-undo-2025.png",
+        "alt": "GitKraken interface showing Undo button highlighted with tooltip 'Undo Commit amend Updates the GitKraken commit documentation to reflect UI'.",
+        "section": "How to undo local changes before pushing"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/revert-commit-2025.png",
+        "alt": "Context menu in GitKraken showing the 'Revert commit' option highlighted.",
+        "section": "How to revert a commit that is already in history"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/restore-files.png",
+        "alt": "GitKraken Desktop Commit Panel showing multiple files selected from a commit’s file list, with a right-click context menu displaying the ‘Restore selected files from this commit’ option highlighted",
+        "section": "How to restore files from a commit"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/common-issues/",
+    "title": "GitKraken Desktop – Common Issues and Fixes",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-profile-menu-sign-out-01-v4@2x.png",
+        "alt": "The GitKraken Desktop profile and account menu, signed in: Current profile with the profile, commit signature and Manage profiles, then Account with the account name and email, Manage account, and Sign Out highlighted.",
+        "section": "My account shows Trial/Free/Community despite being a paid customer"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-Common-Issue-2.png",
+        "alt": "AI credit access is determined by the selected organization",
+        "section": "The account is correct but it says I don’t have AI credits"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-Common-Issue-3.png",
+        "alt": "GitKraken.dev with a red arrow pointing to the organization switcher, open to show the organizations you can switch between.",
+        "section": "GitKraken.dev shows my account as TRIAL / COMMUNITY"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-Common-Issue-4.png",
+        "alt": "The right-side commit panel can be toggled from the View menu",
+        "section": "Commit details panel is missing"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-Common-Issue-5.png",
+        "alt": "Keyboard shortcut to toggle full screen in GitKraken Desktop",
+        "section": "Can’t minimize/maximize or exit full-screen mode"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-Common-Issue-6.png",
+        "alt": "Line ending or whitespace differences may cause misleading diffs",
+        "section": "Diff shows entire file instead of changes"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-Common-Issue-7.png",
+        "alt": "Check your GitHub application settings to confirm permissions",
+        "section": "Private organization repositories not visible (GitHub)"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc-git-executable-version.png",
+        "alt": "The Git Executable dropdown open, listing the Git bundled with GitKraken and two Git installs found on the computer, each with its version and path.",
+        "section": "How to troubleshoot GitKraken Desktop 9.4.0 and later"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/error-1002@2x.png",
+        "alt": "Example: Authentication error during integration",
+        "section": "How to fix 1000-series integration errors"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/push-error.png",
+        "alt": "Push error caused by case mismatch in branch name",
+        "section": "How to fix the Cannot read property 'fullName' of undefined push error"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/configure-self-managed/",
+    "title": "Configure GitKraken Self-Hosted Server (LDAP, SMTP, and Super User)",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/select-license@2x.png",
+        "alt": "Prompt to upload your GitKraken Self-Hosted license file",
+        "section": "How to upload the server license"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/license-details@2x.png",
+        "alt": "Details view of your Self-Hosted license",
+        "section": "How to upload the server license"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/auth-config@2x.png",
+        "alt": "Select authentication mode: Built-in or LDAP",
+        "section": "How authentication setup works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/ldap-host-port@2x.png",
+        "alt": "Configure hostname and port for LDAP",
+        "section": "How to configure LDAP"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/encryption-method@2x.png",
+        "alt": "Select the appropriate LDAP encryption method",
+        "section": "How to configure LDAP"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/base-dn@2x.png",
+        "alt": "Assign base DNs and group CNs for LDAP integration",
+        "section": "How to configure LDAP"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/user-attributes@2x.png",
+        "alt": "Assign LDAP attributes for username, email, and name",
+        "section": "How to configure LDAP"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/search-user@2x.png",
+        "alt": "Designate an LDAP search user account",
+        "section": "How to configure LDAP"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/sync-server@2x.png",
+        "alt": "Configure LDAP sync interval",
+        "section": "How to configure LDAP"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/smtp-setup@2x.png",
+        "alt": "Set up SMTP server settings and test connection",
+        "section": "How to configure the SMTP server"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/super-user@2x.png",
+        "alt": "Define the Super User account",
+        "section": "How to configure the Super User"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/manage-users@2x.png",
+        "alt": "Manage Users interface after setup",
+        "section": "How to configure the Super User"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/user-email@2x.png",
+        "alt": "Enter email address to add a new user",
+        "section": "How to add users"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/registration-settings@2x.png",
+        "alt": "Modify user registration settings",
+        "section": "How to add users"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/conflict-prevention/",
+    "title": "Conflict Prevention in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-conflict-prevention.png",
+        "alt": "Conflict prevention panel in GitKraken Desktop showing a warning about potential changes from another contributor, with options to send, push, or ignore warnings.",
+        "section": ""
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-org-member-conflict-11-1@2x.png",
+        "alt": "Conflict alert dialog in GitKraken showing details about conflicting branches between collaborators with options to resolve or suppress warnings.",
+        "section": "How to interpret the conflict alert icon"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-unfurl-org-member-conflict-11-1@2x.png",
+        "alt": "Expanded conflict warning in GitKraken showing overlapping files and lines with resolution options.",
+        "section": "How to view conflict details"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/generic-conflict-prevention-11-1@2x.png",
+        "alt": "Conflict warning with target branch in GitKraken Desktop, showing rebase and merge options.",
+        "section": "How conflict detection works without Org Members"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GKD-no-conflict-detected-with-PR.png",
+        "alt": "GitKraken interface showing 'Up to Date with Merge Target' status indicating no conflicts between 'my-working-branch' and 'origin/main'.",
+        "section": "What target branch status means when no conflicts are found"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/invite-to-org-11-1@2x.png",
+        "alt": "GitKraken conflict alert panel showing 'Detect conflicts earlier by inviting Trevor Polidore to your org' with an Invite button.",
+        "section": "How to invite contributors to resolve conflicts earlier"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/conflict-prevention-settings@2x.png",
+        "alt": "Conflict Prevention settings panel in GitKraken Desktop showing how to define base branches for conflict detection.",
+        "section": "How to configure Conflict Prevention settings"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/detached-head-state/",
+    "title": "Detached HEAD in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/checkout-commit-2025.png",
+        "alt": "Context menu showing 'Checkout this commit' option in GitKraken Desktop after right-clicking a specific commit in the graph view",
+        "section": "How to enter detached HEAD state"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/HEAD-2025.png",
+        "alt": "GitKraken Desktop showing HEAD label attached to a specific commit in the graph, indicating the currently checked-out commit",
+        "section": "How to enter detached HEAD state"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/editing-detachedly-2025.png",
+        "alt": "GitKraken Desktop interface showing a warning banner that says 'You are in a detached HEAD state' above the commit panel with unstaged changes listed",
+        "section": "How to commit in detached HEAD state"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-branch-from-HEAD-2025.png",
+        "alt": "Context menu in GitKraken Desktop showing the option 'Create branch here' when right-clicking a commit labeled HEAD",
+        "section": "How to commit in detached HEAD state"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/discard-commits.gif",
+        "alt": "Animation showing how unbranched commits in GitKraken Desktop are removed from view after switching branches from a detached HEAD state",
+        "section": "How to exit detached HEAD state"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/diff/",
+    "title": "View Diffs, File History, and Blame in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/diff-full-screen-2025.png",
+        "alt": "GitKraken Desktop showing a full-screen side-by-side diff of a markdown file, with syntax-highlighted line changes and a file activity panel listing added images.",
+        "section": "What Is a Diff in GitKraken Desktop?"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/diff-2-commits-2025.png",
+        "alt": "GitKraken Desktop displaying a visual diff between two selected commits, with syntax-highlighted line changes and commit metadata shown in the right panel.",
+        "section": "Where Can I Access the Diff?"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/combined-diff-2025-v2@2x.png",
+        "alt": "The Commit Panel titled \"Viewing diff of 3 commits\", listing three commits by Alex Lee with their dates and short SHAs, then 2 modified and 3 added files: docs/CONTRIBUTING.md, three files under docs/onboarding/ and README.md.",
+        "section": "Where Can I Access the Diff?"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/hunk-2025.png",
+        "alt": "GitKraken Desktop displaying hunk view mode, focusing on a grouped block of code changes with syntax highlighting and minimal surrounding context.",
+        "section": "When to use Hunk View"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/revert-hunk-2025@2x.png",
+        "alt": "GitKraken Desktop showing the Revert Hunk button in the diff view, with a tooltip explaining it will reverse the selected code changes in the working directory.",
+        "section": "How to revert a hunk"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/inline-annotated-2025.png",
+        "alt": "GitKraken Desktop displaying Inline View mode for file diffs, with added lines and a selected image insertion shown directly in context.",
+        "section": "When to use Inline View"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/split-2025.png",
+        "alt": "Split View mode in GitKraken Desktop comparing changes between two versions of a file, highlighting additions, deletions, and updated image references side-by-side.",
+        "section": "When to use Split View"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/word-wrap.png",
+        "alt": "GitKraken Desktop file view toolbar with the Word Wrap button highlighted in the top-right corner, showing a file with long lines wrapped for easier reading.",
+        "section": "How to use Word Wrap in the diff view"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/external-diff-2025.png",
+        "alt": "GitKraken Desktop External Tools preferences showing dropdown to select an external diff tool, with options like FileMerge and Git Config Default.",
+        "section": "How to use external diff tools"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/beyond-compare@2x.png",
+        "alt": "Beyond Compare application menu with Install Command Line Tools option highlighted, used to enable CLI integration.",
+        "section": "How to use external diff tools"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/compare-WIP-2025.png",
+        "alt": "Context menu in GitKraken Desktop showing the option to compare a selected commit against the working directory from the commit graph.",
+        "section": "How to compare a WIP against another commit or branch"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/blame-history-2025.png",
+        "alt": "GitKraken Desktop interface showing Blame and History buttons in the file view toolbar for accessing file-level version history and author attributions.",
+        "section": "How to view file blame and history"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/file-history-commit-selected-2025.png",
+        "alt": "GitKraken Desktop showing file history for a selected commit, with highlighted changes in the diff view panel.",
+        "section": "How to view file blame and history"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/blame-2025.png",
+        "alt": "Blame view in GitKraken Desktop showing author and date annotations alongside each line of code.",
+        "section": "How to view file blame and history"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-patch-2025.png",
+        "alt": "Context menu in GitKraken Desktop showing the option to generate a patch file from a selected commit.",
+        "section": "How to create a patch from files or commits"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/patch-from-changes-2025.png",
+        "alt": "Context menu in GitKraken Desktop showing the option to generate a patch from unstaged file changes.",
+        "section": "How to create a patch from files or commits"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/patch-from-many-files-2025.png",
+        "alt": "GitKraken Desktop context menu showing the option to create a patch from changes across multiple unstaged files.",
+        "section": "How to create a patch from files or commits"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-patch-from-command-palette.png",
+        "alt": "Command Palette in GitKraken Desktop displaying the option to create a patch from all working directory changes.",
+        "section": "How to create a patch from the Command Palette"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/apply-patch-2025.png",
+        "alt": "Command Palette in GitKraken Desktop showing the option to apply a patch from the file system.",
+        "section": "How to apply a patch from the Command Palette"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/editing-files/",
+    "title": "Edit and Save Files in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/edit-file-menu-2025.png",
+        "alt": "Right-click context menu showing the Edit file option for a selected file in GitKraken Desktop",
+        "section": "How to edit a file from the context menu"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/edit-file-fuzzy.gif",
+        "alt": "Using the Command Palette in GitKraken Desktop to search for and select a file to edit",
+        "section": "How to edit a file from the Command Palette"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/edit-file-diff-2025.png",
+        "alt": "GitKraken Desktop UI showing the Edit This File button enabled from Diff view",
+        "section": "How to edit a file from Diff or File View"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/editable-2025.png",
+        "alt": "GitKraken Desktop file editor showing active editable mode with highlighted label",
+        "section": "What the file edit indicators mean"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/save-changes-2025.png",
+        "alt": "GitKraken Desktop interface showing blue dot indicator for unsaved file edits",
+        "section": "What the file edit indicators mean"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/do-not-save-prompt-2025.png",
+        "alt": "GitKraken Desktop prompt asking whether to save or discard unsaved file changes",
+        "section": "How to save or discard changes"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/save-and-stage-2025.png",
+        "alt": "GitKraken Desktop prompt asking to save and stage changes or only stage saved content when clicking Stage File",
+        "section": "How to stage file edits"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/file-encoding-diff2.png",
+        "alt": "File editor in GitKraken Desktop showing encoding options including UTF-8, UTF-16LE, and Windows-1252",
+        "section": "How file encoding works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/preferences-encoding-select-2025.png",
+        "alt": "Preferences panel in GitKraken Desktop showing a dropdown list of available default encodings including UTF-8 and ISO-8859 variants",
+        "section": "How file encoding works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/edit-file-diff-2025.png",
+        "alt": "Diff view in GitKraken Desktop with the 'Edit This File' button highlighted in the top left panel",
+        "section": "How Markdown preview works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/markdown-preview@2x.png",
+        "alt": "Markdown file open in GitKraken Desktop with the Preview tab selected to show rendered output",
+        "section": "How Markdown preview works"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/error-logs/",
+    "title": "View and Submit Error Logs",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/view-error-log@2x.png",
+        "alt": "Access logs from Help > Support > View Error Logs",
+        "section": "How to open error logs in GitKraken Desktop"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/fuzzy-finder-error.gif",
+        "alt": "You can also search for \"error log\" in the Command Palette",
+        "section": "How to open error logs in GitKraken Desktop"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/experimental-features/",
+    "title": "GitKraken Desktop Experimental Features | Cloud Patches",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-cloud-patch-2025.png",
+        "alt": "GitKraken Desktop Commit Panel on the Cloud Patch tab, creating a Cloud Patch from main with one staged file, the Anyone with the link sharing option, and title and description fields.",
+        "section": "How to create a Cloud Patch"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc-apply-cloud-patch-example.gif",
+        "alt": "Opening a shared Cloud Patch link in a browser, choosing GitKraken Client, and clicking Apply patch to main in GitKraken Desktop, then committing the patch to main.",
+        "section": "How to share and apply Cloud Patches"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc-delete-cloud-patch.png",
+        "alt": "GitKraken Desktop Left Panel with the context menu for a Cloud Patch, showing options to open, copy, or delete it.",
+        "section": "How to manage Cloud Patches"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/faq/",
+    "title": "GitKraken Desktop FAQ | Common Questions & Troubleshooting",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-profile-menu-sign-out-01-v4@2x.png",
+        "alt": "The GitKraken Desktop profile and account menu, signed in: Current profile with the profile, commit signature and Manage profiles, then Account with the account name and email, Manage account, and Sign Out highlighted.",
+        "section": "Why does my subscription show COMMUNITY?"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/favorites/",
+    "title": "Manage Favorite Repositories in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/favorite-repo-2025@2x.png",
+        "alt": "Repository Management view in GitKraken Desktop showing how to click the star icon to add a repository to Favorites",
+        "section": "How to add a repository to Favorites"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/favorites-list-2025@2x.png",
+        "alt": "Favorites section in GitKraken Desktop displaying two repositories pinned for quick access",
+        "section": "How to add a repository to Favorites"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/fork/",
+    "title": "Fork GitHub Repositories from GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-remote-icon.svg",
+        "alt": "",
+        "section": "How to fork a repository"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/add-remote@2x.png",
+        "alt": "GitKraken interface showing the Add Remote panel with a green plus icon on the REMOTE section and GitHub.com selected as the source.",
+        "section": "How to fork a repository"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/fork-github-2025@2x.png",
+        "alt": "GitKraken Desktop UI showing an alert that the user has not yet forked the DiceDB/dice repository on GitHub, with a button to 'Fork and Add Remote'.",
+        "section": "How to fork a repository"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/add-fork-2025@2x.png",
+        "alt": "Fork remote named 'jjsilva4' shown in the Left Panel of GitKraken Desktop",
+        "section": "How to fork a repository"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-remote-icon.svg",
+        "alt": "",
+        "section": "How to add an existing fork"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/detect-fork@2x.png",
+        "alt": "GitKraken Desktop detecting a fork from the Add Remote pane and prompting to add it as a remote",
+        "section": "How to add an existing fork"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/git-flow/",
+    "title": "Gitflow in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gitflow-preferences-2025@2x.png",
+        "alt": "Gitflow Preferences menu with default branch names",
+        "section": "How Gitflow configuration works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/giflow-panel-2025@2x.png",
+        "alt": "Gitflow panel in left sidebar",
+        "section": "How to use Gitflow"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/prefix-example-2025@2x.png",
+        "alt": "Branch name prefixes",
+        "section": "How to use Gitflow"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads//finish-feature.gif",
+        "alt": "Finishing a feature branch",
+        "section": "How feature branches work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/finish-release-context-menu-2025@2x.png",
+        "alt": "Context menu for finishing a release",
+        "section": "How release branches work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/finish-release-2025@2x.png",
+        "alt": "Finish release process",
+        "section": "How release branches work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/finish-hotfix-2025@2x.png",
+        "alt": "Finish hotfix process",
+        "section": "How hotfix branches work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads//finish-release-tag.gif",
+        "alt": "Tagging during release",
+        "section": "How Gitflow tags work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads//tag-message.png",
+        "alt": "Tag message dialog",
+        "section": "How Gitflow tags work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/tag-prefix-2025@2x.png",
+        "alt": "Setting tag prefix",
+        "section": "How Gitflow tags work"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/git-integration-for-jira/",
+    "title": "GitKraken Desktop + Git Integration for Jira",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/open-in-jira-2025@2x.png",
+        "alt": "Open file diff in Jira from GitKraken",
+        "section": "How to open a file diff in Jira"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/open-jira-to-commit-2025@2x.png",
+        "alt": "Open Jira to a commit from GitKraken",
+        "section": "How to open Jira to a commit"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/open-in-gitkraken-2025@2x.png",
+        "alt": "Open GitKraken from a Jira issue via Git Integration",
+        "section": "How to open GitKraken Desktop from Jira"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/git-lfs/",
+    "title": "Using Git LFS in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/lfs-ref-2025@2x.png",
+        "alt": "LFS file metadata in GitKraken Desktop",
+        "section": "How Git LFS works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/lfs-AddPathVariable-0.png",
+        "alt": "Windows environment variable dialog",
+        "section": "How to update PATH on Windows"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/lfs-add-env-variable-image1-2025@2x.png",
+        "alt": "Add Path Environment Variable Step 1",
+        "section": "How to update PATH on Windows"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/lfs-add-env-variable-image2-2025@2x.png",
+        "alt": "Add Path Environment Variable Step 2",
+        "section": "How to update PATH on Windows"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/lfs-add-env-variable-image3-2025@2x.png",
+        "alt": "Add Path Environment Variable Step 3",
+        "section": "How to update PATH on Windows"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/lfs-preferences-2025@2x.png",
+        "alt": "LFS tab in Preferences",
+        "section": "How to initialize Git LFS on an existing repository"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/lfs-gitattributes-2025@2x.png",
+        "alt": "Modified .gitattributes file",
+        "section": "How to initialize Git LFS on an existing repository"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/init-with-lfs-2025@2x.png",
+        "alt": "New repo dialog with LFS checkbox",
+        "section": "How to initialize Git LFS on a new repository"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/lfs-tracking-patterns-2025@2x.png",
+        "alt": "Tracking pattern dialog",
+        "section": "How to configure Git LFS"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/add-tracked-file-lfs-2025@2x.png",
+        "alt": "LFS file tracking menu",
+        "section": "How to configure Git LFS"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/lfs-tags-2025@2x.png",
+        "alt": "LFS tag in commit panel",
+        "section": "How to configure Git LFS"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/lfs-ref-2025@2x.png",
+        "alt": "LFS reference information",
+        "section": "How to configure Git LFS"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/lfs-actions-2025@2x.png",
+        "alt": "LFS toolbar menu",
+        "section": "How to configure Git LFS"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/githooks/",
+    "title": "Git Hooks in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/terminal-hooks@2x.png",
+        "alt": "Terminal output showing contents of the .git/hooks directory including various sample hook scripts",
+        "section": "Where Git hooks are stored"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc_hook_location_explorer@2x.png",
+        "alt": "Finder window showing the path to the Git hooks directory within a repository's .git folder",
+        "section": "Where Git hooks are stored"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc_hook_exit_error_126@2x.png",
+        "alt": "Error notification in GitKraken Desktop indicating a pre-commit Git hook failed with exit code 126",
+        "section": "Where Git hooks are stored"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/git-hooks-pref-2025@2x.png",
+        "alt": "GitKraken Desktop Preferences panel showing Git Hooks settings and custom directory option",
+        "section": "How to define a custom hook path"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/vscode-to-hooks.png",
+        "alt": "VS Code file explorer showing the creation of a new pre-commit file inside the .git/hooks directory",
+        "section": "How to set up a sample hook"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc-chmod-pre-commit.gif",
+        "alt": "GitKraken Desktop terminal changing into .git/hooks directory to make the pre-commit file executable",
+        "section": "How to set up a sample hook"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc-hook-in-action.gif",
+        "alt": "GitKraken Desktop showing a pre-commit Git hook error after attempting to commit a staged file",
+        "section": "What a Git hook looks like in action"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/skip-hook-2025@2x.png",
+        "alt": "GitKraken Desktop commit panel showing a checkbox to skip Git hooks during commit",
+        "section": "How to bypass Git hooks"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/github-actions/",
+    "title": "Create and Manage GitHub Actions Workflows in GitKraken Desktop",
+    "images": [],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/github-enterprise-issues/",
+    "title": "GitKraken Desktop + GitHub Enterprise Issues Integration",
+    "images": [],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/github-enterprise/",
+    "title": "GitHub Enterprise Integration with GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/preferences@2x.png",
+        "alt": "Accessing Preferences and Integrations",
+        "section": "How to connect GitHub Enterprise Server"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc-github-enterprise-server-integration.png",
+        "alt": "Enter host and generate access token",
+        "section": "How to connect GitHub Enterprise Server"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/accesstoken-github-enterprise.png",
+        "alt": "Generate and copy your GitHub Enterprise access token",
+        "section": "How to connect GitHub Enterprise Server"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc-github-enterprise-server-integration-2.png",
+        "alt": "Paste token into GitKraken and connect",
+        "section": "How to connect GitHub Enterprise Server"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc-github-enterprise-server-add-key.png",
+        "alt": "Generate SSH key and upload to GitHub Enterprise",
+        "section": "How to generate or upload an SSH key for GitHub Enterprise Server"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/github-gitkraken-desktop/",
+    "title": "GitHub Integration with GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/sign-in-github-2025-v2@2x.png",
+        "alt": "The Sign In to GitKraken dialog in GitKraken Desktop, reading Sign in from your browser to continue, with links to open it manually or copy the URL if the browser did not open, and a Manually enter authentication code link.",
+        "section": "How to sign in with GitHub"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/preferences-menu-gear-2025.png",
+        "alt": "The gear icon in the GitKraken Desktop toolbar highlighted, with its Preferences tooltip.",
+        "section": "How to connect GitKraken Desktop to GitHub"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-github-2025-v3@2x.png",
+        "alt": "Preferences > Integrations > GitHub in GitKraken Desktop: the GitHub card reads Not Connected with a Connect to GitHub button, and a Manage Integrations button sits at the top right of the pane.",
+        "section": "How to connect GitKraken Desktop to GitHub"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/github-success-1@2x.png",
+        "alt": "Successful GitHub authentication confirmation",
+        "section": "How to connect GitKraken Desktop to GitHub"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/add-ssh-key-2025@2x.png",
+        "alt": "Options for adding an SSH key in GitKraken Desktop",
+        "section": "How to generate an SSH key for GitHub"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/clone@2x.png",
+        "alt": "GitHub repositories available for cloning",
+        "section": "What GitHub OAuth enables in GitKraken Desktop"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/remote@2x.png",
+        "alt": "Fork list when adding a GitHub remote",
+        "section": "What GitHub OAuth enables in GitKraken Desktop"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/pull-request-create@2x.png",
+        "alt": "Creating a pull request in GitKraken Desktop",
+        "section": "How to create pull requests from GitKraken Desktop"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/github-pr-view-2025@2x.png",
+        "alt": "Accessing Pull Request View via the Left Panel",
+        "section": "How to use GitHub Pull Request View"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/github-pr-view-launchpad.png",
+        "alt": "Opening Pull Request View from the Launchpad",
+        "section": "How to use GitHub Pull Request View"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/code-suggestion-2025@2x.png",
+        "alt": "Label showing code suggestions",
+        "section": "How to accept or reject code suggestions"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc-pr-code-suggestions-apply.gif",
+        "alt": "Applying code suggestions",
+        "section": "How to accept or reject code suggestions"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/build-status@2x.png",
+        "alt": "Build status with link to CI/CD pipeline",
+        "section": "How to check out branches, review build status, and add remotes"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/merge-options@2x.png",
+        "alt": "Merge options in GitKraken Desktop",
+        "section": "How to merge pull requests"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/github-issues/",
+    "title": "GitKraken Desktop + GitHub Issues Integration",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-github-issues-2025@2x.png",
+        "alt": "Connect GitHub Issues from Preferences",
+        "section": "How to connect the GitHub Issues integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-github-2025-v3@2x.png",
+        "alt": "Preferences > Integrations > GitHub in GitKraken Desktop: the GitHub card reads Not Connected with a Connect to GitHub button, and a Manage Integrations button sits at the top right of the pane.",
+        "section": "How to connect the GitHub Issues integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/github-success-1@2x.png",
+        "alt": "Successful GitHub integration",
+        "section": "How to connect the GitHub Issues integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/github-issues-left-panel-2025@2x.png",
+        "alt": "GitHub Issues in Left Panel",
+        "section": "How to preview GitHub issues"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/issues-preview-github-issues@2x.png",
+        "alt": "Issue preview tooltip",
+        "section": "How to preview GitHub issues"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/view-github-issue-2025@2x.png",
+        "alt": "GitHub Issue Details View",
+        "section": "How to view and edit GitHub issue details"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-github-issue-2025@2x.png",
+        "alt": "Create new GitHub issue",
+        "section": "How to create a new GitHub issue"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-github-filter@2x.png",
+        "alt": "Create GitHub issue filter",
+        "section": "How to create GitHub issue filters"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-branch-github-issue@2x.png",
+        "alt": "Create branch from GitHub issue",
+        "section": "How to create branches from GitHub issues"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/view-github-issue-on-web-2025@2x.png",
+        "alt": "Open GitHub issue in browser",
+        "section": "How to copy an issue link or open it in GitHub"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-desktop-home/",
+    "title": "GitKraken Desktop Documentation & Support | Master Git with GitKraken",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GitKraken_Keif_evergreen-feature.png",
+        "alt": "",
+        "section": ""
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-launchpad/",
+    "title": "GitKraken Launchpad Overview",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/launchpad-highlight-2025@2x.png",
+        "alt": "GitKraken Desktop Launchpad view showing a list of pull requests with unassigned reviewers on the left and detailed GitHub pull request panel open on the right.",
+        "section": ""
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/open-launchpad-2025@2x.png",
+        "alt": "User highlighting the rocket icon in GitKraken Desktop to open the Launchpad tab for managing pull requests and issues.",
+        "section": "How to get started with Launchpad"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-integration-launchpad-2025@2x.png",
+        "alt": "No pull requests found in GitKraken Launchpad with options to connect a pull request hosting service like GitHub, GitLab, Bitbucket, or Azure DevOps.",
+        "section": "How to get started with Launchpad"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/select-workspace-launchpad-2025@2x.png",
+        "alt": "Dropdown menu in GitKraken Launchpad for selecting a Workspace to filter pull request and issue activity.",
+        "section": "How to set up Workspaces and integrations"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/pin-launchpad-2025@2x.png",
+        "alt": "User interface showing a pin icon in GitKraken Launchpad for marking pull requests under Suggested Changes.",
+        "section": "How to set up Workspaces and integrations"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/snooze-tab-launchpad-2025@2x.png",
+        "alt": "Interface showing snooze options in GitKraken Launchpad, allowing users to temporarily hide pull requests for 1 hour, 4 hours, or until the next day.",
+        "section": "How to set up Workspaces and integrations"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc-launchpad-personal-team-10.0.0.png",
+        "alt": "GitKraken Launchpad interface showing a toggle between Personal and Team views for managing pull requests.",
+        "section": "How Personal View works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/team-view-launchpad-2025@2x.png",
+        "alt": "GitKraken Launchpad interface with the Team view selected, showing team-wide PR and issue filters.",
+        "section": "How Team View works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/filter-team-member-2025@2x.png",
+        "alt": "Launchpad filter menu showing GitKraken team members and external collaborators to narrow down pull request visibility.",
+        "section": "How Team View works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-10-5-launchpad-save-view.gif",
+        "alt": "Saving a Launchpad view by entering a custom name and clicking 'Create View' in the GitKraken Launchpad interface",
+        "section": "How to save and reuse Launchpad views"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/pr-actions-launchpad-2025@2x.png",
+        "alt": "GitKraken Desktop Launchpad showing a pull request with dropdown menu options including 'Open in GitHub', 'Review Pull Request', 'Checkout Branch', and more.",
+        "section": "How to work with pull requests in Launchpad"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/github-pr-view-launchpad.png",
+        "alt": "Launchpad Action column showing 'Open in GitHub' dropdown and icon button labeled 'Open Pull Request Panel'.",
+        "section": "How GitHub pull requests work in Launchpad"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/issues-tab-launchpad-2025@2x.png",
+        "alt": "Launchpad Issues tab with filters for workspace, issue source, project, labels, and fix versions, displaying a list of issues and associated actions.",
+        "section": "How to work with issues in Launchpad"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/issue-filters-launchpad-2025@2x.png",
+        "alt": "Launchpad Issues tab with filters for team member, workspace, issue source, project, labels, and fix versions, showing a list of issues and branch creation actions.",
+        "section": "How to work with issues in Launchpad"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-10-4-launchpad-jira-sprint-filter.gif",
+        "alt": "Launchpad user selecting a specific milestone from a dropdown filter labeled 'All milestones', showing options like '10.6 release', 'October refactor', and '10.5 release'.",
+        "section": "How to filter by milestones and sprints"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-launchpad-summary.gif",
+        "alt": "GitKraken Desktop UI showing the commit graph, terminal, and Launchpad status bar listing pull request states like ready to merge, no assigned reviewers, and merge conflicts.",
+        "section": "Launchpad summary"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/launchpad-prs.png",
+        "alt": "GitKraken Desktop Launchpad showing a filtered view of 32 personal pull requests in an on-premise GitHub Enterprise Server environment, with options to clone or open each PR.",
+        "section": "How On-Premise Launchpad differs from Cloud Launchpad"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/gitlab-gitkraken-desktop/",
+    "title": "GitLab Integration with GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/preferences@2x.png",
+        "alt": "Access GitLab integration from Preferences",
+        "section": "How to connect the GitLab integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-gitlab-2025-v3@2x.png",
+        "alt": "Preferences > Integrations > GitLab in GitKraken Desktop: the GitLab card reads Not Connected with a Connect to GitLab button, and a Manage Integrations button sits at the top right of the pane.",
+        "section": "How to connect the GitLab integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gitlab-sign-in-2025@2x.png",
+        "alt": "Sign in to GitLab",
+        "section": "How to connect the GitLab integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/auth-success-gitlab-1@2x.png",
+        "alt": "Authentication successful — return to GitKraken",
+        "section": "How to connect the GitLab integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/add-key-to-gitlab-2025@2x.png",
+        "alt": "Options to add an SSH key to GitLab",
+        "section": "How to generate an SSH key for GitLab"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/clone-gitlab@2x.png",
+        "alt": "Browse GitLab repositories while cloning",
+        "section": "What GitLab OAuth enables in GitKraken Desktop"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/remote-gitlab@2x.png",
+        "alt": "Forks shown when adding GitLab remotes",
+        "section": "What GitLab OAuth enables in GitKraken Desktop"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/gitlab-issues/",
+    "title": "GitKraken Desktop + GitLab Issues Integration",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-gitlab-issues-2025@2x.png",
+        "alt": "Connect GitLab Issues integration",
+        "section": "How to connect the GitLab Issues integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-gitlab-2025-v3@2x.png",
+        "alt": "Preferences > Integrations > GitLab in GitKraken Desktop: the GitLab card reads Not Connected with a Connect to GitLab button, and a Manage Integrations button sits at the top right of the pane.",
+        "section": "How to connect the GitLab Issues integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/authorize-gitlab@2x.png",
+        "alt": "GitLab authorization dialog",
+        "section": "How to connect the GitLab Issues integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gitlab-sign-in@2x.png",
+        "alt": "GitLab sign-in screen",
+        "section": "How to connect the GitLab Issues integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/auth-success-gitlab-1@2x.png",
+        "alt": "Successful GitLab integration",
+        "section": "How to connect the GitLab Issues integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gitlab-issues-list-2025@2x.png",
+        "alt": "GitLab Issues in Left Panel",
+        "section": "How to preview GitLab issues"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gitlab-issue-hover-2025@2x.png",
+        "alt": "GitLab issue preview tooltip",
+        "section": "How to preview GitLab issues"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/github-issue-view-click-2025@2x.png",
+        "alt": "View GitLab issue details",
+        "section": "How to view and edit GitLab issue details"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gitlab-issue-create-2025@2x.png",
+        "alt": "Create new GitLab issue",
+        "section": "How to create a new GitLab issue"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gitlab-filter-create-2025@2x.png",
+        "alt": "Create GitLab filter",
+        "section": "How to create GitLab issue filters"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gitlab-issue-create-branch-2025@2x.png",
+        "alt": "Create branch from GitLab issue",
+        "section": "How to create branches from GitLab issues"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gitlab-issue-copy-link-2025@2x.png",
+        "alt": "View GitLab issue on web",
+        "section": "How to copy an issue link or open it in GitLab"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/gitlab-self-hosted/",
+    "title": "GitLab Self-Managed Integration with GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/preferences@2x.png",
+        "alt": "Open Preferences to access Integrations",
+        "section": "How to authenticate with GitLab Self-Managed"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-gitlab-self-managed-2025@2x.png",
+        "alt": "Connect to GitLab Self-Managed",
+        "section": "How to authenticate with GitLab Self-Managed"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/access-token-gitlab-self-managed@2x.png",
+        "alt": "Create a personal access token for GitLab",
+        "section": "How to authenticate with GitLab Self-Managed"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-gitlab-self-managed-PAT-2025@2x.png",
+        "alt": "Token successfully connected in GitKraken",
+        "section": "How to authenticate with GitLab Self-Managed"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/add-key-gitlab-self-managed-2025@2x.png",
+        "alt": "Generate and upload SSH key to GitLab Self-Managed",
+        "section": "How to generate an SSH key for GitLab Self-Managed"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/gitlab-self-managed-issues/",
+    "title": "GitKraken Desktop + GitLab Self-Managed Issues Integration",
+    "images": [],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/gkc-security/",
+    "title": "GitKraken Desktop – Data Security and Storage Practices",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GitKraken_Keif_security.png",
+        "alt": "",
+        "section": ""
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "title": "GitKraken AI Features Overview",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GitKraken_Keif_ai-robot.png",
+        "alt": "",
+        "section": ""
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/before-after-commit-compose@2x.png",
+        "alt": "GitKraken interface showing a selected range of commits before and after being composed into a cleaner history.",
+        "section": "What AI Commit Composer does"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/compose-WIP@2x.png",
+        "alt": "Selected WIP commits in GitKraken UI with arrow pointing to the 'Compose commits with AI' button in the commit panel.",
+        "section": "How to use AI Commit Composer"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/compose-WIP-UI@2x.png",
+        "alt": "Commit Composer composing 3 commits, each set to Pick in its dropdown.",
+        "section": "How to use AI Commit Composer"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/compose-existing-commits@2x.png",
+        "alt": "Context menu for a selected commit showing the option to recompose a series of commits with AI.",
+        "section": "How to use AI Commit Composer"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/commit-composer-UI@2x.png",
+        "alt": "Commit Composer interface showing options to pick, squash, or reword each commit in a sequence.",
+        "section": "How to use AI Commit Composer"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-11-Select-Commits.png",
+        "alt": "Highlighted selection of multiple commits in the GitKraken commit graph.",
+        "section": "How to use AI Commit Explain"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-ai-explain-commits-01-v3@2x.png",
+        "alt": "The Commit Panel in GitKraken Desktop with three consecutive commits selected: the header reads 3 commits selected with an Explain commits button, followed by Viewing diff of 3 commits and the three commits.",
+        "section": "How to use AI Commit Explain"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-11-commit-explain-2.png",
+        "alt": "AI-generated summary and changelog for multiple commits, shown in the Commit Panel of GitKraken.",
+        "section": "How to use AI Commit Explain"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-11-stage-changes.png",
+        "alt": "Commit Panel interface showing one unstaged file with the Stage File button highlighted.",
+        "section": "How to generate an AI commit message"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-11-commit-message-generation-1.png",
+        "alt": "Commit Panel showing a staged file and a highlighted button for generating an AI commit message.",
+        "section": "How to generate an AI commit message"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-11-commit-message-generation-2.png",
+        "alt": "AI-generated commit summary and description shown in the Commit Panel.",
+        "section": "How to generate an AI commit message"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/amend-recent-commit-ai-2025@2x.png",
+        "alt": "Edit window open showing amended commit message and description using AI-suggested content.",
+        "section": "How to amend commit messages with AI"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/generate-ai-amend-message@2x.png",
+        "alt": "Commit panel showing AI-assisted generation of an amended commit message and description.",
+        "section": "How to amend commit messages with AI"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/explain-branch@2x.png",
+        "alt": "Context menu in GitKraken showing the Explain Branch Changes option for generating AI-based summaries of branch differences.",
+        "section": "How to explain branch changes with AI"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/explain-branch-summaries@2x.png",
+        "alt": "AI-generated explanation panel in GitKraken summarizing branch changes, grouped by commit with a detailed breakdown of updates and their impact.",
+        "section": "How to explain branch changes with AI"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/Auto-resolve-with-AI-2025@2x.png",
+        "alt": "GitKraken merge conflict view showing AI-generated summary and resolution suggestions with confidence scores.",
+        "section": "How to resolve merge conflicts with AI"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/custom-instructions-conflict-resolution-2025@2x.png",
+        "alt": "GitKraken AI settings panel with editable fields for customizing instructions related to stash messages, pull requests, and conflict resolution.",
+        "section": "How to customize conflict resolution prompts"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-11-stage-changes.png",
+        "alt": "File change view in GitKraken showing 'Stage File' button next to an unstaged markdown file on the main branch.",
+        "section": "How to generate an AI stash message"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/stash-ai-message@2x.png",
+        "alt": "Stash message input section with highlighted AI button labeled 'Generate a stash message with AI'.",
+        "section": "How to generate an AI stash message"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/stash-message-generated-2025@2x.png",
+        "alt": "Stash message input field populated with AI-generated text, 'Adds documentation for AI-generated stash messages feature.'",
+        "section": "How to generate an AI stash message"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-pr-v11-1-Q2-2025@2x.png",
+        "alt": "Sidebar showing pull request filters and a highlighted 'Create Pull Request' button.",
+        "section": "How to generate an AI pull request title and description"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/pr-ai-title-desc-11-1@2x.png",
+        "alt": "Pull request creation panel with an AI button to generate a title and description based on branch changes.",
+        "section": "How to generate an AI pull request title and description"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/pr-ai-title-and-description@2x.png",
+        "alt": "Pull request form showing auto-generated title and description summarizing recent documentation changes.",
+        "section": "How to generate an AI pull request title and description"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-ai-model-credit-multiplier-01-v2@2x.png",
+        "alt": "An open AI model dropdown listing GitKraken-hosted models with their AI credit multiplier after each name, such as 0.8x for Gemini 2.5 Flash and 4.5x for Claude Sonnet 4.5.",
+        "section": "How to use your own AI provider key"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-11-preferences-gitkraken-ai-01-v2@2x.png",
+        "alt": "GitKraken Desktop Preferences > GitKraken AI with Use your own API Key to make AI requests checked and its section highlighted: Provider set to OpenAI, optional Endpoint URL, Provider API Key and Test Connection.",
+        "section": "How to use your own AI provider key"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/custom-url-11-1@2x.png",
+        "alt": "Custom AI provider settings in GitKraken showing provider, endpoint URL, credit limit, and API key fields.",
+        "section": "How to use a custom API endpoint"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-11-custom-instructions.png",
+        "alt": "Custom instruction fields in GitKraken AI settings for commit message generation and commit explanations.",
+        "section": "How to customize AI prompts"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-ai-control-reminder-01-v2@2x.png",
+        "alt": "The You're in control of GitKraken AI dialog in GitKraken Desktop, noting that GitKraken AI features have not been used in the last 14 days, with two options: Keep GitKraken AI On (Current setting), listing its benefits, and Turn GitKraken AI Off, listing what turning it off does, plus Decide Later and Keep AI On buttons.",
+        "section": "How to keep or turn off GitKraken AI when you stop using it"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/guide/",
+    "title": "Learn Git with GitKraken Desktop | Beginner Guide & Workflow",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GitKraken_Keif_student.png",
+        "alt": "",
+        "section": ""
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-new-branch-2025.png",
+        "alt": "Right-clicking the main branch in GitKraken Desktop to create a new branch at that commit.",
+        "section": "How to create a branch"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/open-file-2025.png",
+        "alt": "Clicking a file name in the GitKraken Desktop Commit Panel to open it for editing.",
+        "section": "How to modify a file"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/unstage-2025.png",
+        "alt": "Unstaged file changes for the WIP node in GitKraken Desktop.",
+        "section": "How to stage and commit changes"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/graph-commit-2025.png",
+        "alt": "Commit Graph in GitKraken Desktop showing the develop branch 1 commit ahead of main.",
+        "section": "How to merge back to main"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/drag-and-drop-2025.png",
+        "alt": "Dragging the develop branch onto main in GitKraken Desktop to show the merge options.",
+        "section": "How to merge back to main"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/hiding-and-soloing/",
+    "title": "Hide and Solo Branches in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/solo-hide.gif",
+        "alt": "Animated demonstration of soloing and hiding branches in GitKraken Desktop's Left Panel",
+        "section": ""
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-hide-icon-green.svg",
+        "alt": "",
+        "section": "How to hide references in the Left Panel"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-solo-icon-orange.svg",
+        "alt": "",
+        "section": "How to solo branches and remotes"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/hide-show-all@2x.png",
+        "alt": "Context menu showing the 'Show all remotes' option after right-clicking the REMOTE section in GitKraken Desktop",
+        "section": "How to hide or show all references"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/how-to-install-self-hosted/",
+    "title": "Install GitKraken Self-Hosted Server with Docker",
+    "images": [],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/how-to-install/",
+    "title": "Install GitKraken Desktop on Windows, macOS & Linux | Setup Guide",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/mac-install.png",
+        "alt": "Mac installation dialog prompting user to drag the GitKraken icon into the Applications folder.",
+        "section": "How to run the macOS installer"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/integrations/",
+    "title": "GitKraken Desktop Integrations | Connect Git & Issue Trackers",
+    "images": [],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/interactive-rebase/",
+    "title": "Interactive Rebase in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/interactive-rebase-init.gif",
+        "alt": "Interactive rebase initiated in GitKraken Desktop by dragging one branch onto another, revealing options including 'Interactive Rebase'",
+        "section": "How to start an interactive rebase"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/pick.gif",
+        "alt": "Interactive rebase in GitKraken Desktop using the 'Pick' action to include each commit as-is",
+        "section": "How Pick works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/reword.png",
+        "alt": "Interactive rebase in GitKraken Desktop showing the reword option and message editor for updating a commit message",
+        "section": "How Reword works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/squash.png",
+        "alt": "Interactive rebase in GitKraken Desktop showing Squash selected for two commits, which will combine into a single commit",
+        "section": "How Squash works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/drop.gif",
+        "alt": "Interactive rebase in GitKraken Desktop with one commit marked as Drop, which will remove it from history",
+        "section": "How Drop works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/keyboard-shortcut-reset.gif",
+        "alt": "Interactive rebase in GitKraken Desktop showing a user clicking the Reset button to undo changes and restart the rebase process",
+        "section": "How shortcuts and Reset work"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "title": "GitKraken Desktop Interface Guide | Toolbar, Panels, and Graph",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/interface.png",
+        "alt": "Simplified diagram of the GitKraken Desktop window, showing the Left Panel on the left, the Commit Graph in the center, and the Commit Panel on the right, with unlabeled callout lines.",
+        "section": "Quick Start"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-new-undo-icon.svg",
+        "alt": "",
+        "section": "History actions"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-new-redo-icon.svg",
+        "alt": "",
+        "section": "History actions"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-new-pull-icon.svg",
+        "alt": "",
+        "section": "Sync actions"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-new-push-icon.svg",
+        "alt": "",
+        "section": "Sync actions"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-new-branch-icon.svg",
+        "alt": "",
+        "section": "Branch actions"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-new-stash-icon.svg",
+        "alt": "",
+        "section": "Work-in-progress actions"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-new-pop-icon.svg",
+        "alt": "",
+        "section": "Work-in-progress actions"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-lfs-icon.svg",
+        "alt": "",
+        "section": "Conditional actions"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/left-panel-resize-and-collapse.gif",
+        "alt": "GitKraken Desktop Left Panel with repository branches and pull requests, with its sections being resized and collapsed.",
+        "section": "How the Left Panel works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-new-local-icon.svg",
+        "alt": "",
+        "section": "How the Left Panel works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-new-remote-icon.svg",
+        "alt": "",
+        "section": "How the Left Panel works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-new-pull-requests-icon.svg",
+        "alt": "",
+        "section": "How the Left Panel works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-new-tags-icon.svg",
+        "alt": "",
+        "section": "How the Left Panel works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-new-stash-icon.svg",
+        "alt": "",
+        "section": "How the Left Panel works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads//gk-new-submodules-icon.svg",
+        "alt": "",
+        "section": "How the Left Panel works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/commit-graph-2025.png",
+        "alt": "GitKraken Desktop commit panel showing commit graph, file changes, and metadata for staging and committing",
+        "section": "How the Commit Panel works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/color-guide-2025.png",
+        "alt": "Color-coded icons representing file changes: modified, added, deleted, and renamed",
+        "section": "How the Commit Panel works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/commit-graph-adjust-2025.gif",
+        "alt": "Animated Commit Graph in GitKraken Desktop being resized by dragging column dividers",
+        "section": "How the Commit Graph works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/graph-elements.png",
+        "alt": "Legend showing GitKraken Desktop graph elements including Commit, Merge Commit, WIP, Branches, and Stash Node",
+        "section": "How the Commit Graph works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/ghost.gif",
+        "alt": "GitKraken Desktop showing ghost branches connecting commits to their nearest reference",
+        "section": "How ghost branches work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/Commit-highlight.png",
+        "alt": "GitKraken Desktop showing faded unrelated commits while hovering over a branch named enterprise-rename",
+        "section": "How commit highlighting works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/tabs-2025.gif",
+        "alt": "GitKraken Desktop interface showing tabs being rearranged by drag-and-drop between repositories",
+        "section": "How tabs work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/profile-tabs-2025.gif",
+        "alt": "GitKraken Desktop interface showing repository tabs changing automatically when switching between user profiles",
+        "section": "How tabs work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/tab-drop-down-2025.png",
+        "alt": "GitKraken Desktop showing dropdown menu with a list of all open repository tabs including Release Notes and support.gitkraken.com",
+        "section": "How tabs work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/tab-hover-2025.png",
+        "alt": "Hover to view file paths associated with open tabs",
+        "section": "How tabs work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-worktree-tab-groups-01-v4@2x.png",
+        "alt": "The GitKraken Desktop tab bar with a Launchpad tab and a tab group holding the Playground2026 repository tab and its login-form and readme-typo worktree tabs. The dotted group handle on the group's left edge is highlighted.",
+        "section": "Worktree tab groups"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/repository-alias.png",
+        "alt": "GitKraken Desktop showing repository alias tooltip for support.gitkraken.com with file path preview",
+        "section": "Tab alias and name"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/columns-2025.png",
+        "alt": "GitKraken Desktop interface showing branch, graph, and commit message columns with headers outlined for reordering.",
+        "section": "Columns"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/customize-columns-2025.png",
+        "alt": "GitKraken Desktop column settings dropdown showing options to toggle Branch, Graph, Commit message, Author, Date/Time, and Sha columns.",
+        "section": "Columns"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gear-2025.png",
+        "alt": "GitKraken Desktop column customization menu opened from gear icon, showing options to toggle visibility of various columns like Branch, Graph, Commit message, Author, Date/Time, and SHA.",
+        "section": "Columns"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/filter-author@2x.png",
+        "alt": "GitKraken Desktop interface showing filter dropdown to search commit graph by author or team, with options like Support, Marketing, and IT.",
+        "section": "Columns"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/jira-data-center/",
+    "title": "GitKraken Desktop & Jira Data Center Issues Integration",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-jira-dc-issues-2025@2x.png",
+        "alt": "Open Jira Data Center integration settings",
+        "section": "How to connect Jira Data Center"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-jira-dc-2025@2x.png",
+        "alt": "Enter domain and access token for Jira Data Center",
+        "section": "How to connect Jira Data Center"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connected-jira-dc-2025@2x.png",
+        "alt": "Successful Jira Data Center connection",
+        "section": "How to connect Jira Data Center"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/jira/",
+    "title": "GitKraken Desktop & Jira Issues Integration",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-jira-issues-2025@2x.png",
+        "alt": "Connecting Jira integration in GitKraken",
+        "section": "How to connect the Jira integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-atlassian-2025@2x.png",
+        "alt": "Atlassian OAuth prompt for Jira integration",
+        "section": "How to connect the Jira integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/preview-jira-issues-2025@2x.png",
+        "alt": "Preview of Jira issues in the Left Panel",
+        "section": "How to preview Jira issues"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/hover-issue-2025@2x.png",
+        "alt": "Issue preview tooltip in GitKraken",
+        "section": "How to preview Jira issues"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/jira-issue-view@2x.png",
+        "alt": "Jira issue detail view",
+        "section": "How to view Jira issue details"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-jira-issue-2025@2x.png",
+        "alt": "Create new Jira issue from GitKraken",
+        "section": "How to create a new Jira issue"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-jira-filter-2025@2x.png",
+        "alt": "Creating a JQL filter in GitKraken",
+        "section": "How to create Jira filters"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-branch-jira-integration.gif",
+        "alt": "Creating a branch from Jira issue view",
+        "section": "How to create branches from Jira issues"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/view-jira-issue-2025@2x.png",
+        "alt": "Options to copy or view Jira issue",
+        "section": "How to copy an issue link or open it in Jira"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/keyboard-shortcuts/",
+    "title": "GitKraken Desktop Keyboard Shortcuts | Speed Up Your Git Workflow",
+    "images": [],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/linking/",
+    "title": "Deep Linking in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/link_context_menu_options.gif",
+        "alt": "GitKraken Desktop context menu showing 'Copy link to this commit' options",
+        "section": "How to copy a link from GitKraken Desktop"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/click_link_slack.gif",
+        "alt": "User clicking a GitKraken deep link in Slack, opening the commit in GitKraken Desktop",
+        "section": "How to open a deep link"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/open-clone-init/",
+    "title": "Open, Clone, or Initialize a Git Repository in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GitKraken_Keif_clone.png",
+        "alt": "",
+        "section": ""
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/repo-mgmt-2025@2x.png",
+        "alt": "Repository Management tab showing buttons for Browse, Clone, and Init, with open, favorite, and recent repositories listed by group.",
+        "section": "How Repository Management works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/open-repo-2025@2x.png",
+        "alt": "Repository Management screen with the Browse button highlighted to open an existing repository",
+        "section": "How to open an existing project"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/clone-repo-mgmt-2025@2x.png",
+        "alt": "Repository Management tab with the Clone button highlighted in GitKraken Desktop",
+        "section": "How to clone a project"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/clone-url@2x.png",
+        "alt": "Clone a Repo dialog with URL input and provider options in GitKraken Desktop",
+        "section": "How to clone a project"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/perform-shallow-clone@2x.png",
+        "alt": "GitKraken Desktop shallow clone options, including branch to clone, depth, since date, and custom flags",
+        "section": "How shallow clone works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/sparse-checkout.png",
+        "alt": "GitKraken Desktop Clone dialog with Sparse Checkout enabled, showing a Blobless clone option and a Paths to include text field with example paths such as src/, docs/, and README.md",
+        "section": "How sparse checkout works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/sparse-checkout-preferences.png",
+        "alt": "GitKraken Desktop Repo-Specific Preferences panel open to the Sparse Checkout section, showing a Paths to include text field and three action buttons: Enable sparse checkout, Disable sparse checkout, and Reapply sparse checkout",
+        "section": "How to configure sparse checkout on an existing repository"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/toolbar-action-for-sparse-checkout-repos.png",
+        "alt": "GitKraken Desktop toolbar showing the Sparse button expanded, with a dropdown menu listing Sparse Checkout Commands: Edit sparse checkout paths, Disable sparse checkout, and Reapply sparse checkout",
+        "section": "How to configure sparse checkout on an existing repository"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/init-2025@2x.png",
+        "alt": "Initialize a Repository dialog in GitKraken Desktop showing local and remote provider options, with fields for repo name, location, and additional settings",
+        "section": "How to initialize a new project"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-repo-mgm-tab-customize1.gif",
+        "alt": "User interacting with GitKraken Desktop Repository Management tab to change the color of a repo group via the group menu",
+        "section": "How to customize Repository Management"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/performance-issues/",
+    "title": "Improve GitKraken Desktop Performance",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/arm2.png",
+        "alt": "Check your version number and build (arm64 64-bit)",
+        "section": "How to verify your GitKraken Desktop build on macOS"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/preferences/",
+    "title": "GitKraken Desktop Preferences | Customize Settings & Workflow",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/preferences@2x.png",
+        "alt": "GitKraken Desktop window with the gear icon that opens Preferences highlighted.",
+        "section": "Quick Start"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/toggle-agents-view-preferences.png",
+        "alt": "GitKraken Desktop Preferences highlighting the Show Agents view in left panel setting that controls whether the List and Agents toggle appears in the Left Panel.",
+        "section": "How UI customization preferences work"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/profiles/",
+    "title": "GitKraken Desktop Profiles | Manage Git Configs & Accounts",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/profiles@2x.png",
+        "alt": "Add Profile dialog in GitKraken showing selected avatar, profile name, author name, and email fields.",
+        "section": "Quick Start"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/profiles-preferences@2x.png",
+        "alt": "GitKraken Preferences showing Profiles tab with profile details including name, author info, and organization.",
+        "section": "How to manage profiles"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/profile-tabs-2025.gif",
+        "alt": "User switching between GitKraken profiles, showing that each profile has its own independent set of tabs open.",
+        "section": "What a profile stores"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/profile-example-2025.png",
+        "alt": "List of three GitKraken profiles showing author names and emails, with notes indicating connection to different GitHub accounts for work and personal use.",
+        "section": "What a profile stores"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/edit-profile-1-2025.png",
+        "alt": "Profile dropdown open in GitKraken with arrow pointing to 'Manage profiles' option.",
+        "section": "How to change profile avatars"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/edit-profile-2-2025.png",
+        "alt": "GitKraken Profiles Preferences with arrow pointing to 'Edit Profile' option for Default Profile.",
+        "section": "How to change profile avatars"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gravatar-2025.png",
+        "alt": "GitKraken profile editing screen showing the selected gravatar image and highlighted author email used to display it.",
+        "section": "How to change profile avatars"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/author-initials-2025.png",
+        "alt": "GitKraken commit graph view showing commits with author initials instead of profile pictures",
+        "section": "How to show author initials in the graph"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/pull-requests-filter-syntax/",
+    "title": "Pull Request Filter Syntax in GitKraken Desktop",
+    "images": [],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/pull-requests/",
+    "title": "Pull Requests in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-pull-request-drag-and-drop-2025.gif",
+        "alt": "User initiates a pull request in GitKraken Desktop by dragging a local branch (PM-34-docs-review-pr-page) onto the remote origin/main. The Create Pull Request dialog then appears, pre-filled with repository and branch information, ready for title, description, and assignee input.",
+        "section": "How to create a pull request"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-pr-2025@2x.png",
+        "alt": "User clicks the plus button in the Pull Requests section of GitKraken Desktop's Left Panel to open the Create Pull Request interface. The dialog appears with fields to select repositories, branches, title, description, and other PR options.",
+        "section": "How to create a pull request"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-12-6-stacked-pr-create.png",
+        "alt": "Bottom of the Create Pull Request panel in GitKraken Desktop with the Add this pull request to an existing stack checkbox selected and the message This pull request will be stacked with #104 and #103, above the Cancel and Create Pull Request buttons.",
+        "section": "How stacked pull requests work on GitHub.com"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-12-6-stacked-pr-view.png",
+        "alt": "GitHub Pull Request View in GitKraken Desktop for pull request #104, showing its stack position 2/2 with previous and next arrows in the header, and a list of the stacked pull requests #104 and #103 above the main base branch and the Merge Pull Request button.",
+        "section": "How stacked pull requests work on GitHub.com"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-12-6-stacked-pr-graph.png",
+        "alt": "GitKraken Desktop graph showing the kepler/update-docs-12-6 branch with a tooltip reading #103 (1 of 2): Documents GitKraken Desktop v12.6.0 features.",
+        "section": "How stacked pull requests work on GitHub.com"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/pr-template-2025@2x.png",
+        "alt": "GitKraken Desktop interface displaying the Create Pull Request dialog with a dropdown field for selecting a pull request template. The template 'pull_request_template.md' is highlighted.",
+        "section": "How pull request templates work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/add-reviewers-assignees-labels-2025@2x.png",
+        "alt": "GitKraken Desktop pull request creation screen showing fields for assigning reviewers, assignees, and labels. Two reviewers, two assignees, and two labels are selected.",
+        "section": "How assignees, labels, and reviewers work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/pr-merge-conflict-warning-2025@2x.png",
+        "alt": "GitKraken Desktop Create Pull Request screen displaying a warning banner indicating a merge conflict between the source and target branches.",
+        "section": "How assignees, labels, and reviewers work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-draft-pr-2025@2x.png",
+        "alt": "GitKraken Desktop showing the Create Pull Request form with the 'Submit as draft' checkbox enabled.",
+        "section": "How draft pull requests work on GitHub"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/github-pr-view-2025@2x.png",
+        "alt": "GitKraken Desktop displaying the GitHub pull request view for PR #1993, which adds Arm64 support for Windows and Linux.",
+        "section": "How GitHub Pull Request View works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/launchpad-open-pr-panel-2025@2x.png",
+        "alt": "Launchpad view in GitKraken Desktop showing a list of pull requests with an option highlighted to open the pull request panel.",
+        "section": "How GitHub Pull Request View works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/code-review-actions.png",
+        "alt": "List of actions available through GitKraken.dev Code Review",
+        "section": "How to review pull requests with GitKraken Code Review"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/code-review-AI-panel.png",
+        "alt": "AI-assisted code review summary in GitKraken.dev",
+        "section": "How to review pull requests with GitKraken Code Review"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/code-review-comment.png",
+        "alt": "Commenting on a pull request in GitKraken.dev Code Review",
+        "section": "How to review pull requests with GitKraken Code Review"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/code-suggestion-2025@2x.png",
+        "alt": "Code suggestion label displayed in the PR list and detailed panel in GitKraken Desktop",
+        "section": "How to accept or reject suggestions"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkc-pr-code-suggestions-apply.gif",
+        "alt": "User applying a code suggestion to the main branch from a pull request in GitKraken Desktop",
+        "section": "How to accept or reject suggestions"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/refresh-comments-2025@2x.png",
+        "alt": "GitHub Pull Request view in GitKraken Desktop showing reviewers, code diff, and a highlighted refresh comments button",
+        "section": "How commenting and quoting work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/quote-reply-2025@2x.png",
+        "alt": "Highlighted UI option for quoting a reply in a pull request comment thread, with 'Merging is blocked' status below",
+        "section": "How commenting and quoting work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/build-status-2025@2x.png",
+        "alt": "Build status section showing a successful Jenkins check completed 15 minutes ago with tooltip 'View Jenkins's latest build'",
+        "section": "How branch actions and build status work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/merge-options@2x.png",
+        "alt": "Merge pull request dropdown showing three GitHub merge strategies: Create a merge commit, Squash and merge, and Rebase and merge",
+        "section": "How to merge in GitHub PR View"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-pull-request-icon.svg",
+        "alt": "",
+        "section": "How the active pull requests panel works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/pull-request-icon-and-panel-2025@2x.png",
+        "alt": "GitKraken Desktop interface showing the Pull Requests panel expanded with filters and PR list from the origin remote",
+        "section": "How the active pull requests panel works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/tooltip-general@2x.png",
+        "alt": "Tooltip showing details of a pull request in GitKraken Desktop, including source and target branches, author, and timestamps",
+        "section": "How the active pull requests panel works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/tooltip-gitlab@2x.png",
+        "alt": "GitLab tooltip in GitKraken Desktop showing pull request details including branches, author, assignee, and timestamps",
+        "section": "How the active pull requests panel works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/tooltip-github@2x.png",
+        "alt": "GitHub tooltip in GitKraken Desktop showing pull request details including title, branches, build status, reviewers, assignees, labels, and timestamps",
+        "section": "How the active pull requests panel works"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/pushing-and-pulling/",
+    "title": "Push, Pull, and Fetch in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-remote-icon.svg",
+        "alt": "",
+        "section": "How to add a remote"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/add-remote@2x.png",
+        "alt": "Add Remote dialog in GitKraken Desktop with GitHub selected",
+        "section": "How to add a remote"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-push-icon.svg",
+        "alt": "",
+        "section": "How to push changes"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/push@2x.png",
+        "alt": "Push button in GitKraken Desktop toolbar",
+        "section": "How to push changes"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/push-branch-2025-HD.gif",
+        "alt": "GitKraken Desktop showing drag-and-drop to push main branch to origin",
+        "section": "How drag-and-drop push works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/fetch-menu-2025@2x.png",
+        "alt": "GitKraken Desktop pull dropdown menu showing fetch and pull options, with the fetch option highlighted.",
+        "section": "How fetch works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/branch-behind-2025@2x.png",
+        "alt": "GitKraken Desktop Left Panel showing branch main is 1 commit behind",
+        "section": "What Fetch All does"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-pull-icon.svg",
+        "alt": "",
+        "section": "How pull options work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/pull-ff-ex-2025@2x.png",
+        "alt": "GitKraken Desktop commit graph showing fallback to merge when fast-forward pull is not possible",
+        "section": "How pull with fast-forward if possible works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/pull-rebase-2025@2x.png",
+        "alt": "GitKraken Desktop commit graph demonstrating linear history using pull-rebase",
+        "section": "How pull with rebase works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/set-default@2x.png",
+        "alt": "GitKraken Desktop pull menu with option to set default pull behavior",
+        "section": "How to set the default pull behavior"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/upstream@2x.png",
+        "alt": "GitKraken Desktop context menu with 'Set Upstream' option selected",
+        "section": "How to set an upstream branch"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/drag-and-drop-push-2025.gif",
+        "alt": "GitKraken Desktop interface showing a user pushing a branch to origin/main using drag-and-drop",
+        "section": "How to set an upstream branch"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/review-and-undo-agent-changes/",
+    "title": "Review and Undo AI Coding Agent Changes in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/multiple-WIP-nodes.png",
+        "alt": "Commit Graph showing a separate WIP node for each of several worktrees with pending changes.",
+        "section": "See uncommitted changes"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/combined-diff-2025-v2@2x.png",
+        "alt": "The Commit Panel titled \"Viewing diff of 3 commits\", listing three commits by Alex Lee with their dates and short SHAs, then 2 modified and 3 added files: docs/CONTRIBUTING.md, three files under docs/onboarding/ and README.md.",
+        "section": "See commits the agent made"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/revert-hunk-2025@2x.png",
+        "alt": "GitKraken Desktop diff view in Hunk mode with the Revert button next to a changed block.",
+        "section": "Undo uncommitted changes"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/revert-commit-2025.png",
+        "alt": "Commit Graph context menu in GitKraken Desktop with the Revert Commit option highlighted.",
+        "section": "Undo commits you already pushed"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/search/",
+    "title": "How to Search Git Commits in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/max-commits-2025.png",
+        "alt": "Preferences > General view in GitKraken Desktop, with 'Initial Commits in Graph' highlighted to show where to set the number of commits to display.",
+        "section": "How the initial number of displayed commits works"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/commit-search-2025.png",
+        "alt": "GitKraken Desktop view showing a commit search for the term 'unbreak'. The search bar and match are highlighted in the interface.",
+        "section": "How the search bar works"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/self-hosted/",
+    "title": "Set Up GitKraken Self-Hosted Server (On-Premise)",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/manage-users@2x.png",
+        "alt": "Manage users and settings within your private GitKraken instance",
+        "section": "Key benefits"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/self-signed-certificates/",
+    "title": "Installing Self-Signed Certificates for GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/chrome-0a-export.png",
+        "alt": "Certificate view in Chrome with export option",
+        "section": "How to use Google Chrome on Windows"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/chrome-0b-export.png",
+        "alt": "Certificate export wizard in Chrome",
+        "section": "How to use Google Chrome on Windows"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/chrome-1-settings.png",
+        "alt": "Chrome settings menu",
+        "section": "How to use Google Chrome on Windows"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/chrome-2-security.png",
+        "alt": "Privacy & Security settings in Chrome",
+        "section": "How to use Google Chrome on Windows"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/chrome-3-manage-certs.png",
+        "alt": "Certificate management dialog in Chrome",
+        "section": "How to use Google Chrome on Windows"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/chrome-4-wizard.png",
+        "alt": "Wizard with trusted root option",
+        "section": "How to use Google Chrome on Windows"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/safari-1a.png",
+        "alt": "Remote host with invalid certificate in Safari",
+        "section": "How to use Safari on macOS"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/safari-1b.png",
+        "alt": "Certificate details window in Safari",
+        "section": "How to use Safari on macOS"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/safari-2.png",
+        "alt": "Dragging certificate to save it as a .pem file",
+        "section": "How to use Safari on macOS"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/safari-4.png",
+        "alt": "macOS Keychain interface",
+        "section": "How to use Safari on macOS"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/safari-5-6.png",
+        "alt": "Certificate settings in Keychain Access",
+        "section": "How to use Safari on macOS"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/invalid-error-2.png",
+        "alt": "GitKraken invalid SSL certificate warning",
+        "section": "How to fix Invalid SSL Certificate"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/invalid-error-1.png",
+        "alt": "Detailed certificate error from GitKraken",
+        "section": "Additional details about SSL certificate errors"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/serverless/",
+    "title": "GitKraken On-Premise Serverless (Stand-Alone) Setup",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/serverless-example-2025@2x.png",
+        "alt": "Example view of GitKraken Serverless in use",
+        "section": "Quick Start"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/license.png",
+        "alt": "Prompt to load license file after install",
+        "section": "Windows (.exe)"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/serverless-2025@2x.png",
+        "alt": "GitKraken Serverless ready after license activation",
+        "section": "How to load the license file"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/serverless-license-2025@2x.png",
+        "alt": "Update your license manually from the client footer",
+        "section": "How to update the license file"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/squash/",
+    "title": "Squash Git Commits in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/squash@2x.gif",
+        "alt": "User right-clicks a selected range of 4 commits and chooses Squash 4 commits from the context menu in GitKraken Desktop",
+        "section": "Squash requirements"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/amend-commitmsg@2x.png",
+        "alt": "GitKraken Desktop showing a squashed commit with multiple combined messages, ready to be edited by clicking the message area",
+        "section": "Squash requirements"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/squashed-remote@2x.png",
+        "alt": "GitKraken Desktop graph showing a local branch with a single squashed commit, while the remote branch still displays the original multiple commits.",
+        "section": "How to push a squashed commit"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/squash-pushremote@2x.png",
+        "alt": "GitKraken prompt showing branch 'Feature/xmltest' is behind its remote and warning that pushing squashed commits may require a force push.",
+        "section": "How to push a squashed commit"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/force-push@2x.png",
+        "alt": "GitKraken warning message stating 'Force push is a destructive action and cannot be undone' with Force Push and Cancel buttons.",
+        "section": "How to push a squashed commit"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/staging/",
+    "title": "Stage, Unstage, and Ignore Files in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/select-WIP-2025.png",
+        "alt": "Working directory changes shown in GitKraken Desktop with the //WIP node selected in the commit graph",
+        "section": "How to stage files and changes"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/stage-file-2025@2x.png",
+        "alt": "GitKraken Desktop showing unstaged files with the 'Stage File' button visible next to markdown.md",
+        "section": "How to stage files and changes"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/stage-selected-lines-2025.png",
+        "alt": "Context menu in GitKraken Desktop showing 'Stage selected lines' for staging specific changes from the diff view.",
+        "section": "How to stage files and changes"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/unstage-file-2025@2x.png",
+        "alt": "The staged files list in GitKraken Desktop showing the Unstage File button for a selected file.",
+        "section": "How to unstage files or lines"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/unstage-hunk-2025.png",
+        "alt": "The file diff view in GitKraken Desktop showing the Unstage Hunk option with a pointer from the staged file list.",
+        "section": "How to unstage files or lines"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/discard-all-changes-2025@2x.png",
+        "alt": "Discard all changes button highlighted above a list of unstaged files.",
+        "section": "How to discard changes"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/discard-hunk-ex-2025.png",
+        "alt": "Discard hunk button highlighted above a section of modified code.",
+        "section": "How to discard changes"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/ignore-file@2x.png",
+        "alt": "Context menu with Ignore options for a selected file in the Tree view",
+        "section": "How to ignore files"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/ignore-stop-tracking-2025.png",
+        "alt": "Dialog with options to ignore, ignore and stop tracking, or cancel for a selected tracked file",
+        "section": "How to ignore previously tracked files"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/ignore-only@2x.png",
+        "alt": "Untracked .gitignore and test.txt files displayed under the obj folder in the Unstaged Files section.",
+        "section": "How to ignore previously tracked files"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/ignore-untrack@2x.png",
+        "alt": ".gitignore file shown as unstaged; test.txt under obj folder shown as staged for removal",
+        "section": "How to ignore previously tracked files"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/stashing/",
+    "title": "How to Stash Changes in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/stash@2x.png",
+        "alt": "GitKraken top toolbar with Stash button highlighted",
+        "section": "How to stash changes from the top toolbar"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/stash-options@2x.png",
+        "alt": "Right-click stash options menu in GitKraken Desktop showing Apply, Pop, Delete, and visibility controls",
+        "section": "How to stash changes from the top toolbar"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/pop-stash@2x.png",
+        "alt": "Top toolbar in GitKraken Desktop with Pop Stash button highlighted",
+        "section": "How to stash changes from the top toolbar"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/stash-commit-panel-2025.png",
+        "alt": "Commit Panel's stash tab with input for name and description, and a Stash Changes button",
+        "section": "How to stash changes from the Commit Panel"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/stash-ai-message@2x.png",
+        "alt": "GitKraken Stash panel (inside Commit Panel) with tooltip pointing to the AI icon for generating a stash message",
+        "section": "How to stash changes from the Commit Panel"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/stash-left-2025.png",
+        "alt": "Stash management menu in GitKraken's Left Panel showing options like Apply, Pop, Delete, and Share stash",
+        "section": "How to view and manage stashes from the Left Panel"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/custom-stash-wip@2x.png",
+        "alt": "User typing a custom stash name in the GitKraken commit graph WIP node",
+        "section": "How to name a stash"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/custom-stash-panel@2x.png",
+        "alt": "Custom-named stash labeled 'my-custom-stash-name' displayed under STASHES in the GitKraken Left Panel on the master branch",
+        "section": "How to name a stash"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/custom-stash-graph@2x.png",
+        "alt": "Commit Graph showing a WIP stash labeled 'my-custom-stash-name' created on the master branch.",
+        "section": "How to name a stash"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/amend-stash-graph2.png",
+        "alt": "Commit Graph showing a stash selected on the feature branch with the context menu open and 'Edit stash message' highlighted.",
+        "section": "How to edit a stash message"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/partial-stash.png",
+        "alt": "Context menu showing the option to stash two selected unstaged files from the Commit Panel.",
+        "section": "How to create and apply a partial stash"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/partial-stash-apply.png",
+        "alt": "Commit Panel showing context menu option to apply two selected files from stash.",
+        "section": "How to create and apply a partial stash"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/submodules/",
+    "title": "Manage Git Submodules in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/toggle-panes-2025@2x.png",
+        "alt": "GitKraken Desktop Left Panel showing the toggle pane menu with options to show or hide sections like Remote, Pull Requests, Tags, and Submodules",
+        "section": "How to enable the Submodules pane"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/add-submodule@2x.png",
+        "alt": "GitKraken Desktop interface showing the Add Submodule modal with fields for Remote URL and Name/Path, and a green Add Submodule button",
+        "section": "How to add a submodule"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/update-submodule@2x.png",
+        "alt": "Context menu in GitKraken Desktop showing options to update, edit, open, or delete the submodule vendor/libgit2",
+        "section": "How to update a submodule"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/submodule-commit@2x.png",
+        "alt": "GitKraken Desktop interface showing submodule vendor/libgit2 out-of-sync, with options to commit or discard changes, and view or delete the submodule",
+        "section": "How to change the pointer commit"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/tags/",
+    "title": "Manage Git Tags in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-tag-2025@2x.png",
+        "alt": "GitKraken Desktop context menu on a commit with options to create tag or annotated tag",
+        "section": "How to add a tag"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/push-tag-2025@2x.png",
+        "alt": "GitKraken Desktop tag context menu showing push, merge, rebase, and delete options",
+        "section": "How to add a tag"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/tag-right@2x.png",
+        "alt": "GitKraken Desktop context menu for a tag with options to push, merge, rebase, create branch, and delete",
+        "section": "How to add a tag"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/tag-branch@2x.png",
+        "alt": "GitKraken Desktop tag context menu showing options to push, merge, rebase, create branch, and more. The `create a branch` option is selected.",
+        "section": "How to create a branch from a tag"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/tag-annotation.png",
+        "alt": "GitKraken Desktop interface showing a hover tooltip for the annotated Git tag v1.9.0 in the Commit Graph",
+        "section": "How to annotate a tag"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/delete-tag-context-menu-2025@2x.png",
+        "alt": "GitKraken Desktop context menu showing options to delete a Git tag locally or from the origin remote",
+        "section": "How to delete a tag"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/filter-tags@2x.png",
+        "alt": "GitKraken Desktop interface showing filtered Git tags matching '20160' under the 'translation' category in the left panel",
+        "section": "How to search or filter tags"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/toggle-panes-2025@2x.png",
+        "alt": "GitKraken Desktop interface with a dropdown menu showing toggles for Left Panel sections such as Remote, Pull Requests, Tags, and GitHub Actions",
+        "section": "How to show or hide the Tags panel"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/team-view/",
+    "title": "Team View in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/team-view-2025@2x.png",
+        "alt": "Team View showing branches and files with changes",
+        "section": "How to select a team"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/team-view-conflict-2025@2x.png",
+        "alt": "Warning icon on file with overlapping edits",
+        "section": "How to select a team"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/status-in-teams.png",
+        "alt": "Avatars with status circles in Team View",
+        "section": "How status indicators work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/active-away-2025@2x.png",
+        "alt": "Status toggle in Profile dropdown",
+        "section": "How status indicators work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/team-setting@2x.png",
+        "alt": "Setting to disable team sharing",
+        "section": "How to opt out of Team View"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/teams/",
+    "title": "GitKraken Desktop Teams | Manage Users, Roles & Collaboration",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/GitKraken_Keif_referral.png",
+        "alt": "",
+        "section": ""
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/organization-2025-2.png",
+        "alt": "Navigating to the organization management panel in GitKraken Desktop via Preferences, allowing users to view members, assign roles, and manage teams.",
+        "section": "How to manage your organization"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/edit-users-2025.png",
+        "alt": "GitKraken Desktop organization settings showing how admins can manage user permissions, including promoting to admin, assigning billing contact, or removing members.",
+        "section": "How to manage your organization"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/add-team-2025-2.png",
+        "alt": "GitKraken Desktop organization view showing how to create a new team to group users by project or department.",
+        "section": "How to manage teams"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/delete-team-2025.png",
+        "alt": "GitKraken Desktop team settings menu showing how to delete a team, helping admins manage organization structure and remove outdated groups.",
+        "section": "How to manage teams"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/rename-team-2025.png",
+        "alt": "Renaming a team in GitKraken Desktop by editing the team name field, allowing users to keep team structures accurate and up to date.",
+        "section": "How to manage teams"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/suggested-members-2025.png",
+        "alt": "GitKraken Desktop identifying contributors to suggest as members, helping admins quickly invite relevant collaborators based on repository activity.",
+        "section": "How suggested members work"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/terminal/",
+    "title": "GitKraken Terminal Guide",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/terminal-button-2025@2x.png",
+        "alt": "GitKraken Desktop interface showing the Terminal button in the top toolbar and an open terminal panel running the git status command.",
+        "section": "Quick Start"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/autocomplete-suggestions.png",
+        "alt": "Autocomplete dropdown in GitKraken Desktop terminal suggesting Git commands after typing 'git'. Suggestions include commit, config, rebase, add, and others.",
+        "section": "How Git commands and auto-complete work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/autocomplete-suggestions-flags.png",
+        "alt": "Autocomplete dropdown in the GitKraken Desktop terminal showing flag suggestions for the 'git status' command. Flags include --verbose, --branch, --show-stash, and others.",
+        "section": "How Git commands and auto-complete work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/terminal-preferences-2025-v2@2x.png",
+        "alt": "GitKraken Desktop Preferences with In-App Terminal selected, showing Font, Font Size, Line Height, Cursor Style, the Dim terminal when unfocused checkbox highlighted, and the Autocomplete options.",
+        "section": "How to customize terminal preferences"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-12-6-terminal-tabs.png",
+        "alt": "GitKraken Desktop terminal panel with three terminal tabs named zsh, zsh, and node, the selected tab showing a close button, and a plus button for opening another terminal.",
+        "section": "How terminal tabs work"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/terms-and-conditions/",
+    "title": "GitKraken Desktop Support Terms and Conditions",
+    "images": [],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/themes/",
+    "title": "GitKraken Desktop Themes | Customize Light, Dark & Custom UI",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/theme-switch.gif",
+        "alt": "Switching GitKraken Desktop themes using Command Palette",
+        "section": "How built-in themes work"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/tips/",
+    "title": "GitKraken Desktop Tips | Productivity Shortcuts & Power Features",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/profile-example-2025.png",
+        "alt": "GitKraken Desktop showing a different GitHub account linked to each profile.",
+        "section": "How to set up profiles"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/command-palette-2025.gif",
+        "alt": "The GitKraken Desktop Command Palette filtering its commands as open and then create are typed, showing matches such as Open in VS Code, Open Repo, Create File, and Create Branch.",
+        "section": "How to use the Command Palette"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/multi-cherry-pick-menu.png",
+        "alt": "GitKraken Desktop context menu showing 'Cherry pick 5 commits' after selecting multiple commits from the commit graph.",
+        "section": "How to cherry pick multiple commits"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-azure-devops-2025-v3@2x.png",
+        "alt": "Preferences > Integrations > Azure DevOps in GitKraken Desktop: the Azure DevOps card reads Not Connected with a Connect to Azure DevOps button, a Manage Integrations button sits at the top right, and below \"or\" are Host Domain and Personal Access Token fields with a Connect button.",
+        "section": "How to integrate with Git services"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-hide-icon-green.svg",
+        "alt": "Hide branch icon",
+        "section": "How to hide and solo branches"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-solo-icon-orange.svg",
+        "alt": "Solo branch icon",
+        "section": "Hide"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/file-history-content-menu-2025.png",
+        "alt": "Context menu in GitKraken Desktop showing the options to view file history and blame.",
+        "section": "How to view file history and blame"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/file-diff-2025.png",
+        "alt": "File history panel next to a line-by-line commit diff in GitKraken Desktop.",
+        "section": "How to view file history and blame"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/graph-drag-2025.gif",
+        "alt": "The GitKraken Desktop Commit Graph being resized horizontally by dragging.",
+        "section": "How to resize the Commit Graph"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/trello/",
+    "title": "GitKraken Desktop + Trello Integration",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/connect-trello-2025@2x.png",
+        "alt": "Connect Trello integration in Preferences",
+        "section": "How to connect the Trello integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/trello-integration@2x.png",
+        "alt": "Trello authorization page",
+        "section": "How to connect the Trello integration"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/trello-cards-2025@2x.png",
+        "alt": "Trello cards in Left Panel",
+        "section": "How to preview Trello cards"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/trello-card-hover-2025@2x.png",
+        "alt": "Card preview tooltip",
+        "section": "How to preview Trello cards"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/trello-card-details-view-2025@2x.png",
+        "alt": "Trello card detail view",
+        "section": "How to view and edit Trello card details"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/trello-create-card-2025@2x.png",
+        "alt": "Create new Trello card",
+        "section": "How to create a new Trello card"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/trello-create-filter-2025@2x.png",
+        "alt": "Create Trello filter",
+        "section": "How to create Trello card filters"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-branch-jira-integration.gif",
+        "alt": "Create branch from Trello card",
+        "section": "How to create branches from Trello cards"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/trello-open-in-browser-2025@2x.png",
+        "alt": "Open Trello card in browser",
+        "section": "How to copy a card link or open it in Trello"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/undo-and-redo/",
+    "title": "How to Undo and Redo Git Actions in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/undo-undo-2025.png",
+        "alt": "GitKraken Desktop showing the Undo button with tooltip: 'Undo Commit amend \"Updates the GitKraken commit documentation to reflect UI\"'.",
+        "section": "Quick Start"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/upgrade-enterprise/",
+    "title": "Upgrade GitKraken Self-Hosted Server (Docker & Client Instructions)",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/license-settings@2x.png",
+        "alt": "Use the License tab to upload a new license file",
+        "section": "How to update the license"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/windows-subsystem-for-linux/",
+    "title": "Use GitKraken Desktop with Windows Subsystem for Linux (WSL 2)",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/wsl-full-screen@2x.png",
+        "alt": "Full-screen view of GitKraken Desktop running on a WSL 2 environment with the repository, branches, commit graph, and details visible.",
+        "section": "How to use GitKraken Desktop with WSL 2"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/wsl-host-settings@2x.png",
+        "alt": "GitKraken WSL host settings",
+        "section": "How WSL-specific GitKraken preferences work"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/wsl-toast@2x.png",
+        "alt": "Warning prompt in GitKraken Desktop stating that working with repositories stored on WSL is not recommended from GitKraken on Windows, with options to open Help Center, open with GitKraken in Ubuntu, or open the repository anyway.",
+        "section": "How cross-file-system access works in WSL 2"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/workspaces/",
+    "title": "Workspaces in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/workspaces-tab-2025@2x.png",
+        "alt": "GitKraken Desktop showing multiple cloud Workspaces, each grouping related repositories with options to clone, locate, or manage them.",
+        "section": "Quick Start"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/open-workspaces-2025@2x.png",
+        "alt": "GitKraken Desktop interface highlighting the folder icon used to access Workspaces from the Repo Management tab.",
+        "section": "How to access your Workspaces"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/add-new-workspace-2025@2x.png",
+        "alt": "Highlighted 'New Workspace' button in the Repository Management view of GitKraken Desktop.",
+        "section": "How to create a Cloud Workspace"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/config-cloud-workspace-2025@2x.png",
+        "alt": "Cloud Workspace creation form in GitKraken Desktop, showing workspace name, color selection, provider, and repository fields.",
+        "section": "How to create a Cloud Workspace"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/multi-fetch-ws-2025@2x.png",
+        "alt": "GitKraken Desktop interface showing multiple selected repositories in a workspace and the 'Fetch 3 repositories' button highlighted.",
+        "section": "How to run multi-repository actions in a Cloud Workspace"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/more-multi-repo-actions-2025@2x.png",
+        "alt": "GitKraken Desktop showing a dropdown menu with bulk workspace options, including Select All, Open repositories, and Remove repositories.",
+        "section": "How to run multi-repository actions in a Cloud Workspace"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-remote-icon.svg",
+        "alt": "",
+        "section": "How to run multi-repository actions in a Cloud Workspace"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gk-pull-icon.svg",
+        "alt": "",
+        "section": "How to run multi-repository actions in a Cloud Workspace"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/open-ws-in-lp-2025@2x.png",
+        "alt": "GitKraken Desktop interface showing the rocket icon to open the workspace in Launchpad.",
+        "section": "How to view Workspace pull requests in Launchpad"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/launchpad-team-view-2025@2x.png",
+        "alt": "GitKraken Launchpad showing categorized pull requests with author, collaborators, repo, and branch information listed and actions like Open in GitHub, View Repo and open code suggestion available as a dropdown.",
+        "section": "How to view Workspace pull requests in Launchpad"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/create-local-ws-2025@2x.png",
+        "alt": "Dialog for creating a Local Workspace in GitKraken Desktop with workspace name, color, and repository options.",
+        "section": "How to create a Local Workspace"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/local-to-cloud-ws-2025@2x.png",
+        "alt": "Workspace menu in GitKraken Desktop with the Create Cloud Workspace option highlighted.",
+        "section": "How to convert a Local Workspace to a Cloud Workspace"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/multi-actions-ws-2025@2x.png",
+        "alt": "Dropdown menu in GitKraken Desktop showing workspace-level actions such as open, clone, locate, edit, change color, delete, and leave workspace.",
+        "section": "How to edit a Workspace"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/unhide-group-2025@2x.png",
+        "alt": "GitKraken Desktop interface showing the option to unhide a group from the workspace list via the visibility settings menu.",
+        "section": "How to hide a Workspace"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/clone-or-locate-ws-repos-2025@2x.png",
+        "alt": "GitKraken Desktop interface showing options to clone or locate selected repositories within a workspace using the context menu.",
+        "section": "How to open, clone, or locate repositories"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-10-2-edit-workspace.png",
+        "alt": "Edit Workspace modal in GitKraken Desktop with fields to update workspace name, color, description, and team sharing settings.",
+        "section": "How to edit Workspace details"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/reorder-workspaces-2025@2x.png",
+        "alt": "GitKraken Desktop interface showing a hand cursor dragging a workspace section to reorder its position.",
+        "section": "How to reorder Workspaces"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/insights-gkdev-2026@2x.png",
+        "alt": "GitKraken.dev Insights dashboard for the GitLens Team, showing metrics like copy/paste vs moved code, change lead time, deployment frequency, duplicated code, number of PR reviews, cycle time, and active users over a 90-day period.",
+        "section": "How to use Insights to visualize pull request history"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  },
+  {
+    "url": "https://help.gitkraken.com/gitkraken-desktop/worktrees/",
+    "title": "Manage Git Worktrees in GitKraken Desktop",
+    "images": [
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-10-5-create-worktree.png",
+        "alt": "GitKraken Desktop context menu showing the option to create a worktree from the branch updates-10-4, with the branch 10-5-updates currently checked out.",
+        "section": "How to create a worktree"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-open-worktree-from-wip-01-v3@2x.png",
+        "alt": "Commit Graph rows with three worktree WIP rows, labeled \"on feature/login-form\", \"on fix/readme-typo\" and \"on 4d9484\", each showing its change counts. The selected feature/login-form row shows the Open Worktree button.",
+        "section": "How to switch worktrees"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/gkd-10-5-worktrees-actions.png",
+        "alt": "GitKraken Desktop worktree context menu with options to open, remove, or lock the selected worktree named 10-4-1-updates.",
+        "section": "How to switch worktrees"
+      },
+      {
+        "url": "https://help.gitkraken.com/wp-content/uploads/multiple-WIP-nodes.png",
+        "alt": "Commit graph showing a separate WIP node for each of several worktrees with pending changes.",
+        "section": "Multiple WIP nodes for multiple worktrees"
+      }
+    ],
+    "status": "official-reference-unverified-in-installed-app"
+  }
+]

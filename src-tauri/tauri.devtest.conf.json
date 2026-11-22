@@ -1,0 +1,19 @@
+{
+  "productName": "FLOE Dev Test",
+  "identifier": "dev.branchdesk.desktop.devtest",
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "FLOE Dev Test",
+        "width": 1251,
+        "height": 800,
+        "minWidth": 1000,
+        "minHeight": 640,
+        "titleBarStyle": "Overlay",
+        "hiddenTitle": true,
+        "devtools": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+<!doctype html><html><body><button id="run">Run range checks</button><pre id="result">Not run</pre><div id="root"></div><script type="module">
+import React from 'react';import{createRoot}from'react-dom/client';import{FileGroup}from'/src/FileGroup.tsx';
+let files=['dir/a.txt','root.txt','dir/z.txt','other/file.txt'].map((path,i)=>({id:String(i),path,status:'modified',staged:false,unstaged:true}));
+const tick=()=>new Promise(r=>setTimeout(r,40));let selected;const root=createRoot(document.getElementById('root'));
+const render=(tree=true)=>root.render(React.createElement(FileGroup,{label:'Unstaged Files',files,tree,staged:false,writable:true,onSelect:()=>{},onAction:()=>{},onAll:()=>{},onFiles:items=>{selected=items.map(x=>x.path)}}));render();
+const click=(path,shift=false)=>document.querySelector(`[aria-label="Select unstaged file ${path}"]`).dispatchEvent(new MouseEvent('click',{bubbles:true,shiftKey:shift}));
+const checked=()=>[...document.querySelectorAll('input:checked')].map(x=>x.getAttribute('aria-label').replace('Select unstaged file ',''));
+const clear=()=>document.querySelector('[aria-label="Clear Unstaged Files selection"]').click();
+document.getElementById('run').onclick=async()=>{const checks=[];const assert=(ok,label)=>{if(!ok)throw Error(label);checks.push(label)};try{
+await tick();click('dir/a.txt');await tick();click('dir/z.txt',true);await tick();assert(JSON.stringify(checked())===JSON.stringify(['dir/a.txt','dir/z.txt']),'tree range excludes interleaved root file');
+[...document.querySelectorAll('button')].find(b=>b.textContent==='Stage selected (2)...').click();assert(JSON.stringify(selected)===JSON.stringify(['dir/a.txt','dir/z.txt']),'review receives only selected files');
+clear();await tick();click('root.txt');await tick();click('dir/a.txt',true);await tick();assert(checked().length===3,'backward tree range includes visible sibling');
+click('dir/z.txt',true);await tick();assert(JSON.stringify(checked())===JSON.stringify(['dir/a.txt']),'checked endpoint deselects range');
+clear();await tick();document.querySelector('[aria-label="dir, 2 changed files"]').click();await tick();click('root.txt');await tick();click('other/file.txt',true);await tick();assert(JSON.stringify(checked())===JSON.stringify(['root.txt','other/file.txt']),'collapsed files excluded');
+clear();await tick();render(false);await tick();click('dir/a.txt');await tick();click('dir/z.txt',true);await tick();assert(checked().length===3,'flat view follows displayed source order');
+clear();await tick();const original=files;click('dir/a.txt');await tick();files=files.filter(f=>f.path!=='dir/a.txt');render(false);await tick();assert(checked().length===0,'removed selection is cleared on refresh');
+files=original;render(false);await tick();click('dir/z.txt',true);await tick();assert(JSON.stringify(checked())===JSON.stringify(['dir/z.txt']),'removed then returned file cannot revive old range anchor');
+document.getElementById('result').textContent=JSON.stringify({passed:checks.length,checks},null,2);
+}catch(e){document.getElementById('result').textContent=JSON.stringify({failed:String(e),checks},null,2)}};
+</script></body></html>

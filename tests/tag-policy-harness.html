@@ -1,0 +1,9 @@
+<!doctype html><html><body><div id="root"></div><script type="module">
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import {RemoteTagPolicyDialog} from '/src/RemoteTagPolicyDialog.tsx';
+const root=createRoot(document.getElementById('root'));
+window.events=[];let epoch=0;
+window.renderPolicy=(initial='all',busy=false)=>root.render(React.createElement(RemoteTagPolicyDialog,{key:++epoch,name:'origin',initial,busy,error:'',onClose:()=>window.events.push('close'),onSave:policy=>window.events.push(policy)}));
+window.renderPolicy();
+</script></body></html>

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-read-open-repository-paths"
+description = "Enables the read_open_repository_paths command without any pre-configured scope."
+commands.allow = ["read_open_repository_paths"]
+
+[[permission]]
+identifier = "deny-read-open-repository-paths"
+description = "Denies the read_open_repository_paths command without any pre-configured scope."
+commands.deny = ["read_open_repository_paths"]

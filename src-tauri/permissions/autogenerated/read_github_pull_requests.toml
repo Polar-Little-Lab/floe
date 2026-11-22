@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-read-github-pull-requests"
+description = "Enables the read_github_pull_requests command without any pre-configured scope."
+commands.allow = ["read_github_pull_requests"]
+
+[[permission]]
+identifier = "deny-read-github-pull-requests"
+description = "Denies the read_github_pull_requests command without any pre-configured scope."
+commands.deny = ["read_github_pull_requests"]

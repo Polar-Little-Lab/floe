@@ -1,0 +1,36 @@
+<!doctype html><html><body><button id="run-checks">Run creation recovery checks</button><pre id="result">Not run</pre><div id="root"></div><script type="module">
+import React from 'react';import{createRoot}from'react-dom/client';import{demo}from'/src/demo.ts';import{api}from'/src/api.ts';import App from'/src/App.tsx';
+const fixture=structuredClone(demo),oid=fixture.commits[0].oid;
+Object.assign(demo,{repoId:'tag-fixture',revision:'reviewed',headOid:oid,writeBlock:null,recoveryPending:false,changes:fixture.changes,repositoryIdentity:{name:'Fixture',email:'fixture@example.invalid'}});
+let current=structuredClone(demo),pending,calls=[];
+api.refresh=async()=>structuredClone(current);api.commit=async()=>({oid,parentOid:null,message:'Fixture commit',files:[]});
+api.loadDraft=async()=>({draft:null,revision:'missing',warning:null});api.saveDraft=async(id,revision,draft)=>({draft,revision:'saved',warning:null});api.saveWorkspace=async()=>({workspace:null,revision:'saved',warning:null});
+api.mutate=(snapshot,action)=>{calls.push({snapshot:structuredClone(snapshot),action:structuredClone(action)});return new Promise((resolve,reject)=>{pending={resolve,reject}})};
+createRoot(document.getElementById('root')).render(React.createElement(App));
+const tick=()=>new Promise(r=>setTimeout(r,60));
+const button=(text,parent=document)=>[...parent.querySelectorAll('button')].find(b=>b.textContent===text);
+const set=(el,value)=>{Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(el,value);el.dispatchEvent(new Event('input',{bubbles:true}));};
+document.getElementById('run-checks').onclick=async()=>{const checks=[];const assert=(ok,name)=>{if(!ok)throw Error(name);checks.push(name)};try{
+for(const spec of [{open:'Stash',label:'Save stash',field:'Stash message',submit:'Save stash',kind:'saveStash'},{open:'Branch',label:'브랜치 생성',field:'브랜치 이름',submit:'Create branch',kind:'createBranch'},{open:'Stash',label:'Save stash',field:'Stash message',submit:'Save stash',kind:'saveStashKeepingIndex'}]){
+ await tick();button(spec.open).click();await tick();
+ const dialog=()=>document.querySelector(`[aria-label="${spec.label}"]`);
+ const field=()=>dialog().querySelector(`[aria-label="${spec.field}"]`);
+ set(field(),'fixture-entry');if(spec.kind.startsWith('saveStash')){const options=dialog().querySelectorAll('[type=checkbox]');if(!options[0].checked)options[0].click();if(spec.kind==='saveStashKeepingIndex')options[1].click();}await tick();
+ const before=calls.length;button(spec.submit,dialog()).click();await tick();
+ assert(!!dialog(),spec.kind+': request keeps form');
+ assert([...dialog().querySelectorAll('input,button')].every(e=>e.disabled),spec.kind+': busy guards');
+ button(spec.submit,dialog()).click();await tick();assert(calls.length===before+1,spec.kind+': duplicate suppressed');
+ current={...current,revision:spec.kind+'-refreshed'};pending.reject('STALE_STATE');await tick();
+ assert(field().value==='fixture-entry'&&dialog().querySelector('[role=alert]').textContent==='STALE_STATE',spec.kind+': failure preserves input and error');
+ if(spec.kind.startsWith('saveStash'))assert(dialog().querySelector('[type=checkbox]').checked,'stash option preserved');
+ set(field(),'corrected-entry');await tick();button(spec.submit,dialog()).click();await tick();
+ const last=calls.at(-1);assert(last.snapshot.revision===current.revision,spec.kind+': retry uses refreshed snapshot');
+ if(spec.kind==='saveStashKeepingIndex')assert(dialog().querySelectorAll('[type=checkbox]')[1].checked,'keep-index option retained through failure');
+ assert(last.action.kind===spec.kind&&(last.action.name??last.action.message)==='corrected-entry',spec.kind+': retry payload');
+ if(spec.kind.startsWith('saveStash'))assert(last.action.include_untracked===true,'stash exact include-untracked payload');
+ pending.reject('CANCELLED: native cancelled');await tick();assert(field().value==='corrected-entry'&&!dialog().querySelector('[role=alert]'),spec.kind+': cancellation retains form without error');
+ button(spec.submit,dialog()).click();await tick();pending.resolve(structuredClone(current));await tick();assert(!dialog(),spec.kind+': success closes');
+}
+document.getElementById('result').textContent=JSON.stringify({passed:checks.length,checks,scope:'Actual React App; mocked API. Native IPC and Git effects not covered.'},null,2);
+}catch(e){document.getElementById('result').textContent=JSON.stringify({failed:String(e),checks},null,2)}};
+</script></body></html>

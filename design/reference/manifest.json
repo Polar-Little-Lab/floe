@@ -1,0 +1,3210 @@
+{
+  "purpose": "Development references only; never bundled",
+  "files": [
+    {
+      "file": "screenshots/official/00c7b4542288-gkc_hook_location_explorer_2x.png",
+      "sha256": "00c7b4542288c4bc7db65ceba9e33773d34c392f57d9c70068d4a2988dd4959a",
+      "bytes": 47118
+    },
+    {
+      "file": "screenshots/official/010484c1ea4e-perform-shallow-clone_2x.png",
+      "sha256": "010484c1ea4edef9dc1aa39c0a4bc5a030fc664c5cbab162d23df8c31027cad2",
+      "bytes": 133456
+    },
+    {
+      "file": "screenshots/official/019ae24b026e-partial-stash-apply.png",
+      "sha256": "019ae24b026e8e1efc097514ca9e59c69674f9ea44b8f7ad41217e322d3a565c",
+      "bytes": 90752
+    },
+    {
+      "file": "screenshots/official/0209e03fa0ad-preferences_2x.png",
+      "sha256": "0209e03fa0adc77e25fe53c23cb27881647b568b63d1e5a108f6887b155cf6b3",
+      "bytes": 4341
+    },
+    {
+      "file": "screenshots/official/0223357a5f87-merge-tool2_2x.png",
+      "sha256": "0223357a5f87933fd63545f358a7ffad82f67a10f080ae934ec13a48b08f4dac",
+      "bytes": 109421
+    },
+    {
+      "file": "screenshots/official/0229c4c686db-gk-new-undo-icon.svg",
+      "sha256": "0229c4c686db3cc527ea14293ade5ab4c241be8b0b18a4827ed45a2a4f214c37",
+      "bytes": 1397
+    },
+    {
+      "file": "screenshots/official/025bc71152c9-gkd-commit-composer-undo.png",
+      "sha256": "025bc71152c9c0fb7c6bc13e9d43341758ab56e5ecf6d97e52ae345b6867865c",
+      "bytes": 186517
+    },
+    {
+      "file": "screenshots/official/029682ef6cdc-GKD-no-conflict-detected-with-PR.png",
+      "sha256": "029682ef6cdc56460598864e0e7d43dc09e5f7749bfd64b70aa99435a1971285",
+      "bytes": 235034
+    },
+    {
+      "file": "screenshots/official/02d9f335197d-gk-lfs-icon.svg",
+      "sha256": "02d9f335197d60e5a2214bf3d966f309c4137d75bf027fdbfa350d1627583c73",
+      "bytes": 1055
+    },
+    {
+      "file": "screenshots/official/035c981a3a21-fetch-menu-2025_2x.png",
+      "sha256": "035c981a3a219e22af317b5f212e53da07935a7d4149eb62e6cf9bcb8133a001",
+      "bytes": 146359
+    },
+    {
+      "file": "screenshots/official/040aa35dea15-serverless-license-2025_2x.png",
+      "sha256": "040aa35dea150806593d1a945f1d5c3f313ca50270fac029690edb51414c3553",
+      "bytes": 482787
+    },
+    {
+      "file": "screenshots/official/042d2d45628a-color-guide-2025.png",
+      "sha256": "042d2d45628a2e2810254868750ca59d9e023ac3d0b075a9b0d08ccbe2b7220f",
+      "bytes": 4483
+    },
+    {
+      "file": "screenshots/official/0458176b0715-select-WIP-2025.png",
+      "sha256": "0458176b07155c32116340be76c7c69695f16112ab136ca6bfa392c52502e691",
+      "bytes": 188205
+    },
+    {
+      "file": "screenshots/official/04b1630ae724-lfs-add-env-variable-image2-2025_2x.png",
+      "sha256": "04b1630ae7240b828d476bfd40c60719258cc4f5e31f41df2b713accf7a083a8",
+      "bytes": 335241
+    },
+    {
+      "file": "screenshots/official/05123928e340-custom-instructions-conflict-resolution-2025_2x.png",
+      "sha256": "05123928e3405fd66331bf4d560811d1b1e2308a7e5a01950eaf37cf976594bf",
+      "bytes": 245079
+    },
+    {
+      "file": "screenshots/official/0519f9b00328-lfs-actions-2025_2x.png",
+      "sha256": "0519f9b0032870d6f609ffdf07a274f16b5e4082ce825479929794c8c60674d6",
+      "bytes": 96832
+    },
+    {
+      "file": "screenshots/official/055afb1d432d-amend-stash-graph2.png",
+      "sha256": "055afb1d432d7685d8289ded576fb161a2d44b14ddb44ffef019aaed65020388",
+      "bytes": 115833
+    },
+    {
+      "file": "screenshots/official/062892972489-GKD-Common-Issue-3.png",
+      "sha256": "062892972489d98061f4c9ba704da4999067f12626261c00f5d54000d48f58ee",
+      "bytes": 47593
+    },
+    {
+      "file": "screenshots/official/067b3e157330-create-file-command-palette-2025.png",
+      "sha256": "067b3e157330d2a2f0aa08488e320811be1d5c251368d91061251284814bac25",
+      "bytes": 55830
+    },
+    {
+      "file": "screenshots/official/06a440e815d7-configureExternalTool_2x.png",
+      "sha256": "06a440e815d79848660be0431e70da1b1f6872903c1729ab25d29ecb918b5e64",
+      "bytes": 29907
+    },
+    {
+      "file": "screenshots/official/06dd12fef36b-GKD-conflict-prevention.png",
+      "sha256": "06dd12fef36b4c92a1cc6aad804213e430f2f7415e9f2b8c39e86fbe1178b371",
+      "bytes": 242620
+    },
+    {
+      "file": "screenshots/official/06fea2ec237b-columns-2025.png",
+      "sha256": "06fea2ec237b9844ff571190648f7647a60a64a41e83c5b1a9a883a8da6264f7",
+      "bytes": 109917
+    },
+    {
+      "file": "screenshots/official/07cc617344af-pull-request-create_2x.png",
+      "sha256": "07cc617344afff2a816b5de67b0f7e8920c65127216a02cf147a4fa41c445d6f",
+      "bytes": 66291
+    },
+    {
+      "file": "screenshots/official/080fd0fbbf92-stash_2x.png",
+      "sha256": "080fd0fbbf924dcc61935bcfecdf927c6548b3c2932f72eaa921cba089e8392a",
+      "bytes": 3760
+    },
+    {
+      "file": "screenshots/official/08182b2a0039-update-submodule_2x.png",
+      "sha256": "08182b2a00390df29e804d96b3c0fe4500e58712dbfce41ddc49e52a87d890d9",
+      "bytes": 20645
+    },
+    {
+      "file": "screenshots/official/09d1fcc18c5c-create-patch-from-command-palette.png",
+      "sha256": "09d1fcc18c5c35c28aeb6f4a354499db53476b9bacfe47a1eb606aad5efdd3c6",
+      "bytes": 38007
+    },
+    {
+      "file": "screenshots/official/09ecffde8786-custom-stash-panel_2x.png",
+      "sha256": "09ecffde8786dcd3600b401afcfb00b7a9bcc1d88c62150dad779df3a8d70d9a",
+      "bytes": 4237
+    },
+    {
+      "file": "screenshots/official/09f2937b44bf-GKD-Launching-Agent-Sidebar-view1.png",
+      "sha256": "09f2937b44bfb4f0e0992c03760adc294ea2c140b8e29b49ea3ba5648518d5e8",
+      "bytes": 170839
+    },
+    {
+      "file": "screenshots/official/0a23adf8f139-create-pull-request-drag-and-drop-2025.gif",
+      "sha256": "0a23adf8f1396c9a51ffc1859a79d3699557213d9a1c3b2fc15095e526d3060b",
+      "bytes": 5171533
+    },
+    {
+      "file": "screenshots/official/0aef20e8a333-favorites-list-2025_2x.png",
+      "sha256": "0aef20e8a33329608add7c69e8592dd35b12bfd4328a25feafeda47f1c344beb",
+      "bytes": 126300
+    },
+    {
+      "file": "screenshots/official/0b79e577d039-stage-selected-lines-2025.png",
+      "sha256": "0b79e577d039a9fc54bec0185d9cb0606d997d80a887f6138c530a7ac67fed11",
+      "bytes": 87467
+    },
+    {
+      "file": "screenshots/official/0bbe5b22642a-gkd-12-6-stacked-pr-create.png",
+      "sha256": "0bbe5b22642a5aa8aa3227cc7dd6e3c78a5622ae2ad70a689ddd9e124aac8215",
+      "bytes": 8355
+    },
+    {
+      "file": "screenshots/official/0c130cccdc1f-finish-release-tag.gif",
+      "sha256": "0c130cccdc1ff61367b8e6e48fb7fc01c8a65da518692b619fb1f8427cf37911",
+      "bytes": 1251626
+    },
+    {
+      "file": "screenshots/official/0d49b151a948-restore-files.png",
+      "sha256": "0d49b151a94835a646d08d89fb1651754bafdae30f9f7e51abb842321759b7c2",
+      "bytes": 266298
+    },
+    {
+      "file": "screenshots/official/0daec4c6ba52-delete-key-for-sure.png",
+      "sha256": "0daec4c6ba520a96b8f52359986c4bb04823a736da0641737c59643eaff62e43",
+      "bytes": 4639
+    },
+    {
+      "file": "screenshots/official/0e2b4743daa2-snackbox-error_2x.png",
+      "sha256": "0e2b4743daa21e3947fce06e65cfeaf19909a9e998c98d735776447a8ea7a0de",
+      "bytes": 12677
+    },
+    {
+      "file": "screenshots/official/0ec5b13d78f9-unstage-2025.png",
+      "sha256": "0ec5b13d78f92457bd7dba2c94b2d81f7bda72af0094b154fb98f6c1e5d5ccd5",
+      "bytes": 86450
+    },
+    {
+      "file": "screenshots/official/0f2021a90015-undo-undo-2025.png",
+      "sha256": "0f2021a90015610742f714e61fb78ada608eb79bac6b67f19bf72a3ecfe2b129",
+      "bytes": 67116
+    },
+    {
+      "file": "screenshots/official/0f43e1f1c023-multi-actions-ws-2025_2x.png",
+      "sha256": "0f43e1f1c023e3f5d2273919ef124e0ed6b3194ef1fa02471245b7facb3c0cd2",
+      "bytes": 117775
+    },
+    {
+      "file": "screenshots/official/0f62a57ad954-pr-merge-conflict-warning-2025_2x.png",
+      "sha256": "0f62a57ad954e666a36f59fc35f1a08de49ec592a62772bd1e0096a90f2f646c",
+      "bytes": 88119
+    },
+    {
+      "file": "screenshots/official/0f6f42334cbc-connect-jira-dc-issues-2025_2x.png",
+      "sha256": "0f6f42334cbc51f2902184428e0cd8073c3259afef585c9eccd1129baebce7e1",
+      "bytes": 660629
+    },
+    {
+      "file": "screenshots/official/0fa5ffbb65da-gkd-11-stage-changes.png",
+      "sha256": "0fa5ffbb65da1d4448a63a4665a14de8b0fdcf61f0a5ec79ecd859b15a5b5a33",
+      "bytes": 41961
+    },
+    {
+      "file": "screenshots/official/10a1011592ea-super-user_2x.png",
+      "sha256": "10a1011592eabb6aa35f8402d3f33628b591135e64852ce8a6f68701e75b020e",
+      "bytes": 15274
+    },
+    {
+      "file": "screenshots/official/1185e3613cb2-interactive-rebase-init.gif",
+      "sha256": "1185e3613cb26da15101dbad92b4b8742eb316b102e70be7b2277e9e5a787d77",
+      "bytes": 2750033
+    },
+    {
+      "file": "screenshots/official/11f593c12e42-discard-hunk-ex-2025.png",
+      "sha256": "11f593c12e4283b22e25146f5ac81ef7c0257c81e86591fa25d664177ba15634",
+      "bytes": 306750
+    },
+    {
+      "file": "screenshots/official/133bc106dc5d-code-review-AI-panel.png",
+      "sha256": "133bc106dc5de057e9659f7c8827537c419d508ae8b3ad2edb283786a88e8c28",
+      "bytes": 144297
+    },
+    {
+      "file": "screenshots/official/137894ff5d24-clone-url_2x.png",
+      "sha256": "137894ff5d24915086d77024541df63f542ea583f8bb92e921a1543a5b8aad3f",
+      "bytes": 36137
+    },
+    {
+      "file": "screenshots/official/13eb1ab02efe-squash-merge.png",
+      "sha256": "13eb1ab02efec477ac7b8d7da27a89f599e3e9b1b2c6774c31b05311899350a1",
+      "bytes": 229657
+    },
+    {
+      "file": "screenshots/official/142192769c6d-serverless-example-2025_2x.png",
+      "sha256": "142192769c6d9a424b6ad0894adb48f2981e6256afd828b5e027c0f888442984",
+      "bytes": 528359
+    },
+    {
+      "file": "screenshots/official/14956567cdf0-bitbucket-server-add-key.png",
+      "sha256": "14956567cdf0a9e88f81da12404cf480ef4405b21706e80d1d9a06c0604f5798",
+      "bytes": 5921
+    },
+    {
+      "file": "screenshots/official/152a1d12c67d-auth-success-gitlab-1_2x.png",
+      "sha256": "152a1d12c67de1607035e4757765491688e0f5ac895b59cc6e2aa45dc90bfde1",
+      "bytes": 50633
+    },
+    {
+      "file": "screenshots/official/1752a23049b7-remote_2x.png",
+      "sha256": "1752a23049b7c9f11d7b51d62b83dde864954f91e70bb9425ed1a8070ad05b04",
+      "bytes": 30582
+    },
+    {
+      "file": "screenshots/official/17a7e26097f8-squash_2x.gif",
+      "sha256": "17a7e26097f8d26c2e74444a4346fd266329b5cd00c780a5a71d3e76ef7a1f97",
+      "bytes": 3977871
+    },
+    {
+      "file": "screenshots/official/183f13a09f7b-manage-users_2x.png",
+      "sha256": "183f13a09f7b980900092c5f871957cf6528c961afc566f491e4f56481fdbed3",
+      "bytes": 26094
+    },
+    {
+      "file": "screenshots/official/18a70c3fff0e-lfs-add-env-variable-image1-2025_2x.png",
+      "sha256": "18a70c3fff0e3b54894c93060f2ae8e6d84c40e64eb09e67727d4f84f371c91f",
+      "bytes": 332542
+    },
+    {
+      "file": "screenshots/official/1914af663cfe-click_link_slack.gif",
+      "sha256": "1914af663cfea12b651b8403aefb8d376a72fb40de5ef7b2bea092e5606b850f",
+      "bytes": 1629236
+    },
+    {
+      "file": "screenshots/official/19b9a7a71316-reorder-workspaces-2025_2x.png",
+      "sha256": "19b9a7a7131659c3abf6cdfe50fe1f4b954e6ae7431fe2511bf3dc5e38820ae7",
+      "bytes": 124739
+    },
+    {
+      "file": "screenshots/official/1b16f25e2590-gkd-10-5-create-worktree.png",
+      "sha256": "1b16f25e2590340deb66e2221c7551e83b39af63c985f6f713328ceddec4a6d3",
+      "bytes": 203315
+    },
+    {
+      "file": "screenshots/official/1b52dc6214a6-autocomplete-suggestions-flags.png",
+      "sha256": "1b52dc6214a6845589e9a42339b47c41203c322f449e5de0942826f4070a8da6",
+      "bytes": 11996
+    },
+    {
+      "file": "screenshots/official/1b6ead9b217e-gitlab-sign-in-2025_2x.png",
+      "sha256": "1b6ead9b217e70c80c1e0ba004f104233a07d973547d12e2aee6df7aa5af0aa4",
+      "bytes": 152222
+    },
+    {
+      "file": "screenshots/official/1b80e1075e47-license.png",
+      "sha256": "1b80e1075e47c208a7d439e8259d240c8008f02c7f536218f878d0e1a48b2390",
+      "bytes": 23577
+    },
+    {
+      "file": "screenshots/official/1bbf40055dbf-gkd-10-5-worktrees-actions.png",
+      "sha256": "1bbf40055dbfdb169d477cbef8fc656da7625ffb6726a89d1eea04a35b58d9fa",
+      "bytes": 60703
+    },
+    {
+      "file": "screenshots/official/1cd95a3c9bea-search-user_2x.png",
+      "sha256": "1cd95a3c9beaffe0e27b201f6fe2180fc2b9877b35463635c4fc618260d55181",
+      "bytes": 8449
+    },
+    {
+      "file": "screenshots/official/1d4af61d5aaa-pr-actions-launchpad-2025_2x.png",
+      "sha256": "1d4af61d5aaa08be16a656a9f1a48df6ad5a2ac4c79797c92eedcf42589c3bc2",
+      "bytes": 285490
+    },
+    {
+      "file": "screenshots/official/1d9a04f86021-connect-trello-2025_2x.png",
+      "sha256": "1d9a04f860213a7c58a34b002360c57fbd8880bc9f96493ee7ee85c8a8c32adb",
+      "bytes": 660760
+    },
+    {
+      "file": "screenshots/official/1ddac5009c93-amend-commit-2025.png",
+      "sha256": "1ddac5009c93f51dc5ea6e0237eae027f0d0ead78d8bf06fe545e1f7ef0aa2a3",
+      "bytes": 54054
+    },
+    {
+      "file": "screenshots/official/1e8f213f0ed9-set-default_2x.png",
+      "sha256": "1e8f213f0ed993901ae718d89a432239c8e0df30aacaeb9e987fe21efbd0c9a3",
+      "bytes": 15045
+    },
+    {
+      "file": "screenshots/official/1f470149cffd-filter-tags_2x.png",
+      "sha256": "1f470149cffdaa0d6eb494fd69e04118266415668363d2da85dd9a319b7b3f76",
+      "bytes": 41989
+    },
+    {
+      "file": "screenshots/official/1f7703f80e9f-link_context_menu_options.gif",
+      "sha256": "1f7703f80e9f11a7ef5e92cd38e7ab574546450eaf9cc44afea6f287edaa898d",
+      "bytes": 621390
+    },
+    {
+      "file": "screenshots/official/204c503e8596-tag-message.png",
+      "sha256": "204c503e8596e1cecadc9d5bab102eed571cd66edfe56a63c28c3bcebbc2b70f",
+      "bytes": 6904
+    },
+    {
+      "file": "screenshots/official/20c553eb5e8b-co-author-history_2x.png",
+      "sha256": "20c553eb5e8b906788b6de2eae8f64a81eab66b85fafdf55c4d678fb470e8825",
+      "bytes": 15001
+    },
+    {
+      "file": "screenshots/official/21288b03cb6c-diff-full-screen-2025.png",
+      "sha256": "21288b03cb6c2f56974f90dfae635566895b3f941d0cf68d5cde1ec1a45592b4",
+      "bytes": 696960
+    },
+    {
+      "file": "screenshots/official/2165b0d0388c-co-author_2x.png",
+      "sha256": "2165b0d0388c8c054641ae4ce1620ae4c2b820924a7e10a031db35693f769a32",
+      "bytes": 9104
+    },
+    {
+      "file": "screenshots/official/21d2d33c9a27-command-palette-2025.gif",
+      "sha256": "21d2d33c9a27b4fd862ec54390aec9bea6f60e62371464615f41e2b9fea4b70c",
+      "bytes": 327409
+    },
+    {
+      "file": "screenshots/official/2267b0d77fe1-launchpad-open-pr-panel-2025_2x.png",
+      "sha256": "2267b0d77fe126e12c96e84a4dc0d888116d628ece5a046213c0cdc9f3f5dfb5",
+      "bytes": 52358
+    },
+    {
+      "file": "screenshots/official/2284df0b9af5-commit-template-setting-2025.png",
+      "sha256": "2284df0b9af59d4115a1af3448af757d7988a8352655c4f09317ddc4917e5b70",
+      "bytes": 214692
+    },
+    {
+      "file": "screenshots/official/22c9586ec84f-merge-conflict_2x.png",
+      "sha256": "22c9586ec84f97164ee08a8076d96a23e369964ad41d9ab09228fe6f9782d3b0",
+      "bytes": 53172
+    },
+    {
+      "file": "screenshots/official/22d9daeb93e2-arm2.png",
+      "sha256": "22d9daeb93e2b2987934a267ccf11c0e490749b163ba68c250207f679ce54e8a",
+      "bytes": 125264
+    },
+    {
+      "file": "screenshots/official/22ddc8b9b688-create-draft-pr-2025_2x.png",
+      "sha256": "22ddc8b9b68846a7e56f2aee77265ae1442056edca2ad716b0908aadbd464e9b",
+      "bytes": 398732
+    },
+    {
+      "file": "screenshots/official/244b1f7fef85-generate-token-azure-devops-2025_2x.png",
+      "sha256": "244b1f7fef8576ba978a070681de8f05481e86f8be674e7e0587325905dbdf57",
+      "bytes": 225458
+    },
+    {
+      "file": "screenshots/official/24a8c1ef9bb3-clone-gitlab_2x.png",
+      "sha256": "24a8c1ef9bb3bf5500a0236228748290d68fa6c73ebdcb275f2e24b899aeae18",
+      "bytes": 57606
+    },
+    {
+      "file": "screenshots/official/255d97c89faa-add-ssh-key-2025_2x.png",
+      "sha256": "255d97c89faafad248208cea7c84c2f68ce09eea0f285915dcb7938a2ec2c467",
+      "bytes": 240879
+    },
+    {
+      "file": "screenshots/official/258b74ac6704-gravatar-2025.png",
+      "sha256": "258b74ac6704ddf5ffe9c98d3c6cfe8180edcf91b97f9db7f9a710ce7674c5ba",
+      "bytes": 27619
+    },
+    {
+      "file": "screenshots/official/259605735409-select-workspace-launchpad-2025_2x.png",
+      "sha256": "259605735409e6a13d65e076422745d773ea8c330e0bdcebaf80cc7c0fea6b64",
+      "bytes": 146987
+    },
+    {
+      "file": "screenshots/official/25a2aded57f7-PAT-azure-added-2025_2x.png",
+      "sha256": "25a2aded57f7423474f4e3c6b8c63f418808d37305e07e602e545590baa49937",
+      "bytes": 230709
+    },
+    {
+      "file": "screenshots/official/26379738b0c2-gkc-github-enterprise-server-integration-2.png",
+      "sha256": "26379738b0c2a498f744a88459421222df932a8f95fccaa621dee1f2b7c82444",
+      "bytes": 189459
+    },
+    {
+      "file": "screenshots/official/2648f567c7ee-view-jira-issue-2025_2x.png",
+      "sha256": "2648f567c7ee10d0527c9319055a59bbbb1b7f1c38832ac825547baa8e4027fd",
+      "bytes": 564249
+    },
+    {
+      "file": "screenshots/official/272dae679dd0-ssh-bb-data-center-2025_2x.png",
+      "sha256": "272dae679dd0dad1719d7d9226375ae2f5d0beb0507f71c7dbce0bde4d8d63cc",
+      "bytes": 197124
+    },
+    {
+      "file": "screenshots/official/28152598465b-gk-new-branch-icon.svg",
+      "sha256": "28152598465b75efd0e217907ae77d80ec26d87eb220ffabce5501e1e0a73168",
+      "bytes": 1638
+    },
+    {
+      "file": "screenshots/official/28152598465b-gk-new-pull-requests-icon.svg",
+      "sha256": "28152598465b75efd0e217907ae77d80ec26d87eb220ffabce5501e1e0a73168",
+      "bytes": 1638
+    },
+    {
+      "file": "screenshots/official/284eb4ee4dd8-amend-commitmsg_2x.png",
+      "sha256": "284eb4ee4dd87b9c61bc3b864cecfe7d77f42b5e74000c47395b1affa8d2b9a6",
+      "bytes": 43681
+    },
+    {
+      "file": "screenshots/official/286c4145fe75-inline-annotated-2025.png",
+      "sha256": "286c4145fe754add7501d3e22a5d597070724551987ea771885e0cfd36456899",
+      "bytes": 286701
+    },
+    {
+      "file": "screenshots/official/28e334d99dc0-open-ws-in-lp-2025_2x.png",
+      "sha256": "28e334d99dc0ece8fae41df32ec2b89edf4250a76466268f26c8b265e5126c77",
+      "bytes": 46756
+    },
+    {
+      "file": "screenshots/official/2a3c390577fa-compose-WIP-UI_2x.png",
+      "sha256": "2a3c390577fa96abab77cf7d6cd9943215eeeb90bb0846af4d26ae8a32350bd7",
+      "bytes": 110615
+    },
+    {
+      "file": "screenshots/official/2b016f686c9c-git-hooks-pref-2025_2x.png",
+      "sha256": "2b016f686c9cf0ae46bf761493cd205b60e8630e70e2fec5d3c1057da22dc922",
+      "bytes": 177448
+    },
+    {
+      "file": "screenshots/official/2c862d28f7f4-open-file-2025.png",
+      "sha256": "2c862d28f7f4183de6b21cf0a851acadb7c9609a29b1f4ec11697becac479934",
+      "bytes": 174254
+    },
+    {
+      "file": "screenshots/official/2d22e8a74aef-open-in-jira-2025_2x.png",
+      "sha256": "2d22e8a74aef1d8b60a8291edd6e5b4fd1abc5b4e6ad36a0bdea49695c31b482",
+      "bytes": 250300
+    },
+    {
+      "file": "screenshots/official/2df3c51f60cb-pull-rebase-2025_2x.png",
+      "sha256": "2df3c51f60cbb7810d8ade377ad17e6e5345b14389da9fd2647cd58e743b4cd0",
+      "bytes": 106147
+    },
+    {
+      "file": "screenshots/official/2e33171ea3a5-ignore-only_2x.png",
+      "sha256": "2e33171ea3a555c085cf223350e268f383079c24d3847a880e12b14333db726f",
+      "bytes": 6731
+    },
+    {
+      "file": "screenshots/official/2f391a34a038-preferences-encoding-select-2025.png",
+      "sha256": "2f391a34a038ee2f1b9e8c6081afc72af07d90ea4788224ceb643986eb52eb7c",
+      "bytes": 234593
+    },
+    {
+      "file": "screenshots/official/2fa2d75fe921-jira-issue-view_2x.png",
+      "sha256": "2fa2d75fe921ff1ff17dfd6086cfc68dc9d6cda741c56a307086aa32065c631e",
+      "bytes": 380500
+    },
+    {
+      "file": "screenshots/official/2ff3290ad9a1-gkc_hook_exit_error_126_2x.png",
+      "sha256": "2ff3290ad9a1f6ccb3d9123cf9905eda28b1fdd11c517910a282d84ddd2be150",
+      "bytes": 16672
+    },
+    {
+      "file": "screenshots/official/3044ac68f1bd-merge-right_2x.png",
+      "sha256": "3044ac68f1bd1583994bde256195bb10a13177c79e80746c04a432290e200c67",
+      "bytes": 57077
+    },
+    {
+      "file": "screenshots/official/305e05a94322-repo-mgmt-2025_2x.png",
+      "sha256": "305e05a943228cc22c5bfabb0609188dd367dae7d3175f77d9c0c9fd4c775f86",
+      "bytes": 279835
+    },
+    {
+      "file": "screenshots/official/3064c952dc98-interactive-cherry-pick.png",
+      "sha256": "3064c952dc98b9b3c72ebd51ae6dae773353bb823877b76c83f8e03f536f45a8",
+      "bytes": 397060
+    },
+    {
+      "file": "screenshots/official/30a78947a881-GitKraken_Keif_clone.png",
+      "sha256": "30a78947a8818342d89ded5f9c0da50b226cfe51c961d1607458f89292a1fe62",
+      "bytes": 143974
+    },
+    {
+      "file": "screenshots/official/313a6b9d2faa-customize-columns-2025.png",
+      "sha256": "313a6b9d2faa708440f0426a5b038991e134ad1858283bc9345c6cc85a6bf91c",
+      "bytes": 58784
+    },
+    {
+      "file": "screenshots/official/31b9bc8de49a-file-history-content-menu-2025.png",
+      "sha256": "31b9bc8de49a508315f2bea2421a1665a6496c80593f0a8d1e32d27bded1687d",
+      "bytes": 71657
+    },
+    {
+      "file": "screenshots/official/31cca086b9b6-gk-new-local-icon.svg",
+      "sha256": "31cca086b9b66a3212067538314ed1b510eb424a59962f4bc41f3fd5f1721a00",
+      "bytes": 1333
+    },
+    {
+      "file": "screenshots/official/327b2f04c185-drop.gif",
+      "sha256": "327b2f04c185757cb7c5b0501cce604b857f307d4cb47b56503edaf3fb3d19a0",
+      "bytes": 820672
+    },
+    {
+      "file": "screenshots/official/3356c4906211-sign-in-github-2025-v2_2x.png",
+      "sha256": "3356c49062119fbd9d6ccac1b5cee3c717f6c1395d86f1708e4a2cfe3b296054",
+      "bytes": 48304
+    },
+    {
+      "file": "screenshots/official/3393066c6da9-build-status-2025_2x.png",
+      "sha256": "3393066c6da935525aa9c355b4b54e9998621d1587e87dba234892f99f3e020e",
+      "bytes": 39649
+    },
+    {
+      "file": "screenshots/official/33bce5126096-ldap-host-port_2x.png",
+      "sha256": "33bce5126096a63901bcae753829b1969fe1f2bb5dfdb10d75199248d78a3c5c",
+      "bytes": 4635
+    },
+    {
+      "file": "screenshots/official/352ba228968d-add-fork-2025_2x.png",
+      "sha256": "352ba228968d5d1f05c26350012fc1ae42556ad8d5b3e52818c8afce650352ad",
+      "bytes": 163045
+    },
+    {
+      "file": "screenshots/official/3537b8edd861-gk-new-submodules-icon.svg",
+      "sha256": "3537b8edd8612b98dd8e3193da1cbee963778d726282ccd79a6d38a69c69b541",
+      "bytes": 2766
+    },
+    {
+      "file": "screenshots/official/35927c15f304-force-push_2x.png",
+      "sha256": "35927c15f3045939aee0498f0d29b1c73031dbcaa2fe328fe910bf0fdfb967dc",
+      "bytes": 7905
+    },
+    {
+      "file": "screenshots/official/360d4247a853-access-token-gitlab-self-managed_2x.png",
+      "sha256": "360d4247a853e6fc93a31558891d917f04ff465c4abe38505aa12b0356b166e9",
+      "bytes": 51503
+    },
+    {
+      "file": "screenshots/official/36730c6c2218-GitKraken_Keif_agents.png",
+      "sha256": "36730c6c2218dc001e672d0b83c0c6a29dfd93fe82d490c56c34232c58fdd74a",
+      "bytes": 140100
+    },
+    {
+      "file": "screenshots/official/36eee6ed3600-forget-all-2025_2x.png",
+      "sha256": "36eee6ed360020cafa9582fb03ad1d44896d19b62bab46760709e58474cc84e2",
+      "bytes": 252350
+    },
+    {
+      "file": "screenshots/official/3734213e708e-diff-2-commits-2025.png",
+      "sha256": "3734213e708e537c345f8ddd0e2c50d8e38a9acea82e551cdb11a7a6a9948551",
+      "bytes": 449312
+    },
+    {
+      "file": "screenshots/official/374cce2e92ea-bitbucket-server-SSHkey-add_2x.png",
+      "sha256": "374cce2e92ea0f26a252ebbf62261a39c6f8ceed502a618d2be906cc4d2bc4d5",
+      "bytes": 38661
+    },
+    {
+      "file": "screenshots/official/390096887092-select-rebase-sidebar_2x.png",
+      "sha256": "39009688709251530efc7f2afe86b8b850c7c41a117d7bc8020922ac9dd5814c",
+      "bytes": 21169
+    },
+    {
+      "file": "screenshots/official/39e1d550c704-add-key-to-gitlab-2025_2x.png",
+      "sha256": "39e1d550c70459374c9372b7098a324244a09430e5cc67dbee2ab10efa34fac4",
+      "bytes": 166341
+    },
+    {
+      "file": "screenshots/official/3b57153b47c3-wsl-toast_2x.png",
+      "sha256": "3b57153b47c399ccaca86a21649b571d01f71f1ade408947e3171cbf85de7796",
+      "bytes": 9041
+    },
+    {
+      "file": "screenshots/official/3bb6d243b609-view-github-issue-on-web-2025_2x.png",
+      "sha256": "3bb6d243b6099a893bd96dc64da35253b12fd2de7b59504d70296e8c19cbe3a6",
+      "bytes": 321735
+    },
+    {
+      "file": "screenshots/official/3bf1faa14daa-bb-data-center-clone_2x.png",
+      "sha256": "3bf1faa14daa9e2aa586d65e5757627e5275a1fbba2ed59204bf863d2b834ea8",
+      "bytes": 199623
+    },
+    {
+      "file": "screenshots/official/3c6705142e1f-workspaces-tab-2025_2x.png",
+      "sha256": "3c6705142e1f9fe8722bd7cda1d17a4f43c50798676ef681706cd3fbd3187654",
+      "bytes": 222224
+    },
+    {
+      "file": "screenshots/official/3c9ffc646024-do-not-save-prompt-2025.png",
+      "sha256": "3c9ffc64602479cd5ad6bf9ce2ba2314911d5c4429289c7283e4770595a85d7e",
+      "bytes": 134433
+    },
+    {
+      "file": "screenshots/official/3d08f9a27c7d-chrome-4-wizard.png",
+      "sha256": "3d08f9a27c7d5e2a41879e3f42d56518278d77647c0589ebe1029ef8bd4e81b8",
+      "bytes": 31440
+    },
+    {
+      "file": "screenshots/official/3d97803e7d68-gkd-11-custom-instructions.png",
+      "sha256": "3d97803e7d689f97984150a4fa4a0875c2204622e48f495209472b2809c4bef4",
+      "bytes": 102650
+    },
+    {
+      "file": "screenshots/official/3e1be4f944bf-tag-prefix-2025_2x.png",
+      "sha256": "3e1be4f944bf994359e43c8254274a9f7f24e673e9a482cedc7ca378bf6a2894",
+      "bytes": 136724
+    },
+    {
+      "file": "screenshots/official/3f6c776067ea-combined-diff-2025-v2_2x.png",
+      "sha256": "3f6c776067ea8508b87776bb97fe61278d48447234c4188f8d0aa5bf5c667d13",
+      "bytes": 89899
+    },
+    {
+      "file": "screenshots/official/3f8001794c5b-GitKraken_Keif_referral.png",
+      "sha256": "3f8001794c5bee99f790073a8427e887fd05d3ae96a1676fc9dc78bc03e65a13",
+      "bytes": 244671
+    },
+    {
+      "file": "screenshots/official/3f8950b824ce-unstage-file-2025_2x.png",
+      "sha256": "3f8950b824ce06ad45cb2537e4997819ad7e5db8feddb00aecf94a1f337f2acf",
+      "bytes": 232984
+    },
+    {
+      "file": "screenshots/official/4081fe45294c-blame-history-2025.png",
+      "sha256": "4081fe45294c87403f690f0e0c40a5e87561bcd2c2d78cc4c376cf6a47acb160",
+      "bytes": 179778
+    },
+    {
+      "file": "screenshots/official/40ad675596a6-gkd-12-6-stacked-pr-graph.png",
+      "sha256": "40ad675596a60ce4f0490865e466a3631289aa2c6e9692b36ecba81128cd1ab5",
+      "bytes": 8891
+    },
+    {
+      "file": "screenshots/official/40bc944b6c24-GitKraken_Keif_security.png",
+      "sha256": "40bc944b6c246f512929a2eedfcd8b1962bc918c75af4233c8a7693cd2157b43",
+      "bytes": 100525
+    },
+    {
+      "file": "screenshots/official/4103f7b98346-license-settings_2x.png",
+      "sha256": "4103f7b98346c985baac629125fa8ab6c560ea9d481a8229798584e0b7ee7584",
+      "bytes": 29628
+    },
+    {
+      "file": "screenshots/official/410550850739-preview-jira-issues-2025_2x.png",
+      "sha256": "410550850739bfa86b45fd24405c71c31f707e7a13bb016bf6710191d3ce5420",
+      "bytes": 597459
+    },
+    {
+      "file": "screenshots/official/41f38760869b-GitKraken_Keif_evergreen-feature.png",
+      "sha256": "41f38760869bc450bfd7c3d02847a9b0c0786d2dffa17dc45c26e041d128de7a",
+      "bytes": 99324
+    },
+    {
+      "file": "screenshots/official/42772526d94f-stage-file-2025_2x.png",
+      "sha256": "42772526d94f8fa8248a8fa4ed2d94518a83d932dad25f89cd3d24fa0f581d8e",
+      "bytes": 171957
+    },
+    {
+      "file": "screenshots/official/446192b9b862-push-error.png",
+      "sha256": "446192b9b862995ee75a55e03f06ce299c9d588362dc2e392c93ac1d633d2b78",
+      "bytes": 2629
+    },
+    {
+      "file": "screenshots/official/44d0878b00a1-commit-search-2025.png",
+      "sha256": "44d0878b00a13445cc2379df4060744d051787d6d7874cd7d0fe358a170d73f2",
+      "bytes": 207490
+    },
+    {
+      "file": "screenshots/official/45f85c9c5cfa-edit-users-2025.png",
+      "sha256": "45f85c9c5cfa73d930da2e8dc12b290d678931d1c9b11e58b0f71ac4b13f2eee",
+      "bytes": 73071
+    },
+    {
+      "file": "screenshots/official/463e42032b25-github-pr-view-2025_2x.png",
+      "sha256": "463e42032b2578ebf794b92fd2001c210c60296b1c2f133cc38ee332f4c82ccf",
+      "bytes": 383027
+    },
+    {
+      "file": "screenshots/official/46d380a850f0-branch-behind-2025_2x.png",
+      "sha256": "46d380a850f047b05ea40cac582bc7253fe49de862d9cef61561687d9eb7a149",
+      "bytes": 150520
+    },
+    {
+      "file": "screenshots/official/4706ecf50d63-gkd-11-commit-message-generation-1.png",
+      "sha256": "4706ecf50d63257b2a5a22c06fbc6c87a2b160e228aea8f0717dfeb00a940bfb",
+      "bytes": 39856
+    },
+    {
+      "file": "screenshots/official/473b2f40edaa-tooltip-gitlab_2x.png",
+      "sha256": "473b2f40edaa8be4c356a05c07292dbfd2d9836605dde1d6c2a56a9df7054f1e",
+      "bytes": 22406
+    },
+    {
+      "file": "screenshots/official/4783fabf3f51-ssh-preferences-2025_2x.png",
+      "sha256": "4783fabf3f510970293ef96330ab91fd951e134b60a3ac2d729206c25942c93c",
+      "bytes": 187151
+    },
+    {
+      "file": "screenshots/official/487d3b2c6e3e-sync-server_2x.png",
+      "sha256": "487d3b2c6e3eef6cd4d00dc2803e8b24b1825dfce75634d199ef4728561266d0",
+      "bytes": 6850
+    },
+    {
+      "file": "screenshots/official/49483b0a6256-pull-request-icon-and-panel-2025_2x.png",
+      "sha256": "49483b0a6256902fbc04f3046379aabf19fd0274a018aff01d654dca025d3566",
+      "bytes": 129596
+    },
+    {
+      "file": "screenshots/official/495a89c5f449-GKD-Common-Issue-2.png",
+      "sha256": "495a89c5f449202789f12709f8847f0d117b493e37ec199417d2f1031c006408",
+      "bytes": 60216
+    },
+    {
+      "file": "screenshots/official/49e9c253c1f2-rename-branch_2x.png",
+      "sha256": "49e9c253c1f24fbc69741c965b48353e333ca7351e337d9f75c48f99e92b5b6d",
+      "bytes": 219449
+    },
+    {
+      "file": "screenshots/official/4a10b386baf6-gkc-hook-in-action.gif",
+      "sha256": "4a10b386baf69e2e160f5fdcd7258165bf8f83bbc3036135219c97291e78e9b2",
+      "bytes": 1935418
+    },
+    {
+      "file": "screenshots/official/4a54039b9e18-gkd-11-commit-message-generation-2.png",
+      "sha256": "4a54039b9e1883d33cad76e6e054a673c6c3f75237c85f8aa75bfbae992593d1",
+      "bytes": 77185
+    },
+    {
+      "file": "screenshots/official/4aa239617f61-gkc-pr-code-suggestions-apply.gif",
+      "sha256": "4aa239617f61850d53266f6754f7d4cf81aabcf1d700f50b82a6bb4aaa9f11f7",
+      "bytes": 2290253
+    },
+    {
+      "file": "screenshots/official/4acdb51a1011-rename-branch-command-palette_2x.png",
+      "sha256": "4acdb51a1011cb0d0e3159aff51c642a874874e903c7c7c2e39a980a87212cd6",
+      "bytes": 182585
+    },
+    {
+      "file": "screenshots/official/4b43bb6cb865-status-in-teams.png",
+      "sha256": "4b43bb6cb865e305c1c33f7f038a068ab939dfe9b60d56f254b8878cd2a2970a",
+      "bytes": 10940
+    },
+    {
+      "file": "screenshots/official/4b765c45609a-revert-commit-2025.png",
+      "sha256": "4b765c45609a1d9588cf9945255f1bc49287908b9d01653c6e2dc0a2ec4705ea",
+      "bytes": 113601
+    },
+    {
+      "file": "screenshots/official/4d44575f1b67-gitlab-issues-list-2025_2x.png",
+      "sha256": "4d44575f1b673faa87233da403b3e3e94b86c40fb22d268d4d758bca75481b12",
+      "bytes": 461611
+    },
+    {
+      "file": "screenshots/official/4d5aba29910c-file-encoding-diff2.png",
+      "sha256": "4d5aba29910c23c3ec9a01420e2175b2804953b64c8c0d6bbe7d72b2e74a2fca",
+      "bytes": 68269
+    },
+    {
+      "file": "screenshots/official/4dbd2261fd92-push-after-commit-2025.png",
+      "sha256": "4dbd2261fd92c9a27f8d1287055ffa3433dea5f09b7b52911bec9140a860efa4",
+      "bytes": 68526
+    },
+    {
+      "file": "screenshots/official/4e8c99241689-code-review-actions.png",
+      "sha256": "4e8c99241689c486ffb52e6a030ce97bf438fe045f7cdbe3e65920bce094b9d7",
+      "bytes": 50577
+    },
+    {
+      "file": "screenshots/official/4f344972b114-safari-5-6.png",
+      "sha256": "4f344972b1145fc96ac4db976285ddeb372777e5e70f8c1f2f4597ee0bbb0684",
+      "bytes": 131400
+    },
+    {
+      "file": "screenshots/official/4f490bfb1503-bitbucket-success-1_2x.png",
+      "sha256": "4f490bfb150304f15727b907436288467599a843896503397d2f17e22e585ab8",
+      "bytes": 54080
+    },
+    {
+      "file": "screenshots/official/4f92db0ae045-multi-delete-branches.gif",
+      "sha256": "4f92db0ae0453c2e40632b48bb6a0e2d84a2384658c6582440dfbabadcd40b98",
+      "bytes": 6017058
+    },
+    {
+      "file": "screenshots/official/4ff1a32363ef-connect-azure-devops-2025-v3_2x.png",
+      "sha256": "4ff1a32363ef88436ac94a4fc5793533cb64795a61682b01e47797565f0937b4",
+      "bytes": 134811
+    },
+    {
+      "file": "screenshots/official/502683a27f29-editable-2025.png",
+      "sha256": "502683a27f290e2e76a138393bea0ec37c791c6dca652487ae9e08e9cf9d19a3",
+      "bytes": 64855
+    },
+    {
+      "file": "screenshots/official/520b1be897a8-gkd-12-6-agents-start-session-modal.png",
+      "sha256": "520b1be897a87c9e47f0bd2599fb2533e002fb8756a8202d6f3dce901d71641c",
+      "bytes": 58734
+    },
+    {
+      "file": "screenshots/official/524e9db9db52-gkd-12-6-agents-status-plugin-tooltip.png",
+      "sha256": "524e9db9db52bfaba47c2c8625996c5ae0383bcad56b6511c0fd9bc29ddc3c48",
+      "bytes": 15664
+    },
+    {
+      "file": "screenshots/official/53fd6824acf5-connect-gitlab-2025-v3_2x.png",
+      "sha256": "53fd6824acf58ae4842cce2e7bf387aa970fed8f4db452de12b90ee4b5d0e48c",
+      "bytes": 114765
+    },
+    {
+      "file": "screenshots/official/54aabd6e55ae-gkc-ssh-azure-devops_2x.png",
+      "sha256": "54aabd6e55aeca17e643ad6c2873ba2cbdba759e2fdef48408ca3d064ea7e8ba",
+      "bytes": 113738
+    },
+    {
+      "file": "screenshots/official/553f804a4041-current-incoming.png",
+      "sha256": "553f804a4041ba5864c998683f28ff9bf9a564b872b5fd728afb672d8eea0694",
+      "bytes": 109692
+    },
+    {
+      "file": "screenshots/official/554ebbeee0af-gk-solo-icon-orange.svg",
+      "sha256": "554ebbeee0af0e432d3b34e48cc6e5f44c3da25122836e9c412d51a08103cb3c",
+      "bytes": 2679
+    },
+    {
+      "file": "screenshots/official/567f0253c0fe-compare-WIP-2025.png",
+      "sha256": "567f0253c0fe31ba027afa936b760614f16fbab5d482fe375f610e4eb4f7fb1f",
+      "bytes": 347613
+    },
+    {
+      "file": "screenshots/official/571ec1729334-tooltip-github_2x.png",
+      "sha256": "571ec17293340782d1160220f869566fc8d3d7747ed8cf8acb0cfa0d22ded77d",
+      "bytes": 43552
+    },
+    {
+      "file": "screenshots/official/57dbe5846288-sparse-checkout-preferences.png",
+      "sha256": "57dbe58462887b9f479b6088f0310c9c5b2b0e68751933750696620539859631",
+      "bytes": 180247
+    },
+    {
+      "file": "screenshots/official/57ddd1ad6e8b-team-view-launchpad-2025_2x.png",
+      "sha256": "57ddd1ad6e8bbd5e7df4b312a225ae2a65553e0f57520eed01d7fd2ba8f231ab",
+      "bytes": 34713
+    },
+    {
+      "file": "screenshots/official/584268e4608b-safari-1b.png",
+      "sha256": "584268e4608bf9cabc8931b27b7dea2f982e8f24c1b0c03021d9f603949d8f27",
+      "bytes": 84441
+    },
+    {
+      "file": "screenshots/official/584c91531277-chrome-0b-export.png",
+      "sha256": "584c9153127799ae99084db9ffcc7f7177eb998db1f58fcdc5a9982552a1d564",
+      "bytes": 25565
+    },
+    {
+      "file": "screenshots/official/5930c8300e31-BitbucketServerPAT.png",
+      "sha256": "5930c8300e312ad2c26fce3fcb92d551f98b621f5e59b04abf2c0eb0cfa70e5b",
+      "bytes": 40220
+    },
+    {
+      "file": "screenshots/official/593fe77851e1-init-with-lfs-2025_2x.png",
+      "sha256": "593fe77851e122756f7594f3bfeba8540bc30a91309020f149ee5231664a9133",
+      "bytes": 217200
+    },
+    {
+      "file": "screenshots/official/5940e875b3b9-external-diff-2025.png",
+      "sha256": "5940e875b3b9606b33f1020ea2f5966fbd5a7b9f9a390cb89601182806825f99",
+      "bytes": 148187
+    },
+    {
+      "file": "screenshots/official/59f795662e13-quote-reply-2025_2x.png",
+      "sha256": "59f795662e13df631bcb1efddc6813a86f0f7e41cb0260d244f43b6050f6cbcf",
+      "bytes": 77036
+    },
+    {
+      "file": "screenshots/official/5a1ab0ea8e8e-init-2025_2x.png",
+      "sha256": "5a1ab0ea8e8e227410a323eaa583a15a23395b89b011cfba14b7cf333136a1f3",
+      "bytes": 208517
+    },
+    {
+      "file": "screenshots/official/5a1de25eba45-gkd-ai-explain-commits-01-v3_2x.png",
+      "sha256": "5a1de25eba45b5edebcc3f6ce94e2a7a9564499d648c893e881400beadbf24d9",
+      "bytes": 51690
+    },
+    {
+      "file": "screenshots/official/5b509ebbc58c-clone-repo-mgmt-2025_2x.png",
+      "sha256": "5b509ebbc58c245edb06c92b745e5d10b7458c500bc6babb3aa09f0228caa98d",
+      "bytes": 99436
+    },
+    {
+      "file": "screenshots/official/5b6437b30b36-revert-hunk-2025_2x.png",
+      "sha256": "5b6437b30b36708854e1c09ff14b6d873078d420da75352662395d6a32df81e0",
+      "bytes": 155415
+    },
+    {
+      "file": "screenshots/official/5bf13256180b-lfs-preferences-2025_2x.png",
+      "sha256": "5bf13256180bd6b4e61a0e55bcb3be8daa7760d409e81c458aafdb736e866071",
+      "bytes": 190852
+    },
+    {
+      "file": "screenshots/official/5cb478fd88ab-submodule-commit_2x.png",
+      "sha256": "5cb478fd88abf92bd83f0692ecf8115b2144fb524055621c07fa31909f2e925a",
+      "bytes": 100241
+    },
+    {
+      "file": "screenshots/official/5e54fcff2f18-view-github-issue-2025_2x.png",
+      "sha256": "5e54fcff2f184a23f81875f8a545e46165817933f52bd50379cb8cd30c2bf416",
+      "bytes": 389934
+    },
+    {
+      "file": "screenshots/official/5f6058a20fe2-ignore-untrack_2x.png",
+      "sha256": "5f6058a20fe20700b310c1cb2ede5a88aebb4f74b9e3b253b3da1360c187df19",
+      "bytes": 10021
+    },
+    {
+      "file": "screenshots/official/5f9bd786b57b-pull-ff-ex-2025_2x.png",
+      "sha256": "5f9bd786b57baae4340e8e3a9de625c42a68b6aa0b1f0b96bed349af70509796",
+      "bytes": 99701
+    },
+    {
+      "file": "screenshots/official/5fa77165ebb0-agent-status.png",
+      "sha256": "5fa77165ebb0810734223ba13aec56b3b50d383757f538913a0f622bf4197b5b",
+      "bytes": 42795
+    },
+    {
+      "file": "screenshots/official/5fddf01e306b-azure-PAT-scopes-2025_2x.png",
+      "sha256": "5fddf01e306b8bc1b70dd7963b52c1366def18c3d5167f4c36fa95f4a3aeef44",
+      "bytes": 202659
+    },
+    {
+      "file": "screenshots/official/60167f9ee124-gkd-12-6-agents-new-session-button.png",
+      "sha256": "60167f9ee1248af8fdbe3671abb6018c4d9408c7914f8498d01b2c14aea7aee1",
+      "bytes": 34056
+    },
+    {
+      "file": "screenshots/official/604a09982990-gk-new-pull-icon.svg",
+      "sha256": "604a09982990dc12baf6ef63aebc031720dbf1f727440168501ccd3076f7f672",
+      "bytes": 1223
+    },
+    {
+      "file": "screenshots/official/6094d788e2c6-github-issues-left-panel-2025_2x.png",
+      "sha256": "6094d788e2c6d4e160527f5f74098321f0652a597a8b8b12990fa1ec0b294f47",
+      "bytes": 210764
+    },
+    {
+      "file": "screenshots/official/60bf00d3402f-giflow-panel-2025_2x.png",
+      "sha256": "60bf00d3402f864ee87724f8c485e9a2b1204c0eb44669393a31f9c22a659e1f",
+      "bytes": 116708
+    },
+    {
+      "file": "screenshots/official/60ea864072a0-gitlab-issue-create-2025_2x.png",
+      "sha256": "60ea864072a0d13d07332e19da0987383485916ee8169d1abc38a37b3ef02cc4",
+      "bytes": 203683
+    },
+    {
+      "file": "screenshots/official/61aa97bcbf05-stash-commit-panel-2025.png",
+      "sha256": "61aa97bcbf05d1df732f3db2a79c44b84caf85bcb651993942e68b32fcee2836",
+      "bytes": 42357
+    },
+    {
+      "file": "screenshots/official/62455d554cd9-generic-conflict-prevention-11-1_2x.png",
+      "sha256": "62455d554cd9e2d35bfdfd82243dd6bc7adeba6316f0b73fb1db26d8a2f38218",
+      "bytes": 237407
+    },
+    {
+      "file": "screenshots/official/630625d13d3b-github-pr-view-launchpad.png",
+      "sha256": "630625d13d3b04cceea34ed4fd0cf3374ff2b4361d50f345b702acb002d4702c",
+      "bytes": 25752
+    },
+    {
+      "file": "screenshots/official/632b0f2caa7c-issues-tab-launchpad-2025_2x.png",
+      "sha256": "632b0f2caa7c6efbe5ff369d001e57576ca74fd7fc6fb08041b6ff2d24acdec7",
+      "bytes": 260958
+    },
+    {
+      "file": "screenshots/official/6352d4a36125-upstream_2x.png",
+      "sha256": "6352d4a361251bbaac16d583db16b0b9b9c6b426f69455971bd4665917b88e71",
+      "bytes": 36444
+    },
+    {
+      "file": "screenshots/official/63727b2ec184-gk-new-tags-icon.svg",
+      "sha256": "63727b2ec18437712dc37a62ffb73973a93e5663b9b275b07fc2edcda1f6ed1a",
+      "bytes": 1059
+    },
+    {
+      "file": "screenshots/official/63911b2b2c43-lfs-AddPathVariable-0.png",
+      "sha256": "63911b2b2c4374504d1d648af474a30f0d343c917100d64eb18bf93e72ceb805",
+      "bytes": 1504
+    },
+    {
+      "file": "screenshots/official/63b4bcf698cb-create-local-ws-2025_2x.png",
+      "sha256": "63b4bcf698cb4296da20b506d698c5fb21ebe96dac74b8d7c5cf7b1627127989",
+      "bytes": 265830
+    },
+    {
+      "file": "screenshots/official/6501f60cd9ab-fork-github-2025_2x.png",
+      "sha256": "6501f60cd9ab9186834f5177970b9341cd85996832911313c435073b65f13d9e",
+      "bytes": 182092
+    },
+    {
+      "file": "screenshots/official/657ae3ca6940-invalid-error-2.png",
+      "sha256": "657ae3ca6940a22cc2a7f8aad866ca0a138bb0c526725ea07f225c0e8f7be4fe",
+      "bytes": 15784
+    },
+    {
+      "file": "screenshots/official/664663bac725-gpg-icon-2025_2x.png",
+      "sha256": "664663bac725e0f86f5d17346bbe46fa7d70f758573a805c9774d122e6790c4c",
+      "bytes": 231542
+    },
+    {
+      "file": "screenshots/official/6779dd22f6f5-base-dn_2x.png",
+      "sha256": "6779dd22f6f5aa9cf8e684eed0f6c398ca49b02a7ab87b15b464b365d8582800",
+      "bytes": 12139
+    },
+    {
+      "file": "screenshots/official/67ef232cbba5-trello-create-filter-2025_2x.png",
+      "sha256": "67ef232cbba563f3366cc6b32c4bf1771546b61ddbb76056dbcc7f4a28cec282",
+      "bytes": 843256
+    },
+    {
+      "file": "screenshots/official/68380e31d664-toggle-panes-2025_2x.png",
+      "sha256": "68380e31d664f3c72525f22afe914c82fa50bdfc3417ce2da978c6f28728cc74",
+      "bytes": 95306
+    },
+    {
+      "file": "screenshots/official/6862fe82f079-hide-show-all_2x.png",
+      "sha256": "6862fe82f079d3fce75ea588f37f24e692c440ab67c13854d4ff703b37c6b0f3",
+      "bytes": 216107
+    },
+    {
+      "file": "screenshots/official/686ffc83a4c3-gkd-graph-jump-to-pinned-branch-01-v3_2x.png",
+      "sha256": "686ffc83a4c306d42976671c9e72015b26eaf6ceed8bba95f42f2b2c1443b7e6",
+      "bytes": 94854
+    },
+    {
+      "file": "screenshots/official/687c51ca4813-connect-jira-dc-2025_2x.png",
+      "sha256": "687c51ca4813975dcc507a324b926355c9659a9bbbafc055d64c60ba16296261",
+      "bytes": 125558
+    },
+    {
+      "file": "screenshots/official/6b15242d6dcc-stash-ai-message_2x.png",
+      "sha256": "6b15242d6dcc1424e72ad17cb2050302c09739dfab4adf8f76158ee1a5c8d58c",
+      "bytes": 64738
+    },
+    {
+      "file": "screenshots/official/6b159e95a99a-gkd-11-commit-explain-2.png",
+      "sha256": "6b159e95a99a038e162dd4fe596b77a29a55353c1b0e8d0f3dc9be7a5e278292",
+      "bytes": 234148
+    },
+    {
+      "file": "screenshots/official/6b7da41eda45-license-details_2x.png",
+      "sha256": "6b7da41eda4535086ad9be2e4f37e4935a92aa2b62b810ac874120f31477b4aa",
+      "bytes": 20663
+    },
+    {
+      "file": "screenshots/official/6ce1e8f4a9c9-ssh-bitbucket-2025_2x.png",
+      "sha256": "6ce1e8f4a9c9d7c15b07eef48397afab47387e196a375c9b079a37ee82014773",
+      "bytes": 213903
+    },
+    {
+      "file": "screenshots/official/6d258b79a615-rename-team-2025.png",
+      "sha256": "6d258b79a6156c8f1f0eaac856444b6b03c7044bdd91370a5d1c8bc5c091b4da",
+      "bytes": 120292
+    },
+    {
+      "file": "screenshots/official/6d2df17a4f7d-gitflow-preferences-2025_2x.png",
+      "sha256": "6d2df17a4f7d1a6793da14407d0e5ef5fd59ee5e8e3e4cb045156a2cebdc5a1f",
+      "bytes": 139154
+    },
+    {
+      "file": "screenshots/official/6dfea90ede8d-delete-team-2025.png",
+      "sha256": "6dfea90ede8d4a8e29eb9a5f0b857e9e77433a5d262ccb3e27803731cc5a5efc",
+      "bytes": 119673
+    },
+    {
+      "file": "screenshots/official/6e302482aae2-create-branch-jira-integration.gif",
+      "sha256": "6e302482aae2b2a6d685919d4411408c9391f0888c54769b37949cafee22b7a8",
+      "bytes": 3037554
+    },
+    {
+      "file": "screenshots/official/6e5f194fa0b8-add-branch_2x.png",
+      "sha256": "6e5f194fa0b803de05feaee98c4e08e8aae18962685d6ac7310aaad9cd7e7979",
+      "bytes": 60324
+    },
+    {
+      "file": "screenshots/official/6eb6e2ba3b01-pop-stash_2x.png",
+      "sha256": "6eb6e2ba3b0113c65719713c30971d5d9982c8b054da3b12e2503b85ef1da9fe",
+      "bytes": 3821
+    },
+    {
+      "file": "screenshots/official/6ebb36401fbd-app-level_2x.png",
+      "sha256": "6ebb36401fbd2d049e79e9dc81ec0dfd629eadf52d70d721164566af6f5ab676",
+      "bytes": 156569
+    },
+    {
+      "file": "screenshots/official/6ef3f4f28e3f-gkc-ssh-keygen_2x.png",
+      "sha256": "6ef3f4f28e3f10fdde09eb077e7bccb162b42b55049e65dbd7df993ccae74c08",
+      "bytes": 95588
+    },
+    {
+      "file": "screenshots/official/70cfbbcb791c-favorite-repo-2025_2x.png",
+      "sha256": "70cfbbcb791c1d9083bd53b302bef11102b4be43a9b7c6fd4330d3123a47d266",
+      "bytes": 238198
+    },
+    {
+      "file": "screenshots/official/70d1bab8786b-create-folder_2x.png",
+      "sha256": "70d1bab8786bee7a294fd92408a205c6b3c6056efc53436703e3132a9b582ef4",
+      "bytes": 3595
+    },
+    {
+      "file": "screenshots/official/70fec5beb452-edit-file-diff-2025.png",
+      "sha256": "70fec5beb452ac23a9ec05779b7ba6261948d2d462cc5470463c7f28506ffea8",
+      "bytes": 74967
+    },
+    {
+      "file": "screenshots/official/710bb609d0db-gkd-12-6-stacked-pr-view.png",
+      "sha256": "710bb609d0db11298538bcab003adf2432042752a0b78f77e9d25a55b6c4a4c7",
+      "bytes": 87213
+    },
+    {
+      "file": "screenshots/official/718c5b97931d-insights-gkdev-2026_2x.png",
+      "sha256": "718c5b97931d3bc46b14f2d60a9ca7be8e9aedfb030ac44c4a0b1838c53bafd5",
+      "bytes": 107480
+    },
+    {
+      "file": "screenshots/official/72d097efa6f3-gkd-profile-menu-sign-out-01-v4_2x.png",
+      "sha256": "72d097efa6f34b5c0d0f1403d8319b5f5dfca871ddde6432a734776d95b43037",
+      "bytes": 33232
+    },
+    {
+      "file": "screenshots/official/736d9b3166b4-gitlab-issue-copy-link-2025_2x.png",
+      "sha256": "736d9b3166b43bb308401b8de4e60c5a195b7991f8a4773dfade68cb6b29e9e9",
+      "bytes": 312282
+    },
+    {
+      "file": "screenshots/official/73f4e80287f5-GKD-Launching-Agent-Sidebar-view2.png",
+      "sha256": "73f4e80287f57b4605d54671ec0b8a425c72d86d86b616b50e5aa4e81cf5aa74",
+      "bytes": 45685
+    },
+    {
+      "file": "screenshots/official/74169ee2ce9a-ignore-stop-tracking-2025.png",
+      "sha256": "74169ee2ce9af065f7343713687ddfae651ca9940f6910c4fc4576db75ceb5e4",
+      "bytes": 15993
+    },
+    {
+      "file": "screenshots/official/74766974c615-team-setting_2x.png",
+      "sha256": "74766974c6159f50b871183e17de9e1f861fccd4d94aab3b997c97b569cacf76",
+      "bytes": 14760
+    },
+    {
+      "file": "screenshots/official/7477f33c87ab-filter-team-member-2025_2x.png",
+      "sha256": "7477f33c87ab75cd60057d67eabbba8b5bc530573c40f2561f507cf329ec85ec",
+      "bytes": 278340
+    },
+    {
+      "file": "screenshots/official/75077748e910-create-new-branch-2025.png",
+      "sha256": "75077748e910c141808fa74d21ffad33c0993c902b989a7806f6ad072e91b88d",
+      "bytes": 90870
+    },
+    {
+      "file": "screenshots/official/751d87786a62-connect-bitbucket-2025-v3_2x.png",
+      "sha256": "751d87786a62521dc890234a79aec138ebb36aaf67c34eeb1c887c54badae09a",
+      "bytes": 116324
+    },
+    {
+      "file": "screenshots/official/7537e5a7be42-gkd-10-2-edit-workspace.png",
+      "sha256": "7537e5a7be42351613251249fc437df25487f72dffe66250acbc7d434eadfaeb",
+      "bytes": 37982
+    },
+    {
+      "file": "screenshots/official/7575643d61d4-launchpad-highlight-2025_2x.png",
+      "sha256": "7575643d61d43931c8c4dd1071e97bf796c1becd30f4cb2c46b3aee7579d8b8b",
+      "bytes": 433412
+    },
+    {
+      "file": "screenshots/official/75785c2cf16f-stash-message-generated-2025_2x.png",
+      "sha256": "75785c2cf16fce8b07dc3e5de5ad8c59f8945155121aebb2e76031d89da05b01",
+      "bytes": 62457
+    },
+    {
+      "file": "screenshots/official/75bb25d7c8bb-theme-switch.gif",
+      "sha256": "75bb25d7c8bbad2ee49bbf63567fc4b98e53dd561617714cf7c3c969bae2329f",
+      "bytes": 409716
+    },
+    {
+      "file": "screenshots/official/76c2bd176914-gkd-repo-mgm-tab-customize1.gif",
+      "sha256": "76c2bd176914e5006086a639de4f93a6f49facc9966225e0f3f3c152298f46f7",
+      "bytes": 974486
+    },
+    {
+      "file": "screenshots/official/77abefccc06b-apply-patch-2025.png",
+      "sha256": "77abefccc06b5566216d18490e1b27a773d7bc3cf35a92c873dfd2a1f92d8ad3",
+      "bytes": 64781
+    },
+    {
+      "file": "screenshots/official/79484a7f8137-gkc-github-enterprise-server-add-key.png",
+      "sha256": "79484a7f81376ab216c7f0a77f29a8b4a310b25fa191703aa05a96db3402f78d",
+      "bytes": 135899
+    },
+    {
+      "file": "screenshots/official/79b0d77d8f28-add-team-2025-2.png",
+      "sha256": "79b0d77d8f2824ba56248504bdf88e4d9666e2ae28c800053ea5a736bb974358",
+      "bytes": 151358
+    },
+    {
+      "file": "screenshots/official/7a188ba72dc0-gkd-worktree-tab-groups-01-v4_2x.png",
+      "sha256": "7a188ba72dc013fcc31bc60c4f0de1441957ec668aa975333e7980afcb53d789",
+      "bytes": 12026
+    },
+    {
+      "file": "screenshots/official/7baaafc1091c-more-multi-repo-actions-2025_2x.png",
+      "sha256": "7baaafc1091c608d468253bb16a59d372757b85b0daaf0687b9c6048e9b6120b",
+      "bytes": 111587
+    },
+    {
+      "file": "screenshots/official/7c35e8d370c9-GKD-org-member-conflict-11-1_2x.png",
+      "sha256": "7c35e8d370c959fdd4da721ae4d6b1a868756cf8dc0f793e166d564d6c35ad5d",
+      "bytes": 384484
+    },
+    {
+      "file": "screenshots/official/7c49c775c7da-create-jira-filter-2025_2x.png",
+      "sha256": "7c49c775c7dacba41ba6c9717febc11febc568ae22eaa1b2f797ece784598049",
+      "bytes": 203621
+    },
+    {
+      "file": "screenshots/official/7d120eef633a-chrome-0a-export.png",
+      "sha256": "7d120eef633a3bf54f43b35c3cc6106ef52b0c0ded104fbd5e043f54d492246a",
+      "bytes": 14731
+    },
+    {
+      "file": "screenshots/official/7d6c228f193c-filter-author_2x.png",
+      "sha256": "7d6c228f193cc84fe23e2c5de6977c14bdc5dcd2ed124762f546c9960f0f6f64",
+      "bytes": 20489
+    },
+    {
+      "file": "screenshots/official/7df6fe9f07e4-profiles-preferences_2x.png",
+      "sha256": "7df6fe9f07e44bf7809d98d0f00b800194be1f04643828b18a78a06328d02359",
+      "bytes": 74029
+    },
+    {
+      "file": "screenshots/official/7e94db980650-active-away-2025_2x.png",
+      "sha256": "7e94db9806504a01ee4da5dbb818e5fbe17b6e085842d93a951d7c8a1014b4ca",
+      "bytes": 120873
+    },
+    {
+      "file": "screenshots/official/7eb4487cf6b6-gpg-version-2025_2x.png",
+      "sha256": "7eb4487cf6b60cd357e13a8a1014f0e7a55719cf41153ba14eeca112ceadd533",
+      "bytes": 325325
+    },
+    {
+      "file": "screenshots/official/7f239e3d517f-create-github-filter_2x.png",
+      "sha256": "7f239e3d517f2ab8cb086bcb15fee36071a7c40d7c7df63717c18089b18f40d7",
+      "bytes": 584913
+    },
+    {
+      "file": "screenshots/official/7f7cd925410e-team-view-2025_2x.png",
+      "sha256": "7f7cd925410e89dc18b45c874cc5b37925712cab7b41f4150808cc2e04f4f513",
+      "bytes": 80509
+    },
+    {
+      "file": "screenshots/official/80369acbf35b-gitlab-issue-hover-2025_2x.png",
+      "sha256": "80369acbf35b7119432fdea5709656cc7b06fba2dfea4647c33b6734bd7cc034",
+      "bytes": 452420
+    },
+    {
+      "file": "screenshots/official/80ae1f2bb88a-clone-repository-menu-2025_2x.png",
+      "sha256": "80ae1f2bb88a8bc48697d284a7769da781e97156acbb293ca3df10caf11b5ac1",
+      "bytes": 122672
+    },
+    {
+      "file": "screenshots/official/8109d8963b1a-file-diff-2025.png",
+      "sha256": "8109d8963b1ac8d3f786c732b17f4d289535697e8a1b7e04d36a4bf6189d90fa",
+      "bytes": 369715
+    },
+    {
+      "file": "screenshots/official/810a2f864567-profiles_2x.png",
+      "sha256": "810a2f8645676ee0aa13acb762e490d7600c377b980f36b9d9550734c24b5ead",
+      "bytes": 39522
+    },
+    {
+      "file": "screenshots/official/8113e4f7bdce-squash-pushremote_2x.png",
+      "sha256": "8113e4f7bdce92c8d137eec4d6137e763d2c9499ade4773c325fb394210126f4",
+      "bytes": 12257
+    },
+    {
+      "file": "screenshots/official/8114cfe00bcb-safari-4.png",
+      "sha256": "8114cfe00bcb71c4045f2986723d28957efc06e51e25914f5fa151fe17d64b01",
+      "bytes": 40322
+    },
+    {
+      "file": "screenshots/official/8134d6c6977b-gitlab-issue-create-branch-2025_2x.png",
+      "sha256": "8134d6c6977ba5196c73b6d8637f047a95a69708e0b74c078d65a14738f27438",
+      "bytes": 428168
+    },
+    {
+      "file": "screenshots/official/81650a0be6e5-gk-push-icon.svg",
+      "sha256": "81650a0be6e51ef893f12cf6a8672e871ca707bcff56d1768f7570e71da853ca",
+      "bytes": 965
+    },
+    {
+      "file": "screenshots/official/82893d655d2b-open-in-gitkraken-2025_2x.png",
+      "sha256": "82893d655d2b807f3d4f48f8e7f72acb011986114800b46ce7fa84ef6efae7f5",
+      "bytes": 739108
+    },
+    {
+      "file": "screenshots/official/8292d26b0a65-profile-tabs-2025.gif",
+      "sha256": "8292d26b0a651000beac94e913fa71f4a81b13f2df98c7312312d83a66e53b1b",
+      "bytes": 389814
+    },
+    {
+      "file": "screenshots/official/831ad2ec2981-open-workspaces-2025_2x.png",
+      "sha256": "831ad2ec298130e125b80c3261f82103ebf1fcf646c5367fb8db39a636ba51e0",
+      "bytes": 53836
+    },
+    {
+      "file": "screenshots/official/83419bbf06d2-code-review-comment.png",
+      "sha256": "83419bbf06d29eba7aba0f939319dc45b062761311d48e5e3b3a857494e0518a",
+      "bytes": 92195
+    },
+    {
+      "file": "screenshots/official/83887a662fff-pr-ai-title-desc-11-1_2x.png",
+      "sha256": "83887a662fffb228bab13773b1a5c33e6a7a139908d1803499a75bb92a2d89f1",
+      "bytes": 189483
+    },
+    {
+      "file": "screenshots/official/838c1520a9c9-explain-branch-summaries_2x.png",
+      "sha256": "838c1520a9c99788871f6b68d6ae8475fde72abc07b4a4fe7a30fe02da8ede9c",
+      "bytes": 486294
+    },
+    {
+      "file": "screenshots/official/83adb16ca28b-connect-integration-launchpad-2025_2x.png",
+      "sha256": "83adb16ca28b2a7e98c204481b7271fcad70884fecc248712824f56afcc796ed",
+      "bytes": 185212
+    },
+    {
+      "file": "screenshots/official/842c8f30cd73-local-to-cloud-ws-2025_2x.png",
+      "sha256": "842c8f30cd73c09fddf5b05d5b2ce9d83fd248aa8aad928cde6a8312576796de",
+      "bytes": 88533
+    },
+    {
+      "file": "screenshots/official/845b2d48054c-commit-graph-2025.png",
+      "sha256": "845b2d48054c74c9688bbe1328ac172cb7a1ffdd20948091490f6604e3300aea",
+      "bytes": 361910
+    },
+    {
+      "file": "screenshots/official/848fd9569da6-chrome-3-manage-certs.png",
+      "sha256": "848fd9569da68bc5dc59128aae787d2cc7bc30a04f2c0e4331b08b02e8591f24",
+      "bytes": 63890
+    },
+    {
+      "file": "screenshots/official/858454553be6-chrome-1-settings.png",
+      "sha256": "858454553be6a370e450df0f49c7830bdf5ed6573d6a617d294b78461831a781",
+      "bytes": 84870
+    },
+    {
+      "file": "screenshots/official/85a1d362a86f-connect-jira-issues-2025_2x.png",
+      "sha256": "85a1d362a86f0b1c2915a498c7e6ed30dd1855fe14a9442ec61df0853a717537",
+      "bytes": 660616
+    },
+    {
+      "file": "screenshots/official/87cb04fa57ce-autocomplete-suggestions.png",
+      "sha256": "87cb04fa57cef62f82dabbc76e8f19c94e24e6097ef4f830f0b6f3ecec782cc2",
+      "bytes": 13981
+    },
+    {
+      "file": "screenshots/official/88725f4ba640-edit-file-fuzzy.gif",
+      "sha256": "88725f4ba6407993a879db4181e9e8518be7de4c0e72b460d9c53c0ef014389c",
+      "bytes": 454783
+    },
+    {
+      "file": "screenshots/official/88e143959680-repository-alias.png",
+      "sha256": "88e143959680c1044b336820a8ec61fb5fe3320d6f0614759733d637f6434840",
+      "bytes": 19881
+    },
+    {
+      "file": "screenshots/official/8957f434f6c9-error-1002_2x.png",
+      "sha256": "8957f434f6c9c3602e800c2861f973eb81a6b8aae64994a5680e3d73a240df7d",
+      "bytes": 196228
+    },
+    {
+      "file": "screenshots/official/8965955a195b-create-branch-github-issue_2x.png",
+      "sha256": "8965955a195b2d905ee28d1affffa321d3a1272879716d9baa9652ffa48c0c17",
+      "bytes": 372551
+    },
+    {
+      "file": "screenshots/official/89ea7e3679a2-gpg-browse-button.png",
+      "sha256": "89ea7e3679a22fa0d95b1556d8958a7662b63381db20aa3d570b7cea5694cf06",
+      "bytes": 2919
+    },
+    {
+      "file": "screenshots/official/89fa82d71e16-issue-filters-launchpad-2025_2x.png",
+      "sha256": "89fa82d71e1659bef8a5a692af5a4f2e247fde8f880b40f158e77f8a8c49f308",
+      "bytes": 229497
+    },
+    {
+      "file": "screenshots/official/8bd3eaff6255-gk-hide-icon-green.svg",
+      "sha256": "8bd3eaff6255c93fc34150bb760c32066195b56ea71abd8d88443f7b425ad3b7",
+      "bytes": 3067
+    },
+    {
+      "file": "screenshots/official/8d3ca960f188-edit-file-menu-2025.png",
+      "sha256": "8d3ca960f188a1233ed429d8d1cb3481d7ff7ea711bc7484d7292057a05ecf83",
+      "bytes": 69418
+    },
+    {
+      "file": "screenshots/official/8daf928d4bda-stash-left-2025.png",
+      "sha256": "8daf928d4bdad876c85d42dea9c201eac2ec8e7fb0a0a34fba3a0c7c14d1fb76",
+      "bytes": 61538
+    },
+    {
+      "file": "screenshots/official/8de3804f7037-create-branch-from-HEAD-2025.png",
+      "sha256": "8de3804f7037600f2683e391507a2585e152a61531ac6e27b1b510c4692fa56b",
+      "bytes": 55407
+    },
+    {
+      "file": "screenshots/official/8ee4f32cb7d1-custom-stash-wip_2x.png",
+      "sha256": "8ee4f32cb7d178894dd423339f60726143ee39c3437340c253224ef10771327f",
+      "bytes": 6396
+    },
+    {
+      "file": "screenshots/official/8f7f39ed4b75-push-tag-2025_2x.png",
+      "sha256": "8f7f39ed4b75519c182080a9493b2323c4c295b5dda383adc64fcf5f812c67e0",
+      "bytes": 124545
+    },
+    {
+      "file": "screenshots/official/907e593dda84-Auto-resolve-with-AI-2025_2x.png",
+      "sha256": "907e593dda84c15121a4a6c8c799e8c2150cbd0c94e60234fbc86b420a323605",
+      "bytes": 683041
+    },
+    {
+      "file": "screenshots/official/90d16bf71c4a-user-attributes_2x.png",
+      "sha256": "90d16bf71c4a69b1559373e1dbbee9d5b9735a77400300510b257a154420c96e",
+      "bytes": 9786
+    },
+    {
+      "file": "screenshots/official/90fc1873395a-tag-annotation.png",
+      "sha256": "90fc1873395a95d73244c23d5b983cef30ee60ca08a775aabb1c1bb55a9067a3",
+      "bytes": 9431
+    },
+    {
+      "file": "screenshots/official/9120f23eb5fd-push_2x.png",
+      "sha256": "9120f23eb5fdc2a12749e5c96fa6da62abfc01f84bbb18b247f933e8c1c16367",
+      "bytes": 5627
+    },
+    {
+      "file": "screenshots/official/912e36ff5e03-remote-gitlab_2x.png",
+      "sha256": "912e36ff5e038df62efae24082c3c9eabe93f4a2116dc6e8203bd16ddabea88b",
+      "bytes": 43244
+    },
+    {
+      "file": "screenshots/official/914333f662ee-hunk-2025.png",
+      "sha256": "914333f662ee0b9558639cc3a02374fb0db1c5109c305da85015d119c6ef2e67",
+      "bytes": 383538
+    },
+    {
+      "file": "screenshots/official/919e4c308c37-connect-gitlab-self-managed-2025_2x.png",
+      "sha256": "919e4c308c37444b4b5eac0281a9ce38160b18d4d9d4d1f2e8c55207102e3dc8",
+      "bytes": 169637
+    },
+    {
+      "file": "screenshots/official/92e5517b09a3-trello-create-card-2025_2x.png",
+      "sha256": "92e5517b09a3132e657ee1d30dcb313e74d6af4a7f63d7b29cee55590eda173e",
+      "bytes": 233595
+    },
+    {
+      "file": "screenshots/official/93994814dc4b-compose-WIP_2x.png",
+      "sha256": "93994814dc4b192d5208a50e462926e1b926128eac5ce6625093d8370556733a",
+      "bytes": 340147
+    },
+    {
+      "file": "screenshots/official/939a8a6e88d1-tooltip-general_2x.png",
+      "sha256": "939a8a6e88d1c4d6afc7af609dda2f077cefb352f05d9638eb2a115cac29549a",
+      "bytes": 21286
+    },
+    {
+      "file": "screenshots/official/94332251225b-create-pr-v11-1-Q2-2025_2x.png",
+      "sha256": "94332251225b17ef0c08dcfc9f614cd1cd6e6eec0d1e4c06cfd57bc09036ab15",
+      "bytes": 137928
+    },
+    {
+      "file": "screenshots/official/945b13c000c5-partial-stash.png",
+      "sha256": "945b13c000c55e403ea31f5696b4bffbaab04a1c816cd08d6d5d73969dbfacbb",
+      "bytes": 78794
+    },
+    {
+      "file": "screenshots/official/94f2544eed27-select-license_2x.png",
+      "sha256": "94f2544eed27aa743478d77596de50757b5e17e0ffbf14b5e23e0ef21a7f387f",
+      "bytes": 10348
+    },
+    {
+      "file": "screenshots/official/95bf45ed8b1b-Commit-highlight.png",
+      "sha256": "95bf45ed8b1bd4e72d0b549a6ce7cad8658c1f96d0c085a8539a72d2ca54b17c",
+      "bytes": 21208
+    },
+    {
+      "file": "screenshots/official/96268f033fe1-safari-1a.png",
+      "sha256": "96268f033fe129e815d786583e49de417573d1af32bba4a31f313898eae218e8",
+      "bytes": 36863
+    },
+    {
+      "file": "screenshots/official/963114762232-preferences-menu-gear-2025.png",
+      "sha256": "963114762232c8c5f3034725e08ba755c69fc570d82267a0237124982a21884a",
+      "bytes": 57065
+    },
+    {
+      "file": "screenshots/official/969a7e626759-GKD-Launching-Agent-Launchpad1.png",
+      "sha256": "969a7e626759c4194b09d95361f3707c47144e25d207fa27d7331c4de08d559e",
+      "bytes": 222677
+    },
+    {
+      "file": "screenshots/official/969df5f83397-open-launchpad-2025_2x.png",
+      "sha256": "969df5f8339791afe4a8ca69227e20f349a175b08322d9429e5c725fcdc99a3f",
+      "bytes": 132660
+    },
+    {
+      "file": "screenshots/official/975d768fe5ac-gkd-ai-control-reminder-01-v2_2x.png",
+      "sha256": "975d768fe5acd4c629745c06dffb15b3a1e39bc99ef94895def290d02c4d87af",
+      "bytes": 79900
+    },
+    {
+      "file": "screenshots/official/979edfa6e62f-gear-2025.png",
+      "sha256": "979edfa6e62fb1093e3f099189149e3681b04ac7b463a746e09a46f515e3cf84",
+      "bytes": 79771
+    },
+    {
+      "file": "screenshots/official/97a863df9a45-edit-profile-1-2025.png",
+      "sha256": "97a863df9a4568035fbe1a2f3fce52fe3fbd77e0096888f775effac2863575a8",
+      "bytes": 24257
+    },
+    {
+      "file": "screenshots/official/982803e8ae27-create-patch-2025.png",
+      "sha256": "982803e8ae27ca68a3bc9918c2b564f5e76ccf5f7e9cbb281982b7b393ddef9e",
+      "bytes": 132395
+    },
+    {
+      "file": "screenshots/official/9a0b34e92954-author-initials-2025.png",
+      "sha256": "9a0b34e92954b98f841e651a5f60d44299882f8f60caf659e600c24dc757e8d2",
+      "bytes": 60688
+    },
+    {
+      "file": "screenshots/official/9a3b54ab1068-trello-cards-2025_2x.png",
+      "sha256": "9a3b54ab10684f1345d9db65aa100af412a5b31cba25e56513c020ffe7bf7e0b",
+      "bytes": 192287
+    },
+    {
+      "file": "screenshots/official/9a6cfa35fc61-lfs-add-env-variable-image3-2025_2x.png",
+      "sha256": "9a6cfa35fc61157159972c71bab6b1a43fde21e88a1fe6f4e1a2c780b90d233a",
+      "bytes": 583381
+    },
+    {
+      "file": "screenshots/official/9b6223f898ca-finish-feature.gif",
+      "sha256": "9b6223f898cac63e0845c4f4dd9064d07b9679696f2441c832425d58f47d7bd3",
+      "bytes": 2414232
+    },
+    {
+      "file": "screenshots/official/9c3eedeaf105-pr-template-2025_2x.png",
+      "sha256": "9c3eedeaf105c8908d2ec07db94e9c87a193f9020f45ddb0ad669f8cb3e25715",
+      "bytes": 139976
+    },
+    {
+      "file": "screenshots/official/9e4b0604ac1f-invite-to-org-11-1_2x.png",
+      "sha256": "9e4b0604ac1fd3d5e78ecf892cc443ac264297835e9d6463578fb40a55122b3c",
+      "bytes": 301110
+    },
+    {
+      "file": "screenshots/official/9e5fb0d2958b-connect-gitlab-self-managed-PAT-2025_2x.png",
+      "sha256": "9e5fb0d2958bfffed570e2fee400a58f9f2000d3e603eb85bc1703294b78ea7d",
+      "bytes": 190099
+    },
+    {
+      "file": "screenshots/official/a121b4a6f867-discard-commits.gif",
+      "sha256": "a121b4a6f867519155afd64996a0c73face12c2afa93a505c7e6e4599743f15e",
+      "bytes": 144822
+    },
+    {
+      "file": "screenshots/official/a168b4ff0ce1-add-key-gitlab-self-managed-2025_2x.png",
+      "sha256": "a168b4ff0ce1967c2cf56075e634c1644ad8bb1c6bc2cb80f5f59eb758492ae4",
+      "bytes": 197082
+    },
+    {
+      "file": "screenshots/official/a240ce8571fe-encryption-method_2x.png",
+      "sha256": "a240ce8571fe0fda41dc16f002fceae005b78dae65c82eea81cd6a31b11d3799",
+      "bytes": 13557
+    },
+    {
+      "file": "screenshots/official/a25b54cb709a-gkc-azure-integration-clone_2x.png",
+      "sha256": "a25b54cb709ac4998e6390b192a091d5fa229786a3f42f3b9e191fef289d0894",
+      "bytes": 50351
+    },
+    {
+      "file": "screenshots/official/a26f94108fa7-create-github-issue-2025_2x.png",
+      "sha256": "a26f94108fa78ba2119e94d3948a575d2627c9c01b9041b8ebaa6bebb7f7ebdd",
+      "bytes": 261792
+    },
+    {
+      "file": "screenshots/official/a2e6629b4fdd-finish-release-context-menu-2025_2x.png",
+      "sha256": "a2e6629b4fddf300a52aed9e23a2a138710adf19b77ba56995f241ef7ed46b9e",
+      "bytes": 240987
+    },
+    {
+      "file": "screenshots/official/a300064b559a-left-panel-resize-and-collapse.gif",
+      "sha256": "a300064b559a7a3c99584544f4fc860dd54c12624bcf97db33583934c086e73d",
+      "bytes": 1254704
+    },
+    {
+      "file": "screenshots/official/a3292ce85dba-gkc-apply-cloud-patch-example.gif",
+      "sha256": "a3292ce85dba305d0c1d1e04b90ad51b43cd4e3ef39a1f4c20828bfa315dd707",
+      "bytes": 1915213
+    },
+    {
+      "file": "screenshots/official/a339f85ab754-hover-issue-2025_2x.png",
+      "sha256": "a339f85ab754ff2e0510a265b69d1d3263eff7f68d4d0ae083e396e5b002cfeb",
+      "bytes": 635640
+    },
+    {
+      "file": "screenshots/official/a3e270398159-toggle-agents-view-preferences.png",
+      "sha256": "a3e2703981593f88c15ad977bbde86cc234708a1952fee94ea27ce491676ba8d",
+      "bytes": 76287
+    },
+    {
+      "file": "screenshots/official/a4187639b689-authorize-gitlab_2x.png",
+      "sha256": "a4187639b689b8f6837668f14e4b20e5a52e39466dd5852dd3f2163959a9f938",
+      "bytes": 7378
+    },
+    {
+      "file": "screenshots/official/a4413863acec-github-issue-view-click-2025_2x.png",
+      "sha256": "a4413863acec5a1566fa4f9808bac95ba90c2d9c74f0b9aa7a17c9f60fa3e161",
+      "bytes": 274879
+    },
+    {
+      "file": "screenshots/official/a51b23ba9575-delete-file_2x.png",
+      "sha256": "a51b23ba9575c58aa7bc3cf00c18bfe218554563239573e56e7ce7d5ed9a4a2f",
+      "bytes": 23413
+    },
+    {
+      "file": "screenshots/official/a57650877a07-pin-to-left.png",
+      "sha256": "a57650877a07f386e033c2365ee10ea7107810827384425b4d03fc9675342d03",
+      "bytes": 384274
+    },
+    {
+      "file": "screenshots/official/a5f6055e3804-split-2025.png",
+      "sha256": "a5f6055e3804cd9116fcc4d52201e7e56f195f6c9c0862e8cff94e29aeb6ac02",
+      "bytes": 317070
+    },
+    {
+      "file": "screenshots/official/a65eaaa3d511-open-repo-2025_2x.png",
+      "sha256": "a65eaaa3d5114f4d9df190b8107f9a589b8223dd869b89bdfde677b499d7e283",
+      "bytes": 154367
+    },
+    {
+      "file": "screenshots/official/a7945ea6b3be-vscode-to-hooks.png",
+      "sha256": "a7945ea6b3be51bbdcd21ed0f91e3887dde10b022bd30a14a340cc5252586dd0",
+      "bytes": 7804
+    },
+    {
+      "file": "screenshots/official/a8f27d2117ff-beyond-compare_2x.png",
+      "sha256": "a8f27d2117ff49d0c011ccad9e586aea27efd514a6aeb1162f0bab7650600855",
+      "bytes": 30445
+    },
+    {
+      "file": "screenshots/official/a92d8087751b-detect-fork_2x.png",
+      "sha256": "a92d8087751b8b6d47ea18674f26df049ed4fa239f210e0dc277022fbb84ac49",
+      "bytes": 80440
+    },
+    {
+      "file": "screenshots/official/a92fa68e3e08-wsl-full-screen_2x.png",
+      "sha256": "a92fa68e3e088d6839fdfa0520cb507b749981eb7c9fd82e260d2117dbe8a370",
+      "bytes": 178401
+    },
+    {
+      "file": "screenshots/official/a9e36cfa80a2-GKD-Common-Issue-7.png",
+      "sha256": "a9e36cfa80a2e07db4578ce08879d43aff5e87d298420cade2f589727f968e92",
+      "bytes": 20888
+    },
+    {
+      "file": "screenshots/official/aaec7daab7c3-data-line_2x.png",
+      "sha256": "aaec7daab7c33400d5226e9694af63d5c3e993178fa0a55867d72a4588589118",
+      "bytes": 48436
+    },
+    {
+      "file": "screenshots/official/aba415c276ad-gk-new-stash-icon.svg",
+      "sha256": "aba415c276adf6196c31055678cf85fd35748607c95512953c6f9794ccc29fbb",
+      "bytes": 1943
+    },
+    {
+      "file": "screenshots/official/ac6984355e9f-mac-install.png",
+      "sha256": "ac6984355e9fa7533ab94b3eec41dea7146b8f4e1dd4e635fc358758e44e59fa",
+      "bytes": 389781
+    },
+    {
+      "file": "screenshots/official/ada6bb49814e-gkd-ado-oauth-error.png",
+      "sha256": "ada6bb49814e79c7265bf86e4404daa6875280e4fb819297384f56fdedca69c2",
+      "bytes": 19647
+    },
+    {
+      "file": "screenshots/official/adb6edd809ec-checkout-commit-2025.png",
+      "sha256": "adb6edd809ec80d299b652cc768c4701dab074d841023c4bccbba0e5f3a5ff72",
+      "bytes": 58403
+    },
+    {
+      "file": "screenshots/official/ae7a659143b6-graph-commit-2025.png",
+      "sha256": "ae7a659143b60e8b77a321bb6af5857bba26240a27ec277d6dfe01c0a391dc54",
+      "bytes": 75715
+    },
+    {
+      "file": "screenshots/official/ae9c8d63a63c-cherrypick_2x.png",
+      "sha256": "ae9c8d63a63cbceaab75525a629b45f7cea7f26dcf4977bc959458f13e17f901",
+      "bytes": 30589
+    },
+    {
+      "file": "screenshots/official/aef4e8aeccfe-unstage-hunk-2025.png",
+      "sha256": "aef4e8aeccfe31957003ad5707a8e5a05edf8a34d6dd0010ea7acad6eda80777",
+      "bytes": 329398
+    },
+    {
+      "file": "screenshots/official/af0814c1b07d-amend-message-2025.png",
+      "sha256": "af0814c1b07d585c99029cfbf3c81ec01125c34edb314260119b35ec0c51aa27",
+      "bytes": 104544
+    },
+    {
+      "file": "screenshots/official/af754f29ab61-safari-2.png",
+      "sha256": "af754f29ab6155403d750c1485b61c8f904e299399e63a2c91a72c77f8a97098",
+      "bytes": 391972
+    },
+    {
+      "file": "screenshots/official/afb1595087f1-custom-stash-graph_2x.png",
+      "sha256": "afb1595087f13753c7e48a0ca62fab7267bf6d450b430444a4cadb16d962e087",
+      "bytes": 7708
+    },
+    {
+      "file": "screenshots/official/b0282299fb62-merge-options_2x.png",
+      "sha256": "b0282299fb62c989bb73525dc1d3f172a29084318b6e02af9da49c436e78e95a",
+      "bytes": 25436
+    },
+    {
+      "file": "screenshots/official/b08a62d8710b-multiple-WIP-nodes.png",
+      "sha256": "b08a62d8710b509a2a93b8afc6e931599fc9349324d69fcee86915d088be4165",
+      "bytes": 62406
+    },
+    {
+      "file": "screenshots/official/b11a59aa951b-ignore-file_2x.png",
+      "sha256": "b11a59aa951b999f630e9d55c13cbdcb133fd25e9b97f75b2f5a79c8daed4a24",
+      "bytes": 39458
+    },
+    {
+      "file": "screenshots/official/b157388f5619-add-submodule_2x.png",
+      "sha256": "b157388f561912cd9a197541651ceffc0629dc605e2dd7f5060b1ca7b7888900",
+      "bytes": 40142
+    },
+    {
+      "file": "screenshots/official/b16d457b6a34-refresh-comments-2025_2x.png",
+      "sha256": "b16d457b6a34cb2d5d29e0b9f329dd0df00ac2550b8b67ab04d874b1aa0c3afa",
+      "bytes": 116763
+    },
+    {
+      "file": "screenshots/official/b16efe79e075-trello-card-hover-2025_2x.png",
+      "sha256": "b16efe79e075fa5036deca5d238a540492c1cd172d2b02c883e604f1eba28d0c",
+      "bytes": 531510
+    },
+    {
+      "file": "screenshots/official/b19638836df4-githook-log.gif",
+      "sha256": "b19638836df460b922dfe6fe8a3a7f2557668b15ba6b03ed5f567c2db5507eff",
+      "bytes": 500059
+    },
+    {
+      "file": "screenshots/official/b1a732710706-smart-visibility.png",
+      "sha256": "b1a732710706f7f34b6bb62bc0baa4f8a090ff9f9c0ea2917c95747716b9e7de",
+      "bytes": 415541
+    },
+    {
+      "file": "screenshots/official/b246bbb574a9-delete-tag-context-menu-2025_2x.png",
+      "sha256": "b246bbb574a9b4c2f3f1f9bd444603aa746639d23677e9ef1a5cf262e69b7be4",
+      "bytes": 153489
+    },
+    {
+      "file": "screenshots/official/b28ab5d2ddb0-gitlab-filter-create-2025_2x.png",
+      "sha256": "b28ab5d2ddb0b5950c6faaffacae488a894f24561114e74fa7abb3c939d3f2e6",
+      "bytes": 265634
+    },
+    {
+      "file": "screenshots/official/b376d4e38e85-open-jira-to-commit-2025_2x.png",
+      "sha256": "b376d4e38e856c4cebf3d552322d774e819afa79632adbd66aed92275442ef54",
+      "bytes": 585526
+    },
+    {
+      "file": "screenshots/official/b3a45292a499-gkd-10-5-launchpad-save-view.gif",
+      "sha256": "b3a45292a4996acd507caa12538f107dd7421da3ef39b89286a13abf67fa6506",
+      "bytes": 3051058
+    },
+    {
+      "file": "screenshots/official/b3d4ebc470fc-wsl-host-settings_2x.png",
+      "sha256": "b3d4ebc470fcd5b633ec903857851bdc9f80e8073921ad441857488da9403036",
+      "bytes": 6096
+    },
+    {
+      "file": "screenshots/official/b465ea658900-gkc-chmod-pre-commit.gif",
+      "sha256": "b465ea658900cdadae1098c67aaa4870416862b0fde91efc1612de8eebde1f74",
+      "bytes": 1333513
+    },
+    {
+      "file": "screenshots/official/b52025b1abde-smtp-setup_2x.png",
+      "sha256": "b52025b1abde71e7c325eff062d4700ae7a6874551be09e6a568092db42a8735",
+      "bytes": 36717
+    },
+    {
+      "file": "screenshots/official/b53bf2d7a5f3-trello-open-in-browser-2025_2x.png",
+      "sha256": "b53bf2d7a5f3955e6270f1b781dd36b6afe9dcdb9aa2d4b4735722242dfe5dba",
+      "bytes": 286014
+    },
+    {
+      "file": "screenshots/official/b552579e10e0-ssh-clone-2025_2x.png",
+      "sha256": "b552579e10e014964f9702139fdb0ccb99eafc1b13c3ab41c39efb002d0aba39",
+      "bytes": 173358
+    },
+    {
+      "file": "screenshots/official/b594e7f7ae7e-toolbar-action-for-sparse-checkout-repos.png",
+      "sha256": "b594e7f7ae7e22cc4316fcc9b1ccd46915c03d84840c24366acd6cd1d30aeac0",
+      "bytes": 153649
+    },
+    {
+      "file": "screenshots/official/b5cea9b1e96c-merge-tool-toggle.gif",
+      "sha256": "b5cea9b1e96cfe38745bed316a0c84e45a6f9fe57a7c668fb3b0c70f22c4b4e8",
+      "bytes": 2603566
+    },
+    {
+      "file": "screenshots/official/b5d3a0553e5e-patch-from-many-files-2025.png",
+      "sha256": "b5d3a0553e5e2da8a2987173b770eb6e6934400f219c8125a40d976c63999d35",
+      "bytes": 71139
+    },
+    {
+      "file": "screenshots/official/b5e42e0b76cf-launchpad-prs.png",
+      "sha256": "b5e42e0b76cffec4a640db2b2188f6fa4598cef3252b90cfc7c55d1f7e91dd7e",
+      "bytes": 334064
+    },
+    {
+      "file": "screenshots/official/b63fb076f022-finish-hotfix-2025_2x.png",
+      "sha256": "b63fb076f022c833a13f9477d10a93d7b637aa7d541d45f0d2263885d906cede",
+      "bytes": 110431
+    },
+    {
+      "file": "screenshots/official/b645b1dc80a3-amend-box-2025.png",
+      "sha256": "b645b1dc80a351462ae8b0606f4d514cec704c7a79449b37e822933f9457adcb",
+      "bytes": 47667
+    },
+    {
+      "file": "screenshots/official/b6e4d95fb593-multi-fetch-ws-2025_2x.png",
+      "sha256": "b6e4d95fb593bfd2702202fe975f0dbe5fb2a9b5be1d220c8180f64372697140",
+      "bytes": 93428
+    },
+    {
+      "file": "screenshots/official/b72addb90994-gkd-12-6-preferences-agent-status-integrations.png",
+      "sha256": "b72addb90994f163538b8a55673afe6bcb9b3995657d22e02c1eb96992c0d878",
+      "bytes": 172282
+    },
+    {
+      "file": "screenshots/official/b7398bfe3460-gk-new-push-icon.svg",
+      "sha256": "b7398bfe3460984abad82b45ae717f207fad6c69766700fc5fbe9dd8b7ba052c",
+      "bytes": 983
+    },
+    {
+      "file": "screenshots/official/b82bd2e9aa18-reword.png",
+      "sha256": "b82bd2e9aa18e1bfbcc482cbac49001ca85e086f33bbcac7770fbb0fd5954593",
+      "bytes": 13641
+    },
+    {
+      "file": "screenshots/official/b87983f11b3e-word-wrap.png",
+      "sha256": "b87983f11b3eb716f5c7ff370b800a9d9627880623efdf80a1775701be8fbe99",
+      "bytes": 690820
+    },
+    {
+      "file": "screenshots/official/b935af63c1c1-list-secret-keys_2x.png",
+      "sha256": "b935af63c1c1b84a587f91af7201de3f38adf442e82626f84e807453e5865d98",
+      "bytes": 7456
+    },
+    {
+      "file": "screenshots/official/ba745efbe0ea-create-pr-2025_2x.png",
+      "sha256": "ba745efbe0eac1a84284b11f834a269a5620487c44c7b748c010bcc4b1114f48",
+      "bytes": 218916
+    },
+    {
+      "file": "screenshots/official/bbf83cc573ba-add-tracked-file-lfs-2025_2x.png",
+      "sha256": "bbf83cc573ba67e7b82e4223a5964fda6f5efad106afb55ffbcc465529e7d477",
+      "bytes": 255530
+    },
+    {
+      "file": "screenshots/official/bc528c18f653-tab-drop-down-2025.png",
+      "sha256": "bc528c18f653807326a475e38a612b7e8bc5a250fccedc9a619118c36c5b7997",
+      "bytes": 28749
+    },
+    {
+      "file": "screenshots/official/bcae4e40dc9d-connect-gitlab-issues-2025_2x.png",
+      "sha256": "bcae4e40dc9d4f0f77e38156e20ed72d55aeafb5bbc625fa49bed53537624e85",
+      "bytes": 660582
+    },
+    {
+      "file": "screenshots/official/bd32b713a274-stash-options_2x.png",
+      "sha256": "bd32b713a274d962fcdf1e40b915bf693599ab6f5222de5f83a948a4b958d381",
+      "bytes": 30893
+    },
+    {
+      "file": "screenshots/official/be5d5e79c5f6-generate-new-gpg-key-2025_2x.png",
+      "sha256": "be5d5e79c5f604b9f8aebb69d307a6b550d68a382755a3e327e88183b8d77488",
+      "bytes": 244171
+    },
+    {
+      "file": "screenshots/official/be61ddddcf58-rebase-N-commits.png",
+      "sha256": "be61ddddcf5819171a3644ca3538152d6d6ab917200985be8551a6af8f465937",
+      "bytes": 435257
+    },
+    {
+      "file": "screenshots/official/bece272daf37-github-success-1_2x.png",
+      "sha256": "bece272daf37b7e2189bfbd57e25a154fbf6c22ca24bce9edcc0da9b264d5c28",
+      "bytes": 42516
+    },
+    {
+      "file": "screenshots/official/bed8456d42e0-chrome-2-security.png",
+      "sha256": "bed8456d42e0c4834d67f661bdbfaa6bece53a0307b16a2632ae93f1667ff368",
+      "bytes": 34465
+    },
+    {
+      "file": "screenshots/official/bfccb71f867e-gkd-ai-model-credit-multiplier-01-v2_2x.png",
+      "sha256": "bfccb71f867e4a3aeb0c51ff1fbe1cfdc5a2358da6ad9bf3dca9ab527e97f641",
+      "bytes": 93799
+    },
+    {
+      "file": "screenshots/official/c09134371592-GitKraken_Keif_ai-robot.png",
+      "sha256": "c091343715922c8ddf302c8c26bb94494e782943542ae5c41df5349822bff293",
+      "bytes": 148095
+    },
+    {
+      "file": "screenshots/official/c0f1c014ae63-create-tag-2025_2x.png",
+      "sha256": "c0f1c014ae63c29020643386071b0aab798d6dda0d903562e31e68f1d6255c1b",
+      "bytes": 105376
+    },
+    {
+      "file": "screenshots/official/c1357df4b652-commit-composer-UI_2x.png",
+      "sha256": "c1357df4b652581d515a8068aa93fd00c460521019cda5ff6939f4cfb29ac88e",
+      "bytes": 156296
+    },
+    {
+      "file": "screenshots/official/c1743203c718-issues-preview-github-issues_2x.png",
+      "sha256": "c1743203c7181bad671bec637c92b22c305587aa09c998fa454fc4ccfbf41b41",
+      "bytes": 14352
+    },
+    {
+      "file": "screenshots/official/c1fb29f33998-gkd-10-4-launchpad-jira-sprint-filter.gif",
+      "sha256": "c1fb29f339989a063191d7c62a17f146be727b7764def9c16568a794a1c87836",
+      "bytes": 3381388
+    },
+    {
+      "file": "screenshots/official/c28059582098-push-branch-2025-HD.gif",
+      "sha256": "c280595820985da5c493a2c8cd7b86b3c9c246f5a5991cbc012f2fb9697810f4",
+      "bytes": 4780634
+    },
+    {
+      "file": "screenshots/official/c2e5dd3d25ce-pr-ai-title-and-description_2x.png",
+      "sha256": "c2e5dd3d25ceded8815e5eb00a810870f5937f7701fc461c0462b2ecb94125dc",
+      "bytes": 215811
+    },
+    {
+      "file": "screenshots/official/c30ca11e2f43-merge-tool-gif.gif",
+      "sha256": "c30ca11e2f43f120814eee546f0e9f610d5ac36a715e78b3dac8b452fd57ca66",
+      "bytes": 4272016
+    },
+    {
+      "file": "screenshots/official/c357d2b885c7-gk-new-pop-icon.svg",
+      "sha256": "c357d2b885c70280a098d17343acb0ffbefa49370b600a96c9f8ccc2bd642d8f",
+      "bytes": 2153
+    },
+    {
+      "file": "screenshots/official/c4ed03a1e201-gkc-github-enterprise-server-integration.png",
+      "sha256": "c4ed03a1e201f4073d76b694a859c23773d85c6ff66403da475d945633fb5513",
+      "bytes": 171336
+    },
+    {
+      "file": "screenshots/official/c57d5a1d43dc-drag-and-drop-push-2025.gif",
+      "sha256": "c57d5a1d43dc17a07bf1edf64c100fc19de081f867448a767e30e073782ec678",
+      "bytes": 3068347
+    },
+    {
+      "file": "screenshots/official/c5e5bd24c1d6-gkd-open-worktree-from-wip-01-v3_2x.png",
+      "sha256": "c5e5bd24c1d69e4ab53bdf94aca08525b1b011f1a9c46f0e40ebe336c82c4670",
+      "bytes": 61229
+    },
+    {
+      "file": "screenshots/official/c5e75ffbc113-reset-commit-2025.png",
+      "sha256": "c5e75ffbc1137e62aead605337b25e268650fad23057c48208036dcefcbc1fdc",
+      "bytes": 112548
+    },
+    {
+      "file": "screenshots/official/c611de81e563-multi-cherry-pick-menu.png",
+      "sha256": "c611de81e56350515d50a1e0ec1854cb87d5260a3f9a36f7c9fcbbc9a568baf6",
+      "bytes": 388736
+    },
+    {
+      "file": "screenshots/official/c653ac89849d-gk-remote-icon.svg",
+      "sha256": "c653ac89849d5fe135af36ca1225a49a707b66e968ebd77633a0a4689b727eda",
+      "bytes": 1063
+    },
+    {
+      "file": "screenshots/official/c7d040bf958d-compose-existing-commits_2x.png",
+      "sha256": "c7d040bf958dce10c89e35257c2efa5ba90450dba2194e886973754e7bad7feb",
+      "bytes": 359348
+    },
+    {
+      "file": "screenshots/official/c82ed8a1a7ce-GKD-Launching-Agent-Launchpad2.png",
+      "sha256": "c82ed8a1a7cee2c15f6082a9b93efcee2fdff67f9524009c83bbc99b0c2092d7",
+      "bytes": 38680
+    },
+    {
+      "file": "screenshots/official/c84c2a786430-gkc-launchpad-personal-team-10.0.0.png",
+      "sha256": "c84c2a78643029775913263e5acedea2a805783a1d8e7cf0169135454e21f8a4",
+      "bytes": 42549
+    },
+    {
+      "file": "screenshots/official/c99492da5253-connect-atlassian-2025_2x.png",
+      "sha256": "c99492da52531b23ea0fb07ad39d243e14bddea15e2772efeef85d7af15e3e8d",
+      "bytes": 101215
+    },
+    {
+      "file": "screenshots/official/c9e35902e660-gkd-launchpad-summary.gif",
+      "sha256": "c9e35902e66040510f2794262ee9995ea45789b5d50bbebc3ffc851a354a5837",
+      "bytes": 1069919
+    },
+    {
+      "file": "screenshots/official/ca088d123a8f-lfs-tags-2025_2x.png",
+      "sha256": "ca088d123a8f7bc2ed1be80fceae53c8e9488b47135dfe1043d1b7ed2c5d7e85",
+      "bytes": 223100
+    },
+    {
+      "file": "screenshots/official/ca17ac625751-allow-deny.png",
+      "sha256": "ca17ac625751d7683faa2455ddc939a617c1f2668dd288e0b280aec4f7984e74",
+      "bytes": 125773
+    },
+    {
+      "file": "screenshots/official/cac43b5603f0-user-email_2x.png",
+      "sha256": "cac43b5603f026201ac325ba95af605d1e2d7c8bd389d44f83671ec7ac54a1c6",
+      "bytes": 13791
+    },
+    {
+      "file": "screenshots/official/caf8035fccb6-config-cloud-workspace-2025_2x.png",
+      "sha256": "caf8035fccb695da675f8e3f4290c3063959cad4f0ebc6782943b8a36e12c59e",
+      "bytes": 342737
+    },
+    {
+      "file": "screenshots/official/cbe2f530b164-gkd-agents-monitoring-status-20260414.png",
+      "sha256": "cbe2f530b164010d95269b0447b133f11b426cfd2eee5beed8c241d78edeb586",
+      "bytes": 115433
+    },
+    {
+      "file": "screenshots/official/ccb20f28bd37-view-error-log_2x.png",
+      "sha256": "ccb20f28bd37a1beaf90c518bf40e2371f7b4fe471d28f95d2db4a7426070a0a",
+      "bytes": 151849
+    },
+    {
+      "file": "screenshots/official/ccb4bf04f7e1-accesstoken-github-enterprise.png",
+      "sha256": "ccb4bf04f7e17b866d2042c73157ebc3857d0110383ac07458c37fde679569ee",
+      "bytes": 73434
+    },
+    {
+      "file": "screenshots/official/ccc54f9b7bac-gk-pull-request-icon.svg",
+      "sha256": "ccc54f9b7bac75738f0e7369f1c168ee534727466d4debd18d249138a8669fa4",
+      "bytes": 4526
+    },
+    {
+      "file": "screenshots/official/ccf369b95287-edit-profile-2-2025.png",
+      "sha256": "ccf369b952870d3697560a7c269c25369976cab38717b0c438cf24ce0d360204",
+      "bytes": 44098
+    },
+    {
+      "file": "screenshots/official/cd0dbf4fe241-max-commits-2025.png",
+      "sha256": "cd0dbf4fe24109c55606a7ad96815750d0df0c2890fe6a31e8d9f87908d89085",
+      "bytes": 178539
+    },
+    {
+      "file": "screenshots/official/cd7c961c1a9e-extended_2x.png",
+      "sha256": "cd7c961c1a9e85f0a3bf25e198a6f322c71eefc474d5bac3172f2158818a28b9",
+      "bytes": 148828
+    },
+    {
+      "file": "screenshots/official/cd99549940c0-gitlab-sign-in_2x.png",
+      "sha256": "cd99549940c01b47a1a7b717450f022c15bd3fab79ee6155ad6a8efacbd2a6f0",
+      "bytes": 19909
+    },
+    {
+      "file": "screenshots/official/ce750e26d617-patch-from-changes-2025.png",
+      "sha256": "ce750e26d61798c8884efb945f9e6b9291321cb200f994c7c7818a72b7350d7c",
+      "bytes": 85598
+    },
+    {
+      "file": "screenshots/official/ce998a78c327-gkc-delete-cloud-patch.png",
+      "sha256": "ce998a78c327f48c5971c4b74de8b7265497cc627ecaba826873432dcb2c8ffd",
+      "bytes": 33541
+    },
+    {
+      "file": "screenshots/official/ced5b0e3a990-trello-integration_2x.png",
+      "sha256": "ced5b0e3a990544782e5783cde035796374b40437eb4836817bf43a26ceade5f",
+      "bytes": 54967
+    },
+    {
+      "file": "screenshots/official/cfa8a0867ff4-save-changes-2025.png",
+      "sha256": "cfa8a0867ff4cdc8aa602e7dbafe145d57b34892679733478e0ae2662c197fc9",
+      "bytes": 71408
+    },
+    {
+      "file": "screenshots/official/cfb1db78d8f0-build-status_2x.png",
+      "sha256": "cfb1db78d8f089940fa5f9714fd3dfcc229bc2533433f9719722dc89c39da127",
+      "bytes": 23333
+    },
+    {
+      "file": "screenshots/official/d0143cda5ae6-skip-commits-2025.png",
+      "sha256": "d0143cda5ae6fcc4e322f5105d4a69a01f26706ec1e4532690e303384a1aa373",
+      "bytes": 72274
+    },
+    {
+      "file": "screenshots/official/d0a3f7bec2df-add-remote-bb-dc-2025_2x.png",
+      "sha256": "d0a3f7bec2dfbf88dd30d196bee7f9c93c33658eac0b20cb84d526efc031c9d4",
+      "bytes": 149161
+    },
+    {
+      "file": "screenshots/official/d1209465f56c-conflict-prevention-settings_2x.png",
+      "sha256": "d1209465f56c4378c90bc4e1cff9ad63b096b355b9614381c08e1d6214f3e181",
+      "bytes": 302980
+    },
+    {
+      "file": "screenshots/official/d136ef214dec-save-and-stage-2025.png",
+      "sha256": "d136ef214dec2926f23b3e2b1554ad16c06802356ef95706807f6ffa6689fed8",
+      "bytes": 142704
+    },
+    {
+      "file": "screenshots/official/d13d0d2b14bb-organization-2025-2.png",
+      "sha256": "d13d0d2b14bb7659d7ae7a4580bf24f6a41718a5a75f350290c2037827dd0e67",
+      "bytes": 134011
+    },
+    {
+      "file": "screenshots/official/d189c2481c52-gk-new-redo-icon.svg",
+      "sha256": "d189c2481c52954e39061a924b242b86f9f7a39bbbac3a99a2e0679e14222273",
+      "bytes": 1480
+    },
+    {
+      "file": "screenshots/official/d24be1890a64-squashed-remote_2x.png",
+      "sha256": "d24be1890a64982c75a7e94ff9bb54c2cf57ad7238e8aa32b1cbe405a05ade14",
+      "bytes": 29856
+    },
+    {
+      "file": "screenshots/official/d2ad7b1a7576-GitKraken_Keif_student.png",
+      "sha256": "d2ad7b1a757667edfdb6a5457bf7e07bc0f8e15b1053f075dd39a1e5211f51d2",
+      "bytes": 155646
+    },
+    {
+      "file": "screenshots/official/d2ea5e549b6f-editing-detachedly-2025.png",
+      "sha256": "d2ea5e549b6fac6e791d818f8db26114a0cd43f7e50e471d5179546f398ced4a",
+      "bytes": 55922
+    },
+    {
+      "file": "screenshots/official/d3b66648472c-connecting-bb-data-center-2025_2x.png",
+      "sha256": "d3b66648472c51a5a3c70ddf7289bf2ffded7a04b709dd8c6e7dc72aca7c3642",
+      "bytes": 199999
+    },
+    {
+      "file": "screenshots/official/d40bbd218b22-snooze-tab-launchpad-2025_2x.png",
+      "sha256": "d40bbd218b22a2877d975cfc5cf22defc10ba392b51c2c8ed15e7dc94a01a78b",
+      "bytes": 171769
+    },
+    {
+      "file": "screenshots/official/d41d134bad58-commit-graph-adjust-2025.gif",
+      "sha256": "d41d134bad583c3deea1c783e3b3cfc82b1927c292b3a41054cf84c6471759be",
+      "bytes": 8294802
+    },
+    {
+      "file": "screenshots/official/d6a715d2559e-before-after-commit-compose_2x.png",
+      "sha256": "d6a715d2559eeaf690b5e73ca9c5192f8385b589db2fec0aff8f90bf8ef4e9a6",
+      "bytes": 222942
+    },
+    {
+      "file": "screenshots/official/d6aaf62f5ecd-create-jira-issue-2025_2x.png",
+      "sha256": "d6aaf62f5ecdb45e29f717878bedf477cf2dbeb0cb0c870176593b2fcc406e48",
+      "bytes": 494307
+    },
+    {
+      "file": "screenshots/official/d6db2af0fc52-code-suggestion-2025_2x.png",
+      "sha256": "d6db2af0fc52d0867e00b382549c612c5d4e5df133342c9de29bae580e7ebef9",
+      "bytes": 109336
+    },
+    {
+      "file": "screenshots/official/d6fc536ab375-discard-all-changes-2025_2x.png",
+      "sha256": "d6fc536ab3753753a2a4e5a1b9ba3b83405efceb9ad7ead7744a4be5419eb50a",
+      "bytes": 380891
+    },
+    {
+      "file": "screenshots/official/d709c1d08b49-squash.png",
+      "sha256": "d709c1d08b49b14bbfbb0b8ca40c047db544586f3628178ffa7137c43038b0f9",
+      "bytes": 8697
+    },
+    {
+      "file": "screenshots/official/d81ceb52364e-fuzzy-finder-error.gif",
+      "sha256": "d81ceb52364e5b4aa8f1c2f93ada430adf44ca42b4e293b30d05f9c7d1514e16",
+      "bytes": 1891977
+    },
+    {
+      "file": "screenshots/official/d8681742f71f-gkc-azure-add-remote_2x.png",
+      "sha256": "d8681742f71f68d9b7b8a5f50c31553ab07c6c3e5ce94920fba03aa756e6bbab",
+      "bytes": 69479
+    },
+    {
+      "file": "screenshots/official/d86c79900371-connected-jira-dc-2025_2x.png",
+      "sha256": "d86c79900371c2c7317652c055c8ec181ca7ab0de94fd4cdf76be265917d4372",
+      "bytes": 58217
+    },
+    {
+      "file": "screenshots/official/d97e3b2df76d-connect-github-issues-2025_2x.png",
+      "sha256": "d97e3b2df76daa15ae212820508dba530794fe55812e7b50566f818cb0877a04",
+      "bytes": 636480
+    },
+    {
+      "file": "screenshots/official/da110ba0cd22-pick.gif",
+      "sha256": "da110ba0cd22d8999b0f1e153bdd5e30e4e01ec90829fe7e258cb41b5d3b455b",
+      "bytes": 1448600
+    },
+    {
+      "file": "screenshots/official/da272e87b256-select-rebase_2x.png",
+      "sha256": "da272e87b2565d849beff5372d1acb81ff73c442271ef2df8657c77a33110bf7",
+      "bytes": 30391
+    },
+    {
+      "file": "screenshots/official/dc347009b2a8-unhide-group-2025_2x.png",
+      "sha256": "dc347009b2a8ab34a7df0b022c90216fcb36ecda46c2c7e1dbbe7df0df9e022c",
+      "bytes": 119463
+    },
+    {
+      "file": "screenshots/official/dc8affb4dac4-lfs-ref-2025_2x.png",
+      "sha256": "dc8affb4dac4079a7a2a187cccc72864f34496c43d7179140fb2aab8730f81c9",
+      "bytes": 227182
+    },
+    {
+      "file": "screenshots/official/dcdb54cc366a-gk-pull-icon.svg",
+      "sha256": "dcdb54cc366a46fb7ea06ad215ab3c04d31f1b3a48d1ae93d577c2267696a660",
+      "bytes": 1103
+    },
+    {
+      "file": "screenshots/official/dd1e91d1dec5-add-branch-2025.gif",
+      "sha256": "dd1e91d1dec59abbaaa6a6584943dd8394340e1bae1c42406274a085fd6265b6",
+      "bytes": 4461236
+    },
+    {
+      "file": "screenshots/official/dda422e13dd4-gkd-11-preferences-gitkraken-ai-01-v2_2x.png",
+      "sha256": "dda422e13dd49131ea47bfa8e50628fbbd721882bae87f0de34e43a8183e9bfe",
+      "bytes": 186612
+    },
+    {
+      "file": "screenshots/official/de48cb11933d-gkd-agents-panel-overview-20260414.png",
+      "sha256": "de48cb11933d68c3d1004308eb9830aefae355d9e1e76a60ca8fc74490895736",
+      "bytes": 83306
+    },
+    {
+      "file": "screenshots/official/de6eb901f13d-explain-branch_2x.png",
+      "sha256": "de6eb901f13dec42da75a617799fea92ccb9a833158848e78023a749f968daa7",
+      "bytes": 411594
+    },
+    {
+      "file": "screenshots/official/dead658dc05c-graph-drag-2025.gif",
+      "sha256": "dead658dc05c20828454c7aed5f48e10940fa2c4e13f8990b9c3ea33766f9028",
+      "bytes": 4523651
+    },
+    {
+      "file": "screenshots/official/deb76409d6ef-select-azure-organization-2025_2x.png",
+      "sha256": "deb76409d6efc835b4668b654eedd6e6289113dad466f7802e3a536a999ba9fc",
+      "bytes": 222044
+    },
+    {
+      "file": "screenshots/official/dff9fac735b3-gkc-git-executable-version.png",
+      "sha256": "dff9fac735b3c433f258a210b238b0ea4e8f0365297a5570c8a457c9ce81c8ba",
+      "bytes": 32093
+    },
+    {
+      "file": "screenshots/official/e065f3eb28e0-interface.png",
+      "sha256": "e065f3eb28e009999d8675869727aa5901837a8e4ffb6a781ac10b1fc65121eb",
+      "bytes": 30187
+    },
+    {
+      "file": "screenshots/official/e0cb92acf303-GKD-Common-Issue-6.png",
+      "sha256": "e0cb92acf303640cc8b45a0389741c0e9d137471db596a7d8b1000846a65a369",
+      "bytes": 251134
+    },
+    {
+      "file": "screenshots/official/e30b4429310e-GKD-unfurl-org-member-conflict-11-1_2x.png",
+      "sha256": "e30b4429310eba47585b19dde3092ab9977f77d3a523af9fe038769646d20953",
+      "bytes": 314733
+    },
+    {
+      "file": "screenshots/official/e3752a7fd6a5-gpg-sig-details-2025_2x.png",
+      "sha256": "e3752a7fd6a596cd52a0569168fb7c642152dde2a3596dc682ef4ee0b5ba879e",
+      "bytes": 263404
+    },
+    {
+      "file": "screenshots/official/e44e384e3354-tag-branch_2x.png",
+      "sha256": "e44e384e3354839a6cd41858a137c682ad385544db93d9ee2f6191ccf1024e19",
+      "bytes": 133512
+    },
+    {
+      "file": "screenshots/official/e45a55ce52c3-activity.gif",
+      "sha256": "e45a55ce52c3acca2073f3105c66bd4528ba67b2ebea6d85febc4c50fb91a201",
+      "bytes": 1516385
+    },
+    {
+      "file": "screenshots/official/e463349df799-create-file-2025-gif.gif",
+      "sha256": "e463349df79976fe6cb128dc6848c46f9de08724e45ab8a36b968f000e2e1a6a",
+      "bytes": 1597404
+    },
+    {
+      "file": "screenshots/official/e56a58e83531-delete-any-file_2x.png",
+      "sha256": "e56a58e83531a95e5d649846be993c5c59a65846a7b903344a2fcc7a68b2e718",
+      "bytes": 35598
+    },
+    {
+      "file": "screenshots/official/e685b67db94d-tabs-2025.gif",
+      "sha256": "e685b67db94dc2796c43a9e0500346e57fd481dc82b5e6d43c6ecf6ca2875fde",
+      "bytes": 654637
+    },
+    {
+      "file": "screenshots/official/e6dbb55d682b-gkd-agents-setup-commands-preferences-20260413-v2_2x.png",
+      "sha256": "e6dbb55d682b4c25f55e0f36bd9069d98356bf2cb04296a177200bfae75f532e",
+      "bytes": 145798
+    },
+    {
+      "file": "screenshots/official/e79aa3e57df7-suggested-members-2025.png",
+      "sha256": "e79aa3e57df76363b700b7ece62378010f758a22ad5835145fc49d8e18d6e2a1",
+      "bytes": 224519
+    },
+    {
+      "file": "screenshots/official/e8631c247363-add-new-workspace-2025_2x.png",
+      "sha256": "e8631c247363df221f1a768c5a5f6b22f3bcffdd9f10bc0381741eca9244b211",
+      "bytes": 109613
+    },
+    {
+      "file": "screenshots/official/e87bfb01afa0-skip-hook-2025_2x.png",
+      "sha256": "e87bfb01afa0a82d9f8c5dad8cbc87a970f14567e77d04084c225a734a6e1e51",
+      "bytes": 83294
+    },
+    {
+      "file": "screenshots/official/e92a41c40ec0-graph-elements.png",
+      "sha256": "e92a41c40ec0d47947445456ab4efc7a3756a467ef0a788c9d52ad805d475c54",
+      "bytes": 10319
+    },
+    {
+      "file": "screenshots/official/e99665bb0ce8-amend-recent-commit-ai-2025_2x.png",
+      "sha256": "e99665bb0ce8d305cab9d11432cc7a955e3b193dcf21be79e1ca1f69921780a5",
+      "bytes": 334887
+    },
+    {
+      "file": "screenshots/official/e9d8d55618d0-lfs-gitattributes-2025_2x.png",
+      "sha256": "e9d8d55618d032b4ea70eca10797102ed2e3a97d9aeead91b43a67ea4a71fe5f",
+      "bytes": 250052
+    },
+    {
+      "file": "screenshots/official/ea991a6a878a-blame-2025.png",
+      "sha256": "ea991a6a878a9fa3f0138bbcd64b66ef483b61f7cedb558b42dd0a9460c4ad81",
+      "bytes": 574358
+    },
+    {
+      "file": "screenshots/official/eaa3ab1459e2-GKD-Common-Issue-5.png",
+      "sha256": "eaa3ab1459e287dc2b6c3819f5d72eb19e6549596a15e27c2bc05ac0ba8dde0d",
+      "bytes": 115814
+    },
+    {
+      "file": "screenshots/official/ead4987ca0c1-profile-example-2025.png",
+      "sha256": "ead4987ca0c14e3ac110bc82eac7275332c4c42ed1bb9d81144e2f4cbcb4e4c4",
+      "bytes": 34605
+    },
+    {
+      "file": "screenshots/official/ebac7f758127-ghost.gif",
+      "sha256": "ebac7f758127752d0d602ae8025de765eec1279c73ba513e263efa741ae9259a",
+      "bytes": 292671
+    },
+    {
+      "file": "screenshots/official/ebe449fd1f21-add-remote_2x.png",
+      "sha256": "ebe449fd1f21eaaaace092868c7921c0b306c9a908a37be4beae156d65ea3c4c",
+      "bytes": 29062
+    },
+    {
+      "file": "screenshots/official/ec45f5d80742-drag-and-drop-2025.png",
+      "sha256": "ec45f5d8074277441263a62cea19f8fde12b984e5a71fdb560a8c59e3c4703d1",
+      "bytes": 118553
+    },
+    {
+      "file": "screenshots/official/ecc8d4e2ac1c-GKD-Common-Issue-4.png",
+      "sha256": "ecc8d4e2ac1cce6a20bfcd54495d8f52b8ddd6e50976cccf39a9823df11a3117",
+      "bytes": 81568
+    },
+    {
+      "file": "screenshots/official/ecd1f1780f8a-team-view-conflict-2025_2x.png",
+      "sha256": "ecd1f1780f8ac9f608ba5322b8fea6b82feceaf7cd80935799a703a538bc5bda",
+      "bytes": 87820
+    },
+    {
+      "file": "screenshots/official/ecdff0fa4e11-cherrypick-left-panel_2x.png",
+      "sha256": "ecdff0fa4e117a897d59fea3277f46b3a7dcfe18a31c3b2865cba36d55672b01",
+      "bytes": 77763
+    },
+    {
+      "file": "screenshots/official/ecfb0ac06688-registration-settings_2x.png",
+      "sha256": "ecfb0ac0668892add5ea7c1ad9c746f0942c061c87b03037756424f52f5a1867",
+      "bytes": 32624
+    },
+    {
+      "file": "screenshots/official/edd9b28eefa6-gkd-bitbucket-ssh-host-01-v2_2x.png",
+      "sha256": "edd9b28eefa6de91fe2a2085915c91b19c3b25ad9240f4c0e5322e5cc6602240",
+      "bytes": 57607
+    },
+    {
+      "file": "screenshots/official/ee007c971a28-keyboard-shortcut-reset.gif",
+      "sha256": "ee007c971a281124c5eb1a3ea3bc815aa8286df091fb8aa2e4cd80be1e38c8d4",
+      "bytes": 1220213
+    },
+    {
+      "file": "screenshots/official/ee8043a9b6f4-create-cloud-patch-2025.png",
+      "sha256": "ee8043a9b6f47897eb94c6d0c83fc8dc48fa082a70a752d7e990615ea2d298ea",
+      "bytes": 84164
+    },
+    {
+      "file": "screenshots/official/eea40356e875-tab-hover-2025.png",
+      "sha256": "eea40356e87571e60db49cedcbdacd4e3f1fcf582b074d7302da71443bd4410c",
+      "bytes": 19220
+    },
+    {
+      "file": "screenshots/official/eea5bc893a92-solo-hide.gif",
+      "sha256": "eea5bc893a921fad099c14447d86c40b307a397702ed06b81814507ceb68e87c",
+      "bytes": 23180104
+    },
+    {
+      "file": "screenshots/official/efbe5632a11c-generate-ai-amend-message_2x.png",
+      "sha256": "efbe5632a11c4b3660243fa48a1d43ae135469f694c71731c333097576dca8bd",
+      "bytes": 174310
+    },
+    {
+      "file": "screenshots/official/efe8693ac6e1-gk-new-remote-icon.svg",
+      "sha256": "efe8693ac6e11742d6d0b2336f2a6a0b1643692bef28ce8a63675155e9619298",
+      "bytes": 1435
+    },
+    {
+      "file": "screenshots/official/eff75179952e-markdown-preview_2x.png",
+      "sha256": "eff75179952e22b04aa2c9d8348be1012f9d048d1c8ec1d980e43678318d35b9",
+      "bytes": 388081
+    },
+    {
+      "file": "screenshots/official/f052af3350a0-command-palette-example.gif",
+      "sha256": "f052af3350a07b06c59f9ed1d58e5882e451e6a801162d2905a6d1a9601de565",
+      "bytes": 161716
+    },
+    {
+      "file": "screenshots/official/f074ad928a05-delete-key.png",
+      "sha256": "f074ad928a0504a9909e7390546b3bddd6db5c994cb5744a6923faca3c52e750",
+      "bytes": 8984
+    },
+    {
+      "file": "screenshots/official/f08d00dc8379-launchpad-team-view-2025_2x.png",
+      "sha256": "f08d00dc83795db1649736b33fafbd7ca5c81ed26988e6385a63d311f4c03846",
+      "bytes": 308159
+    },
+    {
+      "file": "screenshots/official/f0c2daa4767f-finish-release-2025_2x.png",
+      "sha256": "f0c2daa4767fb4736ace8cfb425ca0c05ac66bdce7ed1e14ad6993a24e2cc359",
+      "bytes": 119976
+    },
+    {
+      "file": "screenshots/official/f0dee5b9308c-clone_2x.png",
+      "sha256": "f0dee5b9308c8d3fd3cff739912f62dbeef247a9edc3258c3ccadb60a4f51c18",
+      "bytes": 60408
+    },
+    {
+      "file": "screenshots/official/f1f963a6d527-clone-or-locate-ws-repos-2025_2x.png",
+      "sha256": "f1f963a6d527705e108f1f558e57bea33b9c824155f4352a84499a336bed4884",
+      "bytes": 302831
+    },
+    {
+      "file": "screenshots/official/f3081bb4a66f-prefix-example-2025_2x.png",
+      "sha256": "f3081bb4a66f58e863bbdb7644114fc552c728175a18b0195ee03d331e0eeb5d",
+      "bytes": 103871
+    },
+    {
+      "file": "screenshots/official/f4cc9ec3a4ee-gkd-11-Select-Commits.png",
+      "sha256": "f4cc9ec3a4eea7fed21e447d6018c6b9b0321c96b8e9fbca4b118fa5b0144940",
+      "bytes": 63083
+    },
+    {
+      "file": "screenshots/official/f4f6c4f7f072-sparse-checkout.png",
+      "sha256": "f4f6c4f7f07273a8acb65aacdb13802a3280e08922e25173d40cac93e081526e",
+      "bytes": 256813
+    },
+    {
+      "file": "screenshots/official/f5173aaaa724-filter-files.gif",
+      "sha256": "f5173aaaa724c97669e271e27d6eb87683b9b404687214c69947197420deaa47",
+      "bytes": 596947
+    },
+    {
+      "file": "screenshots/official/f588bf393ad3-pin-launchpad-2025_2x.png",
+      "sha256": "f588bf393ad3a70d37f758e62958bd9fb1c5da74ac569205811364c6483c81d3",
+      "bytes": 99687
+    },
+    {
+      "file": "screenshots/official/f5c8832c2529-HEAD-2025.png",
+      "sha256": "f5c8832c252979661f7686fec527300b7914f9e7fe8b0473b7f7ad9d99eeb5be",
+      "bytes": 32812
+    },
+    {
+      "file": "screenshots/official/f6d2b927bcbd-serverless-2025_2x.png",
+      "sha256": "f6d2b927bcbd33e1ff079628f45efb0b06ea3391b80d0c921a282c03791368ca",
+      "bytes": 297059
+    },
+    {
+      "file": "screenshots/official/f7108e777c3f-tag-right_2x.png",
+      "sha256": "f7108e777c3f3cc94e2cd5b7fa43df48c44375afbfa9438c8bed7a914eac98ee",
+      "bytes": 56797
+    },
+    {
+      "file": "screenshots/official/f71c8292b57c-lfs-tracking-patterns-2025_2x.png",
+      "sha256": "f71c8292b57cce7e27992ac49bf29c0380a48f51e95194ad6fcd12c23fccb9f3",
+      "bytes": 171094
+    },
+    {
+      "file": "screenshots/official/f79b6d109f53-auth-config_2x.png",
+      "sha256": "f79b6d109f5303f74171cd78e7242b0821f9db94736d43974db20d9c3abb253b",
+      "bytes": 14955
+    },
+    {
+      "file": "screenshots/official/f8056ce94134-focus-agent-icon.png",
+      "sha256": "f8056ce941345b97a64361038d34c5410eaf3034503dc95d94eb695ecc0b7329",
+      "bytes": 85142
+    },
+    {
+      "file": "screenshots/official/f828ef9a3e69-add-reviewers-assignees-labels-2025_2x.png",
+      "sha256": "f828ef9a3e695ee75c6d18904b13f875a0b60fceec18804780bea5e325fd432c",
+      "bytes": 137413
+    },
+    {
+      "file": "screenshots/official/f88d7d65c7d2-connect-github-2025-v3_2x.png",
+      "sha256": "f88d7d65c7d2ee3dd222401ac251bd887af5cfe87d2cb2e65553e23ef20c4d40",
+      "bytes": 107092
+    },
+    {
+      "file": "screenshots/official/f8c1e7566b5c-GKD-Remove-Session-and-Worktree.png",
+      "sha256": "f8c1e7566b5c2528534fa9934f4bf91ac0c96d60d95b49ac65b47d019e1a7fdf",
+      "bytes": 64075
+    },
+    {
+      "file": "screenshots/official/f965c0e94414-custom-url-11-1_2x.png",
+      "sha256": "f965c0e94414f26d39966e0be69ff5814cc491337b7e86ff29fa3746e345f514",
+      "bytes": 172580
+    },
+    {
+      "file": "screenshots/official/fb250c5d43fe-repository-level_2x.png",
+      "sha256": "fb250c5d43fe2b8ba3e56d5daca86e65d48ec6167d7a71d0591c3fcd445c9c2e",
+      "bytes": 169559
+    },
+    {
+      "file": "screenshots/official/fb9bdcd3ae26-trello-card-details-view-2025_2x.png",
+      "sha256": "fb9bdcd3ae26e5a0944783e63a754789cc12077c425dffbeb473820df653e961",
+      "bytes": 323714
+    },
+    {
+      "file": "screenshots/official/fbcc3af27a99-file-history-commit-selected-2025.png",
+      "sha256": "fbcc3af27a991f9a656a54de8ea5c767c21f4c91b68a294d9e293b3d6956e177",
+      "bytes": 369358
+    },
+    {
+      "file": "screenshots/official/fd87af4d440e-invalid-error-1.png",
+      "sha256": "fd87af4d440e61a4a6f2a6c9e3ea19f4718400580da94f5c8b3bdb57e3d11e40",
+      "bytes": 16725
+    },
+    {
+      "file": "screenshots/live/001-new-tab.jpg",
+      "sha256": "728ee82cef8e21c6658cd4d2f6e992846d7bbae3b21516f1f6fc250a1c6ccc03",
+      "bytes": 206115
+    },
+    {
+      "file": "screenshots/live/002-graph-wip.jpg",
+      "sha256": "cb354b577643c7d52b465bc03d4c3ef9a0372a3cd8936b6df3333550aa4f8d61",
+      "bytes": 384375
+    },
+    {
+      "file": "screenshots/live/003-diff-unstaged.jpg",
+      "sha256": "f3dc72223846ac115a54ca028df4aec32248875f684a8d79515058050f8c45a8",
+      "bytes": 398814
+    },
+    {
+      "file": "screenshots/live/004-diff-loaded-warning.jpg",
+      "sha256": "b53f6c130d96d959c1fd744c7e948afaf7bd34b5aa9e5366ad33f24aff58ab5b",
+      "bytes": 352497
+    },
+    {
+      "file": "screenshots/live/005-commit-details.jpg",
+      "sha256": "93b10889ed5b473e5a89f730b7fc64c87dde9fe7cc1a5ced37dafb7619660c0d",
+      "bytes": 360710
+    },
+    {
+      "file": "screenshots/live/006-commit-context-menu.jpg",
+      "sha256": "0ce8e636a7d988fcc9aa297a79523726c74daed33e2f3f0456131fe1527830e3",
+      "bytes": 402341
+    },
+    {
+      "file": "screenshots/live/007-create-branch.jpg",
+      "sha256": "e9797f7efe9e2c927766df6fb964ad11aa9015dab116948bc2e91914c7b037fa",
+      "bytes": 362915
+    },
+    {
+      "file": "screenshots/live/008-search-results.jpg",
+      "sha256": "842e25d904fd6aee119fe44493743fde08c941b45671aa2d03c22b7f54672a8e",
+      "bytes": 360135
+    },
+    {
+      "file": "screenshots/live/010-agents-worktrees.jpg",
+      "sha256": "9652005956f24502c9f4f02e323dbcd03bc7771873b7c5374512b44adf2d57fe",
+      "bytes": 362707
+    },
+    {
+      "file": "screenshots/live/011-command-palette.jpg",
+      "sha256": "71c93cad89f38d6d371f2e4e1b996971e6ba646cff16f5affdae7c55ab747ffe",
+      "bytes": 278645
+    },
+    {
+      "file": "screenshots/live/012-preferences-general.jpg",
+      "sha256": "4cae09edc2be530d0e8fb0196e2b90949eb7c46f2954588be6c7cee42b73d391",
+      "bytes": 328708
+    },
+    {
+      "file": "screenshots/live/013-preferences-ui.jpg",
+      "sha256": "c8dca220475a5d3bcacfea32750cba606a47f4118e6117cad0ee65235bae466d",
+      "bytes": 353675
+    },
+    {
+      "file": "screenshots/live/014-preferences-editor.jpg",
+      "sha256": "7137b3ec4ed201201421607b390385824df763e5fd5e450b65ccc7b0aba794f8",
+      "bytes": 223033
+    },
+    {
+      "file": "screenshots/live/016-preferences-external-tools.jpg",
+      "sha256": "f308cbebdf02abe80f2c61eba3720fbff5fffdf5a8de12a373de1cc5e128f00e",
+      "bytes": 288113
+    },
+    {
+      "file": "screenshots/live/017-preferences-notifications.jpg",
+      "sha256": "388446e00b318aede7f3a12d881481f360dca9c47ba82f7f10453b806dbb1e3c",
+      "bytes": 186511
+    },
+    {
+      "file": "screenshots/live/018-preferences-experimental.jpg",
+      "sha256": "5f58794de58444057750a43621e79b51231850e58b140b8a2d3605644accbd62",
+      "bytes": 428332
+    },
+    {
+      "file": "screenshots/live/019-preferences-encoding.jpg",
+      "sha256": "0782bcb0594605c7c224b6566b22d09a9b39e68709d15593978e9dab037805ca",
+      "bytes": 193768
+    },
+    {
+      "file": "screenshots/live/020-preferences-gitflow.jpg",
+      "sha256": "def6149f1a056a99a4a0426f7d676de8f14b87294bd1f6bd815eb3447c5a8a89",
+      "bytes": 219585
+    },
+    {
+      "file": "screenshots/live/021-preferences-hooks.jpg",
+      "sha256": "64302223c9e2a8da5cc88219223ebfc8091dd2ebb2d4b53ab33451bc54f7df34",
+      "bytes": 236481
+    },
+    {
+      "file": "screenshots/live/022-preferences-commit.jpg",
+      "sha256": "9fbd8720832822c9e6669d08e62227b475e5fca2a223745495a00b80818ee259",
+      "bytes": 297183
+    },
+    {
+      "file": "screenshots/live/023-preferences-agents.jpg",
+      "sha256": "fbfec7ad1ae143e83462bf3612e70dc1c4c4b5edc851ec8316d0b39bed30628b",
+      "bytes": 250520
+    },
+    {
+      "file": "screenshots/live/024-preferences-sparse.jpg",
+      "sha256": "d9d43075a29493e2994a3b6f6a96632b6b826886b814072c7724f0b32e1e643d",
+      "bytes": 231600
+    },
+    {
+      "file": "screenshots/live/025-branch-picker.jpg",
+      "sha256": "b945d04ee14aacf6ea64fe04f5b4d5a4bdc16fed2d0aa09c6f87fd8f4b1eaa55",
+      "bytes": 360182
+    },
+    {
+      "file": "screenshots/live/026-merge-conflicts.jpg",
+      "sha256": "29afda7a43fae96e063e3eb359d153c961ad8d0317115cde0c18e08ecb32ec8f",
+      "bytes": 391018
+    },
+    {
+      "file": "screenshots/live/027-merge-editor.jpg",
+      "sha256": "da2f81a6c6f858b99aebb7fedcac1cdb12914c6fa29aae435f58043b55128816",
+      "bytes": 267413
+    },
+    {
+      "file": "screenshots/live/028-clone-dialog.jpg",
+      "sha256": "60d2de6c4e03d24b570a85520bd52b9f9c083c649840802925db4f2955b46d46",
+      "bytes": 207709
+    },
+    {
+      "file": "screenshots/live/029-create-repo-dialog.jpg",
+      "sha256": "66e76875fd32be9eb0b400ee811573a00e70422e25c4541e3eaa27ec2304af40",
+      "bytes": 249673
+    },
+    {
+      "file": "screenshots/live/030-file-history.jpg",
+      "sha256": "d49ebf9e5386ee176ff25f153690b204b6e0b984bcb5eedff4cac3652b274b30",
+      "bytes": 273268
+    },
+    {
+      "file": "screenshots/live/031-file-blame.jpg",
+      "sha256": "761074e3ccd040dcc9c150237bd68777a3a159ef6287100089d62aed51aa2833",
+      "bytes": 263833
+    },
+    {
+      "file": "screenshots/live/032-file-view.jpg",
+      "sha256": "7e9d286eaa460dff40c41b07212b224fc28cdbe3e9d822b7b5884bcbdd25df68",
+      "bytes": 265503
+    },
+    {
+      "file": "screenshots/live/033-expanded-sidebar.jpg",
+      "sha256": "376dc57d0ec6eefa86bf247ec4dd1e0746799652904333b65c674313bab947d6",
+      "bytes": 376744
+    },
+    {
+      "file": "screenshots/live/034-stash-details.jpg",
+      "sha256": "1ebb5b9c716edbd111fa79a963691352a8d9358591647981db6021fd8b1df838",
+      "bytes": 368406
+    },
+    {
+      "file": "screenshots/live/035-file-tree.jpg",
+      "sha256": "d57b3d75465f4faea96d91784026510c097bb8395f5ea4a2310a3a440e5ceebd",
+      "bytes": 395710
+    },
+    {
+      "file": "screenshots/live/036-commit-options.jpg",
+      "sha256": "dc1c1fac6664f51bb5fb28b86edec6ea0b45e7322d6d7cebb308dab8ee98e2f1",
+      "bytes": 399198
+    },
+    {
+      "file": "screenshots/live/037-theme-menu.jpg",
+      "sha256": "364e5126e0eed4da36cf905f4acb3e953b417b578476eeb2ca054c77a2bc349e",
+      "bytes": 377640
+    },
+    {
+      "file": "screenshots/live/038-graph-light.jpg",
+      "sha256": "207e0c4a8f71c9c6f2a2a85930ba3467e402c23410c536ccb2ee7db1cc329691",
+      "bytes": 407009
+    },
+    {
+      "file": "screenshots/live/039-graph-dark-final.jpg",
+      "sha256": "7ed0ef30202aa8180fe9ab05eadb9a23ec74c3075bd215390e93b3e57b57d271",
+      "bytes": 399548
+    },
+    {
+      "file": "screenshots/live/040-branchdesk-original-resources.jpg",
+      "sha256": "989946ba430095fa63d2a92a107637d1fea820693a506abd4b28822905130f55",
+      "bytes": 390584
+    },
+    {
+      "file": "screenshots/live/041-branchdesk-commit-diff.jpg",
+      "sha256": "807bbe1275c0995922293b8cabcc50fd6736f673ef930c3350db33d105c9ac17",
+      "bytes": 275448
+    },
+    {
+      "file": "screenshots/live/042-branchdesk-tags.jpg",
+      "sha256": "ccbe3487d99974293092c54489d02c7612933b02ad8f9c5c4791f83e389ae580",
+      "bytes": 269512
+    },
+    {
+      "file": "screenshots/live/043-branchdesk-stash-diff.jpg",
+      "sha256": "9c62bc2575cf2f2760712952d963f8236977f4ba60ffcb505962116e19a1d380",
+      "bytes": 295065
+    },
+    {
+      "file": "screenshots/live/044-branchdesk-checkout.jpg",
+      "sha256": "060a4bef3828f1cbbe07745c0b14ebbe0766c2592d880f842c23783425ef4ad3",
+      "bytes": 311154
+    },
+    {
+      "file": "screenshots/live/045-branchdesk-stash-save-dialog.jpg",
+      "sha256": "4425fd13c6ed0c7ab5e4408a0124ca3cc89dc6d09f2dbca88e59d82ec8500ee1",
+      "bytes": 249971
+    },
+    {
+      "file": "screenshots/live/046-branchdesk-stash-roundtrip.jpg",
+      "sha256": "4e66fff68732b354c83faca0bac552398959323481ab5528c655789f577f97ee",
+      "bytes": 299968
+    },
+    {
+      "file": "screenshots/live/047-branchdesk-stash-cancel.jpg",
+      "sha256": "2177d95aefdec886d82ddfaa77f468e7e2e464d83ff1cb40ee2c859f824e09b1",
+      "bytes": 285406
+    },
+    {
+      "file": "screenshots/live/048-branchdesk-file-blame.jpg",
+      "sha256": "c759832112ef65fc865107bded943b8c9430702553805caa6c958c733bcbe569",
+      "bytes": 271261
+    },
+    {
+      "file": "screenshots/live/049-branchdesk-file-content.jpg",
+      "sha256": "f18d10399baf2d500581e122531d384ff47e9f8269a952f1f9e9fb99eb393e86",
+      "bytes": 261386
+    },
+    {
+      "file": "screenshots/live/050-branchdesk-split-demo.jpg",
+      "sha256": "dccd4b932ba44af046ff8e25153ab5b3ad2cef635b04e2408eda7a2deb2a8d93",
+      "bytes": 382289
+    },
+    {
+      "file": "screenshots/live/051-branchdesk-split-native.jpg",
+      "sha256": "a9086dc2572f57822bb5efbf994231c192b5b12661990d992041d8bf4237a0b4",
+      "bytes": 311943
+    },
+    {
+      "file": "screenshots/live/052-native-amend-split-hunk.png",
+      "sha256": "064b6e50b95455693c7700e41974590757272d4b26cca23a35a0e9d8821da0e2",
+      "bytes": 332693
+    },
+    {
+      "file": "screenshots/live/053-native-unified-hidden-hunk-before.png",
+      "sha256": "08ae9617adfe95b5cd964d009dd0d0cd42b7b73bba59a2a8133790f2daab60b2",
+      "bytes": 337381
+    },
+    {
+      "file": "screenshots/live/054-native-unified-hunk-fixed.png",
+      "sha256": "9370e2dd99759458949513da25b2bb34455b6d29a16e4fbaf5cfc9e43a34aa3a",
+      "bytes": 339543
+    },
+    {
+      "file": "screenshots/live/055-native-init-created.jpg",
+      "sha256": "9c21ab370d132e23d88e4e687f127c328a00d0070732bb5b2b88df03d8e7109f",
+      "bytes": 277770
+    },
+    {
+      "file": "screenshots/live/056-native-init-existing-rejected.jpg",
+      "sha256": "79a7e8ab0cd096ef71633483e7669b995ca74cbbd8ee2aa686d7792493b653ea",
+      "bytes": 291645
+    },
+    {
+      "file": "screenshots/live/057-native-init-first-commit.jpg",
+      "sha256": "c42ca946830f323c06784dd8876bc3e8f8971486dcb4cf87f97ebfcbecd4ca3d",
+      "bytes": 294396
+    },
+    {
+      "file": "screenshots/live/058-native-internal-ref-hidden.jpg",
+      "sha256": "ce980e581430ef013bf7f53b5a3ede24dc904cd6c6578666fc94a30caf558cb4",
+      "bytes": 284237
+    },
+    {
+      "file": "screenshots/live/059-native-tabs-draft-restored.jpg",
+      "sha256": "e17e16e9e7fe237d72a2ed285ce27de637736b3f3de7229f8c5b2c272db2630a",
+      "bytes": 280987
+    },
+    {
+      "file": "screenshots/live/060-native-recents-after-restart.jpg",
+      "sha256": "77807c4e1998469c5387200695cc1a678736b2fb1bd5e850d6352f5a659dcd73",
+      "bytes": 313195
+    },
+    {
+      "file": "screenshots/live/061-native-tab-no-vertical-scrollbar.jpg",
+      "sha256": "2d478f5be083a93c667ecdeb6beea632594b8c420980e7c4d17ebeecb0c68d8f",
+      "bytes": 283283
+    },
+    {
+      "file": "screenshots/live/062-native-branch-renamed.jpg",
+      "sha256": "99233b04a3ae8ce1f48e86724dc2cce2b5c54dc7241d8bdba6f2ae7be82e080c",
+      "bytes": 303722
+    },
+    {
+      "file": "screenshots/live/063-native-rename-collision.jpg",
+      "sha256": "78c8d532b8669b8d1a41b8d5bc91cd3275cd6df1fee19b205aa90a24f7e641fc",
+      "bytes": 267892
+    },
+    {
+      "file": "screenshots/live/064-native-unborn-renamed.jpg",
+      "sha256": "d3fabaca03f47165654049158d9ef562a416b26ab8dd2c3b3e1f96b4a84df7ce",
+      "bytes": 288785
+    },
+    {
+      "file": "screenshots/live/065-native-unborn-first-commit.jpg",
+      "sha256": "3031169a98944b4e6320da28ee0e89ae375bf6f4522f0e86ef749d0f26bac778",
+      "bytes": 304399
+    },
+    {
+      "file": "screenshots/live/066-native-replay-preview.jpg",
+      "sha256": "20c49b41057869904c65b03fda6535ce822fdd7c3d397859e62e2eee31fd838a",
+      "bytes": 270432
+    },
+    {
+      "file": "screenshots/live/067-native-cherry-pick-applied.jpg",
+      "sha256": "9a1bfdf725ff679f9fd3502452d66632f47607035dfc56e2de7a05f6074c043e",
+      "bytes": 299946
+    },
+    {
+      "file": "screenshots/live/068-native-revert-applied.jpg",
+      "sha256": "8d7ee392b3e12d9c4abfd2afe9a256f82699eebd44e0def81735aff0933ec4d9",
+      "bytes": 307231
+    },
+    {
+      "file": "screenshots/live/069-native-replay-resolution-saved.jpg",
+      "sha256": "5279ea68681cc27922e640552e70375dd2c9ea647a575aecb11f497c1f98900a",
+      "bytes": 258014
+    },
+    {
+      "file": "screenshots/live/070-native-replay-resumed.jpg",
+      "sha256": "f15c6c7be0e30b3e0f9f5069458b1c42f8581858bc9737c5287e5b84b84955af",
+      "bytes": 258626
+    },
+    {
+      "file": "screenshots/live/071-native-replay-conflict-applied.jpg",
+      "sha256": "4b2534c460aac49930f7dd1249e4dfc03d880763cca23999712bf10ed8b7d003",
+      "bytes": 298765
+    },
+    {
+      "file": "screenshots/live/072-native-replay-incoming-content.jpg",
+      "sha256": "eeec9ae88b8102f43a57d75e23725e1e928c595df02a13d501dbbebdd1faff90",
+      "bytes": 233936
+    },
+    {
+      "file": "screenshots/live/073-native-revert-incoming-content.jpg",
+      "sha256": "ca78da4c2e8da819402032ca8517ef091c348049201de3747172b4e27ffc5479",
+      "bytes": 232887
+    },
+    {
+      "file": "screenshots/live/074-native-revert-content-scrolled.jpg",
+      "sha256": "596cbf907414345d579ccc69d6e9b8cedda792a6d95ff3eda3f72e3d7d5d25b8",
+      "bytes": 232688
+    },
+    {
+      "file": "screenshots/live/075-native-skip-empty-ready.jpg",
+      "sha256": "b4c804b45af99a10ae46d2e478a341e942376d4b9f090af0db9b97464ef74f7b",
+      "bytes": 261904
+    },
+    {
+      "file": "screenshots/live/076-native-skip-completed.jpg",
+      "sha256": "a984392ea7c725565061cc98caaf18e06dd0dfed74c88fa89c9a08f6665d92ce",
+      "bytes": 292094
+    },
+    {
+      "file": "screenshots/live/077-sequence-layout-before.jpg",
+      "sha256": "e55a6177f7da25e01fa6159e51dd1794a622c03f1d515e32296d58010f303501",
+      "bytes": 328016
+    },
+    {
+      "file": "screenshots/live/078-sequence-resumed-layout.jpg",
+      "sha256": "2e02c4c26ba092f0e1e42776e8f8a872a5d0c66906f07d5be262aed120c18de2",
+      "bytes": 359617
+    },
+    {
+      "file": "screenshots/live/079-sequence-two-steps-complete.jpg",
+      "sha256": "4c37149b3fccbfffce3f83fea5527fea7475dea0e4f66cca67f5e449ff3b1c13",
+      "bytes": 365159
+    },
+    {
+      "file": "screenshots/live/080-sequence-finished.jpg",
+      "sha256": "3c01cc5176353f6df511c57f453f1a6663482a085a533b9142e2f166de6cf144",
+      "bytes": 322781
+    },
+    {
+      "file": "screenshots/live/081-native-revert-sequence-skipped.jpg",
+      "sha256": "bd752595fea216c37ff4dc3ebf610812c04e7c67d0468764088e35af78c962d7",
+      "bytes": 355125
+    },
+    {
+      "file": "screenshots/live/082-native-revert-sequence-finished.jpg",
+      "sha256": "ec881bf1a0db651be20b2da0d5fc94a650ecadb98e77849c681a73e9fc0e28e5",
+      "bytes": 311868
+    },
+    {
+      "file": "screenshots/live/083-native-sequence-abort-dirty-refused.jpg",
+      "sha256": "e9e15572fa5228df3679bfb7d1771fc076fac073e1e0869bdf701364ba255cd6",
+      "bytes": 360961
+    },
+    {
+      "file": "screenshots/live/084-native-sequence-abort-restored.jpg",
+      "sha256": "ae9cd669fa76de83a42c963b72c212011765a48c78700ede49afd3a357d6d62d",
+      "bytes": 296874
+    },
+    {
+      "file": "screenshots/live/085-native-remotes-redacted.jpg",
+      "sha256": "decfda404334107f90db0fb476e05794f3bc45fb96b41944e1d91a0113cc43a5",
+      "bytes": 305596
+    },
+    {
+      "file": "screenshots/live/086-native-remote-history.jpg",
+      "sha256": "e77f141ad159ccc38548a8f884a65bdc4e59870bc25ebbd75d5c3bbc958d789e",
+      "bytes": 306490
+    },
+    {
+      "file": "screenshots/live/087-native-remote-settings.jpg",
+      "sha256": "d3b8489f09240dac78e6d3c6fe309895de8bf963e8af7c9b1123a582ebc10f7e",
+      "bytes": 326690
+    },
+    {
+      "file": "screenshots/live/088-native-remote-heading.jpg",
+      "sha256": "cc5a422f3340df1cde02986cde03bfb48abd3bac96187f89f213f94eee3dce21",
+      "bytes": 326110
+    },
+    {
+      "file": "screenshots/live/089-native-remote-removal-preview.jpg",
+      "sha256": "b3073bc262a3df5ddb8d86bfd5a6b2fbbfc2f0b2ca13c4c748e13efa82161298",
+      "bytes": 325140
+    },
+    {
+      "file": "screenshots/live/090-native-remote-removed.jpg",
+      "sha256": "732ec36780eeaed975dde681e4e00db437f2e84fa6f6adfbf452d37428618a58",
+      "bytes": 305137
+    },
+    {
+      "file": "screenshots/live/091-native-remote-exclusion-preview.jpg",
+      "sha256": "825af097ade9c94246c519e10f3f23d1bdce3f3c2520661c6bf8d3efa06a99e0",
+      "bytes": 317613
+    },
+    {
+      "file": "screenshots/live/092-native-remote-exclusions-preserved.jpg",
+      "sha256": "c410d27013e7b1225e31dfdfb7e190977483287d354fb84cbb9e5bb137524b74",
+      "bytes": 315626
+    },
+    {
+      "file": "screenshots/live/093-native-remote-rename-form.jpg",
+      "sha256": "e0ab2083b0021ddca47d9f8e25c643ef88786d9c15e83bf5688e3addf214dd29",
+      "bytes": 292868
+    },
+    {
+      "file": "screenshots/live/094-native-remote-renamed.jpg",
+      "sha256": "7d027ce97ed6b90f7ab123bb9e794388ca4714813573fa563b2cb1c9cdef518c",
+      "bytes": 329649
+    },
+    {
+      "file": "screenshots/live/095-native-remote-heading-final.jpg",
+      "sha256": "36d88d8b66dc21a3c2acb643f069d2348e6445cc9f6ea1b4ce503b2e5a322564",
+      "bytes": 335996
+    },
+    {
+      "file": "screenshots/live/096-native-system-theme-restored.jpg",
+      "sha256": "e40a9c51e7498a3437130c6c80a1bc7bf25b90cc742ea9859866efe70910bdd5",
+      "bytes": 284985
+    },
+    {
+      "file": "screenshots/live/097-native-light-theme-before-fix.jpg",
+      "sha256": "3c9e721afdbfa095675eecf51feaf218d06fbd842ce9748f051315a643d27538",
+      "bytes": 247060
+    },
+    {
+      "file": "screenshots/live/098-native-light-theme-fixed.jpg",
+      "sha256": "24babc8b1622be52f1f052a1640f75db1f9ad27ad0ff795ec8aba3ba6acfd61d",
+      "bytes": 298178
+    },
+    {
+      "file": "screenshots/live/099-native-light-workspace-fixed.jpg",
+      "sha256": "4d5d342e35d6c876d4f54ecaa604de38bccc50eec1fa6b220e9de096e1d02a89",
+      "bytes": 379967
+    },
+    {
+      "file": "screenshots/live/103-native-draft-restored.jpg",
+      "sha256": "924bd20812bae6b6cdccfee225cd0b1fc9394e5bbeae7bebdda8ed813667ccaf",
+      "bytes": 272675
+    },
+    {
+      "file": "screenshots/live/104-native-draft-layout-final.jpg",
+      "sha256": "3c5fdbce5167210834e04a972d8fb03c6122ebd7cef07e2a943c17883a7794a7",
+      "bytes": 285558
+    },
+    {
+      "file": "screenshots/live/105-native-draft-adaptive-form.jpg",
+      "sha256": "a14cc7c3918b8a6a67f2c684fb8ffbfe80f27fa3fa3cb70a83072b169fc1d878",
+      "bytes": 277767
+    },
+    {
+      "file": "screenshots/live/106-native-draft-reload-recovered.jpg",
+      "sha256": "90659249de73758d86650f41cff3be93e2208fede067bf5d55c9c8d218426427",
+      "bytes": 278066
+    },
+    {
+      "file": "screenshots/live/107-native-shutdown-save-veto.jpg",
+      "sha256": "76aaa7b368cf6d6e9b1138d358533e44602943ce6411cba31038fe61d49af59c",
+      "bytes": 305560
+    },
+    {
+      "file": "reports/editor-layout-progress.png",
+      "sha256": "9ebbd167f53373d4cdba7be9c4d7592b05597e0538eef67a4ce7373332b7c9e2",
+      "bytes": 44075
+    },
+    {
+      "file": "reports/launchpad-guidance-native.png",
+      "sha256": "67bda94b1a9b91a9377609a7125dd57cf8d9dcf90255e8ddbfd641c288972e6a",
+      "bytes": 143863
+    },
+    {
+      "file": "reports/launchpad-layout-progress.png",
+      "sha256": "038a5ae5c80fe39a61d70159fce60c73cccebd6686e9586c21f204189699f0e8",
+      "bytes": 46736
+    },
+    {
+      "file": "reports/launchpad-reference-rework.png",
+      "sha256": "3e97a2b30154b08f8d72d1ea38bace41d7689fd6f978438a83cde6f10da2e426",
+      "bytes": 49775
+    },
+    {
+      "file": "reports/native-branch-menu-rework.png",
+      "sha256": "e3e2ad9764ab9bb05bce376cbe3a6f356245f02f42a6e325665929094f152d6a",
+      "bytes": 431582
+    },
+    {
+      "file": "reports/native-launchpad-rework.png",
+      "sha256": "74cc09b944910493d0fd32484ac606773725998832433e2be08d40c62346a560",
+      "bytes": 154124
+    },
+    {
+      "file": "reports/native-preferences-rework.png",
+      "sha256": "2247189735f3ac376b203c147058ed656fa02772b584db411a49828b7c48a56d",
+      "bytes": 204595
+    },
+    {
+      "file": "reports/notifications-layout-progress.png",
+      "sha256": "a50e53e7a1a64491d41d6621f9009a399f8684a5e9f659cc83b90868febe2c83",
+      "bytes": 43660
+    },
+    {
+      "file": "reports/pr-checks-ui-preview.png",
+      "sha256": "beae52e66b1a4d9958c636015ce217b3daeb9926f65f2cf0e61ad3acb0261eb2",
+      "bytes": 58016
+    },
+    {
+      "file": "reports/pr-discussion-ui-preview.png",
+      "sha256": "57687c5f78108479fd7f7c7e38ca7027acdb90ef621c70b2977b406f4ae51669",
+      "bytes": 48371
+    },
+    {
+      "file": "reports/pr-files-ui-preview.png",
+      "sha256": "f8bd955c6bd63c89815728d7c9cb7d74735443c490daf9be046cfe09447473fa",
+      "bytes": 42321
+    },
+    {
+      "file": "reports/preferences-layout-progress.png",
+      "sha256": "bd047428c077ea2bc2b80704ac036ad551e63845a1e2ab8902cfdfa941f6937b",
+      "bytes": 50069
+    },
+    {
+      "file": "reports/preferences-reference-rework.png",
+      "sha256": "a174f9e781b8a15adb3e2c88859173f4b83f834fc4676f69b1767e334e88b212",
+      "bytes": 35966
+    },
+    {
+      "file": "reports/provider-write-ui-checks.png",
+      "sha256": "0b9dad94a966a9a454547b3a43058953ff6dee4f4d5af752058c9045eee07e6e",
+      "bytes": 62513
+    },
+    {
+      "file": "reports/repositories-layout-progress.png",
+      "sha256": "91b0a34a8e5692d33cb9033f2a2ad1d65ad9f7cf7b871bad31bfe30b7c9c2ebb",
+      "bytes": 38796
+    },
+    {
+      "file": "reports/worktree-capability-native.png",
+      "sha256": "2a67a19b4c0d057964e3fd177cde8c333b2b27d7529b40c0020b7ce24844cac5",
+      "bytes": 335394
+    }
+  ]
+}

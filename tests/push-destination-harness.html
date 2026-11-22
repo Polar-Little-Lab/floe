@@ -1,0 +1,5 @@
+<!doctype html><html><body><div id="root"></div><script type="module">
+import React from 'react';import {createRoot} from 'react-dom/client';import {PushDestinationDialog} from '/src/PushDestinationDialog.tsx';
+const root=createRoot(document.getElementById('root'));window.events=[];let epoch=0;
+window.show=(busy=false,source='main')=>root.render(React.createElement(PushDestinationDialog,{key:++epoch,name:'<origin>',source,sourceOid:'a'.repeat(40),branches:['main','release/v2'],busy,error:'',onClose:()=>window.events.push(['cancel']),onPreview:branch=>window.events.push(['preview',branch])}));window.show();
+</script></body></html>

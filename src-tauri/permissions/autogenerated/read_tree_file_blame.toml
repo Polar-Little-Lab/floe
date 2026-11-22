@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-read-tree-file-blame"
+description = "Enables the read_tree_file_blame command without any pre-configured scope."
+commands.allow = ["read_tree_file_blame"]
+
+[[permission]]
+identifier = "deny-read-tree-file-blame"
+description = "Denies the read_tree_file_blame command without any pre-configured scope."
+commands.deny = ["read_tree_file_blame"]

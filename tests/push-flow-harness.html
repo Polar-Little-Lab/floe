@@ -1,0 +1,7 @@
+<!doctype html><html><body><div id="root"></div><script type="module">
+import React from 'react';import {createRoot} from 'react-dom/client';import {PushPreviewDialog} from '/src/PushPreviewDialog.tsx';import {PushResultBanner} from '/src/PushResultBanner.tsx';
+const root=createRoot(document.getElementById('root'));window.events=[];let epoch=0;
+const plan={revision:'r',remote:'origin',endpoint:'https://example.invalid/repo',source:'refs/heads/main',destination:'refs/heads/main',sourceOid:'a'.repeat(40),remoteOid:null,kind:'createBranch',outgoing:['a'.repeat(40)],outgoingTruncated:false,blockers:[],packBytes:1234,packObjects:4};
+window.preview=(kind='createBranch',busy=false,blocked=false)=>root.render(React.createElement(PushPreviewDialog,{key:++epoch,plan:{...plan,kind,blockers:blocked?['PUSH_REPORT_STATUS_REQUIRED']:[]},busy,error:'',onClose:()=>window.events.push('close'),onPush:()=>window.events.push('push')}));
+window.result=(status='pending',observed=false,busy=false)=>root.render(React.createElement(PushResultBanner,{key:++epoch,record:{id:'id',remote:'<origin>',endpoint:plan.endpoint,source:plan.source,destination:plan.destination,oldOid:null,newOid:plan.sourceOid,status,detail:null,observation:observed?{kind:'targetPresent',oid:plan.sourceOid,checkedAt:100}:null},busy,onCheck:()=>window.events.push('check'),onAcknowledge:()=>window.events.push('ack')}));window.preview();
+</script></body></html>

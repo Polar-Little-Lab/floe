@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-preview-rebase"
+description = "Enables the preview_rebase command without any pre-configured scope."
+commands.allow = ["preview_rebase"]
+
+[[permission]]
+identifier = "deny-preview-rebase"
+description = "Denies the preview_rebase command without any pre-configured scope."
+commands.deny = ["preview_rebase"]

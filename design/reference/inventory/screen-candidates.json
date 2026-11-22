@@ -1,0 +1,3949 @@
+[
+  {
+    "id": "REF-001",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/activity-logs/",
+    "section": "How the Application log works",
+    "files": [
+      "screenshots/official/6ebb36401fbd-app-level_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-002",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/activity-logs/",
+    "section": "How the Git hook log works",
+    "files": [
+      "screenshots/official/b19638836df4-githook-log.gif",
+      "screenshots/official/0e2b4743daa2-snackbox-error_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-003",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/activity-logs/",
+    "section": "How the Repository log works",
+    "files": [
+      "screenshots/official/cd7c961c1a9e-extended_2x.png",
+      "screenshots/official/fb250c5d43fe-repository-level_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-004",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/activity-logs/",
+    "section": "What Activity Logs are",
+    "files": [
+      "screenshots/official/e45a55ce52c3-activity.gif",
+      "screenshots/official/aaec7daab7c3-data-line_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-005",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/adding-and-removing/",
+    "section": "How to add a file using the Command Palette",
+    "files": [
+      "screenshots/official/e463349df799-create-file-2025-gif.gif",
+      "screenshots/official/067b3e157330-create-file-command-palette-2025.png",
+      "screenshots/official/70d1bab8786b-create-folder_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-006",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/adding-and-removing/",
+    "section": "How to delete a file from the Commit Panel",
+    "files": [
+      "screenshots/official/a51b23ba9575-delete-file_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-007",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/adding-and-removing/",
+    "section": "How to delete any file in the repository",
+    "files": [
+      "screenshots/official/e56a58e83531-delete-any-file_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-008",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/adding-and-removing/",
+    "section": "How to filter files",
+    "files": [
+      "screenshots/official/f5173aaaa724-filter-files.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-009",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/agent-merge-conflicts/",
+    "section": "How to merge the agent branches",
+    "files": [
+      "screenshots/official/22c9586ec84f-merge-conflict_2x.png",
+      "screenshots/official/3044ac68f1bd-merge-right_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-010",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/agent-merge-conflicts/",
+    "section": "Use Auto-resolve with AI",
+    "files": [
+      "screenshots/official/907e593dda84-Auto-resolve-with-AI-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-011",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/agents/",
+    "section": "How to approve Claude Code, Codex CLI, and Copilot CLI permission requests",
+    "files": [
+      "screenshots/official/ca17ac625751-allow-deny.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-012",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/agents/",
+    "section": "How to configure setup commands for coding agent sessions",
+    "files": [
+      "screenshots/official/e6dbb55d682b-gkd-agents-setup-commands-preferences-20260413-v2_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-013",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/agents/",
+    "section": "How to create a new coding agent session",
+    "files": [
+      "screenshots/official/60167f9ee124-gkd-12-6-agents-new-session-button.png",
+      "screenshots/official/520b1be897a8-gkd-12-6-agents-start-session-modal.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-014",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/agents/",
+    "section": "How to manage agent status plugins and hooks",
+    "files": [
+      "screenshots/official/524e9db9db52-gkd-12-6-agents-status-plugin-tooltip.png",
+      "screenshots/official/b72addb90994-gkd-12-6-preferences-agent-status-integrations.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-015",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/agents/",
+    "section": "How to monitor coding agent progress and session status",
+    "files": [
+      "screenshots/official/f8c1e7566b5c-GKD-Remove-Session-and-Worktree.png",
+      "screenshots/official/5fa77165ebb0-agent-status.png",
+      "screenshots/official/cbe2f530b164-gkd-agents-monitoring-status-20260414.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-016",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/agents/",
+    "section": "How to switch to an agent running outside GitKraken Desktop",
+    "files": [
+      "screenshots/official/f8056ce94134-focus-agent-icon.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-017",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/agents/",
+    "section": "How to toggle Agents view",
+    "files": [
+      "screenshots/official/a3e270398159-toggle-agents-view-preferences.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-018",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/agents/",
+    "section": "Overview",
+    "files": [
+      "screenshots/official/36730c6c2218-GitKraken_Keif_agents.png",
+      "screenshots/official/de48cb11933d-gkd-agents-panel-overview-20260414.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-019",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/agents/",
+    "section": "Starting from Launchpad view",
+    "files": [
+      "screenshots/official/969a7e626759-GKD-Launching-Agent-Launchpad1.png",
+      "screenshots/official/c82ed8a1a7ce-GKD-Launching-Agent-Launchpad2.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-020",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/agents/",
+    "section": "Starting from the Left Panel",
+    "files": [
+      "screenshots/official/09f2937b44bf-GKD-Launching-Agent-Sidebar-view1.png",
+      "screenshots/official/73f4e80287f5-GKD-Launching-Agent-Sidebar-view2.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-021",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/authentication/",
+    "section": "How to clone over SSH",
+    "files": [
+      "screenshots/official/b552579e10e0-ssh-clone-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-022",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/authentication/",
+    "section": "How to clone with HTTPS",
+    "files": [
+      "screenshots/official/80ae1f2bb88a-clone-repository-menu-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-023",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/authentication/",
+    "section": "How to forget all credentials",
+    "files": [
+      "screenshots/official/36eee6ed3600-forget-all-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-024",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/authentication/",
+    "section": "How to set up SSH keys",
+    "files": [
+      "screenshots/official/4783fabf3f51-ssh-preferences-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-025",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/azure-devops/",
+    "section": "How to authenticate with Azure DevOps",
+    "files": [
+      "screenshots/official/4ff1a32363ef-connect-azure-devops-2025-v3_2x.png",
+      "screenshots/official/0209e03fa0ad-preferences_2x.png",
+      "screenshots/official/deb76409d6ef-select-azure-organization-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-026",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/azure-devops/",
+    "section": "How to choose an organization after you sign in",
+    "files": [
+      "screenshots/official/25a2aded57f7-PAT-azure-added-2025_2x.png",
+      "screenshots/official/5fddf01e306b-azure-PAT-scopes-2025_2x.png",
+      "screenshots/official/244b1f7fef85-generate-token-azure-devops-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-027",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/azure-devops/",
+    "section": "How to enable Azure DevOps OAuth for GitKraken Desktop",
+    "files": [
+      "screenshots/official/ada6bb49814e-gkd-ado-oauth-error.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-028",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/azure-devops/",
+    "section": "How to generate an SSH key for Azure DevOps",
+    "files": [
+      "screenshots/official/54aabd6e55ae-gkc-ssh-azure-devops_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-029",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/azure-devops/",
+    "section": "What Azure DevOps OAuth enables in GitKraken Desktop",
+    "files": [
+      "screenshots/official/d8681742f71f-gkc-azure-add-remote_2x.png",
+      "screenshots/official/a25b54cb709a-gkc-azure-integration-clone_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-030",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/bitbucket-data-center/",
+    "section": "How to connect Bitbucket Data Center",
+    "files": [
+      "screenshots/official/5930c8300e31-BitbucketServerPAT.png",
+      "screenshots/official/d3b66648472c-connecting-bb-data-center-2025_2x.png",
+      "screenshots/official/0209e03fa0ad-preferences_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-031",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/bitbucket-data-center/",
+    "section": "How to generate SSH keys for Bitbucket Data Center",
+    "files": [
+      "screenshots/official/374cce2e92ea-bitbucket-server-SSHkey-add_2x.png",
+      "screenshots/official/14956567cdf0-bitbucket-server-add-key.png",
+      "screenshots/official/272dae679dd0-ssh-bb-data-center-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-032",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/bitbucket-data-center/",
+    "section": "What Bitbucket Data Center authentication enables in GitKraken Desktop",
+    "files": [
+      "screenshots/official/d0a3f7bec2df-add-remote-bb-dc-2025_2x.png",
+      "screenshots/official/3bf1faa14daa-bb-data-center-clone_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-033",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/bitbucket/",
+    "section": "How to connect Bitbucket",
+    "files": [
+      "screenshots/official/4f490bfb1503-bitbucket-success-1_2x.png",
+      "screenshots/official/751d87786a62-connect-bitbucket-2025-v3_2x.png",
+      "screenshots/official/0209e03fa0ad-preferences_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-034",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/bitbucket/",
+    "section": "How to generate SSH keys for Bitbucket",
+    "files": [
+      "screenshots/official/6ce1e8f4a9c9-ssh-bitbucket-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-035",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/bitbucket/",
+    "section": "How to move SSH remotes to ssh.bitbucket.org",
+    "files": [
+      "screenshots/official/edd9b28eefa6-gkd-bitbucket-ssh-host-01-v2_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-036",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/bitbucket/",
+    "section": "What Bitbucket OAuth enables in GitKraken Desktop",
+    "files": [
+      "screenshots/official/f0dee5b9308c-clone_2x.png",
+      "screenshots/official/1752a23049b7-remote_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-037",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/branching-and-merging/",
+    "section": "How to check out a branch",
+    "files": [
+      "screenshots/official/dd1e91d1dec5-add-branch-2025.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-038",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/branching-and-merging/",
+    "section": "How to create and manage branches",
+    "files": [
+      "screenshots/official/6e5f194fa0b8-add-branch_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-039",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/branching-and-merging/",
+    "section": "How to delete a branch",
+    "files": [
+      "screenshots/official/4f92db0ae045-multi-delete-branches.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-040",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/branching-and-merging/",
+    "section": "How to merge branches",
+    "files": [
+      "screenshots/official/3044ac68f1bd-merge-right_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-041",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/branching-and-merging/",
+    "section": "How to pin a branch to the left",
+    "files": [
+      "screenshots/official/686ffc83a4c3-gkd-graph-jump-to-pinned-branch-01-v3_2x.png",
+      "screenshots/official/a57650877a07-pin-to-left.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-042",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/branching-and-merging/",
+    "section": "How to rebase a range of commits onto another branch",
+    "files": [
+      "screenshots/official/be61ddddcf58-rebase-N-commits.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-043",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/branching-and-merging/",
+    "section": "How to rebase commits",
+    "files": [
+      "screenshots/official/390096887092-select-rebase-sidebar_2x.png",
+      "screenshots/official/da272e87b256-select-rebase_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-044",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/branching-and-merging/",
+    "section": "How to rename a branch",
+    "files": [
+      "screenshots/official/4acdb51a1011-rename-branch-command-palette_2x.png",
+      "screenshots/official/49e9c253c1f2-rename-branch_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-045",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/branching-and-merging/",
+    "section": "How to resolve conflicts in the Merge Conflict Editor",
+    "files": [
+      "screenshots/official/22c9586ec84f-merge-conflict_2x.png",
+      "screenshots/official/c30ca11e2f43-merge-tool-gif.gif",
+      "screenshots/official/b5cea9b1e96c-merge-tool-toggle.gif",
+      "screenshots/official/0223357a5f87-merge-tool2_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-046",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/branching-and-merging/",
+    "section": "How to resolve conflicts with Take Current or Take Incoming",
+    "files": [
+      "screenshots/official/553f804a4041-current-incoming.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-047",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/branching-and-merging/",
+    "section": "How to use an external merge tool",
+    "files": [
+      "screenshots/official/a8f27d2117ff-beyond-compare_2x.png",
+      "screenshots/official/06a440e815d7-configureExternalTool_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-048",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/branching-and-merging/",
+    "section": "When to use Smart Branch Visibility",
+    "files": [
+      "screenshots/official/b1a732710706-smart-visibility.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-049",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/branching-and-merging/",
+    "section": "When to use squash merges",
+    "files": [
+      "screenshots/official/13eb1ab02efe-squash-merge.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-050",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/cherrypick/",
+    "section": "How to cherry pick a single commit",
+    "files": [
+      "screenshots/official/ecdff0fa4e11-cherrypick-left-panel_2x.png",
+      "screenshots/official/ae9c8d63a63c-cherrypick_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-051",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/cherrypick/",
+    "section": "How to cherry pick multiple commits",
+    "files": [
+      "screenshots/official/3064c952dc98-interactive-cherry-pick.png",
+      "screenshots/official/c611de81e563-multi-cherry-pick-menu.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-052",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/clean-up-agent-commits/",
+    "section": "Can I clean up commits without AI?",
+    "files": [
+      "screenshots/official/d709c1d08b49-squash.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-053",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/clean-up-agent-commits/",
+    "section": "How to check the new commits",
+    "files": [
+      "screenshots/official/025bc71152c9-gkd-commit-composer-undo.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-054",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/clean-up-agent-commits/",
+    "section": "How to recompose commits the agent already made",
+    "files": [
+      "screenshots/official/c1357df4b652-commit-composer-UI_2x.png",
+      "screenshots/official/c7d040bf958d-compose-existing-commits_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-055",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/clean-up-agent-commits/",
+    "section": "How to split an agent’s uncommitted changes into commits",
+    "files": [
+      "screenshots/official/93994814dc4b-compose-WIP_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-056",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/clean-up-agent-worktrees/",
+    "section": "How to remove agent worktrees",
+    "files": [
+      "screenshots/official/f8c1e7566b5c-GKD-Remove-Session-and-Worktree.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-057",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/clean-up-agent-worktrees/",
+    "section": "How to see all your worktrees in one place",
+    "files": [
+      "screenshots/official/de48cb11933d-gkd-agents-panel-overview-20260414.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-058",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/command-palette/",
+    "section": "How to open the Command Palette",
+    "files": [
+      "screenshots/official/f052af3350a0-command-palette-example.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-059",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commit-signing-with-gpg/",
+    "section": "GPG requirements",
+    "files": [
+      "screenshots/official/7eb4487cf6b6-gpg-version-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-060",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commit-signing-with-gpg/",
+    "section": "How to configure GPG in GitKraken Desktop",
+    "files": [
+      "screenshots/official/89ea7e3679a2-gpg-browse-button.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-061",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commit-signing-with-gpg/",
+    "section": "How to delete a GPG key",
+    "files": [
+      "screenshots/official/0daec4c6ba52-delete-key-for-sure.png",
+      "screenshots/official/f074ad928a05-delete-key.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-062",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commit-signing-with-gpg/",
+    "section": "How to edit a GPG key",
+    "files": [
+      "screenshots/official/b935af63c1c1-list-secret-keys_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-063",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commit-signing-with-gpg/",
+    "section": "How to enable SSH signing",
+    "files": [
+      "screenshots/official/6ef3f4f28e3f-gkc-ssh-keygen_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-064",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commit-signing-with-gpg/",
+    "section": "How to generate a GPG key in GitKraken Desktop",
+    "files": [
+      "screenshots/official/be5d5e79c5f6-generate-new-gpg-key-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-065",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commit-signing-with-gpg/",
+    "section": "How to verify signed commits",
+    "files": [
+      "screenshots/official/664663bac725-gpg-icon-2025_2x.png",
+      "screenshots/official/e3752a7fd6a5-gpg-sig-details-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-066",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commits/",
+    "section": "How to add co-authors to a commit",
+    "files": [
+      "screenshots/official/20c553eb5e8b-co-author-history_2x.png",
+      "screenshots/official/2165b0d0388c-co-author_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-067",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commits/",
+    "section": "How to amend the most recent commit",
+    "files": [
+      "screenshots/official/b645b1dc80a3-amend-box-2025.png",
+      "screenshots/official/1ddac5009c93-amend-commit-2025.png",
+      "screenshots/official/af0814c1b07d-amend-message-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-068",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commits/",
+    "section": "How to bypass Git hooks for one commit",
+    "files": [
+      "screenshots/official/d0143cda5ae6-skip-commits-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-069",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commits/",
+    "section": "How to commit and push in one step",
+    "files": [
+      "screenshots/official/4dbd2261fd92-push-after-commit-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-070",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commits/",
+    "section": "How to create a commit",
+    "files": [
+      "screenshots/official/0458176b0715-select-WIP-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-071",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commits/",
+    "section": "How to create or update a commit template",
+    "files": [
+      "screenshots/official/2284df0b9af5-commit-template-setting-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-072",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commits/",
+    "section": "How to reset commits",
+    "files": [
+      "screenshots/official/c5e75ffbc113-reset-commit-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-073",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commits/",
+    "section": "How to restore files from a commit",
+    "files": [
+      "screenshots/official/0d49b151a948-restore-files.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-074",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commits/",
+    "section": "How to revert a commit that is already in history",
+    "files": [
+      "screenshots/official/4b765c45609a-revert-commit-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-075",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/commits/",
+    "section": "How to undo local changes before pushing",
+    "files": [
+      "screenshots/official/0f2021a90015-undo-undo-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-076",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/common-issues/",
+    "section": "Can’t minimize/maximize or exit full-screen mode",
+    "files": [
+      "screenshots/official/eaa3ab1459e2-GKD-Common-Issue-5.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-077",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/common-issues/",
+    "section": "Commit details panel is missing",
+    "files": [
+      "screenshots/official/ecc8d4e2ac1c-GKD-Common-Issue-4.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-078",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/common-issues/",
+    "section": "Diff shows entire file instead of changes",
+    "files": [
+      "screenshots/official/e0cb92acf303-GKD-Common-Issue-6.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-079",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/common-issues/",
+    "section": "GitKraken.dev shows my account as TRIAL / COMMUNITY",
+    "files": [
+      "screenshots/official/062892972489-GKD-Common-Issue-3.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-080",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/common-issues/",
+    "section": "How to fix 1000-series integration errors",
+    "files": [
+      "screenshots/official/8957f434f6c9-error-1002_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-081",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/common-issues/",
+    "section": "How to fix the Cannot read property 'fullName' of undefined push error",
+    "files": [
+      "screenshots/official/446192b9b862-push-error.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-082",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/common-issues/",
+    "section": "How to troubleshoot GitKraken Desktop 9.4.0 and later",
+    "files": [
+      "screenshots/official/dff9fac735b3-gkc-git-executable-version.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-083",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/common-issues/",
+    "section": "My account shows Trial/Free/Community despite being a paid customer",
+    "files": [
+      "screenshots/official/72d097efa6f3-gkd-profile-menu-sign-out-01-v4_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-084",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/common-issues/",
+    "section": "Private organization repositories not visible (GitHub)",
+    "files": [
+      "screenshots/official/a9e36cfa80a2-GKD-Common-Issue-7.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-085",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/common-issues/",
+    "section": "The account is correct but it says I don’t have AI credits",
+    "files": [
+      "screenshots/official/495a89c5f449-GKD-Common-Issue-2.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-086",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/configure-self-managed/",
+    "section": "How authentication setup works",
+    "files": [
+      "screenshots/official/f79b6d109f53-auth-config_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-087",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/configure-self-managed/",
+    "section": "How to add users",
+    "files": [
+      "screenshots/official/ecfb0ac06688-registration-settings_2x.png",
+      "screenshots/official/cac43b5603f0-user-email_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-088",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/configure-self-managed/",
+    "section": "How to configure LDAP",
+    "files": [
+      "screenshots/official/6779dd22f6f5-base-dn_2x.png",
+      "screenshots/official/a240ce8571fe-encryption-method_2x.png",
+      "screenshots/official/33bce5126096-ldap-host-port_2x.png",
+      "screenshots/official/1cd95a3c9bea-search-user_2x.png",
+      "screenshots/official/487d3b2c6e3e-sync-server_2x.png",
+      "screenshots/official/90d16bf71c4a-user-attributes_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-089",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/configure-self-managed/",
+    "section": "How to configure the SMTP server",
+    "files": [
+      "screenshots/official/b52025b1abde-smtp-setup_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-090",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/configure-self-managed/",
+    "section": "How to configure the Super User",
+    "files": [
+      "screenshots/official/183f13a09f7b-manage-users_2x.png",
+      "screenshots/official/10a1011592ea-super-user_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-091",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/configure-self-managed/",
+    "section": "How to upload the server license",
+    "files": [
+      "screenshots/official/6b7da41eda45-license-details_2x.png",
+      "screenshots/official/94f2544eed27-select-license_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-092",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/conflict-prevention/",
+    "section": "How conflict detection works without Org Members",
+    "files": [
+      "screenshots/official/62455d554cd9-generic-conflict-prevention-11-1_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-093",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/conflict-prevention/",
+    "section": "How to configure Conflict Prevention settings",
+    "files": [
+      "screenshots/official/d1209465f56c-conflict-prevention-settings_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-094",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/conflict-prevention/",
+    "section": "How to interpret the conflict alert icon",
+    "files": [
+      "screenshots/official/7c35e8d370c9-GKD-org-member-conflict-11-1_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-095",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/conflict-prevention/",
+    "section": "How to invite contributors to resolve conflicts earlier",
+    "files": [
+      "screenshots/official/9e4b0604ac1f-invite-to-org-11-1_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-096",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/conflict-prevention/",
+    "section": "How to view conflict details",
+    "files": [
+      "screenshots/official/e30b4429310e-GKD-unfurl-org-member-conflict-11-1_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-097",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/conflict-prevention/",
+    "section": "Overview",
+    "files": [
+      "screenshots/official/06dd12fef36b-GKD-conflict-prevention.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-098",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/conflict-prevention/",
+    "section": "What target branch status means when no conflicts are found",
+    "files": [
+      "screenshots/official/029682ef6cdc-GKD-no-conflict-detected-with-PR.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-099",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/detached-head-state/",
+    "section": "How to commit in detached HEAD state",
+    "files": [
+      "screenshots/official/8de3804f7037-create-branch-from-HEAD-2025.png",
+      "screenshots/official/d2ea5e549b6f-editing-detachedly-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-100",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/detached-head-state/",
+    "section": "How to enter detached HEAD state",
+    "files": [
+      "screenshots/official/f5c8832c2529-HEAD-2025.png",
+      "screenshots/official/adb6edd809ec-checkout-commit-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-101",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/detached-head-state/",
+    "section": "How to exit detached HEAD state",
+    "files": [
+      "screenshots/official/a121b4a6f867-discard-commits.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-102",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/diff/",
+    "section": "How to apply a patch from the Command Palette",
+    "files": [
+      "screenshots/official/77abefccc06b-apply-patch-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-103",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/diff/",
+    "section": "How to compare a WIP against another commit or branch",
+    "files": [
+      "screenshots/official/567f0253c0fe-compare-WIP-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-104",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/diff/",
+    "section": "How to create a patch from files or commits",
+    "files": [
+      "screenshots/official/982803e8ae27-create-patch-2025.png",
+      "screenshots/official/ce750e26d617-patch-from-changes-2025.png",
+      "screenshots/official/b5d3a0553e5e-patch-from-many-files-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-105",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/diff/",
+    "section": "How to create a patch from the Command Palette",
+    "files": [
+      "screenshots/official/09d1fcc18c5c-create-patch-from-command-palette.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-106",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/diff/",
+    "section": "How to revert a hunk",
+    "files": [
+      "screenshots/official/5b6437b30b36-revert-hunk-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-107",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/diff/",
+    "section": "How to use Word Wrap in the diff view",
+    "files": [
+      "screenshots/official/b87983f11b3e-word-wrap.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-108",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/diff/",
+    "section": "How to use external diff tools",
+    "files": [
+      "screenshots/official/a8f27d2117ff-beyond-compare_2x.png",
+      "screenshots/official/5940e875b3b9-external-diff-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-109",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/diff/",
+    "section": "How to view file blame and history",
+    "files": [
+      "screenshots/official/ea991a6a878a-blame-2025.png",
+      "screenshots/official/4081fe45294c-blame-history-2025.png",
+      "screenshots/official/fbcc3af27a99-file-history-commit-selected-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-110",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/diff/",
+    "section": "What Is a Diff in GitKraken Desktop?",
+    "files": [
+      "screenshots/official/21288b03cb6c-diff-full-screen-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-111",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/diff/",
+    "section": "When to use Hunk View",
+    "files": [
+      "screenshots/official/914333f662ee-hunk-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-112",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/diff/",
+    "section": "When to use Inline View",
+    "files": [
+      "screenshots/official/286c4145fe75-inline-annotated-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-113",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/diff/",
+    "section": "When to use Split View",
+    "files": [
+      "screenshots/official/a5f6055e3804-split-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-114",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/diff/",
+    "section": "Where Can I Access the Diff?",
+    "files": [
+      "screenshots/official/3f6c776067ea-combined-diff-2025-v2_2x.png",
+      "screenshots/official/3734213e708e-diff-2-commits-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-115",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/editing-files/",
+    "section": "How Markdown preview works",
+    "files": [
+      "screenshots/official/70fec5beb452-edit-file-diff-2025.png",
+      "screenshots/official/eff75179952e-markdown-preview_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-116",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/editing-files/",
+    "section": "How file encoding works",
+    "files": [
+      "screenshots/official/4d5aba29910c-file-encoding-diff2.png",
+      "screenshots/official/2f391a34a038-preferences-encoding-select-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-117",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/editing-files/",
+    "section": "How to edit a file from Diff or File View",
+    "files": [
+      "screenshots/official/70fec5beb452-edit-file-diff-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-118",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/editing-files/",
+    "section": "How to edit a file from the Command Palette",
+    "files": [
+      "screenshots/official/88725f4ba640-edit-file-fuzzy.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-119",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/editing-files/",
+    "section": "How to edit a file from the context menu",
+    "files": [
+      "screenshots/official/8d3ca960f188-edit-file-menu-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-120",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/editing-files/",
+    "section": "How to save or discard changes",
+    "files": [
+      "screenshots/official/3c9ffc646024-do-not-save-prompt-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-121",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/editing-files/",
+    "section": "How to stage file edits",
+    "files": [
+      "screenshots/official/d136ef214dec-save-and-stage-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-122",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/editing-files/",
+    "section": "What the file edit indicators mean",
+    "files": [
+      "screenshots/official/502683a27f29-editable-2025.png",
+      "screenshots/official/cfa8a0867ff4-save-changes-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-123",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/error-logs/",
+    "section": "How to open error logs in GitKraken Desktop",
+    "files": [
+      "screenshots/official/d81ceb52364e-fuzzy-finder-error.gif",
+      "screenshots/official/ccb20f28bd37-view-error-log_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-124",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/experimental-features/",
+    "section": "How to create a Cloud Patch",
+    "files": [
+      "screenshots/official/ee8043a9b6f4-create-cloud-patch-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-125",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/experimental-features/",
+    "section": "How to manage Cloud Patches",
+    "files": [
+      "screenshots/official/ce998a78c327-gkc-delete-cloud-patch.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-126",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/experimental-features/",
+    "section": "How to share and apply Cloud Patches",
+    "files": [
+      "screenshots/official/a3292ce85dba-gkc-apply-cloud-patch-example.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-127",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/faq/",
+    "section": "Why does my subscription show COMMUNITY?",
+    "files": [
+      "screenshots/official/72d097efa6f3-gkd-profile-menu-sign-out-01-v4_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-128",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/favorites/",
+    "section": "How to add a repository to Favorites",
+    "files": [
+      "screenshots/official/70cfbbcb791c-favorite-repo-2025_2x.png",
+      "screenshots/official/0aef20e8a333-favorites-list-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-129",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/fork/",
+    "section": "How to add an existing fork",
+    "files": [
+      "screenshots/official/a92d8087751b-detect-fork_2x.png",
+      "screenshots/official/c653ac89849d-gk-remote-icon.svg"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-130",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/fork/",
+    "section": "How to fork a repository",
+    "files": [
+      "screenshots/official/352ba228968d-add-fork-2025_2x.png",
+      "screenshots/official/ebe449fd1f21-add-remote_2x.png",
+      "screenshots/official/6501f60cd9ab-fork-github-2025_2x.png",
+      "screenshots/official/c653ac89849d-gk-remote-icon.svg"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-131",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/git-flow/",
+    "section": "How Gitflow configuration works",
+    "files": [
+      "screenshots/official/6d2df17a4f7d-gitflow-preferences-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-132",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/git-flow/",
+    "section": "How Gitflow tags work",
+    "files": [
+      "screenshots/official/0c130cccdc1f-finish-release-tag.gif",
+      "screenshots/official/204c503e8596-tag-message.png",
+      "screenshots/official/3e1be4f944bf-tag-prefix-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-133",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/git-flow/",
+    "section": "How feature branches work",
+    "files": [
+      "screenshots/official/9b6223f898ca-finish-feature.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-134",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/git-flow/",
+    "section": "How hotfix branches work",
+    "files": [
+      "screenshots/official/b63fb076f022-finish-hotfix-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-135",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/git-flow/",
+    "section": "How release branches work",
+    "files": [
+      "screenshots/official/f0c2daa4767f-finish-release-2025_2x.png",
+      "screenshots/official/a2e6629b4fdd-finish-release-context-menu-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-136",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/git-flow/",
+    "section": "How to use Gitflow",
+    "files": [
+      "screenshots/official/60bf00d3402f-giflow-panel-2025_2x.png",
+      "screenshots/official/f3081bb4a66f-prefix-example-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-137",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/git-integration-for-jira/",
+    "section": "How to open GitKraken Desktop from Jira",
+    "files": [
+      "screenshots/official/82893d655d2b-open-in-gitkraken-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-138",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/git-integration-for-jira/",
+    "section": "How to open Jira to a commit",
+    "files": [
+      "screenshots/official/b376d4e38e85-open-jira-to-commit-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-139",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/git-integration-for-jira/",
+    "section": "How to open a file diff in Jira",
+    "files": [
+      "screenshots/official/2d22e8a74aef-open-in-jira-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-140",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/git-lfs/",
+    "section": "How Git LFS works",
+    "files": [
+      "screenshots/official/dc8affb4dac4-lfs-ref-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-141",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/git-lfs/",
+    "section": "How to configure Git LFS",
+    "files": [
+      "screenshots/official/bbf83cc573ba-add-tracked-file-lfs-2025_2x.png",
+      "screenshots/official/0519f9b00328-lfs-actions-2025_2x.png",
+      "screenshots/official/dc8affb4dac4-lfs-ref-2025_2x.png",
+      "screenshots/official/ca088d123a8f-lfs-tags-2025_2x.png",
+      "screenshots/official/f71c8292b57c-lfs-tracking-patterns-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-142",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/git-lfs/",
+    "section": "How to initialize Git LFS on a new repository",
+    "files": [
+      "screenshots/official/593fe77851e1-init-with-lfs-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-143",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/git-lfs/",
+    "section": "How to initialize Git LFS on an existing repository",
+    "files": [
+      "screenshots/official/e9d8d55618d0-lfs-gitattributes-2025_2x.png",
+      "screenshots/official/5bf13256180b-lfs-preferences-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-144",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/git-lfs/",
+    "section": "How to update PATH on Windows",
+    "files": [
+      "screenshots/official/63911b2b2c43-lfs-AddPathVariable-0.png",
+      "screenshots/official/18a70c3fff0e-lfs-add-env-variable-image1-2025_2x.png",
+      "screenshots/official/04b1630ae724-lfs-add-env-variable-image2-2025_2x.png",
+      "screenshots/official/9a6cfa35fc61-lfs-add-env-variable-image3-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-145",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/githooks/",
+    "section": "How to bypass Git hooks",
+    "files": [
+      "screenshots/official/e87bfb01afa0-skip-hook-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-146",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/githooks/",
+    "section": "How to define a custom hook path",
+    "files": [
+      "screenshots/official/2b016f686c9c-git-hooks-pref-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-147",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/githooks/",
+    "section": "How to set up a sample hook",
+    "files": [
+      "screenshots/official/b465ea658900-gkc-chmod-pre-commit.gif",
+      "screenshots/official/a7945ea6b3be-vscode-to-hooks.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-148",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/githooks/",
+    "section": "What a Git hook looks like in action",
+    "files": [
+      "screenshots/official/4a10b386baf6-gkc-hook-in-action.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-149",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/githooks/",
+    "section": "Where Git hooks are stored",
+    "files": [
+      "screenshots/official/2ff3290ad9a1-gkc_hook_exit_error_126_2x.png",
+      "screenshots/official/00c7b4542288-gkc_hook_location_explorer_2x.png",
+      "screenshots/official/47769c49dbb0-terminal-hooks_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-150",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-enterprise/",
+    "section": "How to connect GitHub Enterprise Server",
+    "files": [
+      "screenshots/official/ccb4bf04f7e1-accesstoken-github-enterprise.png",
+      "screenshots/official/26379738b0c2-gkc-github-enterprise-server-integration-2.png",
+      "screenshots/official/c4ed03a1e201-gkc-github-enterprise-server-integration.png",
+      "screenshots/official/0209e03fa0ad-preferences_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-151",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-enterprise/",
+    "section": "How to generate or upload an SSH key for GitHub Enterprise Server",
+    "files": [
+      "screenshots/official/79484a7f8137-gkc-github-enterprise-server-add-key.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-152",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-gitkraken-desktop/",
+    "section": "How to accept or reject code suggestions",
+    "files": [
+      "screenshots/official/d6db2af0fc52-code-suggestion-2025_2x.png",
+      "screenshots/official/4aa239617f61-gkc-pr-code-suggestions-apply.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-153",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-gitkraken-desktop/",
+    "section": "How to check out branches, review build status, and add remotes",
+    "files": [
+      "screenshots/official/cfb1db78d8f0-build-status_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-154",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-gitkraken-desktop/",
+    "section": "How to connect GitKraken Desktop to GitHub",
+    "files": [
+      "screenshots/official/f88d7d65c7d2-connect-github-2025-v3_2x.png",
+      "screenshots/official/bece272daf37-github-success-1_2x.png",
+      "screenshots/official/963114762232-preferences-menu-gear-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-155",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-gitkraken-desktop/",
+    "section": "How to create pull requests from GitKraken Desktop",
+    "files": [
+      "screenshots/official/07cc617344af-pull-request-create_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-156",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-gitkraken-desktop/",
+    "section": "How to generate an SSH key for GitHub",
+    "files": [
+      "screenshots/official/255d97c89faa-add-ssh-key-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-157",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-gitkraken-desktop/",
+    "section": "How to merge pull requests",
+    "files": [
+      "screenshots/official/b0282299fb62-merge-options_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-158",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-gitkraken-desktop/",
+    "section": "How to sign in with GitHub",
+    "files": [
+      "screenshots/official/3356c4906211-sign-in-github-2025-v2_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-159",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-gitkraken-desktop/",
+    "section": "How to use GitHub Pull Request View",
+    "files": [
+      "screenshots/official/463e42032b25-github-pr-view-2025_2x.png",
+      "screenshots/official/630625d13d3b-github-pr-view-launchpad.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-160",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-gitkraken-desktop/",
+    "section": "What GitHub OAuth enables in GitKraken Desktop",
+    "files": [
+      "screenshots/official/f0dee5b9308c-clone_2x.png",
+      "screenshots/official/1752a23049b7-remote_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-161",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-issues/",
+    "section": "How to connect the GitHub Issues integration",
+    "files": [
+      "screenshots/official/f88d7d65c7d2-connect-github-2025-v3_2x.png",
+      "screenshots/official/d97e3b2df76d-connect-github-issues-2025_2x.png",
+      "screenshots/official/bece272daf37-github-success-1_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-162",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-issues/",
+    "section": "How to copy an issue link or open it in GitHub",
+    "files": [
+      "screenshots/official/3bb6d243b609-view-github-issue-on-web-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-163",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-issues/",
+    "section": "How to create GitHub issue filters",
+    "files": [
+      "screenshots/official/7f239e3d517f-create-github-filter_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-164",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-issues/",
+    "section": "How to create a new GitHub issue",
+    "files": [
+      "screenshots/official/a26f94108fa7-create-github-issue-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-165",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-issues/",
+    "section": "How to create branches from GitHub issues",
+    "files": [
+      "screenshots/official/8965955a195b-create-branch-github-issue_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-166",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-issues/",
+    "section": "How to preview GitHub issues",
+    "files": [
+      "screenshots/official/6094d788e2c6-github-issues-left-panel-2025_2x.png",
+      "screenshots/official/c1743203c718-issues-preview-github-issues_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-167",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/github-issues/",
+    "section": "How to view and edit GitHub issue details",
+    "files": [
+      "screenshots/official/5e54fcff2f18-view-github-issue-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-168",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-desktop-home/",
+    "section": "Overview",
+    "files": [
+      "screenshots/official/41f38760869b-GitKraken_Keif_evergreen-feature.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-169",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-launchpad/",
+    "section": "How GitHub pull requests work in Launchpad",
+    "files": [
+      "screenshots/official/630625d13d3b-github-pr-view-launchpad.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-170",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-launchpad/",
+    "section": "How On-Premise Launchpad differs from Cloud Launchpad",
+    "files": [
+      "screenshots/official/b5e42e0b76cf-launchpad-prs.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-171",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-launchpad/",
+    "section": "How Personal View works",
+    "files": [
+      "screenshots/official/c84c2a786430-gkc-launchpad-personal-team-10.0.0.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-172",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-launchpad/",
+    "section": "How Team View works",
+    "files": [
+      "screenshots/official/7477f33c87ab-filter-team-member-2025_2x.png",
+      "screenshots/official/57ddd1ad6e8b-team-view-launchpad-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-173",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-launchpad/",
+    "section": "How to filter by milestones and sprints",
+    "files": [
+      "screenshots/official/c1fb29f33998-gkd-10-4-launchpad-jira-sprint-filter.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-174",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-launchpad/",
+    "section": "How to get started with Launchpad",
+    "files": [
+      "screenshots/official/83adb16ca28b-connect-integration-launchpad-2025_2x.png",
+      "screenshots/official/969df5f83397-open-launchpad-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-175",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-launchpad/",
+    "section": "How to save and reuse Launchpad views",
+    "files": [
+      "screenshots/official/b3a45292a499-gkd-10-5-launchpad-save-view.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-176",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-launchpad/",
+    "section": "How to set up Workspaces and integrations",
+    "files": [
+      "screenshots/official/f588bf393ad3-pin-launchpad-2025_2x.png",
+      "screenshots/official/259605735409-select-workspace-launchpad-2025_2x.png",
+      "screenshots/official/d40bbd218b22-snooze-tab-launchpad-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-177",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-launchpad/",
+    "section": "How to work with issues in Launchpad",
+    "files": [
+      "screenshots/official/89fa82d71e16-issue-filters-launchpad-2025_2x.png",
+      "screenshots/official/632b0f2caa7c-issues-tab-launchpad-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-178",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-launchpad/",
+    "section": "How to work with pull requests in Launchpad",
+    "files": [
+      "screenshots/official/1d4af61d5aaa-pr-actions-launchpad-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-179",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-launchpad/",
+    "section": "Launchpad summary",
+    "files": [
+      "screenshots/official/c9e35902e660-gkd-launchpad-summary.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-180",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-launchpad/",
+    "section": "Overview",
+    "files": [
+      "screenshots/official/7575643d61d4-launchpad-highlight-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-181",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitlab-gitkraken-desktop/",
+    "section": "How to connect the GitLab integration",
+    "files": [
+      "screenshots/official/152a1d12c67d-auth-success-gitlab-1_2x.png",
+      "screenshots/official/53fd6824acf5-connect-gitlab-2025-v3_2x.png",
+      "screenshots/official/1b6ead9b217e-gitlab-sign-in-2025_2x.png",
+      "screenshots/official/0209e03fa0ad-preferences_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-182",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitlab-gitkraken-desktop/",
+    "section": "How to generate an SSH key for GitLab",
+    "files": [
+      "screenshots/official/39e1d550c704-add-key-to-gitlab-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-183",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitlab-gitkraken-desktop/",
+    "section": "What GitLab OAuth enables in GitKraken Desktop",
+    "files": [
+      "screenshots/official/24a8c1ef9bb3-clone-gitlab_2x.png",
+      "screenshots/official/912e36ff5e03-remote-gitlab_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-184",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitlab-issues/",
+    "section": "How to connect the GitLab Issues integration",
+    "files": [
+      "screenshots/official/152a1d12c67d-auth-success-gitlab-1_2x.png",
+      "screenshots/official/a4187639b689-authorize-gitlab_2x.png",
+      "screenshots/official/53fd6824acf5-connect-gitlab-2025-v3_2x.png",
+      "screenshots/official/bcae4e40dc9d-connect-gitlab-issues-2025_2x.png",
+      "screenshots/official/cd99549940c0-gitlab-sign-in_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-185",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitlab-issues/",
+    "section": "How to copy an issue link or open it in GitLab",
+    "files": [
+      "screenshots/official/736d9b3166b4-gitlab-issue-copy-link-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-186",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitlab-issues/",
+    "section": "How to create GitLab issue filters",
+    "files": [
+      "screenshots/official/b28ab5d2ddb0-gitlab-filter-create-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-187",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitlab-issues/",
+    "section": "How to create a new GitLab issue",
+    "files": [
+      "screenshots/official/60ea864072a0-gitlab-issue-create-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-188",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitlab-issues/",
+    "section": "How to create branches from GitLab issues",
+    "files": [
+      "screenshots/official/8134d6c6977b-gitlab-issue-create-branch-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-189",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitlab-issues/",
+    "section": "How to preview GitLab issues",
+    "files": [
+      "screenshots/official/80369acbf35b-gitlab-issue-hover-2025_2x.png",
+      "screenshots/official/4d44575f1b67-gitlab-issues-list-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-190",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitlab-issues/",
+    "section": "How to view and edit GitLab issue details",
+    "files": [
+      "screenshots/official/a4413863acec-github-issue-view-click-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-191",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitlab-self-hosted/",
+    "section": "How to authenticate with GitLab Self-Managed",
+    "files": [
+      "screenshots/official/360d4247a853-access-token-gitlab-self-managed_2x.png",
+      "screenshots/official/919e4c308c37-connect-gitlab-self-managed-2025_2x.png",
+      "screenshots/official/9e5fb0d2958b-connect-gitlab-self-managed-PAT-2025_2x.png",
+      "screenshots/official/0209e03fa0ad-preferences_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-192",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gitlab-self-hosted/",
+    "section": "How to generate an SSH key for GitLab Self-Managed",
+    "files": [
+      "screenshots/official/a168b4ff0ce1-add-key-gitlab-self-managed-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-193",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkc-security/",
+    "section": "Overview",
+    "files": [
+      "screenshots/official/40bc944b6c24-GitKraken_Keif_security.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-194",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "section": "How to amend commit messages with AI",
+    "files": [
+      "screenshots/official/e99665bb0ce8-amend-recent-commit-ai-2025_2x.png",
+      "screenshots/official/efbe5632a11c-generate-ai-amend-message_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-195",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "section": "How to customize AI prompts",
+    "files": [
+      "screenshots/official/3d97803e7d68-gkd-11-custom-instructions.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-196",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "section": "How to customize conflict resolution prompts",
+    "files": [
+      "screenshots/official/05123928e340-custom-instructions-conflict-resolution-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-197",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "section": "How to explain branch changes with AI",
+    "files": [
+      "screenshots/official/838c1520a9c9-explain-branch-summaries_2x.png",
+      "screenshots/official/de6eb901f13d-explain-branch_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-198",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "section": "How to generate an AI commit message",
+    "files": [
+      "screenshots/official/4706ecf50d63-gkd-11-commit-message-generation-1.png",
+      "screenshots/official/4a54039b9e18-gkd-11-commit-message-generation-2.png",
+      "screenshots/official/0fa5ffbb65da-gkd-11-stage-changes.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-199",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "section": "How to generate an AI pull request title and description",
+    "files": [
+      "screenshots/official/94332251225b-create-pr-v11-1-Q2-2025_2x.png",
+      "screenshots/official/c2e5dd3d25ce-pr-ai-title-and-description_2x.png",
+      "screenshots/official/83887a662fff-pr-ai-title-desc-11-1_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-200",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "section": "How to generate an AI stash message",
+    "files": [
+      "screenshots/official/0fa5ffbb65da-gkd-11-stage-changes.png",
+      "screenshots/official/6b15242d6dcc-stash-ai-message_2x.png",
+      "screenshots/official/75785c2cf16f-stash-message-generated-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-201",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "section": "How to keep or turn off GitKraken AI when you stop using it",
+    "files": [
+      "screenshots/official/975d768fe5ac-gkd-ai-control-reminder-01-v2_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-202",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "section": "How to resolve merge conflicts with AI",
+    "files": [
+      "screenshots/official/907e593dda84-Auto-resolve-with-AI-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-203",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "section": "How to use AI Commit Composer",
+    "files": [
+      "screenshots/official/c1357df4b652-commit-composer-UI_2x.png",
+      "screenshots/official/2a3c390577fa-compose-WIP-UI_2x.png",
+      "screenshots/official/93994814dc4b-compose-WIP_2x.png",
+      "screenshots/official/c7d040bf958d-compose-existing-commits_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-204",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "section": "How to use AI Commit Explain",
+    "files": [
+      "screenshots/official/f4cc9ec3a4ee-gkd-11-Select-Commits.png",
+      "screenshots/official/6b159e95a99a-gkd-11-commit-explain-2.png",
+      "screenshots/official/5a1de25eba45-gkd-ai-explain-commits-01-v3_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-205",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "section": "How to use a custom API endpoint",
+    "files": [
+      "screenshots/official/f965c0e94414-custom-url-11-1_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-206",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "section": "How to use your own AI provider key",
+    "files": [
+      "screenshots/official/dda422e13dd4-gkd-11-preferences-gitkraken-ai-01-v2_2x.png",
+      "screenshots/official/bfccb71f867e-gkd-ai-model-credit-multiplier-01-v2_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-207",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "section": "Overview",
+    "files": [
+      "screenshots/official/c09134371592-GitKraken_Keif_ai-robot.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-208",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/gkd-gitkraken-ai/",
+    "section": "What AI Commit Composer does",
+    "files": [
+      "screenshots/official/d6a715d2559e-before-after-commit-compose_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-209",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/guide/",
+    "section": "How to create a branch",
+    "files": [
+      "screenshots/official/75077748e910-create-new-branch-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-210",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/guide/",
+    "section": "How to merge back to main",
+    "files": [
+      "screenshots/official/ec45f5d80742-drag-and-drop-2025.png",
+      "screenshots/official/ae7a659143b6-graph-commit-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-211",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/guide/",
+    "section": "How to modify a file",
+    "files": [
+      "screenshots/official/2c862d28f7f4-open-file-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-212",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/guide/",
+    "section": "How to stage and commit changes",
+    "files": [
+      "screenshots/official/0ec5b13d78f9-unstage-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-213",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/guide/",
+    "section": "Overview",
+    "files": [
+      "screenshots/official/d2ad7b1a7576-GitKraken_Keif_student.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-214",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/hiding-and-soloing/",
+    "section": "How to hide or show all references",
+    "files": [
+      "screenshots/official/6862fe82f079-hide-show-all_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-215",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/hiding-and-soloing/",
+    "section": "How to hide references in the Left Panel",
+    "files": [
+      "screenshots/official/8bd3eaff6255-gk-hide-icon-green.svg"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-216",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/hiding-and-soloing/",
+    "section": "How to solo branches and remotes",
+    "files": [
+      "screenshots/official/554ebbeee0af-gk-solo-icon-orange.svg"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-217",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/hiding-and-soloing/",
+    "section": "Overview",
+    "files": [
+      "screenshots/official/eea5bc893a92-solo-hide.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-218",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/how-to-install/",
+    "section": "How to run the macOS installer",
+    "files": [
+      "screenshots/official/ac6984355e9f-mac-install.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-219",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interactive-rebase/",
+    "section": "How Drop works",
+    "files": [
+      "screenshots/official/327b2f04c185-drop.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-220",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interactive-rebase/",
+    "section": "How Pick works",
+    "files": [
+      "screenshots/official/da110ba0cd22-pick.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-221",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interactive-rebase/",
+    "section": "How Reword works",
+    "files": [
+      "screenshots/official/b82bd2e9aa18-reword.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-222",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interactive-rebase/",
+    "section": "How Squash works",
+    "files": [
+      "screenshots/official/d709c1d08b49-squash.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-223",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interactive-rebase/",
+    "section": "How shortcuts and Reset work",
+    "files": [
+      "screenshots/official/ee007c971a28-keyboard-shortcut-reset.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-224",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interactive-rebase/",
+    "section": "How to start an interactive rebase",
+    "files": [
+      "screenshots/official/1185e3613cb2-interactive-rebase-init.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-225",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "section": "Branch actions",
+    "files": [
+      "screenshots/official/28152598465b-gk-new-branch-icon.svg"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-226",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "section": "Columns",
+    "files": [
+      "screenshots/official/06fea2ec237b-columns-2025.png",
+      "screenshots/official/313a6b9d2faa-customize-columns-2025.png",
+      "screenshots/official/7d6c228f193c-filter-author_2x.png",
+      "screenshots/official/979edfa6e62f-gear-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-227",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "section": "Conditional actions",
+    "files": [
+      "screenshots/official/02d9f335197d-gk-lfs-icon.svg"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-228",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "section": "History actions",
+    "files": [
+      "screenshots/official/d189c2481c52-gk-new-redo-icon.svg",
+      "screenshots/official/0229c4c686db-gk-new-undo-icon.svg"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-229",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "section": "How commit highlighting works",
+    "files": [
+      "screenshots/official/95bf45ed8b1b-Commit-highlight.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-230",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "section": "How ghost branches work",
+    "files": [
+      "screenshots/official/ebac7f758127-ghost.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-231",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "section": "How tabs work",
+    "files": [
+      "screenshots/official/8292d26b0a65-profile-tabs-2025.gif",
+      "screenshots/official/bc528c18f653-tab-drop-down-2025.png",
+      "screenshots/official/eea40356e875-tab-hover-2025.png",
+      "screenshots/official/e685b67db94d-tabs-2025.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-232",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "section": "How the Commit Graph works",
+    "files": [
+      "screenshots/official/d41d134bad58-commit-graph-adjust-2025.gif",
+      "screenshots/official/e92a41c40ec0-graph-elements.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-233",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "section": "How the Commit Panel works",
+    "files": [
+      "screenshots/official/042d2d45628a-color-guide-2025.png",
+      "screenshots/official/845b2d48054c-commit-graph-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-234",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "section": "How the Left Panel works",
+    "files": [
+      "screenshots/official/3537b8edd861-gk-new-submodules-icon.svg",
+      "screenshots/official/31cca086b9b6-gk-new-local-icon.svg",
+      "screenshots/official/28152598465b-gk-new-pull-requests-icon.svg",
+      "screenshots/official/efe8693ac6e1-gk-new-remote-icon.svg",
+      "screenshots/official/aba415c276ad-gk-new-stash-icon.svg",
+      "screenshots/official/63727b2ec184-gk-new-tags-icon.svg",
+      "screenshots/official/a300064b559a-left-panel-resize-and-collapse.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-235",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "section": "Quick Start",
+    "files": [
+      "screenshots/official/e065f3eb28e0-interface.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-236",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "section": "Sync actions",
+    "files": [
+      "screenshots/official/604a09982990-gk-new-pull-icon.svg",
+      "screenshots/official/b7398bfe3460-gk-new-push-icon.svg"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-237",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "section": "Tab alias and name",
+    "files": [
+      "screenshots/official/88e143959680-repository-alias.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-238",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "section": "Work-in-progress actions",
+    "files": [
+      "screenshots/official/c357d2b885c7-gk-new-pop-icon.svg",
+      "screenshots/official/aba415c276ad-gk-new-stash-icon.svg"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-239",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/interface/",
+    "section": "Worktree tab groups",
+    "files": [
+      "screenshots/official/7a188ba72dc0-gkd-worktree-tab-groups-01-v4_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-240",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/jira-data-center/",
+    "section": "How to connect Jira Data Center",
+    "files": [
+      "screenshots/official/687c51ca4813-connect-jira-dc-2025_2x.png",
+      "screenshots/official/0f6f42334cbc-connect-jira-dc-issues-2025_2x.png",
+      "screenshots/official/d86c79900371-connected-jira-dc-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-241",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/jira/",
+    "section": "How to connect the Jira integration",
+    "files": [
+      "screenshots/official/c99492da5253-connect-atlassian-2025_2x.png",
+      "screenshots/official/85a1d362a86f-connect-jira-issues-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-242",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/jira/",
+    "section": "How to copy an issue link or open it in Jira",
+    "files": [
+      "screenshots/official/2648f567c7ee-view-jira-issue-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-243",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/jira/",
+    "section": "How to create Jira filters",
+    "files": [
+      "screenshots/official/7c49c775c7da-create-jira-filter-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-244",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/jira/",
+    "section": "How to create a new Jira issue",
+    "files": [
+      "screenshots/official/d6aaf62f5ecd-create-jira-issue-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-245",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/jira/",
+    "section": "How to create branches from Jira issues",
+    "files": [
+      "screenshots/official/6e302482aae2-create-branch-jira-integration.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-246",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/jira/",
+    "section": "How to preview Jira issues",
+    "files": [
+      "screenshots/official/a339f85ab754-hover-issue-2025_2x.png",
+      "screenshots/official/410550850739-preview-jira-issues-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-247",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/jira/",
+    "section": "How to view Jira issue details",
+    "files": [
+      "screenshots/official/2fa2d75fe921-jira-issue-view_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-248",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/linking/",
+    "section": "How to copy a link from GitKraken Desktop",
+    "files": [
+      "screenshots/official/1f7703f80e9f-link_context_menu_options.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-249",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/linking/",
+    "section": "How to open a deep link",
+    "files": [
+      "screenshots/official/1914af663cfe-click_link_slack.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-250",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/open-clone-init/",
+    "section": "How Repository Management works",
+    "files": [
+      "screenshots/official/305e05a94322-repo-mgmt-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-251",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/open-clone-init/",
+    "section": "How shallow clone works",
+    "files": [
+      "screenshots/official/010484c1ea4e-perform-shallow-clone_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-252",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/open-clone-init/",
+    "section": "How sparse checkout works",
+    "files": [
+      "screenshots/official/f4f6c4f7f072-sparse-checkout.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-253",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/open-clone-init/",
+    "section": "How to clone a project",
+    "files": [
+      "screenshots/official/5b509ebbc58c-clone-repo-mgmt-2025_2x.png",
+      "screenshots/official/137894ff5d24-clone-url_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-254",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/open-clone-init/",
+    "section": "How to configure sparse checkout on an existing repository",
+    "files": [
+      "screenshots/official/57dbe5846288-sparse-checkout-preferences.png",
+      "screenshots/official/b594e7f7ae7e-toolbar-action-for-sparse-checkout-repos.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-255",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/open-clone-init/",
+    "section": "How to customize Repository Management",
+    "files": [
+      "screenshots/official/76c2bd176914-gkd-repo-mgm-tab-customize1.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-256",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/open-clone-init/",
+    "section": "How to initialize a new project",
+    "files": [
+      "screenshots/official/5a1ab0ea8e8e-init-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-257",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/open-clone-init/",
+    "section": "How to open an existing project",
+    "files": [
+      "screenshots/official/a65eaaa3d511-open-repo-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-258",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/open-clone-init/",
+    "section": "Overview",
+    "files": [
+      "screenshots/official/30a78947a881-GitKraken_Keif_clone.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-259",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/performance-issues/",
+    "section": "How to verify your GitKraken Desktop build on macOS",
+    "files": [
+      "screenshots/official/22d9daeb93e2-arm2.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-260",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/preferences/",
+    "section": "How UI customization preferences work",
+    "files": [
+      "screenshots/official/a3e270398159-toggle-agents-view-preferences.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-261",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/preferences/",
+    "section": "Quick Start",
+    "files": [
+      "screenshots/official/0209e03fa0ad-preferences_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-262",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/profiles/",
+    "section": "How to change profile avatars",
+    "files": [
+      "screenshots/official/97a863df9a45-edit-profile-1-2025.png",
+      "screenshots/official/ccf369b95287-edit-profile-2-2025.png",
+      "screenshots/official/258b74ac6704-gravatar-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-263",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/profiles/",
+    "section": "How to manage profiles",
+    "files": [
+      "screenshots/official/7df6fe9f07e4-profiles-preferences_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-264",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/profiles/",
+    "section": "How to show author initials in the graph",
+    "files": [
+      "screenshots/official/9a0b34e92954-author-initials-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-265",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/profiles/",
+    "section": "Quick Start",
+    "files": [
+      "screenshots/official/810a2f864567-profiles_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-266",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/profiles/",
+    "section": "What a profile stores",
+    "files": [
+      "screenshots/official/ead4987ca0c1-profile-example-2025.png",
+      "screenshots/official/8292d26b0a65-profile-tabs-2025.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-267",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pull-requests/",
+    "section": "How GitHub Pull Request View works",
+    "files": [
+      "screenshots/official/463e42032b25-github-pr-view-2025_2x.png",
+      "screenshots/official/2267b0d77fe1-launchpad-open-pr-panel-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-268",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pull-requests/",
+    "section": "How assignees, labels, and reviewers work",
+    "files": [
+      "screenshots/official/f828ef9a3e69-add-reviewers-assignees-labels-2025_2x.png",
+      "screenshots/official/0f62a57ad954-pr-merge-conflict-warning-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-269",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pull-requests/",
+    "section": "How branch actions and build status work",
+    "files": [
+      "screenshots/official/3393066c6da9-build-status-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-270",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pull-requests/",
+    "section": "How commenting and quoting work",
+    "files": [
+      "screenshots/official/59f795662e13-quote-reply-2025_2x.png",
+      "screenshots/official/b16d457b6a34-refresh-comments-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-271",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pull-requests/",
+    "section": "How draft pull requests work on GitHub",
+    "files": [
+      "screenshots/official/22ddc8b9b688-create-draft-pr-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-272",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pull-requests/",
+    "section": "How pull request templates work",
+    "files": [
+      "screenshots/official/9c3eedeaf105-pr-template-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-273",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pull-requests/",
+    "section": "How stacked pull requests work on GitHub.com",
+    "files": [
+      "screenshots/official/0bbe5b22642a-gkd-12-6-stacked-pr-create.png",
+      "screenshots/official/40ad675596a6-gkd-12-6-stacked-pr-graph.png",
+      "screenshots/official/710bb609d0db-gkd-12-6-stacked-pr-view.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-274",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pull-requests/",
+    "section": "How the active pull requests panel works",
+    "files": [
+      "screenshots/official/ccc54f9b7bac-gk-pull-request-icon.svg",
+      "screenshots/official/49483b0a6256-pull-request-icon-and-panel-2025_2x.png",
+      "screenshots/official/939a8a6e88d1-tooltip-general_2x.png",
+      "screenshots/official/571ec1729334-tooltip-github_2x.png",
+      "screenshots/official/473b2f40edaa-tooltip-gitlab_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-275",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pull-requests/",
+    "section": "How to accept or reject suggestions",
+    "files": [
+      "screenshots/official/d6db2af0fc52-code-suggestion-2025_2x.png",
+      "screenshots/official/4aa239617f61-gkc-pr-code-suggestions-apply.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-276",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pull-requests/",
+    "section": "How to create a pull request",
+    "files": [
+      "screenshots/official/ba745efbe0ea-create-pr-2025_2x.png",
+      "screenshots/official/0a23adf8f139-create-pull-request-drag-and-drop-2025.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-277",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pull-requests/",
+    "section": "How to merge in GitHub PR View",
+    "files": [
+      "screenshots/official/b0282299fb62-merge-options_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-278",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pull-requests/",
+    "section": "How to review pull requests with GitKraken Code Review",
+    "files": [
+      "screenshots/official/133bc106dc5d-code-review-AI-panel.png",
+      "screenshots/official/4e8c99241689-code-review-actions.png",
+      "screenshots/official/83419bbf06d2-code-review-comment.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-279",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pushing-and-pulling/",
+    "section": "How drag-and-drop push works",
+    "files": [
+      "screenshots/official/c28059582098-push-branch-2025-HD.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-280",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pushing-and-pulling/",
+    "section": "How fetch works",
+    "files": [
+      "screenshots/official/035c981a3a21-fetch-menu-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-281",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pushing-and-pulling/",
+    "section": "How pull options work",
+    "files": [
+      "screenshots/official/dcdb54cc366a-gk-pull-icon.svg"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-282",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pushing-and-pulling/",
+    "section": "How pull with fast-forward if possible works",
+    "files": [
+      "screenshots/official/5f9bd786b57b-pull-ff-ex-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-283",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pushing-and-pulling/",
+    "section": "How pull with rebase works",
+    "files": [
+      "screenshots/official/2df3c51f60cb-pull-rebase-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-284",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pushing-and-pulling/",
+    "section": "How to add a remote",
+    "files": [
+      "screenshots/official/ebe449fd1f21-add-remote_2x.png",
+      "screenshots/official/c653ac89849d-gk-remote-icon.svg"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-285",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pushing-and-pulling/",
+    "section": "How to push changes",
+    "files": [
+      "screenshots/official/81650a0be6e5-gk-push-icon.svg",
+      "screenshots/official/9120f23eb5fd-push_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-286",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pushing-and-pulling/",
+    "section": "How to set an upstream branch",
+    "files": [
+      "screenshots/official/c57d5a1d43dc-drag-and-drop-push-2025.gif",
+      "screenshots/official/6352d4a36125-upstream_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-287",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pushing-and-pulling/",
+    "section": "How to set the default pull behavior",
+    "files": [
+      "screenshots/official/1e8f213f0ed9-set-default_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-288",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/pushing-and-pulling/",
+    "section": "What Fetch All does",
+    "files": [
+      "screenshots/official/46d380a850f0-branch-behind-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-289",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/review-and-undo-agent-changes/",
+    "section": "See commits the agent made",
+    "files": [
+      "screenshots/official/3f6c776067ea-combined-diff-2025-v2_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-290",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/review-and-undo-agent-changes/",
+    "section": "See uncommitted changes",
+    "files": [
+      "screenshots/official/b08a62d8710b-multiple-WIP-nodes.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-291",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/review-and-undo-agent-changes/",
+    "section": "Undo commits you already pushed",
+    "files": [
+      "screenshots/official/4b765c45609a-revert-commit-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-292",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/review-and-undo-agent-changes/",
+    "section": "Undo uncommitted changes",
+    "files": [
+      "screenshots/official/5b6437b30b36-revert-hunk-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-293",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/search/",
+    "section": "How the initial number of displayed commits works",
+    "files": [
+      "screenshots/official/cd0dbf4fe241-max-commits-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-294",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/search/",
+    "section": "How the search bar works",
+    "files": [
+      "screenshots/official/44d0878b00a1-commit-search-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-295",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/self-hosted/",
+    "section": "Key benefits",
+    "files": [
+      "screenshots/official/183f13a09f7b-manage-users_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-296",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/self-signed-certificates/",
+    "section": "Additional details about SSL certificate errors",
+    "files": [
+      "screenshots/official/fd87af4d440e-invalid-error-1.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-297",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/self-signed-certificates/",
+    "section": "How to fix Invalid SSL Certificate",
+    "files": [
+      "screenshots/official/657ae3ca6940-invalid-error-2.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-298",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/self-signed-certificates/",
+    "section": "How to use Google Chrome on Windows",
+    "files": [
+      "screenshots/official/7d120eef633a-chrome-0a-export.png",
+      "screenshots/official/584c91531277-chrome-0b-export.png",
+      "screenshots/official/858454553be6-chrome-1-settings.png",
+      "screenshots/official/bed8456d42e0-chrome-2-security.png",
+      "screenshots/official/848fd9569da6-chrome-3-manage-certs.png",
+      "screenshots/official/3d08f9a27c7d-chrome-4-wizard.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-299",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/self-signed-certificates/",
+    "section": "How to use Safari on macOS",
+    "files": [
+      "screenshots/official/96268f033fe1-safari-1a.png",
+      "screenshots/official/584268e4608b-safari-1b.png",
+      "screenshots/official/af754f29ab61-safari-2.png",
+      "screenshots/official/8114cfe00bcb-safari-4.png",
+      "screenshots/official/4f344972b114-safari-5-6.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-300",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/serverless/",
+    "section": "How to load the license file",
+    "files": [
+      "screenshots/official/f6d2b927bcbd-serverless-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-301",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/serverless/",
+    "section": "How to update the license file",
+    "files": [
+      "screenshots/official/040aa35dea15-serverless-license-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-302",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/serverless/",
+    "section": "Quick Start",
+    "files": [
+      "screenshots/official/142192769c6d-serverless-example-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-303",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/serverless/",
+    "section": "Windows (.exe)",
+    "files": [
+      "screenshots/official/1b80e1075e47-license.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-304",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/squash/",
+    "section": "How to push a squashed commit",
+    "files": [
+      "screenshots/official/35927c15f304-force-push_2x.png",
+      "screenshots/official/8113e4f7bdce-squash-pushremote_2x.png",
+      "screenshots/official/d24be1890a64-squashed-remote_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-305",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/squash/",
+    "section": "Squash requirements",
+    "files": [
+      "screenshots/official/284eb4ee4dd8-amend-commitmsg_2x.png",
+      "screenshots/official/17a7e26097f8-squash_2x.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-306",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/staging/",
+    "section": "How to discard changes",
+    "files": [
+      "screenshots/official/d6fc536ab375-discard-all-changes-2025_2x.png",
+      "screenshots/official/11f593c12e42-discard-hunk-ex-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-307",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/staging/",
+    "section": "How to ignore files",
+    "files": [
+      "screenshots/official/b11a59aa951b-ignore-file_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-308",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/staging/",
+    "section": "How to ignore previously tracked files",
+    "files": [
+      "screenshots/official/2e33171ea3a5-ignore-only_2x.png",
+      "screenshots/official/74169ee2ce9a-ignore-stop-tracking-2025.png",
+      "screenshots/official/5f6058a20fe2-ignore-untrack_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-309",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/staging/",
+    "section": "How to stage files and changes",
+    "files": [
+      "screenshots/official/0458176b0715-select-WIP-2025.png",
+      "screenshots/official/42772526d94f-stage-file-2025_2x.png",
+      "screenshots/official/0b79e577d039-stage-selected-lines-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-310",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/staging/",
+    "section": "How to unstage files or lines",
+    "files": [
+      "screenshots/official/3f8950b824ce-unstage-file-2025_2x.png",
+      "screenshots/official/aef4e8aeccfe-unstage-hunk-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-311",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/stashing/",
+    "section": "How to create and apply a partial stash",
+    "files": [
+      "screenshots/official/019ae24b026e-partial-stash-apply.png",
+      "screenshots/official/945b13c000c5-partial-stash.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-312",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/stashing/",
+    "section": "How to edit a stash message",
+    "files": [
+      "screenshots/official/055afb1d432d-amend-stash-graph2.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-313",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/stashing/",
+    "section": "How to name a stash",
+    "files": [
+      "screenshots/official/afb1595087f1-custom-stash-graph_2x.png",
+      "screenshots/official/09ecffde8786-custom-stash-panel_2x.png",
+      "screenshots/official/8ee4f32cb7d1-custom-stash-wip_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-314",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/stashing/",
+    "section": "How to stash changes from the Commit Panel",
+    "files": [
+      "screenshots/official/6b15242d6dcc-stash-ai-message_2x.png",
+      "screenshots/official/61aa97bcbf05-stash-commit-panel-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-315",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/stashing/",
+    "section": "How to stash changes from the top toolbar",
+    "files": [
+      "screenshots/official/6eb6e2ba3b01-pop-stash_2x.png",
+      "screenshots/official/bd32b713a274-stash-options_2x.png",
+      "screenshots/official/080fd0fbbf92-stash_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-316",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/stashing/",
+    "section": "How to view and manage stashes from the Left Panel",
+    "files": [
+      "screenshots/official/8daf928d4bda-stash-left-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-317",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/submodules/",
+    "section": "How to add a submodule",
+    "files": [
+      "screenshots/official/b157388f5619-add-submodule_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-318",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/submodules/",
+    "section": "How to change the pointer commit",
+    "files": [
+      "screenshots/official/5cb478fd88ab-submodule-commit_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-319",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/submodules/",
+    "section": "How to enable the Submodules pane",
+    "files": [
+      "screenshots/official/68380e31d664-toggle-panes-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-320",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/submodules/",
+    "section": "How to update a submodule",
+    "files": [
+      "screenshots/official/08182b2a0039-update-submodule_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-321",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/tags/",
+    "section": "How to add a tag",
+    "files": [
+      "screenshots/official/c0f1c014ae63-create-tag-2025_2x.png",
+      "screenshots/official/8f7f39ed4b75-push-tag-2025_2x.png",
+      "screenshots/official/f7108e777c3f-tag-right_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-322",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/tags/",
+    "section": "How to annotate a tag",
+    "files": [
+      "screenshots/official/90fc1873395a-tag-annotation.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-323",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/tags/",
+    "section": "How to create a branch from a tag",
+    "files": [
+      "screenshots/official/e44e384e3354-tag-branch_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-324",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/tags/",
+    "section": "How to delete a tag",
+    "files": [
+      "screenshots/official/b246bbb574a9-delete-tag-context-menu-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-325",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/tags/",
+    "section": "How to search or filter tags",
+    "files": [
+      "screenshots/official/1f470149cffd-filter-tags_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-326",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/tags/",
+    "section": "How to show or hide the Tags panel",
+    "files": [
+      "screenshots/official/68380e31d664-toggle-panes-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-327",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/team-view/",
+    "section": "How status indicators work",
+    "files": [
+      "screenshots/official/7e94db980650-active-away-2025_2x.png",
+      "screenshots/official/4b43bb6cb865-status-in-teams.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-328",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/team-view/",
+    "section": "How to opt out of Team View",
+    "files": [
+      "screenshots/official/74766974c615-team-setting_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-329",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/team-view/",
+    "section": "How to select a team",
+    "files": [
+      "screenshots/official/7f7cd925410e-team-view-2025_2x.png",
+      "screenshots/official/ecd1f1780f8a-team-view-conflict-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-330",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/teams/",
+    "section": "How suggested members work",
+    "files": [
+      "screenshots/official/e79aa3e57df7-suggested-members-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-331",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/teams/",
+    "section": "How to manage teams",
+    "files": [
+      "screenshots/official/79b0d77d8f28-add-team-2025-2.png",
+      "screenshots/official/6dfea90ede8d-delete-team-2025.png",
+      "screenshots/official/6d258b79a615-rename-team-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-332",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/teams/",
+    "section": "How to manage your organization",
+    "files": [
+      "screenshots/official/45f85c9c5cfa-edit-users-2025.png",
+      "screenshots/official/d13d0d2b14bb-organization-2025-2.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-333",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/teams/",
+    "section": "Overview",
+    "files": [
+      "screenshots/official/3f8001794c5b-GitKraken_Keif_referral.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-334",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/terminal/",
+    "section": "How Git commands and auto-complete work",
+    "files": [
+      "screenshots/official/1b52dc6214a6-autocomplete-suggestions-flags.png",
+      "screenshots/official/87cb04fa57ce-autocomplete-suggestions.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-335",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/terminal/",
+    "section": "How terminal tabs work",
+    "files": [
+      "screenshots/official/1d49511f96ed-gkd-12-6-terminal-tabs.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-336",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/terminal/",
+    "section": "How to customize terminal preferences",
+    "files": [
+      "screenshots/official/53b2a863220b-terminal-preferences-2025-v2_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-337",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/terminal/",
+    "section": "Quick Start",
+    "files": [
+      "screenshots/official/0169222b57aa-terminal-button-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-338",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/themes/",
+    "section": "How built-in themes work",
+    "files": [
+      "screenshots/official/75bb25d7c8bb-theme-switch.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-339",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/tips/",
+    "section": "Hide",
+    "files": [
+      "screenshots/official/554ebbeee0af-gk-solo-icon-orange.svg"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-340",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/tips/",
+    "section": "How to cherry pick multiple commits",
+    "files": [
+      "screenshots/official/c611de81e563-multi-cherry-pick-menu.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-341",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/tips/",
+    "section": "How to hide and solo branches",
+    "files": [
+      "screenshots/official/8bd3eaff6255-gk-hide-icon-green.svg"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-342",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/tips/",
+    "section": "How to integrate with Git services",
+    "files": [
+      "screenshots/official/4ff1a32363ef-connect-azure-devops-2025-v3_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-343",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/tips/",
+    "section": "How to resize the Commit Graph",
+    "files": [
+      "screenshots/official/dead658dc05c-graph-drag-2025.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-344",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/tips/",
+    "section": "How to set up profiles",
+    "files": [
+      "screenshots/official/ead4987ca0c1-profile-example-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-345",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/tips/",
+    "section": "How to use the Command Palette",
+    "files": [
+      "screenshots/official/21d2d33c9a27-command-palette-2025.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-346",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/tips/",
+    "section": "How to view file history and blame",
+    "files": [
+      "screenshots/official/8109d8963b1a-file-diff-2025.png",
+      "screenshots/official/31b9bc8de49a-file-history-content-menu-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-347",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/trello/",
+    "section": "How to connect the Trello integration",
+    "files": [
+      "screenshots/official/1d9a04f86021-connect-trello-2025_2x.png",
+      "screenshots/official/ced5b0e3a990-trello-integration_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-348",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/trello/",
+    "section": "How to copy a card link or open it in Trello",
+    "files": [
+      "screenshots/official/b53bf2d7a5f3-trello-open-in-browser-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-349",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/trello/",
+    "section": "How to create Trello card filters",
+    "files": [
+      "screenshots/official/67ef232cbba5-trello-create-filter-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-350",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/trello/",
+    "section": "How to create a new Trello card",
+    "files": [
+      "screenshots/official/92e5517b09a3-trello-create-card-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-351",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/trello/",
+    "section": "How to create branches from Trello cards",
+    "files": [
+      "screenshots/official/6e302482aae2-create-branch-jira-integration.gif"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-352",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/trello/",
+    "section": "How to preview Trello cards",
+    "files": [
+      "screenshots/official/b16efe79e075-trello-card-hover-2025_2x.png",
+      "screenshots/official/9a3b54ab1068-trello-cards-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-353",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/trello/",
+    "section": "How to view and edit Trello card details",
+    "files": [
+      "screenshots/official/fb9bdcd3ae26-trello-card-details-view-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-354",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/undo-and-redo/",
+    "section": "Quick Start",
+    "files": [
+      "screenshots/official/0f2021a90015-undo-undo-2025.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-355",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/upgrade-enterprise/",
+    "section": "How to update the license",
+    "files": [
+      "screenshots/official/4103f7b98346-license-settings_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-356",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/windows-subsystem-for-linux/",
+    "section": "How WSL-specific GitKraken preferences work",
+    "files": [
+      "screenshots/official/b3d4ebc470fc-wsl-host-settings_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-357",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/windows-subsystem-for-linux/",
+    "section": "How cross-file-system access works in WSL 2",
+    "files": [
+      "screenshots/official/3b57153b47c3-wsl-toast_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-358",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/windows-subsystem-for-linux/",
+    "section": "How to use GitKraken Desktop with WSL 2",
+    "files": [
+      "screenshots/official/a92fa68e3e08-wsl-full-screen_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-359",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/workspaces/",
+    "section": "How to access your Workspaces",
+    "files": [
+      "screenshots/official/831ad2ec2981-open-workspaces-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-360",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/workspaces/",
+    "section": "How to convert a Local Workspace to a Cloud Workspace",
+    "files": [
+      "screenshots/official/842c8f30cd73-local-to-cloud-ws-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-361",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/workspaces/",
+    "section": "How to create a Cloud Workspace",
+    "files": [
+      "screenshots/official/e8631c247363-add-new-workspace-2025_2x.png",
+      "screenshots/official/caf8035fccb6-config-cloud-workspace-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-362",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/workspaces/",
+    "section": "How to create a Local Workspace",
+    "files": [
+      "screenshots/official/63b4bcf698cb-create-local-ws-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-363",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/workspaces/",
+    "section": "How to edit Workspace details",
+    "files": [
+      "screenshots/official/7537e5a7be42-gkd-10-2-edit-workspace.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-364",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/workspaces/",
+    "section": "How to edit a Workspace",
+    "files": [
+      "screenshots/official/0f43e1f1c023-multi-actions-ws-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-365",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/workspaces/",
+    "section": "How to hide a Workspace",
+    "files": [
+      "screenshots/official/dc347009b2a8-unhide-group-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-366",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/workspaces/",
+    "section": "How to open, clone, or locate repositories",
+    "files": [
+      "screenshots/official/f1f963a6d527-clone-or-locate-ws-repos-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-367",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/workspaces/",
+    "section": "How to reorder Workspaces",
+    "files": [
+      "screenshots/official/19b9a7a71316-reorder-workspaces-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-368",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/workspaces/",
+    "section": "How to run multi-repository actions in a Cloud Workspace",
+    "files": [
+      "screenshots/official/dcdb54cc366a-gk-pull-icon.svg",
+      "screenshots/official/c653ac89849d-gk-remote-icon.svg",
+      "screenshots/official/7baaafc1091c-more-multi-repo-actions-2025_2x.png",
+      "screenshots/official/b6e4d95fb593-multi-fetch-ws-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-369",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/workspaces/",
+    "section": "How to use Insights to visualize pull request history",
+    "files": [
+      "screenshots/official/718c5b97931d-insights-gkdev-2026_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-370",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/workspaces/",
+    "section": "How to view Workspace pull requests in Launchpad",
+    "files": [
+      "screenshots/official/f08d00dc8379-launchpad-team-view-2025_2x.png",
+      "screenshots/official/28e334d99dc0-open-ws-in-lp-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-371",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/workspaces/",
+    "section": "Quick Start",
+    "files": [
+      "screenshots/official/3c6705142e1f-workspaces-tab-2025_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-372",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/worktrees/",
+    "section": "How to create a worktree",
+    "files": [
+      "screenshots/official/1b16f25e2590-gkd-10-5-create-worktree.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-373",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/worktrees/",
+    "section": "How to switch worktrees",
+    "files": [
+      "screenshots/official/1bbf40055dbf-gkd-10-5-worktrees-actions.png",
+      "screenshots/official/c5e5bd24c1d6-gkd-open-worktree-from-wip-01-v3_2x.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  },
+  {
+    "id": "REF-374",
+    "page": "https://help.gitkraken.com/gitkraken-desktop/worktrees/",
+    "section": "Multiple WIP nodes for multiple worktrees",
+    "files": [
+      "screenshots/official/b08a62d8710b-multiple-WIP-nodes.png"
+    ],
+    "status": "공식 참고 자료 — 현재 설치 버전에서 미검증",
+    "note": "섹션 단위 후보이며 독립 화면 개수와 같지 않음. 아이콘/애니메이션/구버전 이미지 포함."
+  }
+]

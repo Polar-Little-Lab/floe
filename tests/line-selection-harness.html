@@ -1,0 +1,23 @@
+<!doctype html><html><body><button id="run">Run line selection checks</button><pre id="result">Not run</pre><div id="root"></div><script type="module">
+import React from 'react';import{createRoot}from'react-dom/client';import{DiffView}from'/src/DiffView.tsx';
+let diff={text:'diff --git a/x b/x\n--- a/x\n+++ b/x\n@@ -1 +1,2 @@\n-old\n+new\n+extra\n',truncated:false,selectableLines:[{hunk:0,line:0,oldLine:1,newLine:null},{hunk:0,line:1,oldLine:null,newLine:1},{hunk:0,line:2,oldLine:null,newLine:2}]};
+let requests=[];const root=createRoot(document.getElementById('root'));const render=(busy=false)=>root.render(React.createElement(DiffView,{diff,busy,initialMode:'unified',hunkAction:'Stage',onLines:lines=>requests.push(lines)}));render();
+const tick=()=>new Promise(r=>setTimeout(r,50));const button=text=>[...document.querySelectorAll('button')].find(x=>x.textContent===text);const checks=()=>[...document.querySelectorAll('input[type=checkbox]')];
+document.getElementById('run').onclick=async()=>{const passed=[];const assert=(ok,text)=>{if(!ok)throw Error(text);passed.push(text)};try{
+await tick();assert(checks().length===3,'only changed rows selectable');checks()[1].click();await tick();button('Stage selected lines (1)').click();assert(JSON.stringify(requests[0])===JSON.stringify([{hunk:0,line:1}]),'single added line exact backend identifier');
+button('Split').click();await tick();assert(checks().filter(x=>x.checked).length===1,'split transition preserves original selection');
+checks().find(x=>x.getAttribute('aria-label')==='Select diff line 5').click();await tick();button('Stage selected lines (2)').click();assert(JSON.stringify(requests[1])===JSON.stringify([{hunk:0,line:0},{hunk:0,line:1}]),'paired removal and addition use distinct IDs');
+render(true);await tick();assert(checks().every(x=>x.disabled)&&button('Stage selected lines (2)').disabled,'pending operation disables selection and submit');render();await tick();assert(checks().filter(x=>x.checked).length===2,'cancel with unchanged diff preserves selection');
+button('Clear line selection').click();await tick();assert(!checks().some(x=>x.checked),'explicit clear');checks()[0].click();await tick();diff={...diff};render();await tick();assert(!checks().some(x=>x.checked),'new diff snapshot clears previous selection');
+diff={...diff,truncated:true};render();await tick();assert(checks().length===0,'truncated diff refuses line selection');
+diff={text:'diff --git a/x b/x\n--- a/x\n+++ b/x\n@@ -1,2 +1,3 @@\n-const a = old;\n-const b = before;\n+log startup\n+const a = new;\n+const b = after;\n',truncated:false,selectableLines:[{hunk:0,line:0,oldLine:1,newLine:null},{hunk:0,line:1,oldLine:2,newLine:null},{hunk:0,line:2,oldLine:null,newLine:1},{hunk:0,line:3,oldLine:null,newLine:2},{hunk:0,line:4,oldLine:null,newLine:3}]};render();await tick();button('Unified').click();await tick();
+const choose=(row,shift=false)=>document.querySelector(`[aria-label="Select diff line ${row}"]`).dispatchEvent(new MouseEvent('click',{bubbles:true,shiftKey:shift}));
+choose(5);await tick();choose(8,true);await tick();assert(checks().filter(x=>x.checked).length===4,'Unified Shift selects all changed rows in displayed interval');
+button('Clear line selection').click();await tick();button('Split').click();await tick();choose(5);await tick();choose(8,true);await tick();assert(checks().filter(x=>x.checked).length===2,'Split Shift follows aligned visual order, excludes unrelated insert and second removal');
+button('Stage selected lines (2)').click();assert(JSON.stringify(requests.at(-1))===JSON.stringify([{hunk:0,line:0},{hunk:0,line:3}]),'Split range submits exact original IDs');
+choose(8,true);await tick();assert(checks().filter(x=>x.checked).length===0,'Shift on checked endpoint clears full selected range');
+choose(5);await tick();button('Unified').click();await tick();choose(9,true);await tick();assert(checks().filter(x=>x.checked).length===2,'layout switch discards old range anchor but retains checked rows');
+button('Clear line selection').click();await tick();choose(5);await tick();button('Split').click();await tick();button('Unified').click();await tick();choose(9,true);await tick();assert(checks().filter(x=>x.checked).length===2,'roundtrip layout switch cannot revive old range anchor');
+document.getElementById('result').textContent=JSON.stringify({passed:passed.length,checks:passed,scope:'Actual DiffView; captured action callback, no native IPC'},null,2);
+}catch(e){document.getElementById('result').textContent=JSON.stringify({failed:String(e),checks:passed},null,2)}};
+</script></body></html>
