@@ -22,7 +22,7 @@ jobs:
           tag="v0.1.0-preview.${GITHUB_RUN_NUMBER}"
           echo "tag=$tag" >> "$GITHUB_OUTPUT"
           if ! gh release view "$tag" >/dev/null 2>&1; then
-            gh release create "$tag" --target "$GITHUB_SHA" --draft --prerelease --title "FLOE $tag" --notes "Development preview. macOS ARM64 and Windows x64. No production signing or notarization. Known backend CI failures remain (TLS fixtures, provider writes, Git lock/recovery); this preview is not a verified production release. AI features excluded."
+            gh release create "$tag" --target "$GITHUB_SHA" --draft --prerelease --title "FLOE $tag" --notes "Development preview. macOS ARM64 and Windows x64. macOS requires Developer ID signing and Apple notarization; Windows is unsigned. Known backend CI failures remain (TLS fixtures, provider writes, Git lock/recovery); this preview is not a verified production release. AI features excluded."
           fi
   package:
     needs: release
@@ -55,8 +55,22 @@ jobs:
           rustup show
           rustup target add '${{ matrix.target }}'
           npm ci
+      - name: Configure Developer ID and Apple notarization
+        if: runner.os == 'macOS'
+        env:
+          APPLE_CERTIFICATE_P12_BASE64: ${{ secrets.APPLE_CERTIFICATE_P12_BASE64 }}
+          APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
+          APPLE_SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
+          APPLE_API_KEY_BASE64: ${{ secrets.APPLE_API_KEY_BASE64 }}
+          APPLE_API_KEY_ID: ${{ secrets.APPLE_API_KEY_ID }}
+          APPLE_API_ISSUER: ${{ secrets.APPLE_API_ISSUER }}
+        run: bash scripts/setup-apple-signing.sh
       - name: Build macOS preview
         if: runner.os == 'macOS'
+        env:
+          APPLE_SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
+          APPLE_API_KEY: ${{ secrets.APPLE_API_KEY_ID }}
+          APPLE_API_ISSUER: ${{ secrets.APPLE_API_ISSUER }}
         run: npm run tauri build -- --target aarch64-apple-darwin --bundles app
       - name: Build Windows preview
         if: runner.os == 'Windows'
@@ -64,6 +78,17 @@ jobs:
       - name: Verify signed macOS app bundle
         if: runner.os == 'macOS'
         run: codesign --verify --deep --strict --verbose=2 "src-tauri/target/aarch64-apple-darwin/release/bundle/macos/FLOE.app"
+      - name: Verify Developer ID, hardened runtime and notarization
+        if: runner.os == 'macOS'
+        env:
+          MACOS_PRODUCT: FLOE
+        run: |
+          app_path="src-tauri/target/aarch64-apple-darwin/release/bundle/macos/$MACOS_PRODUCT.app"
+          codesign -dv --verbose=4 "$app_path" 2>&1 | grep -F 'Authority=Developer ID Application:'
+          codesign -dv --verbose=4 "$app_path" 2>&1 | grep -F '(runtime)'
+          codesign -dv --verbose=4 "$app_path" 2>&1 | grep -F 'Timestamp='
+          xcrun stapler validate "$app_path"
+          spctl --assess --type execute --verbose=2 "$app_path"
       - name: Archive macOS application preserving bundle metadata
         if: runner.os == 'macOS'
         run: |
@@ -80,6 +105,8 @@ jobs:
           ditto -x -k "preview-artifacts/$MACOS_ARCHIVE" "$verify_dir"
           codesign --verify --deep --strict --verbose=2 "$verify_dir/$MACOS_PRODUCT.app"
           test -f "$verify_dir/$MACOS_PRODUCT.app/Contents/_CodeSignature/CodeResources"
+          xcrun stapler validate "$verify_dir/$MACOS_PRODUCT.app"
+          spctl --assess --type execute --verbose=2 "$verify_dir/$MACOS_PRODUCT.app"
       - name: Collect Windows installer
         if: runner.os == 'Windows'
         shell: pwsh
@@ -114,6 +141,9 @@ jobs:
           mv preview-artifacts/manifest.json "preview-artifacts/manifest-${PREVIEW_PLATFORM}.json"
           mv preview-artifacts/SHA256SUMS "preview-artifacts/SHA256SUMS-${PREVIEW_PLATFORM}.txt"
           gh release upload "$RELEASE_TAG" preview-artifacts/* --clobber
+      - name: Remove temporary Apple credentials
+        if: always() && runner.os == 'macOS'
+        run: bash scripts/cleanup-apple-signing.sh
   publish:
     needs: [release, package]
     runs-on: ubuntu-latest

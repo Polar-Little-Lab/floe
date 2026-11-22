@@ -12,7 +12,7 @@ This is a release build with the `developer-test` Cargo feature. Web Inspector o
 
 App name, identifier (`dev.branchdesk.desktop.devtest`), app data directory and the app's HTTPS credential service namespace are separate from the normal application. Existing settings/logins are not copied. Selected Git repositories and system Git/SSH configuration are NOT isolated: use disposable clones and test accounts.
 
-The complete macOS app bundle is ad-hoc signed and verified again after ZIP extraction. Developer ID signing and Apple notarization are not configured. macOS may require approval for this specific app in System Settings > Privacy & Security. Do not globally disable system security. Windows may show an unsigned application warning.
+New CI packages require Developer ID signing, hardened runtime, Apple notarization, stapled tickets and Gatekeeper verification, including after ZIP extraction. Missing credentials or failed checks stop publication. Older devtest.4 and earlier artifacts do not acquire notarization automatically. Windows remains unsigned. Do not globally disable system security.
 
 ## Manual acceptance TODO
 
