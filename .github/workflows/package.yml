@@ -1,6 +1,11 @@
 name: Package FLOE desktop preview
 on:
   workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish verified packages from main
+        type: boolean
+        default: false
 permissions:
   contents: read
 concurrency:
@@ -15,6 +20,7 @@ jobs:
       tag: ${{ steps.tag.outputs.tag }}
     steps:
       - id: tag
+        if: github.ref == 'refs/heads/main' && inputs.publish
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
@@ -131,6 +137,7 @@ jobs:
           compression-level: 0
 
       - name: Attach packages to draft release
+        if: github.ref == 'refs/heads/main' && inputs.publish
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
@@ -145,6 +152,7 @@ jobs:
         if: always() && runner.os == 'macOS'
         run: bash scripts/cleanup-apple-signing.sh
   publish:
+    if: github.ref == 'refs/heads/main' && inputs.publish
     needs: [release, package]
     runs-on: ubuntu-latest
     permissions:
