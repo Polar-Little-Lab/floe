@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-available-external-editors"
+description = "Enables the available_external_editors command without any pre-configured scope."
+commands.allow = ["available_external_editors"]
+
+[[permission]]
+identifier = "deny-available-external-editors"
+description = "Denies the available_external_editors command without any pre-configured scope."
+commands.deny = ["available_external_editors"]

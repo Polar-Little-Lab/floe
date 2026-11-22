@@ -1,0 +1,11 @@
+<!doctype html><html><body><div id="root"></div><script type="module">
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import {RebaseDialog} from '/src/RebaseDialog.tsx';
+import {RebaseResolutionDialog} from '/src/RebaseResolutionDialog.tsx';
+const root=createRoot(document.getElementById('root'));
+window.events=[];let epoch=0;
+window.preview=()=>root.render(React.createElement(RebaseDialog,{key:++epoch,plan:{branch:'topic',upstream:'main',upstreamOid:'a'.repeat(40),kind:'replay',selections:[],skippedEquivalent:[],flattenedMerges:[],replay:null,blockers:['CONFLICTS']},busy:false,error:'',defaultIdentity:{name:'Test',email:'t@invalid'},onClose:()=>window.events.push('close'),onApply:()=>window.events.push('apply'),onStart:()=>window.events.push('start')}));
+window.draft=(pending=true,busy=false,completed=false)=>root.render(React.createElement(RebaseResolutionDialog,{key:++epoch,view:{id:'draft',branch:'topic',upstream:'main',revision:'r',resultOid:'a'.repeat(40),completed,skipped:[],pending:pending?{source:'b'.repeat(40),ordinal:0,conflicts:[{id:'f',path:'a',ancestor:'base',ours:'upstream',theirs:'incoming',binary:false,present:[true,true,true]}],resolutions:{}}:null},busy,error:'',onClose:()=>window.events.push('close'),onResolve:(id,r)=>window.events.push({id,...r}),onSkip:()=>window.events.push('skip'),onContinue:()=>window.events.push('continue'),onAbort:()=>window.events.push('abort')}));
+window.preview();
+</script></body></html>

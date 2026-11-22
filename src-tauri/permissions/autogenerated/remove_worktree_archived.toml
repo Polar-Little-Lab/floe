@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-remove-worktree-archived"
+description = "Enables the remove_worktree_archived command without any pre-configured scope."
+commands.allow = ["remove_worktree_archived"]
+
+[[permission]]
+identifier = "deny-remove-worktree-archived"
+description = "Denies the remove_worktree_archived command without any pre-configured scope."
+commands.deny = ["remove_worktree_archived"]

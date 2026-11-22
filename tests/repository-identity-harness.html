@@ -1,0 +1,21 @@
+<!doctype html><html><body><div id="root"></div><script type="module">
+import React from 'react';import {createRoot} from 'react-dom/client';import {RepositoryIdentityDialog} from '/src/RepositoryIdentityDialog.tsx';import {repositoryDefaultIdentity} from '/src/commitIdentity.ts';import {useIdentityFields} from '/src/useIdentityFields.ts';
+const root=createRoot(document.getElementById('root'));window.events=[];let epoch=0;
+const local={identity:{name:'Work',email:'work@example.invalid'},configured:true,warning:null};const app={name:'Personal',email:'personal@example.invalid'};
+window.show=(busy=false,initial=local)=>root.render(React.createElement(RepositoryIdentityDialog,{key:++epoch,name:'<work>',initial,busy,error:'',onClose:()=>events.push(['cancel']),onSave:identity=>events.push(['save',identity])}));
+function Fields({repository}) {const fields=useIdentityFields(repositoryDefaultIdentity(repository,app));return React.createElement('div',null,React.createElement('input',{'aria-label':'effective-name',value:fields.author,onChange:e=>fields.setAuthor(e.target.value)}),React.createElement('input',{'aria-label':'effective-email',value:fields.email,onChange:e=>fields.setEmail(e.target.value)}));}
+window.show();
+window.runChecks=async()=>{const checks=[];const tick=()=>new Promise(r=>setTimeout(r,40));const assert=(ok,name)=>{if(!ok)throw new Error(name);checks.push(name)};const field=label=>document.querySelector(`[aria-label="${label}"]`);const button=text=>[...document.querySelectorAll('button')].find(b=>b.textContent===text);const input=(label,value)=>{const el=field(label);Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(el,value);el.dispatchEvent(new Event('input',{bubbles:true}));};await tick();
+assert(field('Repository author name').value==='Work'&&field('Repository author email').value==='work@example.invalid','initial repository pair');
+input('Repository author name',' Other Work ');input('Repository author email',' other@example.invalid ');await tick();button('Save repository identity').click();assert(JSON.stringify(events.pop())===JSON.stringify(['save',{name:'Other Work',email:'other@example.invalid'}]),'save complete trimmed pair');
+input('Repository author email','');await tick();assert(button('Save repository identity').disabled,'partial pair disabled');document.querySelector('form').dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));assert(events.length===0,'partial submit refused');
+input('Repository author name','가'.repeat(100));input('Repository author email','ok@example.invalid');await tick();assert(button('Save repository identity').disabled,'UTF8 byte bound');
+button('Clear repository identity').click();assert(JSON.stringify(events.pop())===JSON.stringify(['save',null]),'clear callback explicit');
+window.show(true);await tick();assert([...document.querySelectorAll('input,button')].every(e=>e.disabled),'busy disables controls');document.querySelector('form').dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));assert(events.length===0,'busy submit refused');
+window.show();await tick();button('Cancel').click();assert(JSON.stringify(events.pop())===JSON.stringify(['cancel']),'cancel does not save');
+root.render(React.createElement(Fields,{repository:local}));await tick();assert(field('effective-name').value==='Work','local takes precedence');
+root.render(React.createElement(Fields,{repository:{identity:null,configured:true,warning:'invalid'}}));await tick();assert(field('effective-name').value===''&&field('effective-email').value==='','invalid config suppresses fallback');
+root.render(React.createElement(Fields,{repository:{identity:null,configured:false,warning:null}}));await tick();assert(field('effective-name').value==='Personal','cleared local uses app default');
+input('effective-name','Explicit');await tick();root.render(React.createElement(Fields,{repository:local}));await tick();assert(field('effective-name').value==='Explicit'&&field('effective-email').value==='personal@example.invalid','entered operation pair preserved on default change');
+return {passed:checks.length,checks,scope:'Chrome React component/hook; native IPC and WKWebView not tested'};};
+</script></body></html>

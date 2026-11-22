@@ -1,0 +1,34 @@
+<!doctype html><html><body><button id="run-checks">Run tag recovery checks</button><pre id="result">Not run</pre><div id="root"></div><script type="module">
+import React from 'react';import{createRoot}from'react-dom/client';import{demo}from'/src/demo.ts';import{api}from'/src/api.ts';import App from'/src/App.tsx';
+const fixture=structuredClone(demo),oid=fixture.commits[0].oid;
+Object.assign(demo,{repoId:'tag-fixture',revision:'reviewed',headOid:oid,writeBlock:null,recoveryPending:false,changes:[],repositoryIdentity:{name:'Fixture',email:'fixture@example.invalid'}});
+let current=structuredClone(demo),pending,calls=[];
+api.refresh=async()=>structuredClone(current);api.commit=async()=>({oid,parentOid:null,message:'Fixture commit',files:[]});
+api.loadDraft=async()=>({draft:null,revision:'missing',warning:null});api.saveDraft=async(id,revision,draft)=>({draft,revision:'saved',warning:null});api.saveWorkspace=async()=>({workspace:null,revision:'saved',warning:null});
+api.mutate=(snapshot,action)=>{calls.push({snapshot:structuredClone(snapshot),action:structuredClone(action)});return new Promise((resolve,reject)=>{pending={resolve,reject}})};
+createRoot(document.getElementById('root')).render(React.createElement(App));
+const tick=()=>new Promise(r=>setTimeout(r,60));const dialog=()=>document.querySelector('[aria-label="태그 생성"]');
+const button=(text,parent=document)=>[...parent.querySelectorAll('button')].find(b=>b.textContent===text);
+const input=(name)=>document.querySelector(`[aria-label="${name}"]`);
+const set=(el,value)=>{const type=el instanceof HTMLTextAreaElement?HTMLTextAreaElement:HTMLInputElement;Object.getOwnPropertyDescriptor(type.prototype,'value').set.call(el,value);el.dispatchEvent(new Event('input',{bubbles:true}));};
+document.getElementById('run-checks').onclick=async()=>{const checks=[];const assert=(ok,name)=>{if(!ok)throw Error(name);checks.push(name)};try{
+ await tick();document.querySelector('.commit-row')?.click();await tick();
+ if(!button('Create tag'))throw Error('Missing selected commit Create tag');button('Create tag').click();await tick();
+ set(input('태그 이름'),'existing-tag');dialog().querySelector('input[type=checkbox]').click();await tick();set(input('Tag message'),'Annotation <literal>\nsecond line');set(input('Tagger name'),'Override Tagger');set(input('Tagger email'),'override@example.invalid');await tick();button('Create tag',dialog()).click();await tick();
+ assert(!!dialog(),'native request leaves form mounted');
+ assert([...dialog().querySelectorAll('input,textarea,button')].every(e=>e.disabled),'pending request disables fields and close/submit');
+ assert(calls.length===1&&calls[0].action.name==='existing-tag','one request uses reviewed tag name');
+ button('Create tag',dialog()).click();await tick();assert(calls.length===1,'busy duplicate submit suppressed');
+ pending.reject('REF_EXISTS');await tick();
+ assert(!!dialog()&&input('태그 이름').value==='existing-tag','failure retains entered name');
+ assert(dialog().querySelector('[role=alert]')?.textContent==='REF_EXISTS','original error appears inside form');
+ assert(input('Tag message').value==='Annotation <literal>\nsecond line'&&input('Tagger name').value==='Override Tagger'&&input('Tagger email').value==='override@example.invalid','failure preserves annotation and tagger overrides');
+ assert(calls[0].action.kind==='createAnnotatedTag'&&calls[0].action.message==='Annotation <literal>\nsecond line'&&calls[0].action.author==='Override Tagger','request captures exact annotated payload');
+ set(input('태그 이름'),'corrected-tag');await tick();button('Create tag',dialog()).click();await tick();
+ assert(calls.length===2&&calls[1].action.name==='corrected-tag','retry uses corrected name');
+ pending.reject('CANCELLED: native cancelled');await tick();assert(!!dialog()&&input('태그 이름').value==='corrected-tag','native cancel keeps entered fields');
+ button('Create tag',dialog()).click();await tick();current={...current,revision:'created'};pending.resolve(structuredClone(current));await tick();
+ assert(!dialog(),'success closes form');assert(document.body.textContent.includes('태그를 생성했습니다.'),'success feedback shown');
+ document.getElementById('result').textContent=JSON.stringify({passed:checks.length,checks,scope:'Actual React App and form lifecycle; mocked API, no native IPC.'},null,2);
+ }catch(e){document.getElementById('result').textContent=JSON.stringify({failed:String(e),checks},null,2)}};
+</script></body></html>

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-read-submodules"
+description = "Enables the read_submodules command without any pre-configured scope."
+commands.allow = ["read_submodules"]
+
+[[permission]]
+identifier = "deny-read-submodules"
+description = "Denies the read_submodules command without any pre-configured scope."
+commands.deny = ["read_submodules"]

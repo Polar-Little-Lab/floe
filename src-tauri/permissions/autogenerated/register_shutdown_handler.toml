@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-register-shutdown-handler"
+description = "Enables the register_shutdown_handler command without any pre-configured scope."
+commands.allow = ["register_shutdown_handler"]
+
+[[permission]]
+identifier = "deny-register-shutdown-handler"
+description = "Denies the register_shutdown_handler command without any pre-configured scope."
+commands.deny = ["register_shutdown_handler"]

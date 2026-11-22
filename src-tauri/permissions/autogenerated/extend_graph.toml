@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-extend-graph"
+description = "Enables the extend_graph command without any pre-configured scope."
+commands.allow = ["extend_graph"]
+
+[[permission]]
+identifier = "deny-extend-graph"
+description = "Denies the extend_graph command without any pre-configured scope."
+commands.deny = ["extend_graph"]

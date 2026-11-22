@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-github-write"
+description = "Enables the github_write command without any pre-configured scope."
+commands.allow = ["github_write"]
+
+[[permission]]
+identifier = "deny-github-write"
+description = "Denies the github_write command without any pre-configured scope."
+commands.deny = ["github_write"]

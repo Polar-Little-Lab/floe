@@ -1,0 +1,24 @@
+<!doctype html><html><body><button id="run-checks">Run safety checks</button><pre id="result">Not run</pre><div id="root"></div><script type="module">
+import React from 'react';import {createRoot} from 'react-dom/client';import {PushPreviewDialog} from '/src/PushPreviewDialog.tsx';import {PushResultBanner} from '/src/PushResultBanner.tsx';
+const root=createRoot(document.getElementById('root'));window.events=[];let epoch=0;
+const plan={revision:'r',remote:'origin',endpoint:'https://example.invalid/repo',source:'refs/heads/main',destination:'refs/heads/main',sourceOid:'a'.repeat(40),remoteOid:null,kind:'createBranch',outgoing:['a'.repeat(40)],outgoingTruncated:false,blockers:[],packBytes:1234,packObjects:4};
+window.preview=(kind='createBranch',busy=false,blocked=false)=>root.render(React.createElement(PushPreviewDialog,{key:++epoch,plan:{...plan,kind,blockers:blocked?['PUSH_REPORT_STATUS_REQUIRED']:[]},busy,error:'',onClose:()=>window.events.push('close'),onPush:()=>window.events.push('push')}));
+window.result=(status='pending',observed=false,busy=false)=>root.render(React.createElement(PushResultBanner,{key:++epoch,record:{id:'id',remote:'<origin>',endpoint:plan.endpoint,source:plan.source,destination:plan.destination,oldOid:null,newOid:plan.sourceOid,status,detail:null,observation:observed?{kind:'targetPresent',oid:plan.sourceOid,checkedAt:100}:null},busy,onCheck:()=>window.events.push('check'),onAcknowledge:()=>window.events.push('ack')}));
+
+const tick=()=>new Promise(r=>setTimeout(r,50));
+const button=t=>[...document.querySelectorAll('#root button')].find(b=>b.textContent===t);
+const check=(ok,name)=>{if(!ok)throw Error(name);checks.push(name)};let checks=[];
+document.getElementById('run-checks').onclick=async()=>{try{checks=[];window.events=[];
+
+for(const kind of ['createBranch','fastForward','upToDate','nonFastForward','unknownRemote','blocked']){
+window.preview(kind);await tick();const allowed=['createBranch','fastForward'].includes(kind);check(button('Push').disabled!==allowed,kind+': push eligibility');const before=events.length;button('Push').click();check(events.length===before+(allowed?1:0),kind+': callback guard');}
+window.preview('fastForward',false,true);await tick();check(button('Push').disabled&&document.querySelector('[role=alert]').textContent==='PUSH_REPORT_STATUS_REQUIRED','Capability blocker disables Push');
+window.preview('fastForward',true);await tick();check([...document.querySelectorAll('#root button')].every(b=>b.disabled),'Pending Push disables close and send');
+window.result('pending',false);await tick();check(!button('Archive unconfirmed result')&&!button('Push'),'Unknown outcome offers no resend or archive');check(document.getElementById('root').textContent.includes('No automatic retry'),'Unknown outcome explains no retry');button('Check remote result').click();check(events.at(-1)==='check','Unknown outcome check callback');
+window.result('pending',true);await tick();check(document.getElementById('root').textContent.includes('does not prove whether the earlier Push succeeded'),'Matching observation remains uncertain');button('Archive unconfirmed result').click();check(events.at(-1)==='ack','Observed pending archive callback');
+window.result('pending',true,true);await tick();check([...document.querySelectorAll('#root button')].every(b=>b.disabled),'Pending result busy guards');
+for(const status of ['accepted','rejected','notSent']){window.result(status);await tick();check(!button('Check remote result')&&!!button('Close confirmed Push result'),status+': terminal result controls');}
+
+document.getElementById('result').textContent=JSON.stringify({passed:checks.length,checks,scope:'Actual components; controlled props/callbacks only; not native IPC or Git effects'},null,2);
+}catch(e){document.getElementById('result').textContent=JSON.stringify({failed:String(e),checks},null,2)}};
+</script></body></html>

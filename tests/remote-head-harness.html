@@ -1,0 +1,9 @@
+<!doctype html><html><body><div id="root"></div><script type="module">
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import {RemoteHeadDialog} from '/src/RemoteHeadDialog.tsx';
+const root=createRoot(document.getElementById('root'));
+window.events=[];let epoch=0;
+window.renderHead=(branches=['main','next'],current='next',busy=false)=>root.render(React.createElement(RemoteHeadDialog,{key:++epoch,name:'origin',branches,current,busy,error:'',onClose:()=>window.events.push('close'),onSave:(branch,auto)=>window.events.push({branch,auto})}));
+window.renderHead();
+</script></body></html>

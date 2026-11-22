@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-prune-remote"
+description = "Enables the prune_remote command without any pre-configured scope."
+commands.allow = ["prune_remote"]
+
+[[permission]]
+identifier = "deny-prune-remote"
+description = "Denies the prune_remote command without any pre-configured scope."
+commands.deny = ["prune_remote"]

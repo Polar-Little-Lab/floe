@@ -1,0 +1,3 @@
+export function GraphPager({offset,count,hasMore,busy,filtered,onPage}:{offset:number;count:number;hasMore:boolean;busy:boolean;filtered:boolean;onPage:(direction:'older'|'newer'|'latest')=>void}){
+ return <nav className="graph-pager" aria-label="Commit history pages"><span>{count?`${offset+1}–${offset+count}`:'No commits'}{filtered?' · Search applies to this page':''}</span><button disabled={busy||offset===0} onClick={()=>onPage('latest')}>Latest</button><button disabled={busy||offset===0} onClick={()=>onPage('newer')}>Newer</button><button disabled={busy||!hasMore} onClick={()=>onPage('older')}>Older</button></nav>;
+}

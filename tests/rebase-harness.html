@@ -1,0 +1,9 @@
+<!doctype html><html><body><div id="root"></div><script type="module">
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import {RebaseDialog} from '/src/RebaseDialog.tsx';
+const root=createRoot(document.getElementById('root'));
+window.events=[];let epoch=0;
+window.renderRebase=(blockers=[],busy=false,kind='replay',identity={name:'Test',email:'t@invalid'})=>root.render(React.createElement(RebaseDialog,{key:++epoch,plan:{revision:'r',branch:'topic',upstream:'main',upstreamOid:'a'.repeat(40),kind,selections:[],skippedEquivalent:[],flattenedMerges:[],replay:null,blockers},busy,error:'',defaultIdentity:identity,onClose:()=>window.events.push('close'),onApply:(name,email)=>window.events.push({name,email})}));
+window.renderRebase();
+</script></body></html>

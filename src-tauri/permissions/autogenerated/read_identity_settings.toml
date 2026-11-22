@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-read-identity-settings"
+description = "Enables the read_identity_settings command without any pre-configured scope."
+commands.allow = ["read_identity_settings"]
+
+[[permission]]
+identifier = "deny-read-identity-settings"
+description = "Denies the read_identity_settings command without any pre-configured scope."
+commands.deny = ["read_identity_settings"]

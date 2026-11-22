@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-read-worktree-checkout"
+description = "Enables the read_worktree_checkout command without any pre-configured scope."
+commands.allow = ["read_worktree_checkout"]
+
+[[permission]]
+identifier = "deny-read-worktree-checkout"
+description = "Denies the read_worktree_checkout command without any pre-configured scope."
+commands.deny = ["read_worktree_checkout"]

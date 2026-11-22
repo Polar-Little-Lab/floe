@@ -1,0 +1,128 @@
+name: Package FLOE desktop preview
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: desktop-preview-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      tag: ${{ steps.tag.outputs.tag }}
+    steps:
+      - id: tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          tag="v0.1.0-preview.${GITHUB_RUN_NUMBER}"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          if ! gh release view "$tag" >/dev/null 2>&1; then
+            gh release create "$tag" --target "$GITHUB_SHA" --draft --prerelease --title "FLOE $tag" --notes "Development preview. macOS ARM64 and Windows x64. No production signing or notarization. Known backend CI failures remain (TLS fixtures, provider writes, Git lock/recovery); this preview is not a verified production release. AI features excluded."
+          fi
+  package:
+    needs: release
+    permissions:
+      contents: write
+    name: ${{ matrix.platform }}
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: macos-arm64
+            os: macos-15
+            target: aarch64-apple-darwin
+          - platform: windows-x64
+            os: windows-2022
+            target: x86_64-pc-windows-msvc
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - name: Install pinned toolchains and dependencies
+        shell: bash
+        run: |
+          rustup show
+          rustup target add '${{ matrix.target }}'
+          npm ci
+      - name: Build macOS preview
+        if: runner.os == 'macOS'
+        run: npm run tauri build -- --target aarch64-apple-darwin --bundles app
+      - name: Build Windows preview
+        if: runner.os == 'Windows'
+        run: npm run tauri build -- --target x86_64-pc-windows-msvc --config src-tauri/tauri.windows.conf.json --bundles nsis
+      - name: Verify signed macOS app bundle
+        if: runner.os == 'macOS'
+        run: codesign --verify --deep --strict --verbose=2 "src-tauri/target/aarch64-apple-darwin/release/bundle/macos/FLOE.app"
+      - name: Archive macOS application preserving bundle metadata
+        if: runner.os == 'macOS'
+        run: |
+          mkdir -p preview-artifacts
+          ditto -c -k --sequesterRsrc --keepParent src-tauri/target/aarch64-apple-darwin/release/bundle/macos/FLOE.app preview-artifacts/FLOE-macos-arm64.zip
+      - name: Verify downloaded-format archive round trip
+        if: runner.os == 'macOS'
+        env:
+          MACOS_ARCHIVE: FLOE-macos-arm64.zip
+          MACOS_PRODUCT: FLOE
+        run: |
+          verify_dir="$(mktemp -d)"
+          trap 'rm -rf "$verify_dir"' EXIT
+          ditto -x -k "preview-artifacts/$MACOS_ARCHIVE" "$verify_dir"
+          codesign --verify --deep --strict --verbose=2 "$verify_dir/$MACOS_PRODUCT.app"
+          test -f "$verify_dir/$MACOS_PRODUCT.app/Contents/_CodeSignature/CodeResources"
+      - name: Collect Windows installer
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force preview-artifacts | Out-Null
+          $installers = @(Get-ChildItem 'src-tauri/target/x86_64-pc-windows-msvc/release/bundle/nsis/*.exe')
+          if ($installers.Count -ne 1) { throw 'Expected exactly one NSIS installer' }
+          Copy-Item $installers[0].FullName 'preview-artifacts/FLOE-windows-x64-setup.exe'
+      - name: Check development assets stay outside distribution
+        run: node scripts/check-distribution-boundary.mjs
+      - name: Record artifact checksums and source identity
+        env:
+          PREVIEW_PLATFORM: ${{ matrix.platform }}
+        run: node scripts/preview-manifest.mjs
+      - name: Upload internal preview
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: FLOE-preview-${{ matrix.platform }}-${{ github.sha }}
+          path: preview-artifacts/
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 0
+
+      - name: Attach packages to draft release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ needs.release.outputs.tag }}
+          PREVIEW_PLATFORM: ${{ matrix.platform }}
+        run: |
+          mv preview-artifacts/manifest.json "preview-artifacts/manifest-${PREVIEW_PLATFORM}.json"
+          mv preview-artifacts/SHA256SUMS "preview-artifacts/SHA256SUMS-${PREVIEW_PLATFORM}.txt"
+          gh release upload "$RELEASE_TAG" preview-artifacts/* --clobber
+  publish:
+    needs: [release, package]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Publish completed preview
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ needs.release.outputs.tag }}
+        run: gh release edit "$RELEASE_TAG" --draft=false --prerelease

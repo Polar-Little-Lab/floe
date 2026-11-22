@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-prepare-pull"
+description = "Enables the prepare_pull command without any pre-configured scope."
+commands.allow = ["prepare_pull"]
+
+[[permission]]
+identifier = "deny-prepare-pull"
+description = "Denies the prepare_pull command without any pre-configured scope."
+commands.deny = ["prepare_pull"]

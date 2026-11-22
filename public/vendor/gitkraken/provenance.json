@@ -1,0 +1,447 @@
+{
+  "sourceVersion": "12.7.0",
+  "sourceArchive": "/Applications/GitKraken.app/Contents/Resources/app.asar",
+  "visualFiles": [
+    {
+      "path": "src/css/styles.css",
+      "sha256": "a598867e3b143cdb9d20090eb34538c750c7f8a65dcdec53d257bfb84d857e44",
+      "bytes": 569955
+    },
+    {
+      "path": "src/fonts/open-sans/LICENSE.txt",
+      "sha256": "7e635dc350ac421aefdd82f33b366fb5c4c4984ab612ae1da0fea4cdc9b9eafc",
+      "bytes": 4215
+    },
+    {
+      "path": "src/fonts/open-sans/OpenSans-Bold.ttf",
+      "sha256": "5894a3649b213cf5b2d673b6e7a871815fd1d120fa68a463592f27db14eae323",
+      "bytes": 224592
+    },
+    {
+      "path": "src/fonts/open-sans/OpenSans-BoldItalic.ttf",
+      "sha256": "3ca680f2444cc9e50447d057c006464566e92f2e77b0b6e26491e5bd757ed4e7",
+      "bytes": 213292
+    },
+    {
+      "path": "src/fonts/open-sans/OpenSans-ExtraBold.ttf",
+      "sha256": "0fcbdb5cbeea00ae532352c7c94a7d288ebc911ba85f4d595012032dcab64ba8",
+      "bytes": 222584
+    },
+    {
+      "path": "src/fonts/open-sans/OpenSans-ExtraBoldItalic.ttf",
+      "sha256": "0eeca981116621a96a484ecc58fbfcdc78fda0065fd21fd13707b63bf8a9912c",
+      "bytes": 213420
+    },
+    {
+      "path": "src/fonts/open-sans/OpenSans-Italic.ttf",
+      "sha256": "a54dc8488f8193bf30c3820cf6f261f911f9d328d699e1a1b8042641554cec70",
+      "bytes": 212896
+    },
+    {
+      "path": "src/fonts/open-sans/OpenSans-Light.ttf",
+      "sha256": "cf5f5184c1441a1660aa52526328e9d5c2793e77b6d8d3a3ad654bdb07ab8424",
+      "bytes": 222412
+    },
+    {
+      "path": "src/fonts/open-sans/OpenSans-LightItalic.ttf",
+      "sha256": "4482d18b30c4534b5481d594b7c0bc7a9913a7c4c261985e452010a89ab755fc",
+      "bytes": 213128
+    },
+    {
+      "path": "src/fonts/open-sans/OpenSans-Regular.ttf",
+      "sha256": "e64e508b2aa2880f907e470c4550980ec4c0694d103a43f36150ac3f93189bee",
+      "bytes": 217360
+    },
+    {
+      "path": "src/fonts/open-sans/OpenSans-Semibold.ttf",
+      "sha256": "aa3b0ef53db12e3d45094030cac0e69d384e44cc5978643dd4390041cad546e2",
+      "bytes": 221328
+    },
+    {
+      "path": "src/fonts/open-sans/OpenSans-SemiboldItalic.ttf",
+      "sha256": "30536248e59274548d51245662f9deec7fb52946faba33aade28c41473bdd39b",
+      "bytes": 212820
+    },
+    {
+      "path": "src/images/agent-logos/claude.svg",
+      "sha256": "f3a857f44b5b542ee79e200dd64a4b8ede3ce5f9b99693a39bd1024cb2b7f76a",
+      "bytes": 2457
+    },
+    {
+      "path": "src/images/agent-logos/cursor.svg",
+      "sha256": "4321b0680b60daaf2c821e842ca04cb7e7238a03b16d7517f69d70a22130d414",
+      "bytes": 4191
+    },
+    {
+      "path": "src/images/agent-logos/github-copilot.svg",
+      "sha256": "7b45b41764fe5046b9e1c924b3a18194daf759d7aa3de32a5af56b5de7e74326",
+      "bytes": 2063
+    },
+    {
+      "path": "src/images/agent-logos/google-gemini.svg",
+      "sha256": "0d922b1e122bbb57e387afa203a78b4c7afe98f7a309703e8d978836feda9f89",
+      "bytes": 923
+    },
+    {
+      "path": "src/images/agent-logos/openai.svg",
+      "sha256": "4a2f43ce46b5b6e3722c95088f88d26ef91e6a8c2e598e70642a1c54367386e4",
+      "bytes": 1769
+    },
+    {
+      "path": "src/images/agent-logos/opencode.svg",
+      "sha256": "eb246abeadbf014c5ccd784e1278a19463456eaf964fa07e97dafa29ceac2c5b",
+      "bytes": 220
+    },
+    {
+      "path": "src/images/azuredevops-color.svg",
+      "sha256": "f44ac6c0968c3cfa366e3123a9cd254d839db4456ff424917fe08367ba67cd91",
+      "bytes": 331
+    },
+    {
+      "path": "src/images/bitbucket-color.png",
+      "sha256": "16dbd5bc74f8f1fd692dec12a90224cc60ca267f764ecb2721cf71233da210c1",
+      "bytes": 892
+    },
+    {
+      "path": "src/images/conflict-detection/invite-logo-light.png",
+      "sha256": "70947d0ff45573901445b9093204293fc88e6aa216b8ac6f8e5eae1ab0323bd7",
+      "bytes": 4360
+    },
+    {
+      "path": "src/images/conflict-detection/invite-logo.png",
+      "sha256": "a3ed43d17b584592b348f2f4b47dbd1fd484959f8f06445c6ed76bcbf99f3fad",
+      "bytes": 4082
+    },
+    {
+      "path": "src/images/conflict-detection/local_conflict_arrow_with_target.svg",
+      "sha256": "f77faa6e9ca67f9baf5fadaecfb6c03c7d60e58af74da3801578a6de98b6cff4",
+      "bytes": 2756
+    },
+    {
+      "path": "src/images/conflict-detection/local_conflict_taller_base.svg",
+      "sha256": "ef8a5662f339dcf0505e3a50d03aa50a9f94140c4421087e0b9a815c727468c3",
+      "bytes": 297
+    },
+    {
+      "path": "src/images/conflict-detection/remote_conflict_illustration_base_branch.svg",
+      "sha256": "1bbd4b196fd0fab4fd056cfca68db8550df6289b1e70cca12c5ea09ea420ba4a",
+      "bytes": 2680
+    },
+    {
+      "path": "src/images/conflict-detection/remote_conflict_illustration_merge_arrows.svg",
+      "sha256": "6d4287d96accb98147e3748f50174e039699eef7854cbc6f07db7ad2e69bda9d",
+      "bytes": 534
+    },
+    {
+      "path": "src/images/conflict-detection/remote_conflict_illustration_their_branch.svg",
+      "sha256": "4b717874d7112371d4e000e149237c835d2eb0d18f901f9d7bf748f1039325c0",
+      "bytes": 781
+    },
+    {
+      "path": "src/images/conflict-detection/remote_conflict_illustration_x.svg",
+      "sha256": "9b6d0880fd89d5d5a68f009eaeb014ecbe96c250a17ac1f4edef8696e0ce218a",
+      "bytes": 711
+    },
+    {
+      "path": "src/images/conflict-detection/remote_conflict_illustration_your_branch.svg",
+      "sha256": "fcbab130dd5072f95f1a57136f069bcaa85ddd48572df0eaf59623cf5f3899dd",
+      "bytes": 422
+    },
+    {
+      "path": "src/images/create-project-from-local-bg.png",
+      "sha256": "2f4ed4fd70a3135d466f78f9e0ba2c9d7f73f164b6cafa5ee425e702c2684224",
+      "bytes": 375978
+    },
+    {
+      "path": "src/images/electron-logo.svg",
+      "sha256": "e2a1c4c6eb1e26dc3cd390e12e08ab9d4ec798024278ac55601774ef23718580",
+      "bytes": 11096
+    },
+    {
+      "path": "src/images/gij-logo.svg",
+      "sha256": "61cef8785c21893a7d3701ea2525a1bd28e76643c510eac53a5067e83393228d",
+      "bytes": 5542
+    },
+    {
+      "path": "src/images/github-logo.png",
+      "sha256": "e1acd4f06e3982e4854252a442072293e9f72c553571ab667e9ea044d2df5182",
+      "bytes": 22754
+    },
+    {
+      "path": "src/images/github.png",
+      "sha256": "9531248d4e33e213a3d9b66019d132eb4e3f0ae44a53d49e431beab471564928",
+      "bytes": 421
+    },
+    {
+      "path": "src/images/gitlab-color.png",
+      "sha256": "32b194f3d8976988d7ef52fde8b06d6e85ab058c37abaccf2c5332f7199b95ea",
+      "bytes": 908
+    },
+    {
+      "path": "src/images/gitlens-icon-min.png",
+      "sha256": "4e7d2e197894113c74d719220438b847ef9e51980c6985f71b37041666d776ad",
+      "bytes": 6592
+    },
+    {
+      "path": "src/images/gk-logo-horizontal.svg",
+      "sha256": "2d06a2efaad5e97cfef4dfed24a52493a4b68f80248d8254701340e66e7e053e",
+      "bytes": 9554
+    },
+    {
+      "path": "src/images/gk-pro-edit-feature.gif",
+      "sha256": "3ff117d895afe64a8e62bd27fe8aa627a38bc5c6e89fe42e73cbcc2cb906eec4",
+      "bytes": 268386
+    },
+    {
+      "path": "src/images/gk-topo-bg.png",
+      "sha256": "41b4f723b59ee95673b3b1a29e1f3e41563b08f806f812ccafeed2c2a4ffa192",
+      "bytes": 1462961
+    },
+    {
+      "path": "src/images/gkc-logo.svg",
+      "sha256": "ebc885715b4b0d3e99bb33b447280b36e341b1c8030d33a82c692a25ee4c9a45",
+      "bytes": 5719
+    },
+    {
+      "path": "src/images/gkc-stencil-logo-neutral.svg",
+      "sha256": "b3ddb862ad0b2f5e5d34d184782e6da392740f979204c9c1d414a5f70a037507",
+      "bytes": 5018
+    },
+    {
+      "path": "src/images/gkc-stencil-logo.svg",
+      "sha256": "0086a9f4b660c4cb76e720ea0de55abdfcc33375e1e2d499ef5be8d54494082c",
+      "bytes": 5785
+    },
+    {
+      "path": "src/images/keif/FloatingKeifDark.svg",
+      "sha256": "aaf05eef92f8e648fbdf808435217ccf64d85357b93982be1225ed9fd3b2606a",
+      "bytes": 135676
+    },
+    {
+      "path": "src/images/keif/FloatingKeifLight.svg",
+      "sha256": "aa4f6396a8141f23d7274fbbb71b16c432b99b38cd66efd192bb436936554d99",
+      "bytes": 135062
+    },
+    {
+      "path": "src/images/keif/SearchingKeifDark.svg",
+      "sha256": "3541f235002973fe3e8bb1095c2b7bd9badef3cf8d9bbc68c125723ed3418b2f",
+      "bytes": 176247
+    },
+    {
+      "path": "src/images/keif/SearchingKeifLight.svg",
+      "sha256": "eb0c41d598da7b772f92290e66f9ab4307e550f51fde329bc6dfa3adda58c7aa",
+      "bytes": 170422
+    },
+    {
+      "path": "src/images/keif/SwimmingKeifDark.svg",
+      "sha256": "502588a3382241472a27f7102c5bcc91a99ac96f72f2511b6f49d34228d5cfcc",
+      "bytes": 91580
+    },
+    {
+      "path": "src/images/keif/SwimmingKeifLight.svg",
+      "sha256": "f7104f502f3a5ac0a36acee2f171f49aea8e067ffe339da0013412f1f0115b44",
+      "bytes": 101336
+    },
+    {
+      "path": "src/images/keif-avatar.svg",
+      "sha256": "b762b94040d9880471d825fcb7ce7b430de8ea8392adecff470f7bffd68c79f7",
+      "bytes": 3053
+    },
+    {
+      "path": "src/images/kraken-logo.svg",
+      "sha256": "3ddd4a5bfb5b5c90eecd3bf3ba761471830630e0be8c813b9393ccac554ca282",
+      "bytes": 3117
+    },
+    {
+      "path": "src/images/laptop-keif.png",
+      "sha256": "46662202d7e1a66ba7e9b1ffd78dd6e716a6ee274c21796449a84156f592a5e1",
+      "bytes": 395481
+    },
+    {
+      "path": "src/images/launchpad-signed-out.png",
+      "sha256": "37b049642fd590335d0ad4d1bcdfe0cbd243878629f88a532107eaa25691b966",
+      "bytes": 122305
+    },
+    {
+      "path": "src/images/launchpad-team-mode-preview.png",
+      "sha256": "55921e7379af666a67bc9383f055eda40fa9eca5b6d366191d66a689bd914224",
+      "bytes": 137438
+    },
+    {
+      "path": "src/images/libgit2-logo.png",
+      "sha256": "d0d87d7f37222c5a1cc9da58465b233e8c56a90c7c8303189b3203714646da53",
+      "bytes": 17128
+    },
+    {
+      "path": "src/images/microsoft-logo.png",
+      "sha256": "cf5259b3f130983196f7b46e5ed4438e5b76efb907fb5d441011ed91b56c5211",
+      "bytes": 9106
+    },
+    {
+      "path": "src/images/nodegit-logo.svg",
+      "sha256": "866b8e272c549c0eb6b2290dbddb712672e5e3a171cfe83a37c3589abaadd7a0",
+      "bytes": 12235
+    },
+    {
+      "path": "src/images/onboarding/gkftux-1.svg",
+      "sha256": "126633b444529644300bbf93e2be631ebf31bba2b9d38f1e73c89a80dd26c82e",
+      "bytes": 212865
+    },
+    {
+      "path": "src/images/onboarding/gkftux-2.svg",
+      "sha256": "8e2a52e35ad020bf96422db4282667a75ef897799c3be4844ef7d5ad0032f587",
+      "bytes": 274657
+    },
+    {
+      "path": "src/images/onboarding/onboarding-git-author-keif.svg",
+      "sha256": "61708a0182dace3cd5ea8d24ad8ed54e6be20fb6858acb633e0c08f3b57290b4",
+      "bytes": 72535
+    },
+    {
+      "path": "src/images/onboarding/onboarding-git-survey-keif.svg",
+      "sha256": "3234955f15316402018d94214a3a39f060e2e37c64adc3b9eacfc7cbf0d5b3ec",
+      "bytes": 105941
+    },
+    {
+      "path": "src/images/onboarding/onboarding-learning-paths-keif.svg",
+      "sha256": "cc78fcf3d760a0b5bd6f6af94beb7c3c101753a4f51dbd682843591fc0cedb62",
+      "bytes": 93908
+    },
+    {
+      "path": "src/images/onboarding/onboarding-open-repo-keif.svg",
+      "sha256": "e063657c2c062e5d1e3f1fc95754d394e821233820e5978fb0a81d17e6b6794a",
+      "bytes": 178564
+    },
+    {
+      "path": "src/images/onboarding/onboarding-rocket.svg",
+      "sha256": "b8c5bf411d4b1ceb21e6d945f67ee5fd07c24f76bd2098d1342cf40406fe86df",
+      "bytes": 15023
+    },
+    {
+      "path": "src/images/onboarding/onboarding-tutorial-preview.svg",
+      "sha256": "3eab39903aa7bd653605efa8bb01ff2c825b376ebed9528b5768b627a237d2ab",
+      "bytes": 137422
+    },
+    {
+      "path": "src/images/sad_keif_tear.svg",
+      "sha256": "94c0ff65a383e3654fa1f881209943a1d1e45eb92b554b1b5b11a728e1a92f8e",
+      "bytes": 3169
+    },
+    {
+      "path": "src/images/spinner-inner-ring.svg",
+      "sha256": "d4c9c5b02a38f079722dd42a94941f38a9043b5e30aa4d8d4b5c031fd67e64a9",
+      "bytes": 743
+    },
+    {
+      "path": "src/images/spinner-kraken.svg",
+      "sha256": "6356ff6f4fbe8b3da64e19ce6d0cffba2c641017205649f37f612e237dbc8a92",
+      "bytes": 2850
+    },
+    {
+      "path": "src/images/spinner-outer-ring.svg",
+      "sha256": "cd54a85519e21da639838ae4b5e5e3eaf32a14185d7a8656f1fd6d372e234df6",
+      "bytes": 670
+    },
+    {
+      "path": "src/images/tab-title-icon.svg",
+      "sha256": "ffc14d1f0235bf3cf0108b5a4963b651b5c24045286889a1d875cfe9f6d6466e",
+      "bytes": 490
+    },
+    {
+      "path": "src/images/tutorial/intro/ai-commit-summary.png",
+      "sha256": "23d0dda1f9a340cb1899c92405c4e65f1ab37fd4623cac0289e28a8cb46f08f5",
+      "bytes": 357330
+    },
+    {
+      "path": "src/images/tutorial/intro/create-branch.png",
+      "sha256": "bf62f6570e0632d17aba00bd8f7e2667273f83a039186fb28ba07408562d7f19",
+      "bytes": 270949
+    },
+    {
+      "path": "src/images/tutorial/intro/create-commit.png",
+      "sha256": "74839ae9bfd972db903899ad48023bfe14b405a7b45f640dd60887f156359adc",
+      "bytes": 377761
+    },
+    {
+      "path": "src/images/tutorial/intro/merge-branch.png",
+      "sha256": "3339505a6a4e05536521eda03f34d4cf6890dd2a3cae60832cfa3f86338a80d4",
+      "bytes": 794529
+    },
+    {
+      "path": "src/images/workspace-placeholder-icon.png",
+      "sha256": "908dbdb1a02ad7d1b9a052b4d281b7d1d4671594dfc445374acb9d471ebe88e1",
+      "bytes": 2149
+    },
+    {
+      "path": "src/images/workspace-slide-01.png",
+      "sha256": "ef4050c226843253b5905d3a74b13513da227264772722e596882efd5c786e25",
+      "bytes": 880099
+    },
+    {
+      "path": "src/images/workspace-slide-02.png",
+      "sha256": "c27090ecbddf0aaf676d3470b69fe67608e1ec44552a0c2871e05659686b26e0",
+      "bytes": 945166
+    },
+    {
+      "path": "src/images/workspace-slide-03.png",
+      "sha256": "81f7819486e4023957aee20fa375c504c8aaa7e6b1dd7cc966663f4112102d99",
+      "bytes": 1005926
+    },
+    {
+      "path": "src/images/workspace-slide-04.png",
+      "sha256": "7d8851554e12ae1b80ed9590340e794860c487d4239ef6af58306464a7bcabc6",
+      "bytes": 915872
+    },
+    {
+      "path": "src/images/workspace-slide-05.png",
+      "sha256": "691114e9931b16b2564272b55f17e945085ec2fe164085f1e3e36499a61a08e0",
+      "bytes": 946509
+    },
+    {
+      "path": "src/images/workspace-slide-06.png",
+      "sha256": "2ae9360adf469f00d1d0dfcafb88c4b0fefa013a8ec3be204eff07c9431ad581",
+      "bytes": 72781
+    }
+  ],
+  "icons": {
+    "ArrowDown": "far:arrow-to-bottom",
+    "ArrowUp": "far:arrow-from-bottom",
+    "Undo2": "far:undo-alt",
+    "Redo2": "far:redo-alt",
+    "GitBranch": "far:code-branch",
+    "HardDriveDownload": "far:inbox-in",
+    "HardDriveUpload": "far:inbox-out",
+    "Terminal": "far:terminal",
+    "Search": "far:search",
+    "Settings": "far:cog",
+    "Bell": "far:bell",
+    "Folder": "far:folder",
+    "Rocket": "far:rocket",
+    "FileText": "fas:clipboard-list",
+    "List": "far:list",
+    "Bot": "fas:robot",
+    "Laptop": "far:laptop",
+    "Cloud": "far:cloud",
+    "TreePine": "far:tree",
+    "FlaskConical": "fas:flask",
+    "Users": "fas:users",
+    "Tag": "far:tag",
+    "Trash2": "far:trash-alt",
+    "Sparkles": "fas:sparkles",
+    "Pencil": "fas:pencil",
+    "Plus": "fas:plus",
+    "Minus": "fas:minus",
+    "ChevronDown": "far:chevron-down",
+    "ChevronRight": "far:chevron-right",
+    "ChevronLeft": "far:chevron-left",
+    "ArrowLeft": "far:arrow-left",
+    "Check": "fas:check",
+    "X": "fas:times",
+    "GitCommitHorizontal": "far:code-commit",
+    "Keyboard": "far:keyboard",
+    "ListFilter": "far:sort-alpha-down",
+    "Columns3": "far:folder-tree"
+  },
+  "rendererCodeExecuted": false,
+  "source": "static extraction; local UI study"
+}

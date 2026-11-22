@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-read-tag-detail"
+description = "Enables the read_tag_detail command without any pre-configured scope."
+commands.allow = ["read_tag_detail"]
+
+[[permission]]
+identifier = "deny-read-tag-detail"
+description = "Denies the read_tag_detail command without any pre-configured scope."
+commands.deny = ["read_tag_detail"]

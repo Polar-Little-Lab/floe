@@ -1,0 +1,6 @@
+import {SettingField,SettingsSection} from './ui/WorkspaceScreen';
+import {ActivityMessages,type Activity} from './ActivityDialog';
+import type {NotificationPreferences} from './notificationPreferences';
+export function NotificationSettingsPanel({preferences,onChange,warning,events,onClear}:{preferences:NotificationPreferences;onChange:(value:NotificationPreferences)=>void;warning:string;events:Activity[];onClear:()=>void}){
+ return <><SettingsSection title="In-app notifications"><SettingField label="Unread Badge"><label><input type="checkbox" checked={preferences.showBadge} onChange={e=>onChange({...preferences,showBadge:e.target.checked})}/>Show unread count on the notification bell</label></SettingField><SettingField label="Activity Messages" hint="Errors remain visible. Turning this off hides informational messages without deleting them."><label><input type="checkbox" checked={preferences.showMessages} onChange={e=>onChange({...preferences,showMessages:e.target.checked})}/>Show informational messages</label></SettingField>{warning&&<p role="alert">{warning}</p>}</SettingsSection><SettingsSection title="Recent activity"><ActivityMessages events={events} onClear={onClear} showMessages={preferences.showMessages}/></SettingsSection></>;
+}

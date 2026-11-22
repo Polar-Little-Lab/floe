@@ -1,0 +1,8 @@
+import {useState} from 'react';
+import {X} from './OriginalIcons';
+export type TagPolicy = 'auto'|'all'|'none';
+export function RemoteTagPolicyDialog({name,initial,busy,error,onClose,onSave}:{name:string;initial:string;busy:boolean;error:string;onClose:()=>void;onSave:(policy:TagPolicy)=>void}) {
+ const [policy,setPolicy]=useState(initial);
+ const valid=policy==='auto'||policy==='all'||policy==='none';
+ return <div className="modal-backdrop"><form className="modal" role="dialog" aria-modal="true" aria-label="Fetched tag settings" onSubmit={e=>{e.preventDefault();if(!busy&&valid)onSave(policy);}}><div className="modal-header"><h2>Fetched tags · {name}</h2><button type="button" aria-label="Close tag settings" disabled={busy} data-modal-close onClick={onClose}><X size={18}/></button></div><label>Tags to fetch<select autoFocus aria-label="Tags to fetch" value={policy} disabled={busy} onChange={e=>setPolicy(e.target.value)}>{!valid&&<option value={initial} disabled>Unsupported current setting — choose a policy</option>}<option value="auto">Automatic — follow fetched history</option><option value="all">All remote tags</option><option value="none">No automatic tags</option></select></label><p>Explicit tag fetch rules still apply. This changes the next Fetch or Pull; existing tags are not deleted.</p><p>Remote URLs and fetch rules are preserved. No download starts when you save.</p>{error&&<p role="alert" className="readonly-note">{error}</p>}<button type="button" disabled={busy} data-modal-close onClick={onClose}>Cancel</button><button className="primary" disabled={busy||!valid}>{busy?'Saving…':'Save tag policy'}</button></form></div>;
+}

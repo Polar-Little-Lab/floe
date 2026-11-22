@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-read-submodule-checkout"
+description = "Enables the read_submodule_checkout command without any pre-configured scope."
+commands.allow = ["read_submodule_checkout"]
+
+[[permission]]
+identifier = "deny-read-submodule-checkout"
+description = "Denies the read_submodule_checkout command without any pre-configured scope."
+commands.deny = ["read_submodule_checkout"]

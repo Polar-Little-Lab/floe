@@ -1,0 +1,5 @@
+export interface DiffFileOption {key:string;path:string;label:string}
+export function DiffFileNavigator({files,selected,busy,scope,onSelect}:{files:DiffFileOption[];selected:string;busy:boolean;scope:string;onSelect:(key:string)=>void}){
+ const index=files.findIndex(file=>file.key===selected);
+ return <nav className="diff-file-navigation" aria-label="Navigate changed files"><span title="Navigation includes all files in this group, including files hidden by list filters">{scope}</span><button disabled={busy||index<=0} aria-label="Previous changed file" onClick={()=>onSelect(files[index-1].key)}>Previous</button><select aria-label="Choose changed file" disabled={busy||!files.length} value={index<0?'':selected} onChange={event=>onSelect(event.target.value)}>{index<0&&<option value="" disabled>Select a file</option>}{files.map(file=><option key={file.key} value={file.key}>{file.label}</option>)}</select><small>{index<0?0:index+1}/{files.length}</small><button disabled={busy||index<0||index>=files.length-1} aria-label="Next changed file" onClick={()=>onSelect(files[index+1].key)}>Next</button></nav>;
+}
