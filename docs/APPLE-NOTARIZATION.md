@@ -68,3 +68,5 @@ References: pGit `docs/APPLE_SIGNING.md`, `.github/workflows/release-macos.yml`;
 ### Replay oracle clone path correction
 - Three Git CLI clone oracles now use the original absolute tempfile path instead of Windows canonicalization's extended namespace. Session/recovery paths remain canonical. The old CLI input produced “hostname contains invalid characters”; assertions and replay scenarios remain intact.
 - Held locally while run 45628222782 executes; runtime verification pending.
+
+- Added pending Windows preservation regressions for legacy zero-identity records, an exclusively held pin handle and externally modified token contents. These tests have not run yet; they are held with the replay-path fix until current CI finishes.

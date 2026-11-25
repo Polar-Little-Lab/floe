@@ -221,6 +221,31 @@ fn windows_identity(file: &fs::File) -> Result<(u64, u64)> {
 mod windows_tests {
     use super::*;
     #[test]
+    fn legacy_identity_busy_handles_and_modified_content_are_preserved() {
+        use std::os::windows::fs::OpenOptionsExt;
+        let root = tempfile::tempdir().unwrap();
+        let repo = git2::Repository::init_bare(root.path()).unwrap();
+        let hash = "1234567890123456789012345678901234567890";
+        let path = repo.path().join(format!("objects/pack/pack-{hash}.keep"));
+        let pin = PackPin::acquire(repo.path(), hash).unwrap();
+        let bytes = fs::read(&path).unwrap();
+        let mut legacy: PackPin = serde_json::from_slice(&serde_json::to_vec(&pin).unwrap()).unwrap();
+        legacy.device = 0;
+        legacy.inode = 0;
+        assert!(legacy.check(repo.path()).is_err());
+        legacy.release(repo.path()).unwrap();
+        assert_eq!(fs::read(&path).unwrap(), bytes);
+        let busy = fs::OpenOptions::new().read(true).share_mode(0).open(&path).unwrap();
+        pin.release(repo.path()).unwrap();
+        assert!(path.exists());
+        drop(busy);
+        assert_eq!(fs::read(&path).unwrap(), bytes);
+        fs::write(&path, b"external replacement contents").unwrap();
+        assert!(pin.check(repo.path()).is_err());
+        pin.release(repo.path()).unwrap();
+        assert_eq!(fs::read(&path).unwrap(), b"external replacement contents");
+    }
+    #[test]
     fn owned_pin_releases_but_identical_replacement_and_hardlink_survive() {
         let root = tempfile::tempdir().unwrap();
         let repo = git2::Repository::init_bare(root.path()).unwrap();
