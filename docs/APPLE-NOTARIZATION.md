@@ -18,3 +18,11 @@ The base configuration's ad-hoc identity remains useful only for local/test tool
 Validation performed on preparation: shell syntax and source diff review. Credential provisioning and a full signed/notarized CI run remain required before these changes establish a distributable artifact. Previous releases remain unchanged by workflow edits.
 
 References: pGit `docs/APPLE_SIGNING.md`, `.github/workflows/release-macos.yml`; https://v2.tauri.app/distribute/sign/macos/.
+
+## Verification update — 2026-11-25
+
+- Actions run 44996146251 succeeded for macOS ARM64 and Windows x64; macOS Developer ID, hardened runtime, timestamp, stapled ticket and Gatekeeper checks passed, including ZIP extraction. Publication was deliberately skipped on the work branch. Public devtest.4 remains the older artifact.
+- PR checks remain failing: macOS reported 15 failures, Windows 102. These are not resolved by package success.
+- Corrected the TLS integration fixture's dependency on a file outside the repository: the synthetic Python server is now tracked under scripts and referenced within this checkout. Early child failure is reported directly. It is not bundled into the app.
+- Updated the provider merge test server to answer the required preflight GET before the mutation, while asserting the GET route and retaining the existing mutation payload/receipt assertions. Production preflight checks remain unchanged.
+- Pending: CI execution of these changes, Git GC/lock failure analysis, Windows failures, PR/main acceptance, and publication of a newly notarized release. No local application build was run.

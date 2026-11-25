@@ -681,7 +681,19 @@ mod tests {
     ) -> (Result<Receipt, String>, String) {
         let listener = std::net::TcpListener::bind("127.0.0.1:0").unwrap();
         let endpoint = format!("http://{}/repos/o/r", listener.local_addr().unwrap());
+        let preflight = match action {
+            Action::Merge { number, sha, .. } => Some(json!({
+                "number": number, "state": "open", "merged": false,
+                "draft": false, "head": { "sha": sha }, "mergeable": true
+            })),
+            _ => None,
+        };
         let server = std::thread::spawn(move || {
+            let mut replies = Vec::new();
+            if let Some(value) = preflight { replies.push((200, value, true)); }
+            replies.push((status, response, false));
+            let mut wire = String::new();
+            for (status, response, is_preflight) in replies {
             let (mut stream, _) = listener.accept().unwrap();
             stream
                 .set_read_timeout(Some(Duration::from_secs(3)))
@@ -709,7 +721,10 @@ mod tests {
             }
             let body = response.to_string();
             write!(stream,"HTTP/1.1 {status} Test\r\nContent-Type: application/json\r\nContent-Length: {}\r\nConnection: close\r\n\r\n{body}",body.len()).unwrap();
-            String::from_utf8(bytes).unwrap()
+            wire = String::from_utf8(bytes).unwrap();
+            if is_preflight { assert!(wire.starts_with("GET /repos/o/r/pulls/7 HTTP/1.1")); }
+            }
+            wire
         });
         let client = reqwest::blocking::Client::builder()
             .no_proxy()

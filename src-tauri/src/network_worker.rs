@@ -1246,8 +1246,8 @@ mod tls_tests {
                 git2::Repository::init_bare(dir.path().join("source")).unwrap();
             }
             let script = std::path::Path::new(env!("CARGO_MANIFEST_DIR"))
-                .join("../../scripts/remote_tls_fixture.py");
-            let job = Job(Command::new("/usr/bin/python3")
+                .join("../scripts/remote_tls_fixture.py");
+            let mut job = Job(Command::new("/usr/bin/python3")
                 .arg(script)
                 .arg(dir.path())
                 .arg(mode)
@@ -1260,6 +1260,9 @@ mod tls_tests {
                     if !port.is_empty() {
                         break port;
                     }
+                }
+                if let Some(status) = job.0.try_wait().unwrap() {
+                    panic!("TLS fixture exited before becoming ready: {status}");
                 }
                 assert!(Instant::now() < deadline, "fixture startup timed out");
                 std::thread::sleep(Duration::from_millis(10));
