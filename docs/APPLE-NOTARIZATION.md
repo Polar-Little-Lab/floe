@@ -80,3 +80,7 @@ References: pGit `docs/APPLE_SIGNING.md`, `.github/workflows/release-macos.yml`;
 ### Windows follow-up: 2026-11-25, source 9cc14f5
 
 Run 45630515503 completed Windows Rust tests with 537 passed, 2 failed and 3 ignored. The remaining clone crash fixture supplied a canonical Windows verbatim path to the user-input API; the fixture now separates that input from the canonical checkpoint identity and retains child diagnostics. The provider check fixture reported Winsock WouldBlock on an accepted socket. All three polled-listener HTTP fixtures now explicitly restore blocking mode after accept, retaining their existing request deadlines and assertions. These fixes await the next CI result; no all-green or public release claim is made.
+
+### Follow-up result: source c93bd42
+
+Run 45632937167 passed the complete macOS check (593 Rust tests passed, 0 failed, 8 ignored). Windows Rust tests also passed (539 passed, 0 failed, 3 ignored), including the previously failing clone and provider checks. Windows then failed Clippy on platform-specific unused bindings and test helpers. The follow-up restricts Unix/macOS helpers to their actual consumers, uses immutable Windows directory builders, and marks only the two native credential modes as intentionally unconstructed outside macOS/non-test builds. Authentication behavior is unchanged. The follow-up requires CI validation; Windows full CI and publication are still pending.

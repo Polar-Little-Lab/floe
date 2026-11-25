@@ -592,7 +592,10 @@ pub(super) fn execute_tag_policy(
 }
 fn publish(session: &Session, record: &Record) -> Result<()> {
     let dir = session.root.join(JOURNAL);
+    #[cfg(unix)]
     let mut builder = fs::DirBuilder::new();
+    #[cfg(not(unix))]
+    let builder = fs::DirBuilder::new();
     #[cfg(unix)]
     {
         use std::os::unix::fs::DirBuilderExt;

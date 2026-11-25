@@ -606,7 +606,10 @@ fn execute_mode(
         return Err("STALE_STATE".into());
     }
     let dir = session.root.join(JOURNAL);
+    #[cfg(unix)]
     let mut builder = fs::DirBuilder::new();
+    #[cfg(not(unix))]
+    let builder = fs::DirBuilder::new();
     #[cfg(unix)]
     {
         use std::os::unix::fs::DirBuilderExt;

@@ -339,7 +339,10 @@ impl Session {
         }
         let record = initial;
         let dir = self.root.join(JOURNAL);
+        #[cfg(unix)]
         let mut builder = fs::DirBuilder::new();
+        #[cfg(not(unix))]
+        let builder = fs::DirBuilder::new();
         #[cfg(unix)]
         {
             use std::os::unix::fs::DirBuilderExt;

@@ -424,7 +424,7 @@ struct Completed {
     response: Response,
     _private: tempfile::TempDir,
 }
-#[cfg(test)]
+#[cfg(all(test, unix))]
 fn supervise(command: Command, url: &str, timeout: Duration) -> Result<Advertisement, String> {
     match supervise_job(command, url, timeout, false)?.response {
         Response::Success { value } => Ok(value),

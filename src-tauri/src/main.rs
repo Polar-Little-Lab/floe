@@ -1875,15 +1875,15 @@ fn main() {
         .manage(lfs_transfer::Transfers::default())
         .manage(Mutex::new(None::<String>))
         .plugin(tauri_plugin_dialog::init())
-        .setup(|app| {
+        .setup(|_app| {
             #[cfg(feature = "developer-test")]
-            if let Some(window) = app.get_webview_window("main") {
+            if let Some(window) = _app.get_webview_window("main") {
                 window.open_devtools();
             }
             #[cfg(target_os = "macos")]
             {
-                app.set_menu(application_menu(app.handle())?)?;
-                macos_termination::install(app.handle())?;
+                _app.set_menu(application_menu(_app.handle())?)?;
+                macos_termination::install(_app.handle())?;
             }
             Ok(())
         })

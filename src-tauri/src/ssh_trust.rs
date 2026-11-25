@@ -76,6 +76,7 @@ fn mpint(bytes: &[u8]) -> Result<&[u8]> {
     }
 }
 impl Key {
+    #[cfg(target_os = "macos")]
     pub fn algorithm(&self) -> &str { &self.algorithm }
     pub fn from_blob(blob: &[u8]) -> Result<Self> {
         if blob.len() > 8192 {

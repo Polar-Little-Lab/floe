@@ -161,7 +161,7 @@ pub(crate) fn parse(value: &str) -> Result<Endpoint, String> {
         path,
     })
 }
-#[cfg(test)]
+#[cfg(all(test, unix))]
 impl Endpoint {
     // Prototype for the fixed service command; never accepts an executable from config.
     pub(crate) fn upload_command(&self) -> String {
