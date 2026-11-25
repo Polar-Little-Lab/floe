@@ -64,3 +64,7 @@ References: pGit `docs/APPLE_SIGNING.md`, `.github/workflows/release-macos.yml`;
 - Record volume/file identity from the owned creation handle. Verification rejects replaced files, reparse points and multiple hard links.
 - Release opens an exclusive DELETE-capable handle without following a reparse point, checks recorded identity and bounded token bytes, then uses FileDispositionInfo on that same handle. Busy/inaccessible/replaced pins are preserved; old Windows records without identity are not blindly removed. Reference: https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-setfileinformationbyhandle .
 - Added Windows regression coverage for successful release/reacquisition, identical-content replacement and hard-link preservation. Pending CI: these tests plus fetch repeated-operation, crash recovery, pin cleanup and race scenarios. No local build was run.
+
+### Replay oracle clone path correction
+- Three Git CLI clone oracles now use the original absolute tempfile path instead of Windows canonicalization's extended namespace. Session/recovery paths remain canonical. The old CLI input produced “hostname contains invalid characters”; assertions and replay scenarios remain intact.
+- Held locally while run 45628222782 executes; runtime verification pending.
