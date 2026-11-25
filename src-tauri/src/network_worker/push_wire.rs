@@ -108,7 +108,7 @@ mod tests {
         process::{Command, Stdio},
     };
     fn run(root: &Path, args: &[&str], input: &[u8]) -> std::process::Output {
-        let mut child = Command::new("/usr/bin/git")
+        let mut child = Command::new(if cfg!(windows) { "git.exe" } else { "/usr/bin/git" })
             .arg("-C")
             .arg(root)
             .args(args)

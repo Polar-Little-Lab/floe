@@ -395,7 +395,11 @@ mod tests {
         Key::from_blob(&blob).unwrap()
     }
     fn dir() -> tempfile::TempDir {
-        tempfile::tempdir_in(std::env::temp_dir().canonicalize().unwrap()).unwrap()
+        {
+            let root = std::env::temp_dir();
+            let root = if cfg!(windows) { root } else { root.canonicalize().unwrap() };
+            tempfile::tempdir_in(root).unwrap()
+        }
     }
     fn scope() -> Scope {
         Scope::new("EXAMPLE.invalid", 22).unwrap()

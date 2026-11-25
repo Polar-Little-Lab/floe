@@ -25,6 +25,10 @@ jobs:
       - run: rustup show
       - run: npm ci
       - run: npm run check
+      - name: Normalize hosted-runner libgit2 fixture defaults
+        # libgit2 also discovers the user's config independently of Git CLI
+        # GIT_CONFIG_GLOBAL overrides. This runner is ephemeral, not a user's Mac/PC.
+        run: git config --global core.autocrlf false
       - name: Test synthetic repositories with isolated Git defaults
         shell: bash
         env:

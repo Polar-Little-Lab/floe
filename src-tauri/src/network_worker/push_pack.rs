@@ -275,7 +275,7 @@ mod tests {
             &prepared.bytes().unwrap(),
         )
         .unwrap();
-        let mut child = Command::new("/usr/bin/git")
+        let mut child = Command::new(if cfg!(windows) { "git.exe" } else { "/usr/bin/git" })
             .args(["receive-pack", "--stateless-rpc"])
             .arg(&server)
             .env("GIT_CONFIG_NOSYSTEM", "1")

@@ -201,7 +201,7 @@ mod tests {
         let repo = git2::Repository::open(&target).unwrap();
         assert!(repo.find_commit(oid).is_ok());
         assert_eq!(repo.references().unwrap().count(), 1);
-        let result = Command::new("/usr/bin/git")
+        let result = Command::new(if cfg!(windows) { "git.exe" } else { "/usr/bin/git" })
             .arg("--git-dir")
             .arg(target)
             .args(["fsck", "--strict", "--no-reflogs"])

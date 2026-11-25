@@ -45,3 +45,8 @@ References: pGit `docs/APPLE_SIGNING.md`, `.github/workflows/release-macos.yml`;
 - Run 45623749022 at source 0f51ad4: Rust tests reported 593 passed, 0 failed, 8 ignored. Frontend check succeeded. This does not verify ignored scenarios or all product flows.
 - Clippy then failed on existing dead wrappers, argument-count style limits, a needless borrow, a length comparison and Gitflow functions placed after a test module. Removed the unused production wrapper, scoped the test adapter to tests, moved Gitflow functions before tests and corrected the expressions. Explicit IPC/snapshot argument lists have narrowly scoped argument-count exceptions; all other warnings remain errors.
 - Windows result and a new CI run for these lint changes remain pending.
+
+### Windows result and follow-up
+- Run 45623749022: 451 passed, 86 failed, 3 ignored (previous baseline: 435 passed, 102 failed). Line-ending differences remain; CLI environment isolation alone did not isolate libgit2's default configuration discovery. Normalize core.autocrlf in the ephemeral hosted runner's actual user config as well; no local user configuration is changed.
+- Three network integration helpers used /usr/bin/git on Windows; select git.exe there while retaining the absolute Unix executable. OpenSSH fixture paths now avoid Windows extended paths, as with the workspace fixtures. These changes are test-only.
+- Remaining Windows failures must be reevaluated after CI; no claim of complete Windows parity or a releasable build.
