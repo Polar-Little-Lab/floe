@@ -40,3 +40,8 @@ References: pGit `docs/APPLE_SIGNING.md`, `.github/workflows/release-macos.yml`;
 ### Isolated Git defaults in CI
 - Earlier Windows logs show keep-index stash and linked-worktree fixture files changing from LF to CRLF after Git operations; replay then reports dirty worktrees. The test job now excludes runner system/global Git configuration and supplies an empty temporary global config. Fixture-local settings and explicit test overrides remain available.
 - This changes only the cargo-test environment, not app behavior or support for configured line-ending conversions. CI must establish which failures this resolves; clone worktree mismatch is not yet attributed conclusively.
+
+### macOS functional CI result
+- Run 45623749022 at source 0f51ad4: Rust tests reported 593 passed, 0 failed, 8 ignored. Frontend check succeeded. This does not verify ignored scenarios or all product flows.
+- Clippy then failed on existing dead wrappers, argument-count style limits, a needless borrow, a length comparison and Gitflow functions placed after a test module. Removed the unused production wrapper, scoped the test adapter to tests, moved Gitflow functions before tests and corrected the expressions. Explicit IPC/snapshot argument lists have narrowly scoped argument-count exceptions; all other warnings remain errors.
+- Windows result and a new CI run for these lint changes remain pending.

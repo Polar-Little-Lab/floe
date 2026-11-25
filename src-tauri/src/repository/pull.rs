@@ -142,16 +142,14 @@ pub fn selection(session: &mut Session, revision: &str, remote: &str) -> Result<
         rebase,
     })
 }
+#[cfg(test)]
 pub fn prepare(
     session: &mut Session,
     revision: &str,
     remote: &str,
     download: &Downloaded,
 ) -> Result<Prepared> {
-    prepare_with_mode(session,revision,remote,download,None)
-}
-pub fn prepare_with_mode(session:&mut Session,revision:&str,remote:&str,download:&Downloaded,mode:Option<Mode>)->Result<Prepared>{
-    prepare_with_options(session,revision,remote,download,mode,None)
+    prepare_with_options(session,revision,remote,download,None,None)
 }
 pub fn prepare_with_options(session:&mut Session,revision:&str,remote:&str,download:&Downloaded,mode:Option<Mode>,prune:Option<&[String]>)->Result<Prepared>{
     let selected = selection_with_mode(session, revision, remote,mode)?;

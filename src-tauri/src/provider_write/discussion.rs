@@ -59,6 +59,8 @@ fn parse(v:Value,owner:&str,repo:&str,n:u64,kind:Kind,page:u32)->Result<Page,Str
     let full=entries.len()==100;
     Ok(Page{entries,next_page:if full&&page<30 {Some(page+1)}else{None},limit_reached:full&&page==30})
 }
+// Keep explicit target/snapshot fields aligned with the existing IPC contract.
+#[allow(clippy::too_many_arguments)]
 fn read_with(client:&reqwest::blocking::Client,endpoint:&str,owner:&str,repo:&str,n:u64,page:u32,head:&str,base:&str,kind:Kind)->Result<Page,String>{
     validate_files(owner,repo,n,page,head,base)?;
     let item=format!("{endpoint}/pulls/{n}");
@@ -69,6 +71,8 @@ fn read_with(client:&reqwest::blocking::Client,endpoint:&str,owner:&str,repo:&st
     check_snapshot(client,&item,owner,repo,n,head,base)?;
     Ok(parsed)
 }
+// Keep explicit target/snapshot fields aligned with the existing IPC contract.
+#[allow(clippy::too_many_arguments)]
 pub fn read(owner:&str,repo:&str,n:u64,page:u32,head:&str,base:&str,kind:Kind,credential:&crate::credential_vault::Credential)->Result<Page,String>{
     validate_files(owner,repo,n,page,head,base)?;
     read_with(&client(credential)?,&endpoint(owner,repo)?,owner,repo,n,page,head,base,kind)

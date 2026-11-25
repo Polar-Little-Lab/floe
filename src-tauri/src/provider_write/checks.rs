@@ -45,6 +45,8 @@ fn parse(v:Value,kind:Kind,head:&str,page:u32)->Result<Page,String>{
  if more && entries.len()!=100 {return Err("PROVIDER_CHECKS_CHANGED: reload checks before relying on this list".into());}
  Ok(Page {entries,total_count,next_page:if more&&page<30{Some(page+1)}else{None},limit_reached:more&&page==30,combined_state})
 }
+// Keep explicit target/snapshot fields aligned with the existing IPC contract.
+#[allow(clippy::too_many_arguments)]
 fn read_with(client:&reqwest::blocking::Client,endpoint:&str,owner:&str,repo:&str,n:u64,page:u32,head:&str,base:&str,kind:Kind)->Result<Page,String>{
  validate_files(owner,repo,n,page,head,base)?;
  let item=format!("{endpoint}/pulls/{n}");
@@ -56,6 +58,8 @@ fn read_with(client:&reqwest::blocking::Client,endpoint:&str,owner:&str,repo:&st
  check_snapshot(client,&item,owner,repo,n,head,base)?;
  Ok(parsed)
 }
+// Keep explicit target/snapshot fields aligned with the existing IPC contract.
+#[allow(clippy::too_many_arguments)]
 pub fn read(owner:&str,repo:&str,n:u64,page:u32,head:&str,base:&str,kind:Kind,credential:&crate::credential_vault::Credential)->Result<Page,String>{
  validate_files(owner,repo,n,page,head,base)?;
  read_with(&client(credential)?,&endpoint(owner,repo)?,owner,repo,n,page,head,base,kind)

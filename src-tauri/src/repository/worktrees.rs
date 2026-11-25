@@ -54,7 +54,7 @@ impl Session {
         options.include_ignored(true).include_untracked(true).recurse_untracked_dirs(true);
         let statuses=linked.statuses(Some(&mut options)).map_err(err)?;
         if statuses.iter().any(|entry|entry.status().contains(git2::Status::IGNORED)){blockers.push("Worktree contains ignored files; removal must preserve or explicitly handle them.".into());}
-        if linked.submodules().map_err(err)?.len()>0{blockers.push("Worktree contains submodule registrations; recursive removal is not supported.".into());}
+        if !linked.submodules().map_err(err)?.is_empty(){blockers.push("Worktree contains submodule registrations; recursive removal is not supported.".into());}
         let digest=match metadata_digest(&metadata){Ok(value)=>Some(value),Err(_)=>{blockers.push("Worktree metadata is locked, unsupported or exceeds inspection limits.".into());None}};
         let token=if blockers.is_empty(){
             let mut hash=Sha256::new();

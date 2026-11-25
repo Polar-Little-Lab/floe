@@ -534,6 +534,8 @@ fn check_snapshot(client:&reqwest::blocking::Client,item_url:&str,owner:&str,rep
     }
     Ok(())
 }
+// Keep explicit target/snapshot fields aligned with the existing IPC contract.
+#[allow(clippy::too_many_arguments)]
 fn files_with(client: &reqwest::blocking::Client, endpoint: &str, owner: &str, repo: &str, n: u64, page: u32, head: &str, base: &str) -> Result<PullFiles, String> {
     validate_files(owner,repo,n,page,head,base)?;
     let item_url=format!("{endpoint}/pulls/{n}");
