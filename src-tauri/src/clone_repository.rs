@@ -246,7 +246,12 @@ fn sync_tree(path: &Path) -> Result<()> {
         if entry.file_type().map_err(error)?.is_dir() {
             sync_tree(&entry.path())?;
         } else {
-            fs::File::open(entry.path())
+            // FlushFileBuffers requires GENERIC_WRITE on Windows. These files
+            // belong to our unpublished staging tree; never truncate them.
+            fs::OpenOptions::new()
+                .read(true)
+                .write(cfg!(windows))
+                .open(entry.path())
                 .and_then(|f| f.sync_all())
                 .map_err(error)?;
         }

@@ -2462,7 +2462,10 @@ struct IndexLock {
 impl IndexLock {
     #[cfg(test)]
     fn publish(&mut self, destination: &Path) -> Result<()> {
-        fs::File::open(&self.path)
+        fs::OpenOptions::new()
+            .read(true)
+            .write(cfg!(windows))
+            .open(&self.path)
             .map_err(err)?
             .sync_all()
             .map_err(err)?;

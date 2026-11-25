@@ -31,3 +31,8 @@ References: pGit `docs/APPLE_SIGNING.md`, `.github/workflows/release-macos.yml`;
 - Crash-recovery object GC checks now disable reflog expiration and ref packing so crash-owned ref locks remain intact; unreachable object/prune and pack-pin assertions are retained. A separate synthetic Git repository reproduced the HEAD.lock diagnostic and confirmed that object-only GC avoids it without deleting the lock. This is not a passing Rust integration result.
 - Windows workspace fixtures now use ordinary absolute temporary paths rather than canonicalization's extended device namespace, which repository_path intentionally rejects. Production path validation is unchanged.
 - These corrections require macOS/Windows CI; outstanding Windows checkout, clone and recovery failures remain under investigation.
+
+### Windows clone durability fix
+- Source review identified read-only file handles passed to sync_all in clone staging and the index-lock publication test helper. Windows FlushFileBuffers requires GENERIC_WRITE: https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-flushfilebuffers .
+- Open those owned files with write access on Windows, without create/truncate; Unix access remains unchanged. Flush failures still abort publication. No foreign repository permissions are modified.
+- Pending CI: existing empty/detached clone, no-partial-publication crash checks and next-owner index lock test. Also verify clone file bytes and that flush failures never publish a destination. Other Windows worktree-mismatch failures remain unresolved. No local application build performed.
