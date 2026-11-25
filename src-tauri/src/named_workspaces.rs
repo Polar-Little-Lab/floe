@@ -230,7 +230,13 @@ pub fn save(dir: &Path, expected: &str, workspace: Option<Workspace>) -> Result<
 #[cfg(test)]
 mod tests {
  use super::*;
- fn dir()->tempfile::TempDir {tempfile::tempdir_in(std::env::temp_dir().canonicalize().unwrap()).unwrap()}
+ fn dir()->tempfile::TempDir {{
+        // Windows canonicalize introduces the intentionally denied \\?\ namespace.
+        // Use an ordinary absolute drive path, as supplied by the user-facing picker.
+        let root = std::env::temp_dir();
+        let root = if cfg!(windows) { root } else { root.canonicalize().unwrap() };
+        tempfile::tempdir_in(root).unwrap()
+    }}
  fn value(d:&Path)->Workspace {Workspace{pins:vec![],snoozes:vec![],groups:vec![Group{icon:String::new(),description:String::new(),color:0,views:vec![],id:"group-1".into(),name:"팀 프로젝트".into(),repositories:vec![Repository{owner:"Owner".into(),repo:"Repo".into(),local_path:Some(d.join("missing-repo").to_string_lossy().into_owned())}]}],selected:Some("group-1".into())}}
  fn saved_view()->SavedView {SavedView{id:"view-1".into(),name:"Release bugs".into(),query:"[literal] 한글".into(),kind:TaskKind::Issues,filters:ViewFilters{author:Some("Alice".into()),label:Some("".into()),milestone:Some(r#"["owner/repo","9007199254740993"]"#.into())}}}
  #[test] fn saved_views_roundtrip_and_legacy_groups_default_empty(){

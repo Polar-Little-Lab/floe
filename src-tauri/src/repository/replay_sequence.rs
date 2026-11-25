@@ -341,7 +341,7 @@ mod tests {
                 let oracle = tempfile::tempdir().unwrap();
                 assert!(git(
                     oracle.path(),
-                    &["clone", "--no-hardlinks", root.to_str().unwrap(), "."]
+                    &["clone", "--no-hardlinks", d.path().to_str().unwrap(), "."]
                 )
                 .status
                 .success());

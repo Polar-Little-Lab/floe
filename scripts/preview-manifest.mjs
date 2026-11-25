@@ -13,6 +13,6 @@ for(const name of filenames){
  artifacts.push({name,bytes,sha256:hash.digest('hex')});
 }
 const pkg=JSON.parse(await readFile('package.json','utf8'));
-const manifest={product:process.env.PREVIEW_PRODUCT||'FLOE',version:pkg.version,channel:process.env.PREVIEW_CHANNEL||'internal-preview',platform:process.env.PREVIEW_PLATFORM,commit:process.env.GITHUB_SHA,runId:process.env.GITHUB_RUN_ID,createdAt:new Date().toISOString(),verification:'Compilation/package only; no runtime acceptance tests in this workflow.',distribution:'No production signing, notarization or automatic update configured.',artifacts};
+const manifest={product:process.env.PREVIEW_PRODUCT||'FLOE',version:pkg.version,channel:process.env.PREVIEW_CHANNEL||'internal-preview',platform:process.env.PREVIEW_PLATFORM,commit:process.env.GITHUB_SHA,runId:process.env.GITHUB_RUN_ID,createdAt:new Date().toISOString(),verification:'Compilation/package only; no runtime acceptance tests in this workflow.',distribution:'macOS CI requires Developer ID signing, notarization, stapling and Gatekeeper verification. Windows code signing and automatic update are not configured.',artifacts};
 await writeFile(join(directory,'manifest.json'),JSON.stringify(manifest,null,2)+'\n');
 await writeFile(join(directory,'SHA256SUMS'),artifacts.map(item=>`${item.sha256}  ${item.name}`).join('\n')+'\n');

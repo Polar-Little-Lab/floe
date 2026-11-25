@@ -4,12 +4,15 @@ use crate::{
     network_worker::auth::TransportCredential,
 };
 
+// Native credential entry is macOS-only; other platforms currently offer anonymous access.
 enum Mode {
     Anonymous,
+    #[cfg_attr(not(any(target_os = "macos", test)), allow(dead_code))]
     Entered {
         credential: Credential,
         remember: bool,
     },
+    #[cfg_attr(not(any(target_os = "macos", test)), allow(dead_code))]
     Saved,
 }
 pub(crate) struct Choice {

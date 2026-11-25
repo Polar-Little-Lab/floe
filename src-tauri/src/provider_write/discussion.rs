@@ -59,6 +59,8 @@ fn parse(v:Value,owner:&str,repo:&str,n:u64,kind:Kind,page:u32)->Result<Page,Str
     let full=entries.len()==100;
     Ok(Page{entries,next_page:if full&&page<30 {Some(page+1)}else{None},limit_reached:full&&page==30})
 }
+// Keep explicit target/snapshot fields aligned with the existing IPC contract.
+#[allow(clippy::too_many_arguments)]
 fn read_with(client:&reqwest::blocking::Client,endpoint:&str,owner:&str,repo:&str,n:u64,page:u32,head:&str,base:&str,kind:Kind)->Result<Page,String>{
     validate_files(owner,repo,n,page,head,base)?;
     let item=format!("{endpoint}/pulls/{n}");
@@ -69,6 +71,8 @@ fn read_with(client:&reqwest::blocking::Client,endpoint:&str,owner:&str,repo:&st
     check_snapshot(client,&item,owner,repo,n,head,base)?;
     Ok(parsed)
 }
+// Keep explicit target/snapshot fields aligned with the existing IPC contract.
+#[allow(clippy::too_many_arguments)]
 pub fn read(owner:&str,repo:&str,n:u64,page:u32,head:&str,base:&str,kind:Kind,credential:&crate::credential_vault::Credential)->Result<Page,String>{
     validate_files(owner,repo,n,page,head,base)?;
     read_with(&client(credential)?,&endpoint(owner,repo)?,owner,repo,n,page,head,base,kind)
@@ -136,7 +140,8 @@ mod tests {
    for (status,value) in responses {
     let start=std::time::Instant::now();
     let mut stream=loop {match listener.accept(){Ok((s,_))=>break s,Err(e) if e.kind()==std::io::ErrorKind::WouldBlock=>{assert!(start.elapsed()<Duration::from_secs(5));std::thread::sleep(Duration::from_millis(5));},Err(e)=>panic!("{e}")}};
-    stream.set_read_timeout(Some(Duration::from_secs(2))).unwrap();let mut bytes=Vec::new();let mut buf=[0;4096];
+    stream.set_nonblocking(false).unwrap();
+                stream.set_read_timeout(Some(Duration::from_secs(2))).unwrap();let mut bytes=Vec::new();let mut buf=[0;4096];
     while !bytes.windows(4).any(|w|w==b"\r\n\r\n"){let n=stream.read(&mut buf).unwrap();assert!(n>0);bytes.extend_from_slice(&buf[..n]);assert!(bytes.len()<16384);}
     requests.push(String::from_utf8(bytes).unwrap());let body=value.to_string();
     write!(stream,"HTTP/1.1 {status} Test\r\nContent-Length: {}\r\nConnection: close\r\n\r\n{body}",body.len()).unwrap();

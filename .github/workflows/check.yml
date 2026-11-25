@@ -1,5 +1,12 @@
 name: Check desktop
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+concurrency:
+  group: desktop-check-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 permissions:
   contents: read
 jobs:
@@ -18,7 +25,20 @@ jobs:
       - run: rustup show
       - run: npm ci
       - run: npm run check
-      - run: cargo test --manifest-path src-tauri/Cargo.toml --locked
+      - name: Normalize hosted-runner libgit2 fixture defaults
+        # libgit2 also discovers the user's config independently of Git CLI
+        # GIT_CONFIG_GLOBAL overrides. This runner is ephemeral, not a user's Mac/PC.
+        run: git config --global core.autocrlf false
+      - name: Test synthetic repositories with isolated Git defaults
+        shell: bash
+        env:
+          GIT_CONFIG_NOSYSTEM: '1'
+          GIT_CONFIG_GLOBAL: ${{ runner.temp }}/floe-test.gitconfig
+        run: |
+          # Fixtures choose their own per-repository policy. Runner-global
+          # autocrlf must not rewrite their byte-exact LF inputs on Windows.
+          : > "$GIT_CONFIG_GLOBAL"
+          cargo test --manifest-path src-tauri/Cargo.toml --locked
       - run: cargo clippy --manifest-path src-tauri/Cargo.toml --all-targets -- -D warnings
       - run: npm audit --audit-level=high
       - run: npm run tauri build -- --no-bundle

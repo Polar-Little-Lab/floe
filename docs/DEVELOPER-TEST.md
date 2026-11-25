@@ -12,7 +12,7 @@ This is a release build with the `developer-test` Cargo feature. Web Inspector o
 
 App name, identifier (`dev.branchdesk.desktop.devtest`), app data directory and the app's HTTPS credential service namespace are separate from the normal application. Existing settings/logins are not copied. Selected Git repositories and system Git/SSH configuration are NOT isolated: use disposable clones and test accounts.
 
-The complete macOS app bundle is ad-hoc signed and verified again after ZIP extraction. Developer ID signing and Apple notarization are not configured. macOS may require approval for this specific app in System Settings > Privacy & Security. Do not globally disable system security. Windows may show an unsigned application warning.
+New CI packages require Developer ID signing, hardened runtime, Apple notarization, stapled tickets and Gatekeeper verification, including after ZIP extraction. Missing credentials or failed checks stop publication. Older devtest.4 and earlier artifacts do not acquire notarization automatically. Windows remains unsigned. Do not globally disable system security.
 
 ## Manual acceptance TODO
 
@@ -22,7 +22,13 @@ The complete macOS app bundle is ad-hoc signed and verified again after ZIP extr
 4. LFS index scan, Fetch/Push, cancellation, cached-object reuse and upload-record inspection/acknowledgement. Actual LFS checkout/pull/prune remains disabled; checkout preview is read-only.
 5. Use a disposable repository on a size-limited test volume for disk-full and process-termination recovery. Do not fill the system disk or use personal repositories.
 
-Packaging success is not runtime acceptance. Existing backend failures (TLS fixtures, provider writes, Git lock/recovery) are not declared resolved.
+Packaging success is not runtime acceptance. Check the source commit and linked Actions run for this download: results from an earlier revision do not prove this package passed. CI covers synthetic repository scenarios; provider accounts, interactive prompts and installed-app behavior still require the manual checks above.
+
+### Download and launch acceptance (not yet completed)
+
+- macOS: download the release ZIP through a browser, extract it with Archive Utility, copy the app to Applications and launch it with the download quarantine intact. Confirm Gatekeeper accepts it without removing quarantine or disabling security. Then close and reopen the app and open a disposable repository.
+- Windows: install the release EXE as a standard user, launch it, close/reopen it and uninstall it. Windows signing is not configured; distinguish a publisher warning from an installation or runtime failure.
+- Record the exact release tag, manifest commit, OS version and outcome. CI signature/archive checks alone do not complete either interactive acceptance item.
 
 ## Reporting a problem
 

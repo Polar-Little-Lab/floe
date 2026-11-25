@@ -858,7 +858,7 @@ mod tests {
             log
         );
         assert_eq!(preserved(&root), before);
-        let checked = Command::new("/usr/bin/git")
+        let checked = Command::new(crate::test_git_executable())
             .arg("-C")
             .arg(&root)
             .args(["fsck", "--strict", "--no-reflogs"])
@@ -878,7 +878,7 @@ mod tests {
         let old = repo.head().unwrap().target().unwrap();
         repo.reference("refs/remotes/origin/main", old, false, "old tracking")
             .unwrap();
-        assert!(Command::new("/usr/bin/git")
+        assert!(Command::new(crate::test_git_executable())
             .arg("-C")
             .arg(&root)
             .args(["pack-refs", "--all", "--prune"])
@@ -922,7 +922,7 @@ mod tests {
         let repo = Repository::init(oracle.path()).unwrap();
         repo.remote("origin", fixture.path().join("source").to_str().unwrap())
             .unwrap();
-        let output = Command::new("/usr/bin/git")
+        let output = Command::new(crate::test_git_executable())
             .arg("-C")
             .arg(oracle.path())
             .args([
@@ -1056,7 +1056,7 @@ mod tests {
                 )
                 .unwrap();
                 assert_eq!(preserved(&root), before);
-                let output = Command::new("/usr/bin/git")
+                let output = Command::new(crate::test_git_executable())
                     .arg("-C")
                     .arg(oracle.path())
                     .args([
@@ -1290,7 +1290,7 @@ mod tests {
                 );
             }
         }
-        let checked = Command::new("/usr/bin/git")
+        let checked = Command::new(crate::test_git_executable())
             .arg("-C")
             .arg(&root)
             .args(["fsck", "--strict", "--no-reflogs"])
@@ -1461,7 +1461,9 @@ mod tests {
                     let saved = root.join("saved-archive");
                     fs::rename(&archive, &saved).unwrap();
                     #[cfg(unix)]
-                    std::os::unix::fs::symlink(saved, &archive).unwrap();
+                    std::os::unix::fs::symlink(&saved, &archive).unwrap();
+                    #[cfg(windows)]
+                    std::os::windows::fs::symlink_dir(&saved, &archive).unwrap();
                 }
                 _ => {}
             }
@@ -1554,7 +1556,7 @@ mod tests {
                 fs::remove_file(&pin).unwrap();
             }
             let gc = || {
-                let output = Command::new("/usr/bin/git")
+                let output = Command::new(crate::test_git_executable())
                     .arg("-C")
                     .arg(&root)
                     .args([
@@ -1562,6 +1564,12 @@ mod tests {
                         "gc.packRefs=false",
                         "-c",
                         "gc.writeCommitGraph=false",
+                        // Reflog expiry takes HEAD.lock, deliberately retained by
+                        // the crash fixture. Exercise object GC without changing refs.
+                        "-c",
+                        "gc.reflogExpire=never",
+                        "-c",
+                        "gc.reflogExpireUnreachable=never",
                         "gc",
                         "--prune=now",
                     ])
@@ -1766,7 +1774,7 @@ mod tests {
             .collect()
     }
     fn tag_git(root: &Path, args: &[&str]) -> std::process::Output {
-        Command::new("/usr/bin/git")
+        Command::new(crate::test_git_executable())
             .arg("-C")
             .arg(root)
             .args(args)
@@ -2071,7 +2079,7 @@ mod tests {
                         "protocol.file.allow=always",
                         "fetch",
                         "--no-tags",
-                        root.to_str().unwrap(),
+                        fixture.path().join("target").to_str().unwrap(),
                         "HEAD"
                     ]
                 )
@@ -2202,7 +2210,7 @@ mod tests {
                     "protocol.file.allow=always",
                     "fetch",
                     "--no-tags",
-                    root.to_str().unwrap(),
+                    fixture.path().join("target").to_str().unwrap(),
                     "HEAD"
                 ]
             )
@@ -2396,7 +2404,13 @@ mod tests {
             .as_ref()
             .unwrap()
             .matches_hash(selected.pack_hash().unwrap()));
-        assert!(tag_git(&root, &["gc", "--prune=now"]).status.success());
+        // Preserve crash-owned ref locks while collecting unpinned objects.
+        let gc = tag_git(&root, &[
+            "-c", "gc.packRefs=false", "-c", "gc.writeCommitGraph=false",
+            "-c", "gc.reflogExpire=never", "-c", "gc.reflogExpireUnreachable=never",
+            "gc", "--prune=now",
+        ]);
+        assert!(gc.status.success(), "{}", String::from_utf8_lossy(&gc.stderr));
         let reopened = Repository::open(&root).unwrap();
         assert!(reopened.odb().unwrap().exists(wanted));
         assert!(!reopened.odb().unwrap().exists(unwanted));

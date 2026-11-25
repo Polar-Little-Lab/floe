@@ -542,6 +542,20 @@ fn validate(root: &Path) -> Result<Option<String>> {
         None
     })
 }
+// Do not inherit repository/global includes, hooks or conversion settings.
+// Windows cannot represent Unix executable permissions in worktree metadata.
+pub(crate) fn isolated_config() -> Result<Config> {
+    #[cfg(windows)]
+    {
+        use std::io::Write;
+        let mut file = tempfile::NamedTempFile::new().map_err(err)?;
+        file.write_all(b"[core]\nfilemode = false\n").map_err(err)?;
+        Config::open(file.path()).map_err(err)?.snapshot().map_err(err)
+    }
+    #[cfg(not(windows))]
+    { Config::new().map_err(err) }
+}
+
 fn open(root: &Path) -> Result<Repository> {
     let layout = layout::Layout::read(root)?;
     let repo = Repository::open_ext(
@@ -550,7 +564,7 @@ fn open(root: &Path) -> Result<Repository> {
         std::iter::empty::<&str>(),
     )
     .map_err(err)?;
-    repo.set_config(&Config::new().map_err(err)?).map_err(err)?;
+    repo.set_config(&isolated_config()?).map_err(err)?;
     repo.set_workdir(root, false).map_err(err)?;
     Ok(repo)
 }
@@ -2462,7 +2476,10 @@ struct IndexLock {
 impl IndexLock {
     #[cfg(test)]
     fn publish(&mut self, destination: &Path) -> Result<()> {
-        fs::File::open(&self.path)
+        fs::OpenOptions::new()
+            .read(true)
+            .write(cfg!(windows))
+            .open(&self.path)
             .map_err(err)?
             .sync_all()
             .map_err(err)?;

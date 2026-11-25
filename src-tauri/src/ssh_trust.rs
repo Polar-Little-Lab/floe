@@ -76,6 +76,7 @@ fn mpint(bytes: &[u8]) -> Result<&[u8]> {
     }
 }
 impl Key {
+    #[cfg(target_os = "macos")]
     pub fn algorithm(&self) -> &str { &self.algorithm }
     pub fn from_blob(blob: &[u8]) -> Result<Self> {
         if blob.len() > 8192 {
@@ -395,7 +396,11 @@ mod tests {
         Key::from_blob(&blob).unwrap()
     }
     fn dir() -> tempfile::TempDir {
-        tempfile::tempdir_in(std::env::temp_dir().canonicalize().unwrap()).unwrap()
+        {
+            let root = std::env::temp_dir();
+            let root = if cfg!(windows) { root } else { root.canonicalize().unwrap() };
+            tempfile::tempdir_in(root).unwrap()
+        }
     }
     fn scope() -> Scope {
         Scope::new("EXAMPLE.invalid", 22).unwrap()

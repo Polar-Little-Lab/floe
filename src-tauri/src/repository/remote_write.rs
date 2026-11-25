@@ -592,7 +592,10 @@ pub(super) fn execute_tag_policy(
 }
 fn publish(session: &Session, record: &Record) -> Result<()> {
     let dir = session.root.join(JOURNAL);
+    #[cfg(unix)]
     let mut builder = fs::DirBuilder::new();
+    #[cfg(not(unix))]
+    let builder = fs::DirBuilder::new();
     #[cfg(unix)]
     {
         use std::os::unix::fs::DirBuilderExt;
@@ -648,6 +651,30 @@ fn checkpoint(root: &Path, step: usize) {
     #[cfg(not(test))]
     let _ = (root, step);
 }
+
+fn edited_gitflow(before:&[u8], configuration:&gitflow::Configuration)->Result<Vec<u8>> {
+ configuration.validate()?;
+ let entries=remote_remove::entries(before)?;
+ let dir=tempfile::tempdir().map_err(err)?;
+ let path=dir.path().join("config");fs::write(&path,before).map_err(err)?;
+ let mut config=Config::open(&path).map_err(|_|"INVALID_GITFLOW_CONFIG")?;
+ for (key,value) in configuration.pairs(){
+  if entries.iter().any(|(name,_)|name==key){config.remove_multivar(key,".*").map_err(|_|"GITFLOW_CONFIG_EDIT_FAILED")?;}
+  config.set_str(key,value).map_err(|_|"GITFLOW_CONFIG_EDIT_FAILED")?;
+ }
+ drop(config);let after=bounded(&path,65536)?;remote_remove::entries(&after)?;Ok(after)
+}
+pub(super) fn execute_gitflow(session:&mut Session, revision:&str, configuration:gitflow::Configuration)->Result<()> {
+ configuration.validate()?;
+ let _lock=ConfigLock::acquire(&session.root)?;session.fresh(revision)?;
+ let repo=open(&session.root)?;
+ for branch in [&configuration.main,&configuration.develop]{repo.find_reference(&format!("refs/heads/{branch}")).and_then(|reference|reference.peel_to_commit()).map_err(|_|"GITFLOW_BRANCH_MISSING")?;}
+ let before=bounded(&session.root.join(".git/config"),65536)?;
+ let after=edited_gitflow(&before,&configuration)?;
+ let record=Record{version:5,tag_policy:None,upstream:None,identity_edit:None,gitflow_edit:Some(configuration),name:String::new(),url:String::new(),push_url:None,create:false,before,after};
+ publish(session,&record)
+}
+
 
 #[cfg(test)]
 mod tests {
@@ -1645,27 +1672,4 @@ mod tests {
         assert!(apply(root, &record).is_err());
         assert_eq!(fs::read(root.join(".git/config")).unwrap(), before);
     }
-}
-
-fn edited_gitflow(before:&[u8], configuration:&gitflow::Configuration)->Result<Vec<u8>> {
- configuration.validate()?;
- let entries=remote_remove::entries(before)?;
- let dir=tempfile::tempdir().map_err(err)?;
- let path=dir.path().join("config");fs::write(&path,before).map_err(err)?;
- let mut config=Config::open(&path).map_err(|_|"INVALID_GITFLOW_CONFIG")?;
- for (key,value) in configuration.pairs(){
-  if entries.iter().any(|(name,_)|name==key){config.remove_multivar(key,".*").map_err(|_|"GITFLOW_CONFIG_EDIT_FAILED")?;}
-  config.set_str(key,value).map_err(|_|"GITFLOW_CONFIG_EDIT_FAILED")?;
- }
- drop(config);let after=bounded(&path,65536)?;remote_remove::entries(&after)?;Ok(after)
-}
-pub(super) fn execute_gitflow(session:&mut Session, revision:&str, configuration:gitflow::Configuration)->Result<()> {
- configuration.validate()?;
- let _lock=ConfigLock::acquire(&session.root)?;session.fresh(revision)?;
- let repo=open(&session.root)?;
- for branch in [&configuration.main,&configuration.develop]{repo.find_reference(&format!("refs/heads/{branch}")).and_then(|reference|reference.peel_to_commit()).map_err(|_|"GITFLOW_BRANCH_MISSING")?;}
- let before=bounded(&session.root.join(".git/config"),65536)?;
- let after=edited_gitflow(&before,&configuration)?;
- let record=Record{version:5,tag_policy:None,upstream:None,identity_edit:None,gitflow_edit:Some(configuration),name:String::new(),url:String::new(),push_url:None,create:false,before,after};
- publish(session,&record)
 }

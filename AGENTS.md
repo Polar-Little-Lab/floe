@@ -4,7 +4,7 @@
 - Match observed GitKraken screen composition, navigation and entry points, including Settings and Launchpad. Reuse shared components and existing button styling. AI features are excluded.
 - Inspect a relevant original capture before changing a screen; do not claim visual fidelity without comparison. Keep reference provenance.
 - Implement in complete screen/feature batches. Record unexecuted validation as TODO; never present implementation or historical tests as current acceptance.
-- Do not build locally. Build and package through GitHub Actions. Public preview release is authorized; production signing/notarization is not configured.
+- Do not build locally. Build and package through GitHub Actions. Public preview release is authorized. macOS CI uses Developer ID signing and notarization; publish only after the required CI and package verification checks pass. Windows signing is not configured.
 - Use isolated synthetic repositories for mutation checks. Do not mutate personal repositories. Never commit credentials, signing keys, caches or build artifacts.
 
 ## Repository skills

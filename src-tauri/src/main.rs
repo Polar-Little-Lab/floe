@@ -77,6 +77,12 @@ fn current<'a>(state: &'a mut [Session], id: &str) -> Result<&'a mut Session, St
         .find(|s| s.id() == id)
         .ok_or("INVALID_REPO_ID".into())
 }
+// Test oracle only: production subprocess resolution is deliberately separate.
+#[cfg(test)]
+pub(crate) fn test_git_executable() -> &'static str {
+    if cfg!(windows) { "git.exe" } else { "/usr/bin/git" }
+}
+
 fn repository_path(value: &str) -> Result<std::path::PathBuf, String> {
     if value.is_empty()
         || value.len() > 4096
@@ -303,6 +309,8 @@ async fn github_item_detail(window:WebviewWindow,app:tauri::AppHandle,owner:Stri
     }).await.map_err(|_|"PROVIDER_WORKER_FAILED")?
 }
 #[tauri::command]
+// Keep explicit target/snapshot fields aligned with the existing IPC contract.
+#[allow(clippy::too_many_arguments)]
 async fn github_pull_files(window:WebviewWindow,app:tauri::AppHandle,owner:String,repo:String,number:u64,page:u32,head:String,base:String)->Result<Option<provider_write::PullFiles>,String>{
     window_check(&window)?;
     provider_write::validate_files(&owner,&repo,number,page,&head,&base)?;
@@ -344,6 +352,8 @@ async fn github_item_comments(window:WebviewWindow,app:tauri::AppHandle,owner:St
     }).await.map_err(|_|"PROVIDER_WORKER_FAILED")?
 }
 #[tauri::command]
+// Keep explicit target/snapshot fields aligned with the existing IPC contract.
+#[allow(clippy::too_many_arguments)]
 async fn github_pull_discussion(window:WebviewWindow,app:tauri::AppHandle,owner:String,repo:String,number:u64,page:u32,head:String,base:String,kind:provider_write::discussion::Kind)->Result<Option<provider_write::discussion::Page>,String>{
     window_check(&window)?;
     provider_write::validate_files(&owner,&repo,number,page,&head,&base)?;
@@ -357,6 +367,8 @@ async fn github_pull_discussion(window:WebviewWindow,app:tauri::AppHandle,owner:
     }).await.map_err(|_|"PROVIDER_WORKER_FAILED")?
 }
 #[tauri::command]
+// Keep explicit target/snapshot fields aligned with the existing IPC contract.
+#[allow(clippy::too_many_arguments)]
 async fn github_pull_checks(window:WebviewWindow,app:tauri::AppHandle,owner:String,repo:String,number:u64,page:u32,head:String,base:String,kind:provider_write::checks::Kind)->Result<Option<provider_write::checks::Page>,String>{
     window_check(&window)?;
     provider_write::validate_files(&owner,&repo,number,page,&head,&base)?;
@@ -1224,6 +1236,8 @@ fn confirm_lfs_upload_action(window:&WebviewWindow,app:&tauri::AppHandle,action:
  }
 }
 #[tauri::command]
+// Keep explicit target/snapshot fields aligned with the existing IPC contract.
+#[allow(clippy::too_many_arguments)]
 async fn upload_lfs_object(window:WebviewWindow,app:tauri::AppHandle,repo_id:String,revision:String,oid:String,size:String,endpoint:String,request_id:String)->Result<Option<String>,String>{
  window_check(&window)?;
  let endpoint=repository::remote_endpoint::https(&endpoint)?.to_string();
@@ -1328,6 +1342,8 @@ fn cancel_lfs_download(window:WebviewWindow,app:tauri::AppHandle,request_id:Stri
  app.state::<lfs_transfer::Transfers>().cancel(&request_id)
 }
 #[tauri::command]
+// Keep explicit target/snapshot fields aligned with the existing IPC contract.
+#[allow(clippy::too_many_arguments)]
 async fn download_lfs_object(window:WebviewWindow,app:tauri::AppHandle,repo_id:String,revision:String,oid:String,size:String,endpoint:String,request_id:String)->Result<Option<String>,String>{
  window_check(&window)?;
  let endpoint=repository::remote_endpoint::https(&endpoint)?.to_string();
@@ -1859,15 +1875,15 @@ fn main() {
         .manage(lfs_transfer::Transfers::default())
         .manage(Mutex::new(None::<String>))
         .plugin(tauri_plugin_dialog::init())
-        .setup(|app| {
+        .setup(|_app| {
             #[cfg(feature = "developer-test")]
-            if let Some(window) = app.get_webview_window("main") {
+            if let Some(window) = _app.get_webview_window("main") {
                 window.open_devtools();
             }
             #[cfg(target_os = "macos")]
             {
-                app.set_menu(application_menu(app.handle())?)?;
-                macos_termination::install(app.handle())?;
+                _app.set_menu(application_menu(_app.handle())?)?;
+                macos_termination::install(_app.handle())?;
             }
             Ok(())
         })

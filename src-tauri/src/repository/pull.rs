@@ -142,16 +142,14 @@ pub fn selection(session: &mut Session, revision: &str, remote: &str) -> Result<
         rebase,
     })
 }
+#[cfg(test)]
 pub fn prepare(
     session: &mut Session,
     revision: &str,
     remote: &str,
     download: &Downloaded,
 ) -> Result<Prepared> {
-    prepare_with_mode(session,revision,remote,download,None)
-}
-pub fn prepare_with_mode(session:&mut Session,revision:&str,remote:&str,download:&Downloaded,mode:Option<Mode>)->Result<Prepared>{
-    prepare_with_options(session,revision,remote,download,mode,None)
+    prepare_with_options(session,revision,remote,download,None,None)
 }
 pub fn prepare_with_options(session:&mut Session,revision:&str,remote:&str,download:&Downloaded,mode:Option<Mode>,prune:Option<&[String]>)->Result<Prepared>{
     let selected = selection_with_mode(session, revision, remote,mode)?;
@@ -260,7 +258,7 @@ mod tests {
     };
     const URL: &str = "https://example.com/pull.git";
     fn git(root: &Path, args: &[&str]) -> std::process::Output {
-        Command::new("/usr/bin/git")
+        Command::new(crate::test_git_executable())
             .arg("-C")
             .arg(root)
             .args(args)
@@ -404,7 +402,7 @@ mod tests {
                     "protocol.file.allow=always",
                     "clone",
                     "--template=",
-                    root.to_str().unwrap(),
+                    temp.path().join("target").to_str().unwrap(),
                     oracle.to_str().unwrap(),
                 ],
             );
@@ -966,7 +964,7 @@ mod tests {
                     "protocol.file.allow=always",
                     "clone",
                     "--template=",
-                    root.to_str().unwrap(),
+                    temp.path().join("target").to_str().unwrap(),
                     oracle.to_str().unwrap(),
                 ],
             );

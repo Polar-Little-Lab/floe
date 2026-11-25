@@ -178,7 +178,7 @@ pub(super) fn release(root: &Path, lease: &lease::OperationLease) -> Result<()> 
     Ok(())
 }
 fn check(layout: &layout::Layout, marker: &Marker) -> Result<()> {
-    let path = lock_path(&layout, &marker.path);
+    let path = lock_path(layout, &marker.path);
     if path.exists()
         && (lease::identity(&path)? != marker.identity
             || checkout::digest(&bounded(&path, 20 * 1024 * 1024)?) != marker.digest)

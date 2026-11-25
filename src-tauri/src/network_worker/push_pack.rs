@@ -275,7 +275,7 @@ mod tests {
             &prepared.bytes().unwrap(),
         )
         .unwrap();
-        let mut child = Command::new("/usr/bin/git")
+        let mut child = Command::new(crate::test_git_executable())
             .args(["receive-pack", "--stateless-rpc"])
             .arg(&server)
             .env("GIT_CONFIG_NOSYSTEM", "1")
@@ -299,6 +299,8 @@ mod tests {
             b"selected\0bytes"
         );
         let path = prepared.private.path().to_path_buf();
+        // Windows keeps mapped pack files alive until the reader is released.
+        drop(projected);
         drop(prepared);
         assert!(!path.exists());
     }

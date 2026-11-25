@@ -53,7 +53,7 @@ fn populate(root: &Path, download: &Downloaded, selected: &str) -> Result<()> {
         .external_template(false)
         .initial_head("main");
     let repo = Repository::init_opts(root, &options).map_err(error)?;
-    repo.set_config(&git2::Config::new().map_err(error)?)
+    repo.set_config(&repository::isolated_config()?)
         .map_err(error)?;
     let mut config = git2::Config::open(&root.join(".git/config")).map_err(error)?;
     config
@@ -246,7 +246,12 @@ fn sync_tree(path: &Path) -> Result<()> {
         if entry.file_type().map_err(error)?.is_dir() {
             sync_tree(&entry.path())?;
         } else {
-            fs::File::open(entry.path())
+            // FlushFileBuffers requires GENERIC_WRITE on Windows. These files
+            // belong to our unpublished staging tree; never truncate them.
+            fs::OpenOptions::new()
+                .read(true)
+                .write(cfg!(windows))
+                .open(entry.path())
                 .and_then(|f| f.sync_all())
                 .map_err(error)?;
         }
@@ -319,7 +324,10 @@ pub fn create(store: &Store, path: &Path, download: &Downloaded, branch: &str) -
         .map_err(error)?;
     let root = staging.path().join("repository");
     populate(&root, download, branch)?;
-    if !Session::new(root.clone())?.snapshot()?.changes.is_empty() {
+    let staged_snapshot = Session::new(root.clone())?.snapshot()?;
+    if !staged_snapshot.changes.is_empty() {
+        #[cfg(test)]
+        eprintln!("Synthetic clone status mismatch: {}", serde_json::to_string(&staged_snapshot.changes).unwrap());
         return Err("CLONE_WORKTREE_MISMATCH".into());
     }
     sync_tree(&root)?;
@@ -465,7 +473,7 @@ mod tests {
         }
     }
     fn git(root: &Path, args: &[&str]) -> String {
-        let output = Command::new("/usr/bin/git")
+        let output = Command::new(crate::test_git_executable())
             .arg("-C")
             .arg(root)
             .args(args)
@@ -779,7 +787,9 @@ mod tests {
         let Some(target) = std::env::var_os("BRANCHDESK_CLONE_TARGET") else {
             return;
         };
-        let target = PathBuf::from(target);
+        // The checkpoint uses the canonical identity, while the public create API
+        // intentionally rejects Windows verbatim paths supplied as user input.
+        let target = PathBuf::from(std::env::var_os("BRANCHDESK_CLONE_INPUT").unwrap_or(target));
         let source = Repository::open_bare(target.parent().unwrap().join("source")).unwrap();
         create(
             &store(),
@@ -803,9 +813,10 @@ mod tests {
                     "--nocapture",
                 ])
                 .env("BRANCHDESK_CLONE_TARGET", &target)
+                .env("BRANCHDESK_CLONE_INPUT", temp.path().join("target"))
                 .env("BRANCHDESK_CLONE_STEP", step.to_string())
-                .stdout(Stdio::null())
-                .stderr(Stdio::null())
+                .stdout(Stdio::inherit())
+                .stderr(Stdio::inherit())
                 .spawn()
                 .unwrap();
             let deadline = Instant::now() + Duration::from_secs(15);

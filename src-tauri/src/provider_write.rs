@@ -534,6 +534,8 @@ fn check_snapshot(client:&reqwest::blocking::Client,item_url:&str,owner:&str,rep
     }
     Ok(())
 }
+// Keep explicit target/snapshot fields aligned with the existing IPC contract.
+#[allow(clippy::too_many_arguments)]
 fn files_with(client: &reqwest::blocking::Client, endpoint: &str, owner: &str, repo: &str, n: u64, page: u32, head: &str, base: &str) -> Result<PullFiles, String> {
     validate_files(owner,repo,n,page,head,base)?;
     let item_url=format!("{endpoint}/pulls/{n}");
@@ -681,7 +683,19 @@ mod tests {
     ) -> (Result<Receipt, String>, String) {
         let listener = std::net::TcpListener::bind("127.0.0.1:0").unwrap();
         let endpoint = format!("http://{}/repos/o/r", listener.local_addr().unwrap());
+        let preflight = match action {
+            Action::Merge { number, sha, .. } => Some(json!({
+                "number": number, "state": "open", "merged": false,
+                "draft": false, "head": { "sha": sha }, "mergeable": true
+            })),
+            _ => None,
+        };
         let server = std::thread::spawn(move || {
+            let mut replies = Vec::new();
+            if let Some(value) = preflight { replies.push((200, value, true)); }
+            replies.push((status, response, false));
+            let mut wire = String::new();
+            for (status, response, is_preflight) in replies {
             let (mut stream, _) = listener.accept().unwrap();
             stream
                 .set_read_timeout(Some(Duration::from_secs(3)))
@@ -709,7 +723,10 @@ mod tests {
             }
             let body = response.to_string();
             write!(stream,"HTTP/1.1 {status} Test\r\nContent-Type: application/json\r\nContent-Length: {}\r\nConnection: close\r\n\r\n{body}",body.len()).unwrap();
-            String::from_utf8(bytes).unwrap()
+            wire = String::from_utf8(bytes).unwrap();
+            if is_preflight { assert!(wire.starts_with("GET /repos/o/r/pulls/7 HTTP/1.1")); }
+            }
+            wire
         });
         let client = reqwest::blocking::Client::builder()
             .no_proxy()
@@ -913,6 +930,7 @@ mod file_tests {
                 let mut stream=loop {
                     match listener.accept(){Ok((s,_))=>break s,Err(e) if e.kind()==std::io::ErrorKind::WouldBlock=>{assert!(start.elapsed()<Duration::from_secs(5),"missing request");std::thread::sleep(Duration::from_millis(5));},Err(e)=>panic!("{e}")}
                 };
+                stream.set_nonblocking(false).unwrap();
                 stream.set_read_timeout(Some(Duration::from_secs(2))).unwrap();
                 let mut bytes=Vec::new();let mut buf=[0;4096];
                 while !bytes.windows(4).any(|w| w==b"\r\n\r\n") {let n=stream.read(&mut buf).unwrap();assert!(n>0);bytes.extend_from_slice(&buf[..n]);assert!(bytes.len()<16384);}
