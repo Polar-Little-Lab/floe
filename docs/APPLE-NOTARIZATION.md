@@ -26,3 +26,8 @@ References: pGit `docs/APPLE_SIGNING.md`, `.github/workflows/release-macos.yml`;
 - Corrected the TLS integration fixture's dependency on a file outside the repository: the synthetic Python server is now tracked under scripts and referenced within this checkout. Early child failure is reported directly. It is not bundled into the app.
 - Updated the provider merge test server to answer the required preflight GET before the mutation, while asserting the GET route and retaining the existing mutation payload/receipt assertions. Production preflight checks remain unchanged.
 - Pending: CI execution of these changes, Git GC/lock failure analysis, Windows failures, PR/main acceptance, and publication of a newly notarized release. No local application build was run.
+
+### Remaining fixture corrections
+- Crash-recovery object GC checks now disable reflog expiration and ref packing so crash-owned ref locks remain intact; unreachable object/prune and pack-pin assertions are retained. A separate synthetic Git repository reproduced the HEAD.lock diagnostic and confirmed that object-only GC avoids it without deleting the lock. This is not a passing Rust integration result.
+- Windows workspace fixtures now use ordinary absolute temporary paths rather than canonicalization's extended device namespace, which repository_path intentionally rejects. Production path validation is unchanged.
+- These corrections require macOS/Windows CI; outstanding Windows checkout, clone and recovery failures remain under investigation.

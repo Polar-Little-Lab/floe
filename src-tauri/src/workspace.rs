@@ -186,7 +186,13 @@ pub fn save(dir: &Path, expected: &str, workspace: Option<Workspace>) -> Result<
 mod tests {
     use super::*;
     fn dir() -> tempfile::TempDir {
-        tempfile::tempdir_in(std::env::temp_dir().canonicalize().unwrap()).unwrap()
+        {
+        // Windows canonicalize introduces the intentionally denied \\?\ namespace.
+        // Use an ordinary absolute drive path, as supplied by the user-facing picker.
+        let root = std::env::temp_dir();
+        let root = if cfg!(windows) { root } else { root.canonicalize().unwrap() };
+        tempfile::tempdir_in(root).unwrap()
+    }
     }
     fn value(d: &Path) -> Workspace {
         let paths = vec![

@@ -1562,6 +1562,12 @@ mod tests {
                         "gc.packRefs=false",
                         "-c",
                         "gc.writeCommitGraph=false",
+                        // Reflog expiry takes HEAD.lock, deliberately retained by
+                        // the crash fixture. Exercise object GC without changing refs.
+                        "-c",
+                        "gc.reflogExpire=never",
+                        "-c",
+                        "gc.reflogExpireUnreachable=never",
                         "gc",
                         "--prune=now",
                     ])
@@ -2396,7 +2402,13 @@ mod tests {
             .as_ref()
             .unwrap()
             .matches_hash(selected.pack_hash().unwrap()));
-        assert!(tag_git(&root, &["gc", "--prune=now"]).status.success());
+        // Preserve crash-owned ref locks while collecting unpinned objects.
+        let gc = tag_git(&root, &[
+            "-c", "gc.packRefs=false", "-c", "gc.writeCommitGraph=false",
+            "-c", "gc.reflogExpire=never", "-c", "gc.reflogExpireUnreachable=never",
+            "gc", "--prune=now",
+        ]);
+        assert!(gc.status.success(), "{}", String::from_utf8_lossy(&gc.stderr));
         let reopened = Repository::open(&root).unwrap();
         assert!(reopened.odb().unwrap().exists(wanted));
         assert!(!reopened.odb().unwrap().exists(unwanted));
