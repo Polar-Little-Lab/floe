@@ -36,3 +36,7 @@ References: pGit `docs/APPLE_SIGNING.md`, `.github/workflows/release-macos.yml`;
 - Source review identified read-only file handles passed to sync_all in clone staging and the index-lock publication test helper. Windows FlushFileBuffers requires GENERIC_WRITE: https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-flushfilebuffers .
 - Open those owned files with write access on Windows, without create/truncate; Unix access remains unchanged. Flush failures still abort publication. No foreign repository permissions are modified.
 - Pending CI: existing empty/detached clone, no-partial-publication crash checks and next-owner index lock test. Also verify clone file bytes and that flush failures never publish a destination. Other Windows worktree-mismatch failures remain unresolved. No local application build performed.
+
+### Isolated Git defaults in CI
+- Earlier Windows logs show keep-index stash and linked-worktree fixture files changing from LF to CRLF after Git operations; replay then reports dirty worktrees. The test job now excludes runner system/global Git configuration and supplies an empty temporary global config. Fixture-local settings and explicit test overrides remain available.
+- This changes only the cargo-test environment, not app behavior or support for configured line-ending conversions. CI must establish which failures this resolves; clone worktree mismatch is not yet attributed conclusively.
