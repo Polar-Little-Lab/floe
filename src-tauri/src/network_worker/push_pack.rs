@@ -299,6 +299,8 @@ mod tests {
             b"selected\0bytes"
         );
         let path = prepared.private.path().to_path_buf();
+        // Windows keeps mapped pack files alive until the reader is released.
+        drop(projected);
         drop(prepared);
         assert!(!path.exists());
     }

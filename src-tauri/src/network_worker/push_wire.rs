@@ -207,13 +207,15 @@ mod tests {
             } else {
                 old.clone()
             };
-            #[cfg(unix)]
             if mode == "hook" {
-                use std::os::unix::fs::PermissionsExt;
                 fs::create_dir_all(server.join("hooks")).unwrap();
                 let hook = server.join("hooks/pre-receive");
                 fs::write(&hook, "#!/bin/sh\nexit 1\n").unwrap();
-                fs::set_permissions(hook, fs::Permissions::from_mode(0o700)).unwrap();
+                #[cfg(unix)]
+                {
+                    use std::os::unix::fs::PermissionsExt;
+                    fs::set_permissions(hook, fs::Permissions::from_mode(0o700)).unwrap();
+                }
             }
             let pack = run(
                 &local,

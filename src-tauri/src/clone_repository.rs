@@ -324,7 +324,10 @@ pub fn create(store: &Store, path: &Path, download: &Downloaded, branch: &str) -
         .map_err(error)?;
     let root = staging.path().join("repository");
     populate(&root, download, branch)?;
-    if !Session::new(root.clone())?.snapshot()?.changes.is_empty() {
+    let staged_snapshot = Session::new(root.clone())?.snapshot()?;
+    if !staged_snapshot.changes.is_empty() {
+        #[cfg(test)]
+        eprintln!("Synthetic clone status mismatch: {}", serde_json::to_string(&staged_snapshot.changes).unwrap());
         return Err("CLONE_WORKTREE_MISMATCH".into());
     }
     sync_tree(&root)?;

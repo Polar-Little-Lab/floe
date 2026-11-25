@@ -54,3 +54,8 @@ References: pGit `docs/APPLE_SIGNING.md`, `.github/workflows/release-macos.yml`;
 ### Test executable portability audit
 - Consolidated remaining hardcoded /usr/bin/git test invocations behind test_git_executable (git.exe on Windows). Covers clone, fetch, pull, push state, ref advertisement and object transfer fixtures. The helper is cfg(test); production executable resolution is unchanged.
 - This follow-up is newer than CI run 45625773542 and is held locally until that run finishes, avoiding cancellation of useful Windows evidence.
+
+### Second Windows result
+- Run 45625773542: macOS job succeeded including strict lint, npm audit and app compilation. Windows reported 505 passed, 32 failed, 3 ignored.
+- Remaining tests include the locally corrected executable paths, a pack reader held open during deletion, and a hook rejection scenario that never created its hook on Windows. Corrected the latter two fixtures; clone mismatch now emits synthetic test-only status details.
+- Found a genuine incomplete Windows feature: PackPin::release intentionally does nothing off Unix. Identity-aware Windows pack-pin cleanup still needs implementation; do not disable its assertions or delete pins without ownership checks.
