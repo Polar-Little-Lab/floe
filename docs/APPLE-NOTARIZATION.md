@@ -70,3 +70,9 @@ References: pGit `docs/APPLE_SIGNING.md`, `.github/workflows/release-macos.yml`;
 - Held locally while run 45628222782 executes; runtime verification pending.
 
 - Added pending Windows preservation regressions for legacy zero-identity records, an exclusively held pin handle and externally modified token contents. These tests have not run yet; they are held with the replay-path fix until current CI finishes.
+
+### Windows 11-failure result and final grouped corrections
+- Run 45628222782: 527 passed, 11 failed, 3 ignored on Windows. The new pack-pin ownership test and fetch cleanup tests passed. macOS tests/lint/audit passed; compilation was still running when inspected.
+- Synthetic clone diagnostics identify only executable run.sh as modified. The isolated Windows repository configuration now explicitly disables filesystem executable-bit comparison using a snapshot of a private constant config; no user/repository config is inherited or changed. Existing clone parity/crash tests cover this change in the next run.
+- Corrected remaining canonical Windows paths passed as Git fetch/clone sources in pull/tag oracles. The linked-archive fixture now actually creates a directory symlink on Windows before asserting rejection, rather than merely renaming the directory.
+- Pending: grouped CI including local replay-path and legacy/busy-pin regressions; no release claim.

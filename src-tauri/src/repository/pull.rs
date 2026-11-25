@@ -402,7 +402,7 @@ mod tests {
                     "protocol.file.allow=always",
                     "clone",
                     "--template=",
-                    root.to_str().unwrap(),
+                    temp.path().join("target").to_str().unwrap(),
                     oracle.to_str().unwrap(),
                 ],
             );
@@ -964,7 +964,7 @@ mod tests {
                     "protocol.file.allow=always",
                     "clone",
                     "--template=",
-                    root.to_str().unwrap(),
+                    temp.path().join("target").to_str().unwrap(),
                     oracle.to_str().unwrap(),
                 ],
             );

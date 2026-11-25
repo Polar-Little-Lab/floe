@@ -53,7 +53,7 @@ fn populate(root: &Path, download: &Downloaded, selected: &str) -> Result<()> {
         .external_template(false)
         .initial_head("main");
     let repo = Repository::init_opts(root, &options).map_err(error)?;
-    repo.set_config(&git2::Config::new().map_err(error)?)
+    repo.set_config(&repository::isolated_config()?)
         .map_err(error)?;
     let mut config = git2::Config::open(&root.join(".git/config")).map_err(error)?;
     config

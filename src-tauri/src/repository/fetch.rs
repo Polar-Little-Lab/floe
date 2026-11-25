@@ -1461,7 +1461,9 @@ mod tests {
                     let saved = root.join("saved-archive");
                     fs::rename(&archive, &saved).unwrap();
                     #[cfg(unix)]
-                    std::os::unix::fs::symlink(saved, &archive).unwrap();
+                    std::os::unix::fs::symlink(&saved, &archive).unwrap();
+                    #[cfg(windows)]
+                    std::os::windows::fs::symlink_dir(&saved, &archive).unwrap();
                 }
                 _ => {}
             }
@@ -2077,7 +2079,7 @@ mod tests {
                         "protocol.file.allow=always",
                         "fetch",
                         "--no-tags",
-                        root.to_str().unwrap(),
+                        fixture.path().join("target").to_str().unwrap(),
                         "HEAD"
                     ]
                 )
@@ -2208,7 +2210,7 @@ mod tests {
                     "protocol.file.allow=always",
                     "fetch",
                     "--no-tags",
-                    root.to_str().unwrap(),
+                    fixture.path().join("target").to_str().unwrap(),
                     "HEAD"
                 ]
             )
