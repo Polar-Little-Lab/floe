@@ -539,7 +539,7 @@ mod tests {
             assert_eq!(fs::read(local.path().join(".git/config")).unwrap(), config);
             assert_eq!(fs::read(local.path().join(".git/HEAD")).unwrap(), head);
             assert_eq!(repo.references().unwrap().count(), 0);
-            let output = Command::new("/usr/bin/git")
+            let output = Command::new(crate::test_git_executable())
                 .arg("-C")
                 .arg(local.path())
                 .args([

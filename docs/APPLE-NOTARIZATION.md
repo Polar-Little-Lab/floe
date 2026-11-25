@@ -50,3 +50,7 @@ References: pGit `docs/APPLE_SIGNING.md`, `.github/workflows/release-macos.yml`;
 - Run 45623749022: 451 passed, 86 failed, 3 ignored (previous baseline: 435 passed, 102 failed). Line-ending differences remain; CLI environment isolation alone did not isolate libgit2's default configuration discovery. Normalize core.autocrlf in the ephemeral hosted runner's actual user config as well; no local user configuration is changed.
 - Three network integration helpers used /usr/bin/git on Windows; select git.exe there while retaining the absolute Unix executable. OpenSSH fixture paths now avoid Windows extended paths, as with the workspace fixtures. These changes are test-only.
 - Remaining Windows failures must be reevaluated after CI; no claim of complete Windows parity or a releasable build.
+
+### Test executable portability audit
+- Consolidated remaining hardcoded /usr/bin/git test invocations behind test_git_executable (git.exe on Windows). Covers clone, fetch, pull, push state, ref advertisement and object transfer fixtures. The helper is cfg(test); production executable resolution is unchanged.
+- This follow-up is newer than CI run 45625773542 and is held locally until that run finishes, avoiding cancellation of useful Windows evidence.

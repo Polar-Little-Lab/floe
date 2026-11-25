@@ -77,6 +77,12 @@ fn current<'a>(state: &'a mut [Session], id: &str) -> Result<&'a mut Session, St
         .find(|s| s.id() == id)
         .ok_or("INVALID_REPO_ID".into())
 }
+// Test oracle only: production subprocess resolution is deliberately separate.
+#[cfg(test)]
+pub(crate) fn test_git_executable() -> &'static str {
+    if cfg!(windows) { "git.exe" } else { "/usr/bin/git" }
+}
+
 fn repository_path(value: &str) -> Result<std::path::PathBuf, String> {
     if value.is_empty()
         || value.len() > 4096

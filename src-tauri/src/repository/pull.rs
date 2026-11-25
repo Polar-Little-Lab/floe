@@ -258,7 +258,7 @@ mod tests {
     };
     const URL: &str = "https://example.com/pull.git";
     fn git(root: &Path, args: &[&str]) -> std::process::Output {
-        Command::new("/usr/bin/git")
+        Command::new(crate::test_git_executable())
             .arg("-C")
             .arg(root)
             .args(args)

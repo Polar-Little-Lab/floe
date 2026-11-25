@@ -858,7 +858,7 @@ mod tests {
             log
         );
         assert_eq!(preserved(&root), before);
-        let checked = Command::new("/usr/bin/git")
+        let checked = Command::new(crate::test_git_executable())
             .arg("-C")
             .arg(&root)
             .args(["fsck", "--strict", "--no-reflogs"])
@@ -878,7 +878,7 @@ mod tests {
         let old = repo.head().unwrap().target().unwrap();
         repo.reference("refs/remotes/origin/main", old, false, "old tracking")
             .unwrap();
-        assert!(Command::new("/usr/bin/git")
+        assert!(Command::new(crate::test_git_executable())
             .arg("-C")
             .arg(&root)
             .args(["pack-refs", "--all", "--prune"])
@@ -922,7 +922,7 @@ mod tests {
         let repo = Repository::init(oracle.path()).unwrap();
         repo.remote("origin", fixture.path().join("source").to_str().unwrap())
             .unwrap();
-        let output = Command::new("/usr/bin/git")
+        let output = Command::new(crate::test_git_executable())
             .arg("-C")
             .arg(oracle.path())
             .args([
@@ -1056,7 +1056,7 @@ mod tests {
                 )
                 .unwrap();
                 assert_eq!(preserved(&root), before);
-                let output = Command::new("/usr/bin/git")
+                let output = Command::new(crate::test_git_executable())
                     .arg("-C")
                     .arg(oracle.path())
                     .args([
@@ -1290,7 +1290,7 @@ mod tests {
                 );
             }
         }
-        let checked = Command::new("/usr/bin/git")
+        let checked = Command::new(crate::test_git_executable())
             .arg("-C")
             .arg(&root)
             .args(["fsck", "--strict", "--no-reflogs"])
@@ -1554,7 +1554,7 @@ mod tests {
                 fs::remove_file(&pin).unwrap();
             }
             let gc = || {
-                let output = Command::new("/usr/bin/git")
+                let output = Command::new(crate::test_git_executable())
                     .arg("-C")
                     .arg(&root)
                     .args([
@@ -1772,7 +1772,7 @@ mod tests {
             .collect()
     }
     fn tag_git(root: &Path, args: &[&str]) -> std::process::Output {
-        Command::new("/usr/bin/git")
+        Command::new(crate::test_git_executable())
             .arg("-C")
             .arg(root)
             .args(args)

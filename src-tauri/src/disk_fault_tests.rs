@@ -78,6 +78,6 @@ fn real_enospc_preserves_git_and_settings_then_retries() {
     crate::recent::remember(&settings,&root).unwrap();
     crate::workspace::save(&settings,&w.revision,None).unwrap();
     crate::init_repository::create(&store,&root.join("retry-init"),"main").unwrap();
-    let check = std::process::Command::new("/usr/bin/git").args(["-C",repo_path.to_str().unwrap(),"fsck","--strict"]).output().unwrap();
+    let check = std::process::Command::new(crate::test_git_executable()).args(["-C",repo_path.to_str().unwrap(),"fsck","--strict"]).output().unwrap();
     assert!(check.status.success(),"{}",String::from_utf8_lossy(&check.stderr));
 }

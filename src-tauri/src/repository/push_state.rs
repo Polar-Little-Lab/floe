@@ -343,7 +343,7 @@ mod tests {
             .unwrap()
             .delete()
             .unwrap();
-        let out = Command::new("/usr/bin/git")
+        let out = Command::new(crate::test_git_executable())
             .arg("-C")
             .arg(&root)
             .args(["-c", "core.hooksPath=/dev/null", "gc", "--prune=now"])

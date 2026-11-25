@@ -1490,7 +1490,7 @@ mod tls_tests {
         assert!(crate::repository::pull::prepare(&mut pull_session,&dirty.revision,"origin",&fetched).unwrap_err().contains("PULL_DIRTY_WORKTREE"));
         assert_eq!(std::fs::read(pull_path.join("local.txt")).unwrap(),b"dirty pull must survive\n");
         for git_dir in [path.clone(),pull_path,fixture.dir.path().join("source")] {
-            let result=Command::new("/usr/bin/git").arg("-C").arg(git_dir).args(["fsck","--strict"]).output().unwrap();
+            let result=Command::new(crate::test_git_executable()).arg("-C").arg(git_dir).args(["fsck","--strict"]).output().unwrap();
             assert!(result.status.success(),"{}",String::from_utf8_lossy(&result.stderr));
         }
         let requests=fixture.requests();
@@ -1671,7 +1671,7 @@ mod tls_tests {
         let repo = git2::Repository::open_bare(&quarantine).unwrap();
         assert_eq!(repo.references().unwrap().count(), 0);
         let all_objects = |path: &std::path::Path| {
-            let output = Command::new("/usr/bin/git")
+            let output = Command::new(crate::test_git_executable())
                 .arg("--git-dir")
                 .arg(path)
                 .args([
@@ -1687,7 +1687,7 @@ mod tls_tests {
             output.stdout
         };
         assert_eq!(all_objects(&source), all_objects(&quarantine));
-        let checked = Command::new("/usr/bin/git")
+        let checked = Command::new(crate::test_git_executable())
             .arg("--git-dir")
             .arg(&quarantine)
             .args(["fsck", "--strict", "--no-reflogs"])
@@ -1885,7 +1885,7 @@ mod push_protocol_tests {
     fn receive_capabilities_survive_empty_repository_and_reject_malformed_values() {
         let directory = tempfile::tempdir().unwrap();
         git2::Repository::init_bare(directory.path()).unwrap();
-        let output = std::process::Command::new("/usr/bin/git")
+        let output = std::process::Command::new(crate::test_git_executable())
             .args(["receive-pack", "--stateless-rpc", "--advertise-refs"])
             .arg(directory.path())
             .env("GIT_CONFIG_NOSYSTEM", "1")

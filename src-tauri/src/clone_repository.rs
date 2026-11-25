@@ -470,7 +470,7 @@ mod tests {
         }
     }
     fn git(root: &Path, args: &[&str]) -> String {
-        let output = Command::new("/usr/bin/git")
+        let output = Command::new(crate::test_git_executable())
             .arg("-C")
             .arg(root)
             .args(args)
