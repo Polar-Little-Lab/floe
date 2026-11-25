@@ -59,3 +59,8 @@ References: pGit `docs/APPLE_SIGNING.md`, `.github/workflows/release-macos.yml`;
 - Run 45625773542: macOS job succeeded including strict lint, npm audit and app compilation. Windows reported 505 passed, 32 failed, 3 ignored.
 - Remaining tests include the locally corrected executable paths, a pack reader held open during deletion, and a hook rejection scenario that never created its hook on Windows. Corrected the latter two fixtures; clone mismatch now emits synthetic test-only status details.
 - Found a genuine incomplete Windows feature: PackPin::release intentionally does nothing off Unix. Identity-aware Windows pack-pin cleanup still needs implementation; do not disable its assertions or delete pins without ownership checks.
+
+### Windows pack-pin ownership cleanup implemented
+- Record volume/file identity from the owned creation handle. Verification rejects replaced files, reparse points and multiple hard links.
+- Release opens an exclusive DELETE-capable handle without following a reparse point, checks recorded identity and bounded token bytes, then uses FileDispositionInfo on that same handle. Busy/inaccessible/replaced pins are preserved; old Windows records without identity are not blindly removed. Reference: https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-setfileinformationbyhandle .
+- Added Windows regression coverage for successful release/reacquisition, identical-content replacement and hard-link preservation. Pending CI: these tests plus fetch repeated-operation, crash recovery, pin cleanup and race scenarios. No local build was run.
