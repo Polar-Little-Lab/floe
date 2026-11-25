@@ -787,7 +787,9 @@ mod tests {
         let Some(target) = std::env::var_os("BRANCHDESK_CLONE_TARGET") else {
             return;
         };
-        let target = PathBuf::from(target);
+        // The checkpoint uses the canonical identity, while the public create API
+        // intentionally rejects Windows verbatim paths supplied as user input.
+        let target = PathBuf::from(std::env::var_os("BRANCHDESK_CLONE_INPUT").unwrap_or(target));
         let source = Repository::open_bare(target.parent().unwrap().join("source")).unwrap();
         create(
             &store(),
@@ -811,9 +813,10 @@ mod tests {
                     "--nocapture",
                 ])
                 .env("BRANCHDESK_CLONE_TARGET", &target)
+                .env("BRANCHDESK_CLONE_INPUT", temp.path().join("target"))
                 .env("BRANCHDESK_CLONE_STEP", step.to_string())
-                .stdout(Stdio::null())
-                .stderr(Stdio::null())
+                .stdout(Stdio::inherit())
+                .stderr(Stdio::inherit())
                 .spawn()
                 .unwrap();
             let deadline = Instant::now() + Duration::from_secs(15);
