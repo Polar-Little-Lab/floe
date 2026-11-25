@@ -76,3 +76,7 @@ References: pGit `docs/APPLE_SIGNING.md`, `.github/workflows/release-macos.yml`;
 - Synthetic clone diagnostics identify only executable run.sh as modified. The isolated Windows repository configuration now explicitly disables filesystem executable-bit comparison using a snapshot of a private constant config; no user/repository config is inherited or changed. Existing clone parity/crash tests cover this change in the next run.
 - Corrected remaining canonical Windows paths passed as Git fetch/clone sources in pull/tag oracles. The linked-archive fixture now actually creates a directory symlink on Windows before asserting rejection, rather than merely renaming the directory.
 - Pending: grouped CI including local replay-path and legacy/busy-pin regressions; no release claim.
+
+### Windows follow-up: 2026-11-25, source 9cc14f5
+
+Run 45630515503 completed Windows Rust tests with 537 passed, 2 failed and 3 ignored. The remaining clone crash fixture supplied a canonical Windows verbatim path to the user-input API; the fixture now separates that input from the canonical checkpoint identity and retains child diagnostics. The provider check fixture reported Winsock WouldBlock on an accepted socket. All three polled-listener HTTP fixtures now explicitly restore blocking mode after accept, retaining their existing request deadlines and assertions. These fixes await the next CI result; no all-green or public release claim is made.
